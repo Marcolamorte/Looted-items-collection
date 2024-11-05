@@ -8,7 +8,7 @@ DC = Namespace ("http://purl.org/dc/elements/1.1/")
 DCTERMS = Namespace("http://purl.org/dc/terms/")
 XSD = Namespace ("http://www.w3.org/2001/XMLSchema")
 WIKIDATA_ENTITIES = Namespace("https://www.wikidata.org/wiki/Property:")
-WIKIDATA_PROPERTIES= Namespace ("")
+WIKIDATA_PROPERTIES= Namespace ("https://www.wikidata.org/wiki/Property:")
 
 
 # Initialize the RDF graph
