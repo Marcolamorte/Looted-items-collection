@@ -1,0 +1,157 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:wiki="https://www.wikidata.org/wiki/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <cid:E20 rdf:about="https://www.wikidata.org/wiki/Q212797">
+        <dc:description>The Koh-i-Noor - meaning &quot;Mountain of Light&quot; in Persian - is one of the most famous diamonds in the world. Originating in India, the diamond has a long and storied history, spanning several centuries and passing through the hands of various rulers and empires. It is a  symbol of colonial wealth extraction</dc:description>
+        <dc:subject>Koh-i-noor (Diamond)</dc:subject>
+        <dc:subject>Artifacts</dc:subject>
+        <dc:subject>Crown jewels</dc:subject>
+        <dc:title>Koh-i-Noor</dc:title>
+        <dc:type>Gemstone</dc:type>
+        <dct:created>18th century</dct:created>
+        <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q918264"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q668"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q7837116"/>
+        <cid:P25 rdf:resource="https://www.wikidata.org/wiki/Q243590"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q22424"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q25288"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q36253"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q35059"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q3250078"/>
+        <cid:P44 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q5283"/>
+        <cid:P50 rdf:resource="https://www.wikidata.org/wiki/Q1688607"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q333140"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q43274"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q1688607"/>
+    </cid:E20>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q668">
+       <rdfs:label>India</rdfs:label>
+    </cid:E53>
+    <cid:E22 rdf:about="https://www.wikidata.org/wiki/Q918264">
+       <rdfs:label>Crown Jewels of the United Kingdom</rdfs:label>
+    </cid:E22>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Good_State_Overall">
+        <cid:P3>Today, it is known for being unusually 'alive' with light due to the way it refracts and reflects light, though it also has a notably broad culet that creates a dark spot when viewed directly from above.</cid:P3>
+        <rdfs:label>Good State Overall</rdfs:label>
+    </cid:E3>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q5283">
+       <rdfs:label>Diamond</rdfs:label>
+    </cid:E57>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q25288">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">105.602</cid:P90>
+        <cid:P91>carats</cid:P91>
+        <rdfs:label>weight</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q36253">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.6</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>lenght</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q35059">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.2</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>width</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q3250078">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>depth</rdfs:label>
+    </cid:E54>
+    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q43274">
+       <rdfs:label>King Charles III</rdfs:label>
+    </cid:E21>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q7837116">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1849</dc:date>
+        <rdfs:label>Treaty of Lahore</rdfs:label>
+    </cid:E7>
+    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q9439">
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q7837116"/>
+        <rdfs:label>Queen Victoria</rdfs:label>
+    </cid:E21>
+    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q333140">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q7837116"/>
+        <rdfs:label>Maharaja Duleep Singh I</rdfs:label>
+    </cid:E21>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q1688607">
+        <rdfs:label>Jewel Tower</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.51945,</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.126472</geo:long>
+        <ow:sameAS rdf:resource="https://www.openstreetmap.org/way/136105050"/>
+        <dir:P10689 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136105050</dir:P10689>
+        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q22424">
+        <rdfs:label>Punjab</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.85,</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">72.31667</geo:long>
+        <ow:sameAS rdf:resource="http://sws.geonames.org/1167710/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1167710</dir:P1566>
+        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q668"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q84">
+       <rdfs:label>London</rdfs:label>
+    </cid:E53>
+    <cid:E5 rdf:about="https://www.wikidata.org/wiki/Q243590">
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q668"/>
+        <cid:P10 rdf:resource="http://www.itemsontology.com/item_features/British_Colonialism_in_India"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdfs:label>Second Anglo-Sikh war</rdfs:label>
+    </cid:E5>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
+       <dc:date>1848-04-18/1849-03-29</dc:date><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <wiki:Q7167 rdf:about="http://www.itemsontology.com/item_features/British_Colonialism_in_India">
+        <dct:temporal>1757-1947</dct:temporal>
+        <rdfs:label>British Colonialism in India</rdfs:label>
+    </wiki:Q7167>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
+    </cid:E2>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q83164">
+        <cid:P11i_participated_in rdf:resource="https://www.wikidata.org/wiki/Q243590"/>
+        <skos:altLabel>British East India Company</skos:altLabel>
+    </cid:E39>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E22">
+       <rdfs:label>Human-made Object</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E20">
+       <rdfs:label>Biological Object</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E54">
+       <rdfs:label>Dimension</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+       <rdfs:label>Person</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+       <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
