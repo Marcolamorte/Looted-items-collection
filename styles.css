@@ -1,0 +1,122 @@
+:root {
+    @font-face {
+        font-family: 'Karrik';
+        src: url('path/to/your/font-file.woff2') format('woff2'),
+             url('path/to/your/font-file.woff') format('woff'),
+             url('path/to/your/font-file.ttf') format('truetype');
+      }
+      
+   
+   
+    /* Golden Ratio: 1.618 */
+    --golden-ratio: 1.618;
+    
+    /* Base sizes */
+    --base-font-size: 16px;
+    --base-line-height: 1.5;
+    --base-spacing: 1rem;
+    
+    /* Font sizes */
+    --font-size-small: calc(var(--base-font-size) / var(--golden-ratio));
+    --font-size-large: calc(var(--base-font-size) * var(--golden-ratio));
+    
+    /* Spacing */
+    --spacing-small: calc(var(--base-spacing) / var(--golden-ratio));
+    --spacing-large: calc(var(--base-spacing) * var(--golden-ratio));
+    
+    /* Colors */
+    --primary-color: #B7B5E4;
+    --secondary-color: #6c757d;
+    --background-color: #0C0C0F;
+    --text-color: #333;
+}
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    margin: 0 0 50px 50px;
+}
+
+/* Typography */
+h1 {
+    font-size: calc(var(--font-size-large) * var(--golden-ratio)*2);
+    margin-bottom: var(--spacing-large);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--spacing-small);
+}
+
+p {
+    margin-bottom: var(--base-spacing);
+}
+
+/* Layout */
+header, main, footer {
+    padding: var(--spacing-large);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: var(--spacing-small);
+    align-content: space-between;
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Accessibility */
+a:focus, button:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    :root {
+        --base-font-size: 14px;
+    }
+    
+    header, main, footer {
+        padding: var(--base-spacing);
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-color: #B7B5E4;
+        --secondary-color: #000000;
+        --background-color: #ffffff;
+        --text-color: #000000;
+    }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        animation: none !important;
+    }
+}
