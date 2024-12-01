@@ -1,0 +1,176 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#"
+ xmlns:wiki="https://www.wikidata.org/wiki/">
+    <cid:E24 rdf:about="https://www.wikidata.org/wiki/Q7636803">
+        <dc:creator rdf:resource="https://www.wikidata.org/wiki/Q4233718"/>
+        <dc:description>It is a 1,500-year-old large bronze statue of Buddha, significant for its religious and artistic value.&quot; it is from the Gupa-Pala transition period and it is considered one of the largest substantially complete copper Buddha figure known from the time.</dc:description>
+        <dc:subject>Buddhist sculpture</dc:subject>
+        <dc:subject>Gupta art</dc:subject>
+        <dc:subject>Buddhist antiquities</dc:subject>
+        <dc:title>The Sultanganj Buddha statue</dc:title>
+        <dc:type>sculpture</dc:type>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q721917"/>
+        <cid:P108i_was_produced_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12"/>
+        <cid:P12i_was_present_at rdf:resource="http://www.itemsontology.com/item_features/East_Indian_Railway_Construction"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <cid:P25i_moved_by rdf:resource="https://www.wikidata.org/wiki/Q12772819"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q2256"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q721917"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q25288"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q35059"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q208826"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Well_preserved_state"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q753"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q106557778"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q1799857"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q1799857"/>
+        <dir:P1268>The Buddha is depicted in a standing posture, with his right hand raised in the abhaya mudra, a gesture that symbolizes protection, reassurance, and dispelling fear. His left hand is in a position that likely held a part of his robe&quot;. He is shown wearing a simple monk’s robe, draped over both shoulders, a common representation in Buddhist art.</dir:P1268>
+        <dir:P2348 rdf:resource="http://www.itemsontology.com/item_features/Gupta_Pala_Period_sculpture"/>
+        <dir:P575 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1861</dir:P575>
+    </cid:E24>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q668">
+       <rdfs:label>India</rdfs:label>
+    </cid:E53>
+    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q4233718">
+       <skos:altLabel>Unknown Artist</skos:altLabel>
+    </dct:Agent>
+    <cid:E2 rdf:about="http://www.itemsontology.com/item_features/Gupta_Pala_Period_sculpture">
+        <dct:temporal>6th-7th century</dct:temporal>
+        <rdfs:label>Gupta-Pala period sculpture</rdfs:label>
+    </cid:E2>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E12">
+        <cid:P33 rdf:resource="https://www.wikidata.org/wiki/Q765814"/>
+        <rdfs:label>Production</rdfs:label>
+    </rdf:Description>
+    <cid:E29 rdf:about="https://www.wikidata.org/wiki/Q765814">
+       <rdfs:label>Lost-wax casting</rdfs:label>
+    </cid:E29>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Well_preserved_state">
+        <cid:P3>Greenish and brown coloration due to natural oxidation. There are few small holes and thin areas in certain parts, particularly near the edges.There are some missing parts,rticularly the fingers of the Buddha's raised right hand, which have been damaged or eroded. The left hand may also show signs of breakage or erosion.</cid:P3>
+        <rdfs:label>Well preserved state</rdfs:label>
+    </cid:E3>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q25288">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">500</cid:P90>
+        <cid:P91>kilogram</cid:P91>
+        <rdfs:label>Weight</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q35059">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</cid:P90>
+        <cid:P91>meter</cid:P91>
+        <rdfs:label>Width</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q208826">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3</cid:P90>
+        <cid:P91>meter</cid:P91>
+        <rdfs:label>Height</rdfs:label>
+    </cid:E54>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q753">
+       <rdfs:label>Copper</rdfs:label>
+    </cid:E57>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q1799857">
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53"/>
+        <rdfs:label>Birmingham Museum and Art Gallery</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.4803</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-1.903786</geo:long>
+        <ow:sameAs rdf:resource="https://www.openstreetmap.org/way/28288365"/>
+        <dir:P10689 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28288365</dir:P10689>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q2256"/>
+    </cid:E39>
+    <cid:E8 rdf:about="https://www.wikidata.org/wiki/Q707482">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1864</dc:date>
+        <skos:altLabel>Donation</skos:altLabel>
+    </cid:E8>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q106557778">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <rdfs:label>Samuel Thornton</rdfs:label>
+        <dir:P106 rdf:resource="https://www.wikidata.org/wiki/Q82955"/>
+    </cid:E39>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q2256">
+       <rdfs:label>Birmingham</rdfs:label>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q721917">
+        <rdfs:label>Sultanganj</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.23831</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">86.73559</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/8439888/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8439888</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q668"/>
+    </cid:E53>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q12772819">
+        <cid:P17 rdf:resource="http://www.itemsontology.com/item_features/East_Indian_Railway_Construction"/>
+        <rdfs:label>Discovery</rdfs:label>
+    </rdf:Description>
+    <cid:E7 rdf:about="http://www.itemsontology.com/item_features/East_Indian_Railway_Construction">
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q668"/>
+        <cid:P10 rdf:resource="http://www.itemsontology.com/item_features/British_imperialism_in_China"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdfs:label>East Indian Railway Construction</rdfs:label>
+    </cid:E7>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
+       <dct:temporal>1845-1952</dct:temporal><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <wiki:Q7167 rdf:about="http://www.itemsontology.com/item_features/British_imperialism_in_China">
+        <dct:temporal>19th-20th century</dct:temporal>
+        <rdfs:label>British imperialism in China</rdfs:label>
+    </wiki:Q7167>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
+    </cid:E2>
+    <cid:E21 rdf:about="http://www.itemsontology.com/item_features/E_B_Harris">
+        <cid:P11i_participated_in rdf:resource="http://www.itemsontology.com/item_features/East_Indian_Railway_Construction"/>
+        <rdfs:label>E.B.Harris</rdfs:label>
+        <dir:P106 rdf:resource="https://www.wikidata.org/wiki/Q66711686"/>
+        <dir:P61 rdf:resource="https://www.wikidata.org/wiki/Q7636803"/>
+    </cid:E21>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29">
+       <rdfs:label>Design or procedure</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E54">
+       <rdfs:label>Dimension</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8">
+       <rdfs:label>Acquisition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+       <rdfs:label>Person</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q82955">
+       <rdfs:label>Politician</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q66711686">
+       <rdfs:label>Railway Engineer</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>

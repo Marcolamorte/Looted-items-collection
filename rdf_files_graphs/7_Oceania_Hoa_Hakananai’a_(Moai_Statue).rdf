@@ -1,0 +1,192 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#">
+    <cid:E24 rdf:about="https://www.wikidata.org/wiki/Q2040958">
+        <dc:creator rdf:resource="https://www.wikidata.org/wiki/Q852486"/>
+        <dc:description>The Moai statue known as Hoa Hakananai’a is one of the most famous and significant artifacts representing the Rapa Nui culture, symbolizing ancestral worship and the island’s culture and religious practices.The name Hoa Hakananai’a translates roughly to 'lost, stolen, or hidden friend'in the Rapa Nui language, highlighting the cultural significance of the statue</dc:description>
+        <dc:subject>Rapa Nui (Easter Island people)</dc:subject>
+        <dc:subject>Moai (Megalithic monuments)</dc:subject>
+        <dc:subject>Easter Island--Antiquities</dc:subject>
+        <dc:title>The Hoa Hakananai'a Statue</dc:title>
+        <dc:type>statue</dc:type>
+        <dct:created>1000 -1600 AD</dct:created>
+        <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q20350"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q1551834"/>
+        <cid:P108i_was_produced_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q23009442"/>
+        <cid:P25i_moved_by rdf:resource="https://www.wikidata.org/wiki/Q23009442"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q1551834"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q25288"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q35059"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q208826"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q37221"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Good_State_Overall"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q43338"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q29386288"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q22731"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q9439"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q852486"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <dir:P575 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1868</dir:P575>
+    </cid:E24>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q20350">
+        <dc:description>They are massive stone statues, carved by the Rapa Nui people, represent the ancestors of the islanders and reflect their deep spiritual beliefs and complex society.</dc:description>
+        <skos:altLabel>Easter Island heads</skos:altLabel>
+    </rdf:Description>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q1551834">
+        <rdfs:label>Orongo</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-27.18467</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-109.44419</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/12087293/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q9009773"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12087293</dir:P1566>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q9009773">
+        <skos:altLabel>Easter Island Commune</skos:altLabel>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q298"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q298">
+       <rdfs:label>Chile</rdfs:label>
+    </cid:E53>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E12">
+        <cid:P33 rdf:resource="https://www.wikidata.org/wiki/Q42195"/>
+        <rdfs:label>Production</rdfs:label>
+    </rdf:Description>
+    <cid:E29 rdf:about="https://www.wikidata.org/wiki/Q42195">
+       <rdfs:label>Petroglyph</rdfs:label>
+    </cid:E29>
+    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q852486">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q23009442"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdfs:label>Rapa Nui people</rdfs:label>
+    </dct:Agent>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Good_State_Overall">
+        <cid:P3>Minor surface erosion. The carvings on the back of the statue, which depict symbols from the Tangata Manu (Birdman) cult, remain visible, though they show some signs of wear due to age.</cid:P3>
+        <rdfs:label>Good State Overall</rdfs:label>
+    </cid:E3>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q25288">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.2</cid:P90>
+        <cid:P91>ton</cid:P91>
+        <rdfs:label>Weight</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q35059">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">96</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Width</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q208826">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.42</cid:P90>
+        <cid:P91>meter</cid:P91>
+        <rdfs:label>Height</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q37221">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">47</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Diameter</rdfs:label>
+    </cid:E54>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q43338">
+       <rdfs:label>Basalt</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q29386288">
+       <rdfs:label>Coral</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q22731">
+       <rdfs:label>Stone</rdfs:label>
+    </cid:E57>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q9439">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <rdfs:label>Queen Victoria</rdfs:label>
+    </cid:E39>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q6373">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53"/>
+        <rdfs:label>British Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.51945</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.12708</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/6697862/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6697862</dir:P1566>
+    </cid:E39>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q6063">
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+    </rdf:Description>
+    <cid:E8 rdf:about="https://www.wikidata.org/wiki/Q707482">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1869</dc:date>
+        <skos:altLabel>Donation</skos:altLabel>
+    </cid:E8>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q23009442">
+        <cid:P14 rdf:resource="http://www.itemsontology.com/item_features/Ship_HMS_Topaze_Crew_Members"/>
+        <cid:P17 rdf:resource="http://www.itemsontology.com/item_features/British_Discovery_Expedition"/>
+        <rdfs:label>Removal</rdfs:label>
+    </cid:E7>
+    <cid:E7 rdf:about="http://www.itemsontology.com/item_features/British_Discovery_Expedition">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1868</dc:date>
+        <cid:P10 rdf:resource="http://www.itemsontology.com/item_features/Modern_Imperialism"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q2401485"/>
+        <rdfs:label>British Discovery Expedition</rdfs:label>
+    </cid:E7>
+    <cid:E2 rdf:about="http://www.itemsontology.com/item_features/Modern_Imperialism">
+        <dct:temporal>19th-20th century</dct:temporal>
+        <rdfs:label>Modern Imperialism</rdfs:label>
+    </cid:E2>
+    <cid:E39 rdf:about="http://www.itemsontology.com/item_features/Ship_HMS_Topaze_Crew_Members">
+        <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q172771"/>
+        <cid:P11i_participated_in rdf:resource="http://www.itemsontology.com/item_features/British_Discovery_Expedition"/>
+        <rdfs:label>Ship HMS Topaze Crew_Members</rdfs:label>
+        <dir:P61 rdf:resource="https://www.wikidata.org/wiki/Q2040958"/>
+    </cid:E39>
+    <cid:E74 rdf:about="https://www.wikidata.org/wiki/Q172771">
+       <skos:altLabel>British Royal Navy</skos:altLabel>
+    </cid:E74>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29">
+       <rdfs:label>Design or procedure</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E54">
+       <rdfs:label>Dimension</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8">
+       <rdfs:label>Acquisition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E74">
+       <rdfs:label>Group</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q84">
+       <rdfs:label>London</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q2401485">
+       <rdfs:label>Expedition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>

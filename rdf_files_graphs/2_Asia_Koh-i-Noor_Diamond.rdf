@@ -10,7 +10,7 @@
  xmlns:wiki="https://www.wikidata.org/wiki/"
  xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     <cid:E20 rdf:about="https://www.wikidata.org/wiki/Q212797">
-        <dc:description>The Koh-i-Noor - meaning &quot;Mountain of Light&quot; in Persian - is one of the most famous diamonds in the world. Originating in India, the diamond has a long and storied history, spanning several centuries and passing through the hands of various rulers and empires. It is a  symbol of colonial wealth extraction</dc:description>
+        <dc:description>The Koh-i-Noor - meaning &quot;Mountain of Light&quot; in Persian - is one of the most famous diamonds in the world. Originating in India, the diamond has a long and storied history, spanning several centuries and passing through the hands of various rulers and empires. It is a  symbol of colonial wealth extraction.</dc:description>
         <dc:subject>Koh-i-noor (Diamond)</dc:subject>
         <dc:subject>Artifacts</dc:subject>
         <dc:subject>Crown jewels</dc:subject>
@@ -19,15 +19,16 @@
         <dct:created>18th century</dct:created>
         <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q918264"/>
         <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q668"/>
+        <cid:P12i_was_present_at rdf:resource="https://www.wikidata.org/wiki/Q243590"/>
         <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q7837116"/>
-        <cid:P25 rdf:resource="https://www.wikidata.org/wiki/Q243590"/>
+        <cid:P25i_moved_by rdf:resource="https://www.wikidata.org/wiki/Q7837116"/>
         <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
         <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q22424"/>
         <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q25288"/>
         <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q36253"/>
         <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q35059"/>
         <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q3250078"/>
-        <cid:P44 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Good_State_Overall"/>
         <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q5283"/>
         <cid:P50 rdf:resource="https://www.wikidata.org/wiki/Q1688607"/>
         <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q333140"/>
@@ -50,53 +51,53 @@
     <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q25288">
         <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">105.602</cid:P90>
         <cid:P91>carats</cid:P91>
-        <rdfs:label>weight</rdfs:label>
+        <rdfs:label>Weight</rdfs:label>
     </cid:E54>
     <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q36253">
         <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.6</cid:P90>
         <cid:P91>centimeter</cid:P91>
-        <rdfs:label>lenght</rdfs:label>
+        <rdfs:label>Lenght</rdfs:label>
     </cid:E54>
     <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q35059">
         <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.2</cid:P90>
         <cid:P91>centimeter</cid:P91>
-        <rdfs:label>width</rdfs:label>
+        <rdfs:label>Width</rdfs:label>
     </cid:E54>
     <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q3250078">
         <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.3</cid:P90>
         <cid:P91>centimeter</cid:P91>
-        <rdfs:label>depth</rdfs:label>
+        <rdfs:label>Depth</rdfs:label>
     </cid:E54>
     <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q43274">
        <rdfs:label>King Charles III</rdfs:label>
     </cid:E21>
-    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q7837116">
+    <cid:E5 rdf:about="https://www.wikidata.org/wiki/Q7837116">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1849</dc:date>
         <rdfs:label>Treaty of Lahore</rdfs:label>
-    </cid:E7>
-    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q9439">
+    </cid:E5>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q9439">
         <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q7837116"/>
         <rdfs:label>Queen Victoria</rdfs:label>
-    </cid:E21>
-    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q333140">
+    </cid:E39>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q333140">
         <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q7837116"/>
         <rdfs:label>Maharaja Duleep Singh I</rdfs:label>
-    </cid:E21>
+    </cid:E39>
     <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q1688607">
         <rdfs:label>Jewel Tower</rdfs:label>
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.51945,</geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.126472</geo:long>
-        <ow:sameAS rdf:resource="https://www.openstreetmap.org/way/136105050"/>
+        <ow:sameAs rdf:resource="https://www.openstreetmap.org/way/136105050"/>
         <dir:P10689 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136105050</dir:P10689>
-        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
     </cid:E53>
     <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q22424">
         <rdfs:label>Punjab</rdfs:label>
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.85,</geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">72.31667</geo:long>
-        <ow:sameAS rdf:resource="http://sws.geonames.org/1167710/"/>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/1167710/"/>
         <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1167710</dir:P1566>
-        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q668"/>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q668"/>
     </cid:E53>
     <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q84">
        <rdfs:label>London</rdfs:label>
@@ -150,8 +151,5 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
        <rdfs:label>Event</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
-       <rdfs:label>Activity</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
