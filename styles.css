@@ -98,7 +98,9 @@ nav a {
     text-align: center;
 }
 
-.button {
+
+
+nav .button {
     border: 1px solid var(--primary-color);
     border-radius: var(--spacing-large);
     display:flex;
@@ -107,6 +109,26 @@ nav a {
     gap: calc(var(--spacing-large) *var(--golden-ratio));
 }
 
+.button {
+    border: 1px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    display:flex;
+    justify-content: center;
+    padding:  var(--spacing-small) (var(--spacing-small));
+    margin:  var(--spacing-small) (var(--spacing-small));
+    }
+
+
+
+
+#tour-button {
+    background-color: var(--primary-color);
+
+}
+
+#tour-text {
+    color: var(--background-color)
+}
 /* Accessibility */
 a:focus, button:focus {
     outline: 2px solid var(--primary-color);
