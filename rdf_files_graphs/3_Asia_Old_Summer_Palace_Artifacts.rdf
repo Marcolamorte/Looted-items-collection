@@ -4,10 +4,14 @@
  xmlns:dct="http://purl.org/dc/terms/"
  xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
- xmlns:wiki="https://www.wikidata.org/wiki/">
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:wiki="https://www.wikidata.org/wiki/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     <cid:E24 rdf:about="https://www.wikidata.org/wiki/Q2668072">
-        <dc:creator rdf:resource="https://www.wikidata.org/wiki/Q1294787"/>
-        <dc:description>The artifacts from the Old Summer Palace are a poignant reminder of China's cultural heritage loss and a tragic episode in its history. They were part of the Qing emperors’ private collections, reflecting their tastes, values, and wealth. They were either created by or curated for the Chinese royal family, making them emblematic of the dynasty’s power and prosperity</dc:description>
+        <dc:creator rdf:resource="http://www.itemsontology.com/item_features/Chinese_Artisans"/>
+        <dc:description>The artifacts from the Old Summer Palace are a poignant reminder of China's cultural heritage loss and a tragic episode in its history. They were part of the Qing emperors’ private collections, reflecting their tastes, values, and wealth. They were either created by or curated for the Chinese royal family, making them emblematic of the dynasty’s power and prosperity.</dc:description>
         <dc:subject>Qing Dinasty</dc:subject>
         <dc:subject>Chinese Arifacts</dc:subject>
         <dc:subject>Old Summer Palace</dc:subject>
@@ -17,76 +21,95 @@
         <dc:type>Tapestries</dc:type>
         <dc:type>Bronzes</dc:type>
         <dct:created>17th-19th century</dct:created>
-        <dct:isPartOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E78"/>
-        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q29520"/>
-        <cid:P10 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2"/>
+        <dct:isPartOf rdf:resource="http://www.itemsontology.com/item_features/East_Asia_Collection"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q907894"/>
+        <cid:P12i_was_present_at rdf:resource="https://www.wikidata.org/wiki/Q418151"/>
         <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
-        <cid:P24i_changed_ownership_through rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E96"/>
-        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
-        <cid:P25 rdf:resource="https://www.wikidata.org/wiki/Q418151"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q18345888"/>
+        <cid:P24i_changed_ownership_through rdf:resource="http://www.itemsontology.com/item_features/British_and_French_plunder"/>
+        <cid:P25i_moved_by rdf:resource="http://www.itemsontology.com/item_features/British_and_French_plunder"/>
         <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
         <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q907894"/>
-        <cid:P44 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E3"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Good_State_Overall"/>
         <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q334452"/>
         <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q213322"/>
         <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q213322"/>
-        <rdfs:label>Artifacts collection</rdfs:label>
     </cid:E24>
-    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q29520">
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q907894">
+        <rdfs:label>Old Summer Palace</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.00812</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">116.30269</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/6614403/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q956"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6614403</dir:P1566>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q956">
+        <rdfs:label>Beijing</rdfs:label>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q29520"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q29520">
        <rdfs:label>China</rdfs:label>
-    </rdf:Description>
-    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q1294787">
+    </cid:E53>
+    <wiki:Q1294787 rdf:about="http://www.itemsontology.com/item_features/Chinese_Artisans">
        <rdfs:label>Chinese Artisans</rdfs:label>
+    </wiki:Q1294787>
+    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q1294787">
+       <rdfs:label>Artisan</rdfs:label>
     </dct:Agent>
-    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
-       <rdfs:label>Overall good state</rdfs:label>
-    </rdf:Description>
-    <wiki:Q27699276 rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Good_State_Overall">
+       <rdfs:label>Good State Overall</rdfs:label>
+    </cid:E3>
+    <wiki:Q27699276 rdf:about="http://www.itemsontology.com/item_features/East_Asia_Collection">
         <cid:P147i_was_curated_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87"/>
         <rdfs:label>East Asia Collection</rdfs:label>
     </wiki:Q27699276>
-    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q27699276">
-       <rdfs:label>museum collection</rdfs:label>
-    </rdf:Description>
+    <cid:E78 rdf:about="https://www.wikidata.org/wiki/Q27699276">
+       <rdfs:label>Museum Collection</rdfs:label>
+    </cid:E78>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87">
-       <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q213322"/>
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q213322"/>
+        <rdfs:label>Curation Activity</rdfs:label>
     </rdf:Description>
     <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q213322">
         <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
-        <cid:P22i_acquired_title_through rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E96"/>
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q18345888"/>
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53"/>
         <rdfs:label>Victoria and Albert Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.4968</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.17273</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/6619831/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6619831</dir:P1566>
     </cid:E39>
     <cid:E8 rdf:about="https://www.wikidata.org/wiki/Q707482">
-        <dc:coverage rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
-        <rdfs:label>Donation</rdfs:label>
+        <dct:temporal>19th-20th century</dct:temporal>
+        <skos:altLabel>Donation</skos:altLabel>
     </cid:E8>
-    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E96">
-        <dc:coverage rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
-        <rdfs:label>Purchase contract</rdfs:label>
+    <cid:E96 rdf:about="https://www.wikidata.org/wiki/Q18345888">
+        <dct:temporal>19th-20th century</dct:temporal>
+        <rdfs:label>Purchase and Sale Agreement </rdfs:label>
+    </cid:E96>
+    <rdf:Description rdf:about="http://www.itemsontology.com/item_features/British_and_French_Plunder">
+       <rdfs:label>British and French Plunder</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime">
-       <rdfs:label>19th-20th century</rdfs:label>
-    </rdf:Description>
-    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q907894">
-       <rdfs:label>Old Summer Palace</rdfs:label>
-    </cid:E53>
     <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q84">
        <rdfs:label>London</rdfs:label>
     </cid:E53>
     <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q334452">
         <cid:P107i_is_current_or_former_member_of rdf:resource="https://www.wikidata.org/wiki/Q8733"/>
-        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <cid:P23i_surrendered_title_through rdf:resource="http://www.itemsontology.com/item_features/British_and_French_plunder"/>
         <rdfs:label>Xianfeng Emperor</rdfs:label>
     </cid:E21>
     <cid:E74 rdf:about="https://www.wikidata.org/wiki/Q8733">
        <rdfs:label>Qing Dinasty</rdfs:label>
     </cid:E74>
-    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q192623">
+    <wiki:Q192623 rdf:about="http://www.itemsontology.com/item_features/British_and_French_plunder">
         <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q222595"/>
         <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q1076619"/>
         <cid:P17 rdf:resource="https://www.wikidata.org/wiki/Q418151"/>
-        <rdfs:label>British and French Plunder</rdfs:label>
+    </wiki:Q192623>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q192623">
+       <rdfs:label>Looting</rdfs:label>
     </cid:E7>
     <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q222595">
         <cid:P11i_participated_in rdf:resource="https://www.wikidata.org/wiki/Q418151"/>
@@ -97,14 +120,58 @@
         <rdfs:label>French Army</rdfs:label>
     </cid:E39>
     <cid:E5 rdf:about="https://www.wikidata.org/wiki/Q418151">
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q29520"/>
+        <cid:P10 rdf:resource="http://www.itemsontology.com/item_features/Western_Colonialism_in_China"/>
         <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
         <rdfs:label>Second Opium War</rdfs:label>
     </cid:E5>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
-       <rdfs:label>8 October 1856 – 24 October 1860</rdfs:label>
+       <dc:date>1856-10-8/1860-10-24</dc:date><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <wiki:Q7167 rdf:about="http://www.itemsontology.com/item_features/Western_Colonialism_in_China">
+        <dct:temporal>19th-20th century</dct:temporal>
+        <rdfs:label>Western Colonialism in China</rdfs:label>
+    </wiki:Q7167>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
+    </cid:E2>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition state</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
+       <rdfs:label>Curated Holding</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8">
+       <rdfs:label>Acquisition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E96">
+       <rdfs:label>Purchase</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+       <rdfs:label>Person</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E74">
+       <rdfs:label>Group</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+       <rdfs:label>Event</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
-        <cid:P4 rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
-        <rdfs:label>Western Colonialism in China</rdfs:label>
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
     </rdf:Description>
 </rdf:RDF>

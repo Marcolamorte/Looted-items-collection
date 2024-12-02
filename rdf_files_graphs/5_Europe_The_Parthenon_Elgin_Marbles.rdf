@@ -1,0 +1,168 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:wiki="https://www.wikidata.org/wiki/">
+    <cid:E24 rdf:about="https://www.wikidata.org/wiki/Q606662">
+        <dc:creator rdf:resource="https://www.wikidata.org/wiki/Q177302"/>
+        <dc:description>The Parthenon Sculptures often referred to as the Elgin Marbles, are a collection of classical Greek marble sculptures that originally adorned the Parthenon temple on the Acropolis of Athens. These artifacts, of great relevance to the Greek cultural heritage, are at the center of a long-standing cultural and political debate and subject of ongoing repatriation demands by Greek government.</dc:description>
+        <dc:subject>Parthenon (Athens, Greece)</dc:subject>
+        <dc:subject>Elgin marbles</dc:subject>
+        <dc:subject>Athens Antiquites</dc:subject>
+        <dc:title>The Parthenon Elgin Marbles collection</dc:title>
+        <dc:type>sculpture</dc:type>
+        <dc:type>marble reliefs</dc:type>
+        <dct:created>447B.C.-432B.C.</dct:created>
+        <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q27699276"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q10288"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q18345888"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q1130651"/>
+        <cid:P25i_moved_by rdf:resource="https://www.wikidata.org/wiki/Q23009442"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q10288"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Good_State_Overall"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q40861"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q335098"/>
+        <cid:P51 rdf:resource="http://www.itemsontology.com/item_features/Athenian_government"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+    </cid:E24>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q10288">
+        <cid:P89 rdf:resource="https://www.wikidata.org/wiki/Q131013"/>
+        <rdfs:label>Parthenon</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">37.97153</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">23.72656</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/8354432/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8354432</dir:P1566>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q131013">
+        <rdfs:label>Acropolis of Athens</rdfs:label>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q41"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q41">
+       <rdfs:label>Greece</rdfs:label>
+    </cid:E53>
+    <cid:E78 rdf:about="https://www.wikidata.org/wiki/Q27699276">
+       <rdfs:label>Museum Collection</rdfs:label>
+    </cid:E78>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
+        <cid:P147i_was_curated_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87"/>
+        <rdfs:label>Curated Holding</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <rdfs:label>Curation Activity</rdfs:label>
+    </rdf:Description>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q6373">
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53"/>
+        <rdfs:label>British Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.51945</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.12708</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/6697862/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6697862</dir:P1566>
+    </cid:E39>
+    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q177302">
+       <rdfs:label>Phidias</rdfs:label>
+    </dct:Agent>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Good_State_Overall">
+        <cid:P3>Some sculptures present damaged or missing parts.</cid:P3>
+        <rdfs:label>Good State Overall</rdfs:label>
+    </cid:E3>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q40861">
+       <rdfs:label>Marble</rdfs:label>
+    </cid:E57>
+    <cid:E8 rdf:about="https://www.wikidata.org/wiki/Q707482">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1816</dc:date>
+        <skos:altLabel>Donation</skos:altLabel>
+    </cid:E8>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q335098">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q18345888"/>
+        <rdfs:label>Thomas Bruce, 7th Earl of Elgin</rdfs:label>
+        <dir:P106 rdf:resource="https://www.wikidata.org/wiki/Q193391"/>
+    </cid:E39>
+    <cid:E96 rdf:about="https://www.wikidata.org/wiki/Q18345888">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1816</dc:date>
+        <rdfs:label>Purchase and Sale Agreement </rdfs:label>
+    </cid:E96>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q6063">
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q18345888"/>
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <rdfs:label>Government of the United Kingdom </rdfs:label>
+    </rdf:Description>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q84">
+       <rdfs:label>London</rdfs:label>
+    </cid:E53>
+    <cid:E39 rdf:about="http://www.itemsontology.com/item_features/Athenian_government">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q23009442"/>
+        <rdfs:label>Athenian government</rdfs:label>
+    </cid:E39>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q23009442">
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q10288"/>
+        <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q871792"/>
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q335098"/>
+        <cid:P17 rdf:resource="https://www.wikidata.org/wiki/Q1130651"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdfs:label>Removal</rdfs:label>
+    </cid:E7>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
+       <dct:temporal>1801-1812</dct:temporal><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q871792">
+        <dct:temporal>1453-1821</dct:temporal>
+        <rdfs:label>Ottoman Greece</rdfs:label>
+    </cid:E2>
+    <wiki:Q1422253 rdf:about="https://www.wikidata.org/wiki/Q1130651">
+        <rdfs:label>Firman</rdfs:label>
+        <dir:P1027 rdf:resource="https://www.wikidata.org/wiki/Q18871"/>
+    </wiki:Q1422253>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q18871">
+       <rdfs:label>Sublime Porte</rdfs:label>
+    </cid:E39>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition state</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8">
+       <rdfs:label>Acquisition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+       <rdfs:label>Person</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E96">
+       <rdfs:label>Purchase</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q193391">
+       <rdfs:label>Diplomat</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1422253">
+       <rdfs:label>Royal Charter</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
