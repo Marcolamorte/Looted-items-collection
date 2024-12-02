@@ -1,9 +1,9 @@
 :root {
     @font-face {
         font-family: 'Karrik';
-        src: url('path/to/your/font-file.woff2') format('woff2'),
-             url('path/to/your/font-file.woff') format('woff'),
-             url('path/to/your/font-file.ttf') format('truetype');
+        src: url('fonts/Karrik-Regular.woff2') format('woff2'),
+             url('fonts/Karrik-Regular.woff') format('woff'),
+             url('fonts/Karrik-Regular.ttf') format('truetype');
       }
       
    
@@ -39,7 +39,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Karrik", sans-serif;
+    font-weight: 200;
     font-size: var(--base-font-size);
     line-height: var(--base-line-height);
     color: var(--primary-color);
@@ -49,11 +50,14 @@ body {
 
 /* Typography */
 h1 {
-    font-size: calc(var(--font-size-large) * var(--golden-ratio)*2);
-    margin-bottom: var(--spacing-large);
+    font-size: calc(var(--font-size-large) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio));
+    margin: var(--spacing-large) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio);
+    padding: var(--spacing-large) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio);
     text-transform: uppercase;
     text-align: center;
 }
+
+
 
 h2 {
     font-size: var(--font-size-large);
@@ -69,17 +73,36 @@ header, main, footer {
     padding: var(--spacing-large);
 }
 
-nav ul {
+nav {
     list-style-type: none;
     display: flex;
-    gap: var(--spacing-small);
-    align-content: space-between;
+    gap: var(--spacing-large);
+    justify-content: space-evenly;
+    padding: 20px;;
+    flex-wrap:nowrap;
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
 }
+
+nav li {
+    display: inline-block; /* Makes list items inline */
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+  }
 
 nav a {
     color: var(--primary-color);
     text-decoration: none;
     text-align: center;
+}
+
+.button {
+    border: 1px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    display:flex;
+    justify-content: space-between;
+    padding:  var(--spacing-small) calc(var(--spacing-large) * var(--golden-ratio));
+    gap: calc(var(--spacing-large) *var(--golden-ratio));
 }
 
 /* Accessibility */
@@ -88,6 +111,28 @@ a:focus, button:focus {
     outline-offset: 2px;
 }
 
+#hero {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('partenone1.svg'); /* Path to your SVG file */
+    background-size: 40%; /* Ensures the SVG covers the entire div */
+    background-position: center; /* Centers the SVG within the div */
+    background-repeat: no-repeat; /* Prevents the SVG from repeating */
+}
+
+#home {
+    height: 100vh;
+    width: 100vw;
+}
+
+#text-container {
+    width: 30vw;
+    overflow: hidden;
+
+}
 /* Media Queries */
 @media screen and (max-width: 768px) {
     :root {
