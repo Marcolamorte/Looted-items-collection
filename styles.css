@@ -81,6 +81,7 @@ h2 {
 
 p {
     margin-bottom: var(--base-spacing);
+    display: block;
 }
 
 
@@ -186,11 +187,15 @@ a:focus, button:focus {
 
 
 
-#home, #about, #timeline-section {
+#home, #about, #timeline-section, #about-section {
     min-height: 100%;
     width: 100%;
     max-width: 100%;
 }
+
+#about-section{
+display: flex;
+flex-direction: column; /* Stack children vertically */}
 
 main {
     margin: calc(var(--spacing-large)*var(--golden-ratio)) calc(var(--spacing-large)*var(--golden-ratio));
@@ -207,7 +212,6 @@ section {
     height: 80vh;;
     display: flex;
     justify-content: left; /* Horizontal alignment */
-    align-items: center; /* Vertical alignment */
     
 }
 
