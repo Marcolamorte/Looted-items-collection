@@ -122,11 +122,15 @@ nav .button {
     justify-content: center;
 padding: var(--spacing-small) var(--spacing-large); 
     color: var(--primary-color);
+
     }
 a {
     text-decoration: none;
     color: var(--primary-color);
+    background-color: transparent;
 }
+
+
 
 
 
@@ -137,6 +141,12 @@ a {
 #tour-button {
     background-color: var(--primary-color);
 
+}
+
+#long-button {
+    border: 1px solid var(--secondary-color);
+    background-color: var(--background-color);
+    color: var(--secondary-color)
 }
 
 #tour-text {
@@ -161,6 +171,8 @@ a:focus, button:focus {
     background-repeat: no-repeat; /* Prevents the SVG from repeating */
 }
 
+
+
 #home, #about {
     height: 100vh;
     width: 100vw;
@@ -183,63 +195,70 @@ section {
 }
 
 .margin {
-    margin: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
+    margin: calc(var(--spacing-large)*var(--golden-ratio));
 }
 
 /*timeline */
 
 .timeline-container {
+    margin-top: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio)*var(--golden-ratio));
     display: flex;
     justify-content: center;
-   
-
-
-}
-
-
-.timeline {
-    width: 90vw;
-    height: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
+    align-items: center;
+    width: 100%; /* Width of the outside container */
     border: 1px solid var(--primary-color);
-    border-radius: calc(var(--spacing-large)*var(--golden-ratio));
-    margin-top: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio)*var(--golden-ratio)*var(--golden-ratio));
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
+    border-radius: var(--spacing-large)
 
 }
 
-.line {
-    width: 80vw;
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    width: 95%;
     height: var(--spacing-small);
+    border-radius: var(--spacing-small);  
+    background: var(--background-color);
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    z-index: 0;
     background-color: var(--secondary-color);
-    border-radius: var(--spacing-large);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.dot {
-    width: var(--spacing-large);
-    height: var(--spacing-large);
-    background-color: var(--secondary-color);
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: var(--secondary-color);
+ cursor: pointer;
     z-index: 3;
-    border-radius: var(--spacing-large);
-
-
-}
-
-@keyframes wiggle {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(3deg); }
-    50% { transform: rotate(0deg); }
-    75% { transform: rotate(-3deg); }
-    100% { transform: rotate(0deg); }
+    outline: none;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--secondary-color);
+    cursor: pointer;
+    z-index: 3;
+    outline: none;
   }
 
-  #hero{
-    animation: wiggle 6.5s ease-in-out infinite;
+
+
+
+  @keyframes glow {
+    0% { text-shadow: 0 0 10px rgba(183, 181, 228, 0.7); }
+    50% { text-shadow: 0 0 20px rgba(183, 181, 228, 0.9); }
+    100% { text-shadow: 0 0 10px rgba(183, 181, 228, 0.7); }
+  }
+  
+  #hero {
+    animation: glow 6s ease-in-out infinite;
   }
 
 .footer-h2 {
