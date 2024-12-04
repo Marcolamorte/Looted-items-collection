@@ -38,6 +38,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Karrik", sans-serif;
     font-weight: 200;
@@ -62,7 +63,7 @@ h1 {
 
 
 h2 {
-    font-size: var(--font-size-large);
+    font-size: calc((var(--font-size-large))*(var(--golden-ratio)));
     margin-bottom: var(--spacing-small);
 }
 
@@ -113,13 +114,21 @@ nav .button {
     border: 1px solid var(--primary-color);
     border-radius: var(--spacing-large);
     display:flex;
+    width: fit-content;
     justify-content: center;
-    padding:  var(--spacing-small) (var(--spacing-small));
-    margin:  var(--spacing-small) (var(--spacing-small));
+padding: var(--spacing-small) var(--spacing-large); 
+    color: var(--primary-color);
     }
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
 
 
 
+#button-2 {
+    margin-top: var(--spacing-small);
+}
 
 #tour-button {
     background-color: var(--primary-color);
@@ -161,6 +170,18 @@ a:focus, button:focus {
     float: left;
 
 }
+
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-3deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  #hero{
+    animation: wiggle 3.5s ease-in-out infinite;
+  }
 
 .footer-h2 {
     text-transform: uppercase;
