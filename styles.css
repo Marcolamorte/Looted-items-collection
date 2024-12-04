@@ -71,6 +71,7 @@ p {
     margin-bottom: var(--base-spacing);
 }
 
+
 /* Layout */
 header, main, footer {
     padding: var(--spacing-large);
@@ -159,9 +160,9 @@ a:focus, button:focus {
 }
 
 #hero {
-    height: 80vh;
-    width: 100vw;
-    max-width: 100vw;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,12 +174,15 @@ a:focus, button:focus {
 
 
 
-#home, #about {
-    height: 100vh;
-    width: 100vw;
-    max-width: 100vw;
+#home, #about, #timeline-section {
+    min-height: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 
+main {
+    margin: calc(var(--spacing-large)*var(--golden-ratio)) var(--spacing-large);
+}
 
 
 .text-container {
@@ -188,78 +192,97 @@ a:focus, button:focus {
 }
 
 section {
+    height: 80vh;;
     display: flex;
     justify-content: left; /* Horizontal alignment */
     align-items: center; /* Vertical alignment */
     
 }
 
-.margin {
-    margin: calc(var(--spacing-large)*var(--golden-ratio));
-}
 
-/*timeline */
+
+.timeline-section {
+    min-height: 100%;
+    width: 100%;
+    
+}
 
 .timeline-container {
     margin-top: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio)*var(--golden-ratio));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Width of the outside container */
-    border: 1px solid var(--primary-color);
+    width: 90%;
     height: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
-    border-radius: var(--spacing-large)
-
+    border: 1px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    padding: var(--spacing-small);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
 }
 
-/* The slider itself */
 .slider {
     -webkit-appearance: none;
-    width: 95%;
+    width: 90%;
     height: var(--spacing-small);
     border-radius: var(--spacing-small);  
-    background: var(--background-color);
-    opacity: 0.7;
+    background: var(--secondary-color);
+   
     -webkit-transition: .2s;
     transition: opacity .2s;
-    z-index: 0;
-    background-color: var(--secondary-color);
-  }
-  
-  .slider::-webkit-slider-thumb {
+    z-index: 1;
+}
+
+.slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 25px;
     height: 25px;
     border-radius: 50%; 
-    background: var(--secondary-color);
- cursor: pointer;
-    z-index: 3;
-    outline: none;
-  }
-  
-  .slider::-moz-range-thumb {
+    background: var(--primary-color);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     cursor: pointer;
-    z-index: 3;
-    outline: none;
-  }
+    z-index: 1;
+}
+
+.timeline-markers {
+    position: absolute;
+    left: var(--spacing-small);
+    right: var(--spacing-large);
+    height: 0;
+}
+
+.marker {
+
+    position: absolute;
+    width: var(--spacing-large);
+    height: var(--spacing-large);
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transform: translate(-50%, -50%);
+}
+
+#eraInfo {
+    text-align: left;
+    margin-top: var(--spacing-large);
+    color: var(--secondary-color);
+    height: 100%;
+    display: block;
+    padding-right: var(--spacing-large);
+}
 
 
 
 
-  @keyframes glow {
-    0% { text-shadow: 0 0 10px rgba(183, 181, 228, 0.7); }
-    50% { text-shadow: 0 0 20px rgba(183, 181, 228, 0.9); }
-    100% { text-shadow: 0 0 10px rgba(183, 181, 228, 0.7); }
-  }
-  
-  #hero {
-    animation: glow 6s ease-in-out infinite;
-  }
+
+
 
 .footer-h2 {
     text-transform: uppercase;
