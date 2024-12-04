@@ -36,18 +36,19 @@
     <main>
     <section>
    <div class="timeline-section">
+    <div id="imageDisplayContainer" style="display:flex; overflow-x:auto;"></div> <!-- Container for multiple images -->
     <div class="timeline-container">
         <div class="timeline-markers"></div>
-        <input type="range" min="1" max="80" value="1" class="slider" id="timelineSlider">
+        <input type="range" min="0" max="100" step="1" class="slider" id="timelineSlider">
 
         
       </div>
       <div id="eraInfo"></div>
       
-    +</div>
+    </div>
     </section>
     
-        <section id="home" class="margin">
+        <section id="home">
             <div class="text-container">
             <h2>A Virtual Journey Through History's Stolen Treasures</h2>
             <p>Embark on a groundbreaking digital experience that sheds light on colonial history. The virtual tour takes you on an  immersive journey through an extensive archive of cultural artifacts stolen during periods of colonization.</p>
@@ -57,7 +58,7 @@
             </div>
                     </div>
         </section>
-        <section id="about" class="margin">
+        <section id="about">
             <div class="text-container">
             <h2>Why This Matters</h2>
             <p>Our virtual tour aims to educate, provoke thought, and foster  dialogue about the lasting impacts of colonialism on cultural heritage.  By digitally reuniting these objects with their stories, we hope to  contribute to the ongoing conversation about repatriation and cultural  preservation.</p>
@@ -69,9 +70,11 @@
       
     </main>
     <footer>
+        <hr>
         <h2 class="footer-h2">the stolen archive</h1>
-        <p>is a project developed for the final examination of the course Information Modelling and Web Technologies held by professor Fabio Vitali in the context of the Masters Degree program Digital Humanities and Digital Knowledge at  Alma Mater Studiorum University of Bologna. As such, this project will not be maintained or updated past the scope of the course’s examination. However, if you have any reclaims or suggestions, you can contact us through our team page.</p>
-        <p>&copy; 2024 The Stolen Archive. All rights reserved.</p>
+            <p>is a project developed for the final examination of the course Information Modelling and Web Technologies held by professor Fabio Vitali in the context of the Masters Degree program Digital Humanities and Digital Knowledge at  Alma Mater Studiorum University of Bologna. As such, this project will not be maintained or updated past the scope of the course’s examination. <br> However, if you have any reclaims or suggestions, you can contact us through our team page.</p>
+        <hr>
+            <p>&copy; 2024 The Stolen Archive. All rights reserved.</p>
     </footer>
 </body>
 </html>
