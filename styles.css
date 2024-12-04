@@ -26,7 +26,7 @@
     
     /* Colors */
     --primary-color: #B7B5E4;
-    --secondary-color: #6c757d;
+    --secondary-color: #847979;
     --background-color: #0C0C0F;
     --text-color: #333;
 }
@@ -85,6 +85,7 @@ nav {
     flex-wrap:nowrap;
     list-style-type: none; /* Removes default bullet points */
     padding: 0; /* Removes default padding */
+    
 }
 
 nav li {
@@ -94,7 +95,7 @@ nav li {
   }
 
 nav a {
-    color: var(--primary-color);
+    color: var(--secondary-color-color);
     text-decoration: none;
     text-align: center;
 }
@@ -103,11 +104,14 @@ nav a {
 
 nav .button {
     border: 1px solid var(--primary-color);
+    background-color: var(--background-color);
     border-radius: var(--spacing-large);
     display:flex;
     justify-content: space-between;
     padding:  var(--spacing-small) calc(var(--spacing-large) * var(--golden-ratio));
     gap: calc(var(--spacing-large) *var(--golden-ratio));
+    position: fixed;
+    z-index: 2;
 }
 
 .button {
@@ -171,6 +175,61 @@ a:focus, button:focus {
 
 }
 
+section {
+    display: flex;
+    justify-content: left; /* Horizontal alignment */
+    align-items: center; /* Vertical alignment */
+    
+}
+
+.margin {
+    margin: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
+}
+
+/*timeline */
+
+.timeline-container {
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+
+
+.timeline {
+    width: 90vw;
+    height: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
+    border: 1px solid var(--primary-color);
+    border-radius: calc(var(--spacing-large)*var(--golden-ratio));
+    margin-top: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio)*var(--golden-ratio)*var(--golden-ratio));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line {
+    width: 80vw;
+    height: var(--spacing-small);
+    background-color: var(--secondary-color);
+    border-radius: var(--spacing-large);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dot {
+    width: var(--spacing-large);
+    height: var(--spacing-large);
+    background-color: var(--secondary-color);
+    z-index: 3;
+    border-radius: var(--spacing-large);
+
+
+}
+
 @keyframes wiggle {
     0% { transform: rotate(0deg); }
     25% { transform: rotate(3deg); }
@@ -180,7 +239,7 @@ a:focus, button:focus {
   }
 
   #hero{
-    animation: wiggle 3.5s ease-in-out infinite;
+    animation: wiggle 6.5s ease-in-out infinite;
   }
 
 .footer-h2 {
