@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
             images: [
                 "images/parthenon1.jpeg", // Replace with actual image paths
                 "images/parthenon2.jpg",
-                "images/parthenon3.jpg"
+                "images/parthenon3.jpg",
+                "images/pergamon1.jpg",
+                "images/pergamon2.jpg"
             ]
         },
         { 
@@ -20,9 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
             title: "Medieval Era (500 CE - 1500 CE)", 
             description: "During this epoch, numerous artifacts were produced that would subsequently become targets of colonial acquisition. The Sultanganj Buddha, a 7th-century copper statue discovered in Bihar, India, exemplifies this phenomenon. Standing over 2.3 meters tall and weighing over 500 kilograms, this statue represents the sophisticated metallurgical techniques of medieval India. Its removal during British colonial rule in the 19th century illustrates how medieval artifacts became subjects of later colonial appropriation. The Gdansk Astronomical Clock, an intricate 15th-century timepiece, presents a different case. While not a product of colonial looting per se, its removal from Gdansk (then Danzig) during World War II demonstrates how conflicts beyond the traditional colonial period resulted in the displacement of cultural artifacts.", 
             images: [
-                "path/to/medieval-image1.jpg", // Replace with actual image paths
-                "path/to/medieval-image2.jpg",
-                "path/to/medieval-image3.jpg"
+               // Replace with actual image paths
+                
             ]
         },
         { 

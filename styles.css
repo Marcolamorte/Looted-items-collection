@@ -297,8 +297,13 @@ section {
 
 #imageDisplayContainer {
     display: flex;
-    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    overflow-x: visible; /* Allow horizontal scrolling if needed */
+    overscroll-behavior: contain; /* Prevents scroll chaining to parent elements */
+    scrollbar-width: none; /* Hides scrollbar */
 }
+
+
+
 
 #imageDisplayContainer img {
     width: 100px; /* Width for each image */
@@ -306,6 +311,18 @@ section {
     transition: opacity 0.3s ease-in-out; /* Smooth fade effect */
 }
 
+#imageDisplayContainer .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  #imageDisplayContainer:hover .button {
+    display: block;
+  }
+  
 
 footer {
     height: 40vh;
