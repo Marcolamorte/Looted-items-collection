@@ -1,0 +1,508 @@
+:root {
+    @font-face {
+        font-family: 'Karrik';
+        src: url('path/to/your/font-file.woff2') format('woff2'),
+             url('path/to/your/font-file.woff') format('woff'),
+             url('path/to/your/font-file.ttf') format('truetype');
+      }
+      
+   
+   
+    /* Golden Ratio: 1.618 */
+    --golden-ratio: 1.618;
+    
+    /* Base sizes */
+    --base-font-size: 16px;
+    --base-line-height: 1.5;
+    --base-spacing: 1rem;
+    
+    /* Font sizes */
+    --font-size-small: calc(var(--base-font-size) / var(--golden-ratio));
+    --font-size-large: calc(var(--base-font-size) * var(--golden-ratio));
+    
+    /* Spacing */
+    --spacing-small: calc(var(--base-spacing) / var(--golden-ratio));
+    --spacing-large: calc(var(--base-spacing) * var(--golden-ratio));
+    
+    /* Colors */
+    --primary-color: #B7B5E4;
+    --secondary-color: #6c757d;
+    --background-color: #0C0C0F;
+    --text-color: #333;
+}
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Karrik", sans-serif;
+  font-weight: 200;
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  margin: 0 auto;
+  width:90%;
+  max-width:1200px;
+  overflow-x: hidden;
+}
+
+/* Typography */
+h1 {
+  font-size: calc(var(--font-size-large) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio));
+  margin: var(--spacing-large) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio);
+  padding: var(--spacing-large) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio);
+  text-transform: uppercase;
+  text-align: center;
+  user-select: none;
+}
+
+h2 {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--spacing-small);
+}
+
+p {
+    margin-bottom: var(--base-spacing);
+}
+
+/* Layout */
+header, main, footer {
+    padding: var(--spacing-large);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: var(--spacing-small);
+    align-content: space-between;
+}
+
+nav li {
+  display: inline-block; /* Makes list items inline */
+  list-style-type: none; /* Removes default bullet points */
+  padding: 0; /* Removes default padding */
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    text-align: center;
+}
+
+nav .button {
+  border: 1px solid var(--primary-color);
+  border-radius: var(--spacing-large);
+  display:flex;
+  justify-content: space-between;
+  padding:  var(--spacing-small) calc(var(--spacing-large) * var(--golden-ratio));
+  gap: calc(var(--spacing-large) *var(--golden-ratio));
+}
+
+.button {
+  border: 1px solid var(--primary-color);
+  border-radius: var(--spacing-large);
+  display:flex;
+  justify-content: center;
+  padding:  var(--spacing-small) (var(--spacing-small));
+  margin:  var(--spacing-small) (var(--spacing-small));
+  }
+
+
+
+
+#tour-button {
+  background-color: var(--primary-color);
+
+}
+
+#tour-text {
+  color: var(--background-color)
+}
+
+/* Accessibility */
+a:focus, button:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+  
+#hero {
+  height: 80vh;
+  width: 100vw;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('partenone1.svg'); /* Path to your SVG file */
+  background-size: 40%; /* Ensures the SVG covers the entire div */
+  background-position: center; /* Centers the SVG within the div */
+  background-repeat: no-repeat; /* Prevents the SVG from repeating */
+}
+
+#home, #about {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+  
+  /* Navigation Buttons */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Container for both buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+
+  
+  h1 {
+    font-size: 60px; /* Increase size for prominence */
+    text-align: center;
+    color: #B7B5E4; /* Match the primary color for consistency */
+    margin-top: 40px; /* Add space above the title */
+    margin-bottom: 40px; /* Add space below the title */
+}
+
+.object-page .top-navigation{
+  padding-top: 0;
+}
+
+  /* Top Navigation Strip */
+  .top-navigation {
+    display: flex;
+    justify-content: space-between; /* Align buttons to the edges */
+    align-items: center;
+    background-color: #6c757d; /* Background color */
+    margin: 0; /* Remove extra margin */
+    width: 100%; /* Ensure it spans the full width */
+    height: 100px; /* Adjust height as needed */
+    box-sizing: border-box; /* Ensure padding doesn’t affect width/height */
+}
+  
+  /* Navigation Buttons */
+  .button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between button and text */
+  }
+  
+  /* Circular Buttons */
+  .circular-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes it a circle */
+    border: none;
+    background-color: #4a90e2; /* Button background */
+    color: white; /* Arrow color */
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .circular-button:hover {
+    background-color: #3a7dc4;
+  }
+  
+  /* Text for Buttons */
+  .button-text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Content Section Inside Container */
+  .content {
+    padding: 20px; /* Inner spacing */
+  }
+  
+  /* Individual Sections (e.g., Items, Geolocalization, Metadata) */
+  section {
+    margin-bottom: 20px; /* Spacing between sections */
+    padding: 20px; /* Inner spacing */
+    border-radius: 15px; /* Rounded corners for sections */
+    background-color: #3a3a3a; /* Section background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border: 1px solid #fff;
+  }
+
+
+
+button {
+    background-color: #B7B5E4; /* Base button color */
+    color: #fff; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding for proper click area */
+    font-size: 16px; /* Consistent font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    width: auto; /* Let the width be determined by the content */
+    display: inline-block; /* Allow buttons to be inline but block-level */
+    text-align: center; /* Align text */
+}
+
+
+
+button:hover {
+    background-color: #9A93C9; /* Darker color on hover */
+}
+
+  /* Individual button + text container */
+  .button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between button and text */
+  }
+  
+  
+  /* Circular buttons */
+  .circular-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Makes it a circle */
+    border: none;
+    background-color: #4a90e2; /* Button background */
+    color: white; /* Arrow color */
+    font-size: 24px; /* Arrow size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .circular-button:hover {
+    background-color: #3a7dc4; /* Slightly darker blue */
+  }
+  
+  /* Text styling */
+  .button-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Tour Tabs */
+  .tour-tabs {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    align-items: center; /* Align vertically */
+    gap: 10px; /* Space between buttons */
+    padding: 10px 0; /* Add vertical spacing */
+}
+
+  .tour-btn {
+    margin: 0 10px;
+    background-color: #B7B5E4;
+    color: #0c0c0f;
+    border: 1px solid #6f6f8b;
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  
+
+  /* Contenitore immagine + testo */
+  
+  /* Immagine */
+  .image-text-container {
+    display: flex; /* Align image and text horizontally */
+    gap: 20px; /* Space between the image and the text */
+    flex-wrap: wrap; /* Allow the image and text to wrap if there's no room */
+    align-items: flex-start; /* Align text and image at the top */
+    width: 100%; /* Ensure the container spans the full width */
+    box-sizing: border-box; /* Include padding and borders in width calculations */
+    margin-bottom: 20px; /* Spazio inferiore per separare da altri elementi */
+    position: relative;
+}
+
+.image-text-container img {
+    max-width: 50%; /* Limit image to half the container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners */
+    flex: 1; /* Allow the image to take proportional space */
+}
+
+.image-text-container .text {
+    flex: 1; /* Allow text to take proportional space */
+    font-size: 16px;
+    line-height: 1.6; /* Improve readability */
+    color: white;
+    text-align: justify; /* Clean alignment */
+    max-width: 100%; /* Prevent text from overflowing its container */
+    box-sizing: border-box; /* Include padding and borders in width calculations */
+}
+
+
+
+.image-text-container button {
+    background-color: #B7B5E4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px; /* Match the padding of other buttons */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; /* Keep width based on content */
+    margin-top: 20px; /* Space below the text and buttons */
+    align-self: flex-start; /* Align the button to the left of the container */
+}
+
+/* Hover effect for Next Button */
+.image-text-container button:hover {
+    background-color: #9A93C9; /* Darker shade on hover */
+}
+
+
+  .content img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .more-info button {
+    margin: 10px 5px;
+    background-color: #B7B5E4;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+    gap: 15px; /* Space between "I want more" and buttons */
+  }
+
+ 
+  
+/* Container for Map and Geolocalization sections */
+/* Map-Geolocalization Container */
+.map-geolocation-container {
+    display: flex; /* Align items horizontally by default */
+    align-items: stretch; /* Ensure sections have equal height */
+    flex-wrap: nowrap; /* Prevent wrapping unless screen is small */
+    border-radius: 15px;
+    background-color: #1f1f1f;
+    padding: 0;
+    overflow: hidden; /* Keep content within rounded corners */
+    gap: 0; /* No gap by default */
+    position: relative; /* Ensure proper layout adjustments */
+}
+
+.map-section{   
+    width: 50%; /* Each section takes up half the width */
+    padding: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin: 0;
+}
+
+.geolocalization-section {
+    width: 50%; /* Each section takes up half the width */
+    padding: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin: 0;
+
+}
+
+.divider {
+    background-color: #fff; /* White color for the divider */
+    margin: 0; /* No margin around the divider */
+    height: auto; /* Extend the divider to match the container's height */
+}
+
+
+  /* Metadata */
+  .metadata {
+    margin-top: 40px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+  }
+  .rdf img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .rdf button {
+    background-color: #b5b5d8;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  .text-container {
+    width: 30vw;
+    float: left;
+
+}
+
+  .footer-h2 {
+    text-transform: uppercase;
+}
+  
+
+  /* Media Queries */
+@media screen and (max-width: 768px) {
+  :root {
+      --base-font-size: 14px;
+  }
+  
+  header, main, footer {
+      padding: var(--base-spacing);
+  }
+  
+  nav ul {
+      flex-direction: column;
+  }
+
+  .image-text-container {
+    .map-geolocation-container {
+        flex-direction: column; /* Stack sections vertically */
+        gap: 10px; /* Reduced gap between sections */
+      }
+
+    .divider {
+        display: none; /* Hide the divider */
+    }
+
+    .map-section, .geolocalization-section {
+        box-sizing: border-box;
+        flex: 1;
+        width: 100%; /* Make each section take full width */
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  :root {
+      --primary-color: #B7B5E4;
+      --secondary-color: #000000;
+      --background-color: #ffffff;
+      --text-color: #000000;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+      transition: none !important;
+      animation: none !important;
+  }
+}
+}
