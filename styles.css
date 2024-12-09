@@ -185,7 +185,14 @@ a:focus, button:focus {
     background-repeat: no-repeat; /* Prevents the SVG from repeating */
 }
 
+.minisection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: var(--spacing-large)
 
+}
 
 #home, #about, #timeline-section, #about-section {
     min-height: 120vh;
@@ -201,7 +208,7 @@ a:focus, button:focus {
 #home {
      background-image: url('partenone2.svg'); /* Path to your SVG file */
     background-size: 60%; /* Ensures the SVG covers the entire div */
-    background-position: center; /* Centers the SVG within the div */
+    background-position: right; /* Centers the SVG within the div */
     background-repeat: no-repeat; /* Prevents the SVG from repeating */
 }
 
@@ -342,6 +349,14 @@ section {
     display: block;
   }
 
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  #map-section {
+    
+ 
+  }
   #map { height: 600px; 
     width: 100%; 
     z-index: 0;
@@ -349,11 +364,28 @@ section {
     border-radius: var(--spacing-large)
 }
 
+.wrapper {
+    width: 70%;
+}
+
+#map-text{
+    margin-top: 0;
+    color: var(--accent1-color);
+    text-align: left;
+}
+
+.p-map {
+    margin-right: calc(var(--spacing-large)*var(--golden-ratio));
+
+}
+
+
   .custom-pin .pin {
-    width: var(--spacing-small);
-    height: var(--spacing-small);
+    width: calc(var(--spacing-small)*var(--golden-ratio));
+    height: calc(var(--spacing-small)*var(--golden-ratio));
     background-color: var(--primary-color);
     border-radius: 50%;
+    border: 2px solid var(--background-color);
     cursor: pointer;
 }
 
