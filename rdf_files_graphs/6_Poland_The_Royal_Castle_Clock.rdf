@@ -19,6 +19,7 @@
         <dc:type>timepiece</dc:type>
         <dct:created>1622</dct:created>
         <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q270"/>
+        <cid:P12i_was_present_at rdf:resource="https://www.wikidata.org/wiki/Q631163"/>
         <cid:P13i_was_destroyed_by rdf:resource="https://www.wikidata.org/wiki/Q179057"/>
         <cid:P31i_was_modified_by rdf:resource="https://www.wikidata.org/wiki/Q3422086"/>
         <cid:P31i_was_modified_by rdf:resource="https://www.wikidata.org/wiki/Q192623"/>

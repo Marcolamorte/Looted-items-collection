@@ -1,0 +1,181 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#"
+ xmlns:wiki="https://www.wikidata.org/wiki/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <cid:E24 rdf:about="https://www.wikidata.org/wiki/Q104411136">
+        <dc:creator rdf:resource="http://www.itemsontology.com/item_features/Achemenid_Artists"/>
+        <dc:description>The Achaemenid Reliefs are a remarkable aspect of ancient Persian art and architecture, primarily associated with the Achaemenid Empire, which was founded by Cyrus the Great and lasted until its conquest by Alexander the Great. These reliefs are some of the most significant artistic legacies of the Achaemenid Empire, in particular for its cultural and historical importance, which offers a glimpse into the political, cultural, and religious life of ancient Persia.</dc:description>
+        <dc:subject>Persepolis (Iran)</dc:subject>
+        <dc:subject>Aechemenid Art</dc:subject>
+        <dc:subject>Iranian history</dc:subject>
+        <dc:title>The Achaemenid Reliefs</dc:title>
+        <dc:type>Sculpture</dc:type>
+        <dc:type>Relief</dc:type>
+        <dct:created>550 BCE - 330 BCE</dct:created>
+        <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q27699276"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q129072"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q18345888"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q129072"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Good_State_Overall"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q23757"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q389688"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q220659"/>
+        <dir:P149 rdf:resource="https://www.wikidata.org/wiki/Q4673399"/>
+    </cid:E24>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q129072">
+        <rdfs:label>Persepolis</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">29.9368</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.89</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/110836/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110836</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q794"/>
+        <dir:P31 rdf:resource="https://www.wikidata.org/wiki/Q839954"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q794">
+       <rdfs:label>Iran</rdfs:label>
+    </cid:E53>
+    <cid:E78 rdf:about="https://www.wikidata.org/wiki/Q27699276">
+        <cid:P147i_was_curated_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87"/>
+        <rdfs:label>Museum Collection</rdfs:label>
+    </cid:E78>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <rdfs:label>Curation Activity</rdfs:label>
+    </rdf:Description>
+    <wiki:Q483501 rdf:about="http://www.itemsontology.com/item_features/Achemenid_Artists">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:label>Achemenid Artists</rdfs:label>
+    </wiki:Q483501>
+    <cid:E29 rdf:about="https://www.wikidata.org/wiki/Q4673399">
+       <rdfs:label>Achaemenid Architecture</rdfs:label>
+    </cid:E29>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Good_State_Overall">
+        <cid:P3>Some reliefs are fragmented or eroded by time and natural elements.</cid:P3>
+        <rdfs:label>Good State Overall</rdfs:label>
+    </cid:E3>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q23757">
+       <rdfs:label>Limestone</rdfs:label>
+    </cid:E57>
+    <cid:E8 rdf:about="https://www.wikidata.org/wiki/Q707482">
+        <dct:temporal>19th-20th century</dct:temporal>
+        <skos:altLabel>Donation</skos:altLabel>
+    </cid:E8>
+    <cid:E96 rdf:about="https://www.wikidata.org/wiki/Q18345888">
+        <dct:temporal>19th-20th century</dct:temporal>
+        <rdfs:label>Purchase and Sale Agreement </rdfs:label>
+    </cid:E96>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q6373">
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q18345888"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>British Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.51945</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.12708</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/6697862/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6697862</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q46"/>
+    </cid:E53>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q389688">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q23009442"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74"/>
+        <rdfs:label>Achaemenid Empire</rdfs:label>
+    </cid:E39>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q23009442">
+        <cid:P14 rdf:resource="http://www.itemsontology.com/item_features/European_Collectors"/>
+        <cid:P17 rdf:resource="http://www.itemsontology.com/item_features/European_Discoveries"/>
+        <rdfs:label>Removal</rdfs:label>
+    </cid:E7>
+    <cid:E5 rdf:about="http://www.itemsontology.com/item_features/European_Discoveries">
+        <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q17631847"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdfs:label>European Discoveries</rdfs:label>
+    </cid:E5>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
+       <dct:temporal>1920-1990</dct:temporal><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q17631847">
+        <dct:temporal>19th - 20th century</dct:temporal>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q7167"/>
+        <rdfs:label>European colonialism</rdfs:label>
+    </cid:E2>
+    <cid:E39 rdf:about="http://www.itemsontology.com/item_features/European_Collectors">
+        <cid:P11i_participated_in rdf:resource="http://www.itemsontology.com/item_features/European_Discoveries"/>
+        <rdfs:label>European Collectors</rdfs:label>
+    </cid:E39>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
+       <rdfs:label>Curated Holding</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29">
+       <rdfs:label>Design or Procedure</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8">
+       <rdfs:label>Acquisition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E96">
+       <rdfs:label>Purchase</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E74">
+       <rdfs:label>Group</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+       <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q220659">
+       <rdfs:label>Archaeological Artefact</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q839954">
+       <rdfs:label>Archaeological Site</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q483501">
+       <rdfs:label>Artist</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q33506">
+       <rdfs:label>Museum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q84">
+       <rdfs:label>London</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q46">
+       <rdfs:label>Europe</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>

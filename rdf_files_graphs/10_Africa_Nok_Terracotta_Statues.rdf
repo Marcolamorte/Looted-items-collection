@@ -1,0 +1,247 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#">
+    <cid:E24 rdf:about="http://www.itemsontology.com/item_features/Nok_terracotta_statues">
+        <dc:creator rdf:resource="https://www.wikidata.org/wiki/Q927291"/>
+        <dc:description>The Nok terracotta statues are remarkable artifacts from the Nok culture, one of Africa’s earliest known civilizations, which flourished in what is now Nigeria between approximately 1500 BCE to 500 CE . The Nok people are known for their advanced terracotta production, particularly their intricate sculptures, which are considered some of the oldest known sculptures in sub-Saharan Africa. The Nok terracotta statues likely represent a range of subjects, including humans, animals, and possibly mythical or spiritual beings, reflecting the beliefs, customs, and societal structures of the Nok culture.</dc:description>
+        <dc:subject>Nok Site (Nigeria)</dc:subject>
+        <dc:subject>Terracotta sculpture</dc:subject>
+        <dc:subject>Nigerian Art</dc:subject>
+        <dc:title>The Nok terracotta statues</dc:title>
+        <dc:type>sculpture</dc:type>
+        <dct:created>1500 BCE - 500 CE</dct:created>
+        <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q27699276"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q7047825"/>
+        <cid:P108i_was_produced_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12"/>
+        <cid:P12i_was_present_at rdf:resource="http://www.itemsontology.com/item_features/American_Discoveries"/>
+        <cid:P12i_was_present_at rdf:resource="http://www.itemsontology.com/item_features/European_Discoveries"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <cid:P25i_moved_by rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q30"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q46"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q7047825"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Well_preserved_state"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Highly_fragmented_and_eroded_state"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q60424"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q927291"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q148554"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q160236"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q19675"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q148554"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q160236"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q19675"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <rdfs:label>Nok terracotta statues</rdfs:label>
+        <dir:P575 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1928</dir:P575>
+    </cid:E24>
+    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q927291">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74"/>
+        <rdfs:label>Nok culture</rdfs:label>
+    </dct:Agent>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q7047825">
+        <dc:description>Village in Nigeria</dc:description>
+        <rdfs:label>Nok</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.49024</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.02111</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/2328757/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q208318"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2328757</dir:P1566>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q208318">
+        <rdfs:label>Kaduna</rdfs:label>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q1033"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q1033">
+       <rdfs:label>Nigeria</rdfs:label>
+    </cid:E53>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E12">
+        <cid:P33 rdf:resource="https://www.wikidata.org/wiki/Q21711025"/>
+        <rdfs:label>Production</rdfs:label>
+    </rdf:Description>
+    <cid:E29 rdf:about="https://www.wikidata.org/wiki/Q21711025">
+       <rdfs:label>Sculpture Technique</rdfs:label>
+    </cid:E29>
+    <cid:E78 rdf:about="https://www.wikidata.org/wiki/Q27699276">
+        <cid:P147i_was_curated_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87"/>
+        <cid:P3>There is no a uniform collection because many statues have been moved in different museums around the world.</cid:P3>
+        <rdfs:label>Museum Collection</rdfs:label>
+    </cid:E78>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q148554"/>
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q160236"/>
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q19675"/>
+        <rdfs:label>Curation Activity</rdfs:label>
+    </rdf:Description>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Well_preserved_state">
+       <rdfs:label>Well preserved state</rdfs:label>
+    </cid:E3>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Highly_fragmented_and_eroded_state">
+       <rdfs:label>Highly fragmented and eroded state</rdfs:label>
+    </cid:E3>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+        <cid:P3>Due to natural erosion and exposure to enviromental elements may of them were found in fragmentary condition.&quot;Others have been found in remarkably intact condition, with minimal damage or breakage.</cid:P3>
+        <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q60424">
+       <rdfs:label>Terracotta</rdfs:label>
+    </cid:E57>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q148554">
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>National Museum of Natural History</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.89122</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-77.02609</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/4139757/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q61"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4139757</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q30"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q160236">
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>Metropolitan Museum of Art</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.77955</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-73.96292</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/5126698/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5126698</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q30"/>
+        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q60"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q19675">
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>Louvre Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.86102</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.33587</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/2997319/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2997319</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q46"/>
+        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q90"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q6373">
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>British Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.51945</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.12708</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/6697862/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6697862</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q46"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q30">
+       <rdfs:label>United States of America</rdfs:label>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q46">
+       <rdfs:label>Europe</rdfs:label>
+    </cid:E53>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q192623">
+        <cid:P14 rdf:resource="http://www.itemsontology.com/item_features/American_Collectors"/>
+        <cid:P14 rdf:resource="http://www.itemsontology.com/item_features/European_Collectors"/>
+        <cid:P17 rdf:resource="http://www.itemsontology.com/item_features/American_Discoveries"/>
+        <cid:P17 rdf:resource="http://www.itemsontology.com/item_features/European_Discoveries"/>
+        <rdfs:label>Looting</rdfs:label>
+    </cid:E7>
+    <cid:E5 rdf:about="http://www.itemsontology.com/item_features/American_Discoveries">
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q7047825"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q208318"/>
+        <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q605269"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdfs:label>American Discoveries</rdfs:label>
+    </cid:E5>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
+       <dct:temporal>1920-1990</dct:temporal><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q605269">
+        <dct:temporal>19th - 20th century</dct:temporal>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q7260"/>
+        <rdfs:label>American Imperialism</rdfs:label>
+    </cid:E2>
+    <cid:E5 rdf:about="http://www.itemsontology.com/item_features/European_Discoveries">
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q7047825"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q208318"/>
+        <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q17631847"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdfs:label>European Discoveries</rdfs:label>
+    </cid:E5>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q17631847">
+        <dct:temporal>19th - 20th century</dct:temporal>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q7167"/>
+        <rdfs:label>European colonialism</rdfs:label>
+    </cid:E2>
+    <cid:E39 rdf:about="http://www.itemsontology.com/item_features/American_Collectors">
+        <cid:P11i_participated_in rdf:resource="http://www.itemsontology.com/item_features/American_Discoveries"/>
+        <rdfs:label>American Collectors</rdfs:label>
+    </cid:E39>
+    <cid:E39 rdf:about="http://www.itemsontology.com/item_features/European_Collectors">
+        <cid:P11i_participated_in rdf:resource="http://www.itemsontology.com/item_features/European_Discoveries"/>
+        <rdfs:label>European Collectors</rdfs:label>
+    </cid:E39>
+    <cid:E21 rdf:about="http://www.itemsontology.com/item_features/John_Dent-Young">
+        <rdfs:label>John Dent-Young</rdfs:label>
+        <dir:P61 rdf:resource="http://www.itemsontology.com/item_features/Nok_terracotta_statues"/>
+    </cid:E21>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29">
+       <rdfs:label>Design or Procedure</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
+       <rdfs:label>Curated Holding</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E74">
+       <rdfs:label>Group</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+       <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+       <rdfs:label>Person</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q33506">
+       <rdfs:label>Museum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q61">
+       <rdfs:label>Washington D.C</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q60">
+       <rdfs:label>New York City</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q90">
+       <rdfs:label>Paris</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q84">
+       <rdfs:label>London</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7260">
+       <rdfs:label>Imperialism</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>

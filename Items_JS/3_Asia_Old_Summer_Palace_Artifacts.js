@@ -48,7 +48,7 @@ store.add(WD('Q2668072'), DCTERMS('isPartOf'), ITO('East_Asia_Collection'));
 store.add(ITO('East_Asia_Collection'), RDF('type'), WD('Q27699276'));
 store.add(ITO('East_Asia_Collection'), RDFS('label'), literal('East Asia Collection'));
 store.add(WD('Q27699276'), RDF('type'), CRM('E78'));
-store.add(ITO('East_Asia_Collection'),  namedNode('http://www.cidoc-crm.org/cidoc-crm/P147i_was_curated_by'), CRM('E87'));
+store.add(ITO('East_Asia_Collection'), namedNode('http://www.cidoc-crm.org/cidoc-crm/P147i_was_curated_by'), CRM('E87'));
 store.add(CRM('E87'), CRM('P14'), WD('Q213322'));
 store.add(WD('Q213322'), RDF('type'), CRM('E39'));
 store.add(WD('Q213322'), RDF('type'), CRM('E53'));
@@ -164,4 +164,4 @@ function salvaGrafo(percorsoOutput) {
 }
 
 // Salva il file RDF
-salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Desing and Technologies\\Vitali project\\rdf_files_graphs\\3_Asia_Old_Summer_Palace_Artifacts.rdf');
+salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Design and Technologies\\Vitali project\\rdf_files_graphs\\3_Asia_Old_Summer_Palace_Artifacts.rdf');

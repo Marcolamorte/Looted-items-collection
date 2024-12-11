@@ -112,6 +112,8 @@ store.add(WD('Q631163'), CRM('P4'), ITO('E52_Time_Span_2'));
 store.add(ITO('E52_Time_Span_2'), RDFS('label'), literal('Time Span 2'));
 store.add(ITO('E52_Time_Span_2'), RDFS('subClassOf'), CRM('E52'));
 store.add(ITO('E52_Time_Span_2'), DCTERMS('temporal'), literal('1655-1660'));
+store.add(ITO('Royal_Castle_Clock'), namedNode('http://www.cidoc-crm.org/cidoc-crm/P12i_was_present_at'), WD('Q631163'));
+
 
 
 // Aggiungi label per classi/entità di Cidoc-crm/Wikidata/DC/DCTerms
@@ -175,4 +177,4 @@ function salvaGrafo(percorsoOutput) {
 }
 
 // Salva il file RDF
-salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Desing and Technologies\\Vitali project\\rdf_files_graphs\\6_Poland_The_Royal_Castle_Clock.rdf');
+salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Design and Technologies\\Vitali project\\rdf_files_graphs\\6_Poland_The_Royal_Castle_Clock.rdf');

@@ -16,14 +16,14 @@
         <dc:subject>Benin Art</dc:subject>
         <dc:subject>African history and culture</dc:subject>
         <dc:subject>Ritual</dc:subject>
-        <dc:title>Benin Bronzes Collection</dc:title>
+        <dc:title>The Benin Bronzes Collection</dc:title>
         <dc:type>Sculpture</dc:type>
-        <dc:type>Metal plaques</dc:type>
+        <dc:type>Metal plaque</dc:type>
         <dct:created>16th-17th century</dct:created>
         <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q27699276"/>
         <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q320704"/>
         <cid:P108i_was_produced_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12"/>
-        <cid:P12i_was_present_at rdf:resource="http://www.itemsontology.com/item_features/Benin_Punitive_Expedition"/>
+        <cid:P12i_was_present_at rdf:resource="https://www.wikidata.org/wiki/Q3966451"/>
         <cid:P24i_changed_ownership_through rdf:resource="http://www.itemsontology.com/item_features/British_Plunder"/>
         <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
         <cid:P25i_moved_by rdf:resource="http://www.itemsontology.com/item_features/British_Plunder"/>
@@ -35,7 +35,7 @@
         <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q82001"/>
         <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q753"/>
         <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q1371091"/>
-        <cid:P51 rdf:resource="http://www.itemsontology.com/item_features/King_of_Benin_Kingdom"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q171203"/>
         <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
         <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
     </cid:E24>
@@ -70,7 +70,8 @@
        <rdfs:label>Place</rdfs:label>
     </rdf:Description>
     <wiki:Q1294787 rdf:about="http://www.itemsontology.com/item_features/Benin_Artisans">
-       <rdfs:label>Benin Artisans</rdfs:label>
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:label>Benin Artisans</rdfs:label>
     </wiki:Q1294787>
     <cid:E78 rdf:about="https://www.wikidata.org/wiki/Q27699276">
         <cid:P147i_was_curated_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87"/>
@@ -89,15 +90,16 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
        <rdfs:label>Condition State</rdfs:label>
     </rdf:Description>
-    <wiki:Q116 rdf:about="http://www.itemsontology.com/item_features/King_of_Benin_Kingdom">
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q171203">
         <cid:P23i_surrendered_title_through rdf:resource="http://www.itemsontology.com/item_features/British_Plunder"/>
-        <rdfs:label>King of Benin Kingdom</rdfs:label>
-    </wiki:Q116>
-    <wiki:Q2401485 rdf:about="http://www.itemsontology.com/item_features/Benin_Punitive_Expedition">
+        <skos:altLabel>Benin Kingdom</skos:altLabel>
+    </cid:E39>
+    <wiki:Q2401485 rdf:about="https://www.wikidata.org/wiki/Q3966451">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1897</dc:date>
         <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q320704"/>
         <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q179848"/>
-        <rdfs:label>Benin Punitive Expedition</rdfs:label>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5"/>
+        <rdfs:label>Benin Expedition of 1897</rdfs:label>
     </wiki:Q2401485>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87">
         <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
@@ -113,7 +115,7 @@
     <wiki:Q192623 rdf:about="http://www.itemsontology.com/item_features/British_Plunder">
         <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q172771"/>
         <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q723992"/>
-        <cid:P17 rdf:resource="http://www.itemsontology.com/item_features/Benin_Punitive_Expedition"/>
+        <cid:P17 rdf:resource="https://www.wikidata.org/wiki/Q3966451"/>
         <rdfs:label>British Plunder</rdfs:label>
     </wiki:Q192623>
     <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q192623">
@@ -123,7 +125,7 @@
        <rdfs:label>Activity</rdfs:label>
     </rdf:Description>
     <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q172771">
-        <cid:P11i_participated_in rdf:resource="http://www.itemsontology.com/item_features/Benin_Punitive_Expedition"/>
+        <cid:P11i_participated_in rdf:resource="https://www.wikidata.org/wiki/Q3966451"/>
         <skos:altLabel>British Royal Navy</skos:altLabel>
     </cid:E39>
     <cid:E29 rdf:about="https://www.wikidata.org/wiki/Q765814">
@@ -132,34 +134,36 @@
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29">
        <rdfs:label>Design or Procedure</rdfs:label>
     </rdf:Description>
-    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q723992">
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q723992">
         <ont:officerInCharge rdf:resource="https://www.wikidata.org/wiki/Q172771"/>
-        <cid:P11i_participated_in rdf:resource="http://www.itemsontology.com/item_features/Benin_Punitive_Expedition"/>
+        <cid:P11i_participated_in rdf:resource="https://www.wikidata.org/wiki/Q3966451"/>
         <rdfs:label>Sir Harry Rawson</rdfs:label>
         <dir:P39 rdf:resource="https://www.wikidata.org/wiki/Q2501631"/>
-    </cid:E21>
-    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q84">
+    </cid:E39>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q84">
        <rdfs:label>London</rdfs:label>
-    </cid:E53>
+    </rdf:Description>
     <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q39782">
        <rdfs:label>Brass</rdfs:label>
     </cid:E57>
     <wiki:Q7167 rdf:about="https://www.wikidata.org/wiki/Q179848">
         <dct:temporal>1880-1914</dct:temporal>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2"/>
         <rdfs:label>The Scramble for Africa</rdfs:label>
     </wiki:Q7167>
-    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q7167">
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7167">
        <rdfs:label>Colonialism</rdfs:label>
-    </cid:E2>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
        <rdfs:label>Temporal Entity</rdfs:label>
     </rdf:Description>
-    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q1294787">
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1294787">
        <rdfs:label>Artisan</rdfs:label>
-    </dct:Agent>
+    </rdf:Description>
     <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q6373">
         <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
         <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
         <rdfs:label>British Museum</rdfs:label>
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.51945</geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.12708</geo:long>
@@ -167,17 +171,14 @@
         <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
         <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6697862</dir:P1566>
     </cid:E39>
-    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q116">
-       <rdfs:label>Monarch</rdfs:label>
-    </cid:E21>
-    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
-       <rdfs:label>Person</rdfs:label>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q33506">
+       <rdfs:label>Museum</rdfs:label>
     </rdf:Description>
-    <cid:E5 rdf:about="https://www.wikidata.org/wiki/Q2401485">
-       <rdfs:label>Expedition</rdfs:label>
-    </cid:E5>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
        <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q2401485">
+       <rdfs:label>Expedition</rdfs:label>
     </rdf:Description>
     <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q82001">
        <rdfs:label>Ivory</rdfs:label>

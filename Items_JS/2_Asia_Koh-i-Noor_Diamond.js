@@ -91,7 +91,7 @@ store.add(CRM('E52'), DC('date'), literal("1848-04-18/1849-03-29"));
 store.add(WD('Q243590'), CRM('P10'), ITO('British_Colonialism_in_India'));
 store.add(ITO('British_Colonialism_in_India'), RDF('type'), WD('Q7167'));
 store.add(ITO('British_Colonialism_in_India'), RDFS('label'), literal('British Colonialism in India'));
-store.add(WD('Q7167'), RDF('type'), CRM('E2'));
+store.add(ITO('British_Colonialism_in_India'), RDF('type'), CRM('E2'));
 store.add(ITO('British_Colonialism_in_India'), DCTERMS('temporal'), literal("1757-1947"));
 store.add(WD('Q83164'), namedNode('http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in'), WD('Q243590'));
 store.add(WD('Q83164'), RDF('type'), CRM('E39'));
@@ -147,4 +147,4 @@ function salvaGrafo(percorsoOutput) {
 }
 
 // Salva il file RDF
-salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Desing and Technologies\\Vitali project\\rdf_files_graphs\\2_Asia_Koh-i-Noor_Diamond.rdf');
+salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Design and Technologies\\Vitali project\\rdf_files_graphs\\2_Asia_Koh-i-Noor_Diamond.rdf');

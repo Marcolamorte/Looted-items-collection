@@ -113,11 +113,9 @@
     </rdf:Description>
     <wiki:Q7167 rdf:about="http://www.itemsontology.com/item_features/British_Colonialism_in_India">
         <dct:temporal>1757-1947</dct:temporal>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2"/>
         <rdfs:label>British Colonialism in India</rdfs:label>
     </wiki:Q7167>
-    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q7167">
-       <rdfs:label>Colonialism</rdfs:label>
-    </cid:E2>
     <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q83164">
         <cid:P11i_participated_in rdf:resource="https://www.wikidata.org/wiki/Q243590"/>
         <skos:altLabel>British East India Company</skos:altLabel>
@@ -151,5 +149,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
        <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
