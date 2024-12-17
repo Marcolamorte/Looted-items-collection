@@ -49,12 +49,9 @@
        <rdfs:label>Greece</rdfs:label>
     </cid:E53>
     <cid:E78 rdf:about="https://www.wikidata.org/wiki/Q27699276">
-       <rdfs:label>Museum Collection</rdfs:label>
-    </cid:E78>
-    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
         <cid:P147i_was_curated_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87"/>
-        <rdfs:label>Curated Holding</rdfs:label>
-    </rdf:Description>
+        <rdfs:label>Museum Collection</rdfs:label>
+    </cid:E78>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87">
         <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
         <rdfs:label>Curation Activity</rdfs:label>
@@ -131,6 +128,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
        <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
+       <rdfs:label>Curated Holding</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
        <rdfs:label>Actor</rdfs:label>

@@ -167,4 +167,4 @@ function salvaGrafo(percorsoOutput) {
 }
 
 // Salva il file RDF
-salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Desing and Technologies\\Vitali project\\rdf_files_graphs\\4_Asia_The_Sultanganj_Buddha.rdf');
+salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Design and Technologies\\Vitali project\\rdf_files_graphs\\4_Asia_The_Sultanganj_Buddha.rdf');

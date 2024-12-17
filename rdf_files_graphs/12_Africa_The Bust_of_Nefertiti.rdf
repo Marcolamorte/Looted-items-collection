@@ -1,0 +1,218 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#">
+    <cid:E24 rdf:about="https://www.wikidata.org/wiki/Q582172">
+        <dc:creator rdf:resource="https://www.wikidata.org/wiki/Q281100"/>
+        <dc:description>One of the most iconic and famous works of ancient Egyptian art, symbolizing the timeless beauty and power of Queen Nefertiti, the Great Royal Wife of Pharaoh Akhenaten.  Widely admired for its artistic mastery and realism,  The bust is carved from limestone and covered with a layer of stucco with a delicately painted surface that highlights the queen's refined features such as her high cheekbones, full lips, and graceful neck. . She is depicted wearing a flat-topped blue crown with a golden diadem, symbolizing her royal status.</dc:description>
+        <dc:subject>Nefertiti Queen</dc:subject>
+        <dc:subject>Busts</dc:subject>
+        <dc:subject>Egyptian Art</dc:subject>
+        <dc:title>The Bust of Nefertiti</dc:title>
+        <dc:type>bust</dc:type>
+        <dct:created>1345 BC</dct:created>
+        <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q27699276"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q5736"/>
+        <cid:P12i_was_present_at rdf:resource="http://www.itemsontology.com/item_features/German_Archeological_Expedition"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q12772819"/>
+        <cid:P25i_moved_by rdf:resource="https://www.wikidata.org/wiki/Q12772819"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q64"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q5736"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q25288"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q35059"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q208826"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Good_State_Overall"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q23757"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q274988"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q84859"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q40930"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q157316"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q157316"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q10855061"/>
+    </cid:E24>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q5736">
+        <rdfs:label>Amarna</rdfs:label>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q79"/>
+        <dir:P31 rdf:resource="https://www.wikidata.org/wiki/Q839954"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q79">
+       <rdfs:label>Iran</rdfs:label>
+    </cid:E53>
+    <cid:E78 rdf:about="https://www.wikidata.org/wiki/Q27699276">
+        <cid:P147i_was_curated_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87"/>
+        <rdfs:label>Museum Collection</rdfs:label>
+    </cid:E78>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q157316"/>
+        <rdfs:label>Curation Activity</rdfs:label>
+    </rdf:Description>
+    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q281100">
+        <rdfs:label>Thutmose</rdfs:label>
+        <dir:P106 rdf:resource="https://www.wikidata.org/wiki/Q1281618"/>
+    </dct:Agent>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Good_State_Overall">
+        <cid:P3>Missing inlay in the left eye .The painted surface, though largely intact, has experienced some fading and wear over time. There are minor cracks and chips in the stucco layer, which covers the limestone core.</cid:P3>
+        <rdfs:label>Good State Overall</rdfs:label>
+    </cid:E3>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q25288">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20</cid:P90>
+        <cid:P91>kilogram</cid:P91>
+        <rdfs:label>Weight</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q35059">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Width</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q208826">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Height</rdfs:label>
+    </cid:E54>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q23757">
+       <rdfs:label>Limestone</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q274988">
+       <skos:altLabel>Stucco</skos:altLabel>
+    </cid:E57>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q157316">
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>Neues Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.5202</geo:lat>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.65</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.39774</geo:long>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.96667</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/7911196/"/>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/347585/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7911196</dir:P1566>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">347585</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q183"/>
+        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q64"/>
+    </cid:E39>
+    <cid:E8 rdf:about="https://www.wikidata.org/wiki/Q707482">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1920</dc:date>
+        <skos:altLabel>Donation</skos:altLabel>
+    </cid:E8>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q84859">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <rdfs:label>James Simon</rdfs:label>
+        <dir:P106 rdf:resource="https://www.wikidata.org/wiki/Q131524"/>
+    </cid:E39>
+    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q40930">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q12772819"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q116"/>
+        <rdfs:label>Nefertiti</rdfs:label>
+    </cid:E21>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q12772819">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q60758"/>
+        <cid:P17 rdf:resource="http://www.itemsontology.com/item_features/German_Archeological_Expedition"/>
+        <rdfs:label>Discovery</rdfs:label>
+        <dir:P575 rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1912-12-06</dir:P575>
+    </cid:E7>
+    <cid:E5 rdf:about="http://www.itemsontology.com/item_features/German_Archeological_Expedition">
+        <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q17631847"/>
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q314420"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q2401485"/>
+        <rdfs:label>German archeological expedition</rdfs:label>
+    </cid:E5>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
+       <dct:temporal>1911-1912</dct:temporal><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q17631847">
+        <dct:temporal>19th - 20th century</dct:temporal>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q7167"/>
+        <rdfs:label>European Colonialism</rdfs:label>
+    </cid:E2>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q314420">
+       <rdfs:label>Deutsche Orient-Gesellschaft</rdfs:label>
+    </cid:E39>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q60758">
+        <cid:P11i_participated_in rdf:resource="http://www.itemsontology.com/item_features/German_Archeological_Expedition"/>
+        <rdfs:label>Ludwig Borchardt</rdfs:label>
+        <dir:P106 rdf:resource="https://www.wikidata.org/wiki/Q3621491"/>
+        <dir:P463 rdf:resource="https://www.wikidata.org/wiki/Q314420"/>
+        <dir:P61 rdf:resource="https://www.wikidata.org/wiki/Q582172"/>
+    </cid:E39>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
+       <rdfs:label>Curated Holding</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E54">
+       <rdfs:label>Dimension</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8">
+       <rdfs:label>Acquisition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+       <rdfs:label>Person</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+       <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q10855061">
+       <rdfs:label>Archaeological Find</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q839954">
+       <rdfs:label>Archaeological Site</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1281618">
+       <rdfs:label>Sculptor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q131524">
+       <rdfs:label>Enterpreneur</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q33506">
+       <rdfs:label>Museum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q64">
+       <rdfs:label>Berlin</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q183">
+       <rdfs:label>Germany</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q116">
+       <rdfs:label>Monarch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q2401485">
+       <rdfs:label>Expedition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q3621491">
+       <rdfs:label>Archeologist</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>

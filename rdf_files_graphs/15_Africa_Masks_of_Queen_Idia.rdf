@@ -1,0 +1,242 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:wiki="https://www.wikidata.org/wiki/"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <cid:E24 rdf:about="https://www.wikidata.org/wiki/Q18385381">
+        <dc:creator rdf:resource="http://www.itemsontology.com/item_features/Benin_Artisans"/>
+        <dc:description>A couple of royal ivory masks representing the Queen Mother, central to Benin’s cultural heritage. This type of mask was worn by the Oba, on the hip, during important ceremonies.</dc:description>
+        <dc:subject>Benin Art</dc:subject>
+        <dc:subject>Masks</dc:subject>
+        <dc:subject>Idia Queen</dc:subject>
+        <dc:title>The Masks of Queen Idia</dc:title>
+        <dc:type>Mask</dc:type>
+        <dc:type>Pendant</dc:type>
+        <dct:created>16th century</dct:created>
+        <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q27699276"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q320704"/>
+        <cid:P12i_was_present_at rdf:resource="https://www.wikidata.org/wiki/Q3966451"/>
+        <cid:P24i_changed_ownership_through rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E96"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <cid:P25i_moved_by rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q110925320"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q208826"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q35059"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q3250078"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Good_State_Overall"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q677"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q82001"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q753"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q185664"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q11237"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q16846394"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q160236"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q160236"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+    </cid:E24>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q320704">
+        <rdfs:label>Benin City</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.33815</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.62575</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/2347283/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2347283</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q1033"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q1033">
+       <rdfs:label>Nigeria</rdfs:label>
+    </cid:E53>
+    <cid:E78 rdf:about="https://www.wikidata.org/wiki/Q27699276">
+        <cid:P147i_was_curated_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87"/>
+        <rdfs:label>Museum Collection</rdfs:label>
+    </cid:E78>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q6373"/>
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q160236"/>
+        <rdfs:label>Curation Activity</rdfs:label>
+    </rdf:Description>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q6373">
+        <cid:P22i_acquired_title_through rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E96"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>British Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.51945</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.12708</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/6697862/"/>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q84"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6697862</dir:P1566>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q160236">
+        <cid:P22i_acquired_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>Metropolitan Museum of Art</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.77955</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-73.96292</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/5126698/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5126698</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q30"/>
+        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q60"/>
+    </cid:E53>
+    <wiki:Q1294787 rdf:about="http://www.itemsontology.com/item_features/Benin_Artisans">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:label>Benin Artisans</rdfs:label>
+        <dir:P361 rdf:resource="https://www.wikidata.org/wiki/Q1287326"/>
+    </wiki:Q1294787>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Good_State_Overall">
+       <rdfs:label>Good State Overall</rdfs:label>
+    </cid:E3>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q208826">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.50</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Height</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q35059">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.50</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Width</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q3250078">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Depth</rdfs:label>
+    </cid:E54>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q677">
+       <rdfs:label>Iron</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q82001">
+       <rdfs:label>Ivory</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q753">
+       <rdfs:label>Copper</rdfs:label>
+    </cid:E57>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E96">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1910</dc:date>
+        <rdfs:label>Purchase</rdfs:label>
+    </rdf:Description>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q185664">
+        <cid:P23i_surrendered_title_through rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E96"/>
+        <rdfs:label>Charles Gabriel Seligman</rdfs:label>
+        <dir:P106 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/Q3621491"/>
+    </cid:E39>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q11237">
+        <dc:description>Vice President of the United States from 1974 to 1977</dc:description>
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q707482"/>
+        <rdfs:label>Nelson Rockefeller</rdfs:label>
+    </cid:E39>
+    <cid:E8 rdf:about="https://www.wikidata.org/wiki/Q707482">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</dc:date>
+        <skos:altLabel>Donation</skos:altLabel>
+    </cid:E8>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q110925320">
+        <rdfs:label>The royal palace of the Kingdom of Benin (Oba of Benin’s Palace)</rdfs:label>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q320704"/>
+    </cid:E53>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q16846394">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q116"/>
+        <rdfs:label>Queen Idia</rdfs:label>
+    </cid:E39>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q192623">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q172771"/>
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q7287880"/>
+        <cid:P17 rdf:resource="https://www.wikidata.org/wiki/Q3966451"/>
+        <rdfs:label>Looting</rdfs:label>
+    </cid:E7>
+    <wiki:Q2401485 rdf:about="https://www.wikidata.org/wiki/Q3966451">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1897</dc:date>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q320704"/>
+        <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q179848"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5"/>
+        <rdfs:label>Benin Expedition of 1897</rdfs:label>
+    </wiki:Q2401485>
+    <wiki:Q7167 rdf:about="https://www.wikidata.org/wiki/Q179848">
+        <dct:temporal>1880-1914</dct:temporal>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2"/>
+        <rdfs:label>The Scramble for Africa</rdfs:label>
+    </wiki:Q7167>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q172771">
+        <cid:P11i_participated_in rdf:resource="https://www.wikidata.org/wiki/Q3966451"/>
+        <skos:altLabel>British Royal Navy</skos:altLabel>
+    </cid:E39>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q7287880">
+        <dc:description>First high commissioner of the British Southern Nigeria Protectorate (1860-1909).</dc:description>
+        <cid:P11i_participated_in rdf:resource="https://www.wikidata.org/wiki/Q3966451"/>
+        <rdfs:label>Ralph Moor</rdfs:label>
+        <dir:P1706 rdf:resource="https://www.wikidata.org/wiki/Q172771"/>
+    </cid:E39>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
+       <rdfs:label>Curated Holding</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E54">
+       <rdfs:label>Dimension</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8">
+       <rdfs:label>Acquisition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+       <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q33506">
+       <rdfs:label>Museum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1287326">
+       <rdfs:label>Edo People</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q84">
+       <rdfs:label>London</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q60">
+       <rdfs:label>New York City</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q30">
+       <rdfs:label>United States of America</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1294787">
+       <rdfs:label>Artisan</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q3621491">
+       <rdfs:label>Archeologist</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q116">
+       <rdfs:label>Monarch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q2401485">
+       <rdfs:label>Expedition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>

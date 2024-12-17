@@ -1,0 +1,162 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <cid:E24 rdf:about="https://www.wikidata.org/wiki/Q158058">
+        <dc:creator rdf:resource="https://www.wikidata.org/wiki/Q270678"/>
+        <dc:description>The Altar of Pergamon (also known as the Pergamon Altar) is one of the most famous and monumental structures from ancient Greece.Built during the Hellenistic period in the ancient city of Pergamon (in present-day Turkey),  the altar is considered one of the greatest achievements of Hellenistic art and architecture. It is a Mythological and cultural symbol, focusing on themes of divine order, power, and victory. Its most famous feature, the Gigantomachy frieze, depicts the legendary battle between the Olympian gods and the Giants, a central myth in ancient Greek cosmology. This battle represents the triumph of divine order and civilization (Gods) over chaos and barbarism (Giants).</dc:description>
+        <dc:subject>Pergamum Altar of Zeus</dc:subject>
+        <dc:subject>Hellenism</dc:subject>
+        <dc:subject>Marble sculpture</dc:subject>
+        <dc:title>The Altar of Pergamon</dc:title>
+        <dc:type>altar</dc:type>
+        <dct:created>197–156 BCE</dct:created>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q18986"/>
+        <cid:P12i_was_present_at rdf:resource="http://www.itemsontology.com/item_features/Opening_Exhibition"/>
+        <cid:P12i_was_present_at rdf:resource="https://www.wikidata.org/wiki/Q959782"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q23009442"/>
+        <cid:P25i_moved_by rdf:resource="https://www.wikidata.org/wiki/Q23009442"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q64"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q18986"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q35059"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q3250078"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Good_State_Overall"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q40861"/>
+        <cid:P50 rdf:resource="https://www.wikidata.org/wiki/Q157298"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q270678"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q700216"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q157298"/>
+        <dir:P575 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1878</dir:P575>
+    </cid:E24>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q18986">
+        <rdfs:label>Pergamon</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">39.13212</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.18412</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/9587350/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9587350</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q43"/>
+        <dir:P31 rdf:resource="https://www.wikidata.org/wiki/Q93342462"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q43">
+       <rdfs:label>Turkey</rdfs:label>
+    </cid:E53>
+    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q270678">
+        <dc:description>King of Pergamon from 197 to 159 BC</dc:description>
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q23009442"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q116"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdfs:label>Eumenes II</rdfs:label>
+    </dct:Agent>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Good_State_Overall">
+        <cid:P3>It has suffered from wear over time, particularly due to weathering, environmental exposure, and historical damage before and during its excavation.</cid:P3>
+        <rdfs:label>Good State Overall</rdfs:label>
+    </cid:E3>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q35059">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.64</cid:P90>
+        <cid:P91>meter</cid:P91>
+        <rdfs:label>Width</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q3250078">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">33.40</cid:P90>
+        <cid:P91>meter</cid:P91>
+        <rdfs:label>Depth</rdfs:label>
+    </cid:E54>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q40861">
+       <rdfs:label>Marble</rdfs:label>
+    </cid:E57>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q700216">
+       <skos:altLabel>Berlin State Museums</skos:altLabel>
+    </cid:E53>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q157298">
+        <cid:P14i_performed rdf:resource="http://www.itemsontology.com/item_features/Opening_Exhibition"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>Pergamon Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">52.5211</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.39669</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/7911193/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7911193</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q183"/>
+        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q64"/>
+        <dir:P361 rdf:resource="https://www.wikidata.org/wiki/Q700216"/>
+    </cid:E39>
+    <cid:E7 rdf:about="http://www.itemsontology.com/item_features/Opening_Exhibition">
+        <rdfs:label>Opening Exhibition</rdfs:label>
+        <dir:P1619 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1930</dir:P1619>
+    </cid:E7>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q23009442">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q64445"/>
+        <cid:P17 rdf:resource="https://www.wikidata.org/wiki/Q959782"/>
+        <rdfs:label>Removal</rdfs:label>
+    </cid:E7>
+    <cid:E5 rdf:about="https://www.wikidata.org/wiki/Q959782">
+        <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q17631847"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdfs:label>Archaeological Excavation</rdfs:label>
+    </cid:E5>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
+       <dct:temporal>1878 - 1886</dct:temporal><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q17631847">
+        <dct:temporal>19th - 20th century</dct:temporal>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q7167"/>
+        <rdfs:label>European Colonialism</rdfs:label>
+    </cid:E2>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q64445">
+        <cid:P11i_participated_in rdf:resource="https://www.wikidata.org/wiki/Q959782"/>
+        <rdfs:label>Carl Humann</rdfs:label>
+        <dir:P106 rdf:resource="https://www.wikidata.org/wiki/Q3621491"/>
+        <dir:P61 rdf:resource="https://www.wikidata.org/wiki/Q158058"/>
+    </cid:E39>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E54">
+       <rdfs:label>Dimension</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+       <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q93342462">
+       <rdfs:label>Ancient Greek archaeological site</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q116">
+       <rdfs:label>Monarch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q33506">
+       <rdfs:label>Museum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q3621491">
+       <rdfs:label>Archeologist</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>

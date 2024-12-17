@@ -1,0 +1,204 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:wiki="https://www.wikidata.org/wiki/">
+    <cid:E24 rdf:about="http://www.itemsontology.com/item_features/Throne_of_King_Glèlè">
+        <dc:creator rdf:resource="http://www.itemsontology.com/item_features/Dahomey_Artisans"/>
+        <dc:description>The Throne of King Glèlè is a significant cultural artifact from the Kingdom of Dahomey, a  symbol of the monarchy representing power and cultural heritage.This throne, along with other royal items from the Kingdom, is often highlighted for its intricate craftsmanship and symbolic importance, reflecting the themes of power spirituality, and the king’s association with animals, which were significant in Dahomean culture.</dc:description>
+        <dc:subject>Thrones</dc:subject>
+        <dc:subject>Dahomey (Kingdom)</dc:subject>
+        <dc:subject>African art</dc:subject>
+        <dc:title>Throne of King Glelè of Dahomey</dc:title>
+        <dc:type>sculpture</dc:type>
+        <dct:created>19th century</dct:created>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q468814"/>
+        <cid:P108i_was_produced_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E12"/>
+        <cid:P12i_was_present_at rdf:resource="https://www.wikidata.org/wiki/Q2090475"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q25450340"/>
+        <cid:P24i_changed_ownership_through rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <cid:P25i_moved_by rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q142"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q468814"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q208826"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q35059"/>
+        <cid:P43 rdf:resource="https://www.wikidata.org/wiki/Q3250078"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Well_preserved_state"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q287"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q11426"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q161179"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q167863"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q718588"/>
+        <cid:P52 rdf:resource="https://www.wikidata.org/wiki/Q7110333"/>
+        <cid:P53 rdf:resource="https://www.wikidata.org/wiki/Q167863"/>
+        <cid:P55 rdf:resource="https://www.wikidata.org/wiki/Q7110333"/>
+        <rdfs:label>Throne of King Glèlè</rdfs:label>
+    </cid:E24>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q468814">
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.18286</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.99119</geo:long>
+        <skos:altLabel>Kingdom of Dahomey</skos:altLabel>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/2395915/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2395915</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q962"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q962">
+       <skos:altLabel>Republic of Benin</skos:altLabel>
+    </cid:E53>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E12">
+        <cid:P33 rdf:resource="https://www.wikidata.org/wiki/Q337907"/>
+        <rdfs:label>Production</rdfs:label>
+    </rdf:Description>
+    <cid:E29 rdf:about="https://www.wikidata.org/wiki/Q337907">
+       <rdfs:label>Wood Carving</rdfs:label>
+    </cid:E29>
+    <dct:Agent rdf:about="http://www.itemsontology.com/item_features/Dahomey_Artisans">
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q1294787"/>
+        <rdfs:label>Dahomey Artisans</rdfs:label>
+    </dct:Agent>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Well_preserved_state">
+       <rdfs:label>Well preserved state</rdfs:label>
+    </cid:E3>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q208826">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">188</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Height</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q35059">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">97</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Width</rdfs:label>
+    </cid:E54>
+    <cid:E54 rdf:about="https://www.wikidata.org/wiki/Q3250078">
+        <cid:P90 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">75</cid:P90>
+        <cid:P91>centimeter</cid:P91>
+        <rdfs:label>Depth</rdfs:label>
+    </cid:E54>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q287">
+       <rdfs:label>Wood</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q11426">
+       <rdfs:label>Metal</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q161179">
+       <rdfs:label>Pigment</rdfs:label>
+    </cid:E57>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q167863">
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q25450340"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdfs:label>Musée du quai Branly</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.860833</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2975</geo:long>
+        <ow:sameAs rdf:resource="https://www.openstreetmap.org/way/17954721"/>
+        <dir:P10689 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17954721</dir:P10689>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q90"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q90">
+        <rdfs:label>Paris</rdfs:label>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q142"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q142">
+       <rdfs:label>France</rdfs:label>
+    </cid:E53>
+    <cid:E8 rdf:about="https://www.wikidata.org/wiki/Q25450340">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-11-09</dc:date>
+        <rdfs:label>Change of ownership</rdfs:label>
+    </cid:E8>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q7110333">
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdfs:label>Ouidah Museum of History </rdfs:label>
+        <dir:P131 rdf:resource="https://www.wikidata.org/wiki/Q850031"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q850031">
+        <rdfs:label>Ouidah</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.36307</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.08506</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/2392308/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2392308</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q962"/>
+    </cid:E53>
+    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q718588">
+        <dc:description>King of Dahomey</dc:description>
+        <cid:P23i_surrendered_title_through rdf:resource="https://www.wikidata.org/wiki/Q192623"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q116"/>
+        <rdfs:label>Glèlè</rdfs:label>
+    </cid:E21>
+    <cid:E7 rdf:about="https://www.wikidata.org/wiki/Q192623">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q1076619"/>
+        <cid:P17 rdf:resource="https://www.wikidata.org/wiki/Q2090475"/>
+        <rdfs:label>Looting</rdfs:label>
+    </cid:E7>
+    <cid:E5 rdf:about="https://www.wikidata.org/wiki/Q2090475">
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q468814"/>
+        <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q179848"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdfs:label>Second Franco-Dahomean War</rdfs:label>
+    </cid:E5>
+    <wiki:Q7167 rdf:about="https://www.wikidata.org/wiki/Q179848">
+        <dct:temporal>1880-1914</dct:temporal>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2"/>
+        <rdfs:label>The Scramble for Africa</rdfs:label>
+    </wiki:Q7167>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
+       <dc:date>1892-07-04/1894-01-15</dc:date><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q1076619">
+        <cid:P11i_participated_in rdf:resource="https://www.wikidata.org/wiki/Q2090475"/>
+        <rdfs:label>French Army</rdfs:label>
+    </cid:E39>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E29">
+       <rdfs:label>Design or Procedure</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E54">
+       <rdfs:label>Dimension</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8">
+       <rdfs:label>Acquisition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+       <rdfs:label>Person</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E7">
+       <rdfs:label>Activity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+       <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1294787">
+       <rdfs:label>Artisan</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q116">
+       <rdfs:label>Monarch</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7167">
+       <rdfs:label>Colonialism</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>

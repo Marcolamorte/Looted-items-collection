@@ -39,7 +39,7 @@ store.add(WD('Q606662'), DC('subject'), literal('Elgin marbles'));
 store.add(WD('Q606662'), DC('subject'), literal('Athens Antiquites'));
 store.add(WD('Q606662'), DCTERMS('isPartOf'), WD('Q27699276'));
 store.add(WD('Q27699276'), RDF('type'), CRM('E78'));
-store.add(CRM('E78'),  namedNode('http://www.cidoc-crm.org/cidoc-crm/P147i_was_curated_by'), CRM('E87'));
+store.add(WD('Q27699276'),  namedNode('http://www.cidoc-crm.org/cidoc-crm/P147i_was_curated_by'), CRM('E87'));
 store.add(CRM('E87'), CRM('P14'), WD('Q6373'));
 store.add(WD('Q6373'), RDF('type'), CRM('E39'));
 store.add(WD('Q6373'), RDF('type'), CRM('E53'));
@@ -151,4 +151,4 @@ function salvaGrafo(percorsoOutput) {
 }
 
 // Salva il file RDF
-salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Desing and Technologies\\Vitali project\\rdf_files_graphs\\5_Europe_The_Parthenon_Elgin_Marbles.rdf');
+salvaGrafo('C:\\Users\\HWRUser\\Desktop\\DHDK Course\\Web Design and Technologies\\Vitali project\\rdf_files_graphs\\5_Europe_The_Parthenon_Elgin_Marbles.rdf');

@@ -1,0 +1,219 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dct="http://purl.org/dc/terms/"
+ xmlns:cid="http://www.cidoc-crm.org/cidoc-crm/"
+ xmlns:dir="https://www.wikidata.org/prop/direct/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:ow="https://www.w3.org/2002/07/owl#"
+ xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <cid:E24 rdf:about="https://www.wikidata.org/wiki/Q2668072">
+        <dc:creator rdf:resource="https://www.wikidata.org/wiki/Q1294787"/>
+        <dc:description>The 'Machu Picchu Artifacts' refer to a collection of objects discovered at Machu Picchu, one of the most iconic Peru's archaeological sites, which provide insight into the daily life, culture, and society of the Inca civilization and symbol of the Andean cultural heritage.</dc:description>
+        <dc:subject>Machu Picchu Site (Peru)</dc:subject>
+        <dc:subject>Excavations (Archaeology)</dc:subject>
+        <dc:subject>Indians of South America</dc:subject>
+        <dc:title>The Machu Picchu Artifacts Collection</dc:title>
+        <dc:type>Ceramics</dc:type>
+        <dc:type>Metalworks</dc:type>
+        <dc:type>Jewelry</dc:type>
+        <dc:type>Textile work</dc:type>
+        <dct:created>15th-16th century</dct:created>
+        <dct:isPartOf rdf:resource="https://www.wikidata.org/wiki/Q27699276"/>
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q676203"/>
+        <cid:P24i_changed_ownership_through rdf:resource="http://www.itemsontology.com/item_features/Repatriation_agreement"/>
+        <cid:P24i_changed_ownership_through rdf:resource="http://www.itemsontology.com/item_features/Peruvian_government_agreement"/>
+        <cid:P25i_moved_by rdf:resource="http://www.itemsontology.com/item_features/Yale_University_scientific_expeditions"/>
+        <cid:P26 rdf:resource="https://www.wikidata.org/wiki/Q122945"/>
+        <cid:P27 rdf:resource="https://www.wikidata.org/wiki/Q676203"/>
+        <cid:P44 rdf:resource="http://www.itemsontology.com/item_features/Well_preserved_state"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q22731"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q45621"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q287"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q897"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q753"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q34095"/>
+        <cid:P45 rdf:resource="https://www.wikidata.org/wiki/Q42329"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q122945"/>
+        <cid:P51 rdf:resource="https://www.wikidata.org/wiki/Q9544342"/>
+        <cid:P52 rdf:resource="http://www.itemsontology.com/item_features/Casa_Concha_Museum"/>
+        <cid:P53 rdf:resource="https://www.wikidata.org/wiki/Q122945"/>
+        <cid:P55 rdf:resource="http://www.itemsontology.com/item_features/Casa_Concha_Museum"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q220659"/>
+        <dir:P575 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1911</dir:P575>
+    </cid:E24>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q676203">
+        <rdfs:label>Machu Picchu</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-13.16357</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-72.54574</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/3935634/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3935634</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q419"/>
+    </cid:E53>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q419">
+       <rdfs:label>Perù</rdfs:label>
+    </cid:E53>
+    <dct:Agent rdf:about="https://www.wikidata.org/wiki/Q1294787">
+        <rdfs:label>Artisan</rdfs:label>
+        <dir:P361 rdf:resource="https://www.wikidata.org/wiki/Q9544342"/>
+    </dct:Agent>
+    <cid:E74 rdf:about="https://www.wikidata.org/wiki/Q9544342">
+        <cid:P23i_surrendered_title_through rdf:resource="http://www.itemsontology.com/item_features/Peruvian_government_agreement"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <skos:altLabel>Inca People</skos:altLabel>
+    </cid:E74>
+    <cid:E78 rdf:about="https://www.wikidata.org/wiki/Q27699276">
+        <cid:P147i_was_curated_by rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E87"/>
+        <cid:P3>The collection contains between 4,000 and 40,000 artifacts, though the exact count depends on how the artifacts are catalogued. According to Yale University, about 350 of these artifacts are of a high enough quality to display in a museum.The museum-quality artifacts are mostly ceramics, but also include silver and bronze objects, stoneware cooking implements, and several vases for storing corn beer, an important beverage in Incan daily life. The “research collection” also contains human remains, as well as ceramic fragments.</cid:P3>
+        <rdfs:label>Museum Collection</rdfs:label>
+    </cid:E78>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E87">
+        <cid:P14 rdf:resource="http://www.itemsontology.com/item_features/Casa_Concha_Museum"/>
+        <rdfs:label>Curation Activity</rdfs:label>
+    </rdf:Description>
+    <cid:E39 rdf:about="http://www.itemsontology.com/item_features/Casa_Concha_Museum">
+        <cid:P22i_acquired_title_through rdf:resource="http://www.itemsontology.com/item_features/Repatriation_agreement"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>Casa Concha Museum</rdfs:label>
+        <dir:P276 rdf:resource="https://www.wikidata.org/wiki/Q5582862"/>
+    </cid:E39>
+    <cid:E3 rdf:about="http://www.itemsontology.com/item_features/Well_preserved_state">
+       <rdfs:label>Well preserved state</rdfs:label>
+    </cid:E3>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q22731">
+       <rdfs:label>Stone</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q45621">
+       <rdfs:label>Ceramic</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q287">
+       <rdfs:label>Wood</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q897">
+       <rdfs:label>Gold</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q753">
+       <rdfs:label>Copper</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q34095">
+       <rdfs:label>Bronze</rdfs:label>
+    </cid:E57>
+    <cid:E57 rdf:about="https://www.wikidata.org/wiki/Q42329">
+       <rdfs:label>Wool</rdfs:label>
+    </cid:E57>
+    <cid:E8 rdf:about="http://www.itemsontology.com/item_features/Repatriation_agreement">
+        <dct:temporal>2010-2011</dct:temporal>
+        <rdfs:label>Repatriation agreement</rdfs:label>
+    </cid:E8>
+    <cid:E39 rdf:about="https://www.wikidata.org/wiki/Q122945">
+        <cid:P23i_surrendered_title_through rdf:resource="http://www.itemsontology.com/item_features/Repatriation_agreement"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q33506"/>
+        <rdfs:label>Yale Peabody Museum</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">41.31754</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-72.91986</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/9253124/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9253124</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q30"/>
+        <dir:P361 rdf:resource="https://www.wikidata.org/wiki/Q49112"/>
+    </cid:E39>
+    <cid:E74 rdf:about="https://www.wikidata.org/wiki/Q49112">
+       <rdfs:label>Yale University</rdfs:label>
+    </cid:E74>
+    <cid:E53 rdf:about="https://www.wikidata.org/wiki/Q5582862">
+        <rdfs:label>Cusco</rdfs:label>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-13.52264</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-71.96734</geo:long>
+        <ow:sameAs rdf:resource="http://sws.geonames.org/3941584/"/>
+        <dir:P1566 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3941584</dir:P1566>
+        <dir:P17 rdf:resource="https://www.wikidata.org/wiki/Q419"/>
+    </cid:E53>
+    <cid:E8 rdf:about="http://www.itemsontology.com/item_features/Peruvian_government_agreement">
+        <cid:P14 rdf:resource="https://www.wikidata.org/wiki/Q131010"/>
+        <cid:P17 rdf:resource="http://www.itemsontology.com/item_features/Yale_University_scientific_expeditions"/>
+        <rdfs:label>Peruvian government agreement</rdfs:label>
+    </cid:E8>
+    <cid:E5 rdf:about="http://www.itemsontology.com/item_features/Yale_University_scientific_expeditions">
+        <dct:spatial rdf:resource="https://www.wikidata.org/wiki/Q676203"/>
+        <cid:P10 rdf:resource="https://www.wikidata.org/wiki/Q605269"/>
+        <cid:P4 rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52"/>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q2401485"/>
+        <rdfs:label>Yale University scientific expeditions</rdfs:label>
+    </cid:E5>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E52">
+       <dct:temporal>1911-1915</dct:temporal><rdfs:label>Time-Span</rdfs:label>
+    </rdf:Description>
+    <cid:E2 rdf:about="https://www.wikidata.org/wiki/Q605269">
+        <dct:temporal>19th - 20th century</dct:temporal>
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q7260"/>
+        <rdfs:label>American Imperialism</rdfs:label>
+    </cid:E2>
+    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q131010">
+        <dc:description>President of Perù (1863-1932)</dc:description>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdfs:label>Augusto B. Leguía</rdfs:label>
+    </cid:E21>
+    <cid:E21 rdf:about="https://www.wikidata.org/wiki/Q237220">
+        <cid:P11i_participated_in rdf:resource="http://www.itemsontology.com/item_features/Yale_University_scientific_expeditions"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E39"/>
+        <rdfs:label>Hiram Bingham III</rdfs:label>
+        <dir:P106 rdf:resource="https://www.wikidata.org/wiki/Q11900058"/>
+        <dir:P61 rdf:resource="https://www.wikidata.org/wiki/Q2668072"/>
+    </cid:E21>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E24">
+       <rdfs:label>Physical Human-made thing</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E57">
+       <rdfs:label>Material</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53">
+       <rdfs:label>Place</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E39">
+       <rdfs:label>Actor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E74">
+       <rdfs:label>Group</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E78">
+       <rdfs:label>Curated Holding</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E3">
+       <rdfs:label>Condition State</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E8">
+       <rdfs:label>Acquisition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E5">
+       <rdfs:label>Event</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E21">
+       <rdfs:label>Person</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E2">
+       <rdfs:label>Temporal Entity</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q220659">
+       <rdfs:label>Archaeological Artefact</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q33506">
+       <rdfs:label>Museum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q30">
+       <rdfs:label>United States of America</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q2401485">
+       <rdfs:label>Expedition</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q7260">
+       <rdfs:label>Imperialism</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q11900058">
+       <rdfs:label>Explorer</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
+       <rdfs:label>Agent</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
