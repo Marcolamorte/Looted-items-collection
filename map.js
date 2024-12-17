@@ -6,31 +6,47 @@ var map = L.map('map', {
     maxBounds: [[-90, -180], [90, 180]],
     maxBoundsViscosity: 1.0,
     worldCopyJump: false,
-    scrollWheelZoom: false,  // Disable scroll wheel zoom
-    touchZoom: false,        // Disable touch zoom
+    scrollWheelZoom: false,
+    touchZoom: false,
     attributionControl: false,
     zoomControl: false
-
 }).setView([0, 0], 2);
 
-// Set the background color of the map container
-map.getContainer().style.backgroundColor = '#0C0C0F';
+// Function to update map styles
+function updateMapStyles(isLightMode) {
+    var backgroundColor = isLightMode ? '#F0F0F5' : '#0C0C0F';
+    var borderColor = isLightMode ? '#7A7A7A' : '#CFCCD6';
+    var markerColor = isLightMode ? '#5D5D8D' : '#B7B5E4';
+
+    map.getContainer().style.backgroundColor = backgroundColor;
+
+    map.eachLayer(function(layer) {
+        if (layer instanceof L.GeoJSON) {
+            layer.setStyle({
+                fillColor: backgroundColor,
+                fillOpacity: 1,
+                color: borderColor,
+                weight: 1,
+                opacity: 1
+            });
+        }
+        if (layer instanceof L.Marker) {
+            layer.setIcon(L.divIcon({
+                className: 'custom-pin',
+                html: `<div class="pin" style="background-color: ${markerColor};"></div>`,
+                iconSize: [30, 30],
+                iconAnchor: [15, 30]
+            }));
+        }
+    });
+}
 
 // Load GeoJSON data
 fetch('https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json')
     .then(response => response.json())
     .then(data => {
-        L.geoJSON(data, {
-            style: function(feature) {
-                return {
-                    fillColor: '#0C0C0F',
-                    fillOpacity: 1,
-                    color: '#CFCCD6',
-                    weight: 1,
-                    opacity: 1
-                };
-            }
-        }).addTo(map);
+        L.geoJSON(data).addTo(map);
+        updateMapStyles(false); // Initial dark mode
     });
 
 // Custom icon for markers
@@ -60,23 +76,17 @@ var objects = [
     { name: "Mask of Queen Idia", location: "Benin City, Nigeria", coords: [6.3392, 5.6173] }
 ];
 
-// Get the computed style of p elements
-var pStyle = window.getComputedStyle(document.querySelector('p'));
-
 // Add markers for each object
 objects.forEach(function(object) {
     var marker = L.marker(object.coords, {icon: customIcon}).addTo(map);
     
-    // Create a custom popup with styled content
     var popupContent = L.popup({
         closeButton: false,
         className: 'custom-popup'
-    }).setContent(`<div style="font-family: ${pStyle.fontFamily}; font-size: ${pStyle.fontSize}; line-height: ${pStyle.lineHeight};"><strong>${object.name}</strong><br>${object.location}</div>`);
+    }).setContent(`<div><strong>${object.name}</strong><br>${object.location}</div>`);
     
-    // Bind the popup to the marker
     marker.bindPopup(popupContent);
     
-    // Add hover behavior to display popup on hover
     marker.on('mouseover', function(e) {
         this.openPopup();
     });
@@ -84,4 +94,26 @@ objects.forEach(function(object) {
     marker.on('mouseout', function(e) {
         this.closePopup();
     });
+});
+
+// Theme toggle event listener
+const themeSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+themeSwitch.addEventListener('change', function() {
+    if (this.checked) {
+        // Light mode
+        updateMapStyles(true);
+        document.documentElement.style.setProperty('--primary-color', '#5D5D8D');
+        document.documentElement.style.setProperty('--secondary-color', '#7A7A7A');
+        document.documentElement.style.setProperty('--background-color', '#F0F0F5');
+        document.documentElement.style.setProperty('--accent1-color', '#8D8DA6');
+        document.documentElement.style.setProperty('--accent2-color', '#B0B0C0');
+    } else {
+        // Dark mode
+        updateMapStyles(false);
+        document.documentElement.style.setProperty('--primary-color', '#B7B5E4');
+        document.documentElement.style.setProperty('--secondary-color', '#847979');
+        document.documentElement.style.setProperty('--background-color', '#0C0C0F');
+        document.documentElement.style.setProperty('--accent1-color', '#BBC2E2');
+        document.documentElement.style.setProperty('--accent2-color', '#CFCCD6');
+    }
 });

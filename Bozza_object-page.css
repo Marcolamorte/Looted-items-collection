@@ -1,41 +1,29 @@
 :root {
-    @font-face {
-        font-family: 'Karrik';
-        src: url('path/to/your/font-file.woff2') format('woff2'),
-             url('path/to/your/font-file.woff') format('woff'),
-             url('path/to/your/font-file.ttf') format('truetype');
-      }
-      
-   
-   
-    /* Golden Ratio: 1.618 */
-    --golden-ratio: 1.618;
-    
-    /* Base sizes */
-    --base-font-size: 16px;
-    --base-line-height: 1.5;
-    --base-spacing: 1rem;
-    
-    /* Font sizes */
-    --font-size-small: calc(var(--base-font-size) / var(--golden-ratio));
-    --font-size-large: calc(var(--base-font-size) * var(--golden-ratio));
-    
-    /* Spacing */
-    --spacing-small: calc(var(--base-spacing) / var(--golden-ratio));
-    --spacing-large: calc(var(--base-spacing) * var(--golden-ratio));
-    
-    /* Colors */
-    --primary-color: #B7B5E4;
-    --secondary-color: #6c757d;
-    --background-color: #0C0C0F;
-    --text-color: #333;
+  @font-face {
+      font-family: 'Karrik';
+      src: url('fonts/Karrik-Regular.woff2') format('woff2'),
+           url('fonts/Karrik-Regular.woff') format('woff'),
+           url('fonts/Karrik-Regular.ttf') format('truetype');
+  }
+  --golden-ratio: 1.618;
+  --base-font-size: 16px;
+  --base-line-height: 1.5;
+  --base-spacing: 1rem;
+  --font-size-small: calc(var(--base-font-size) / var(--golden-ratio));
+  --font-size-large: calc(var(--base-font-size) * var(--golden-ratio));
+  --spacing-small: calc(var(--base-spacing) / var(--golden-ratio));
+  --spacing-large: calc(var(--base-spacing) * var(--golden-ratio));
+  --primary-color: #B7B5E4;
+  --secondary-color: #847979;
+  --background-color: #0C0C0F;
+  --accent1-color: #BBC2E2;
+  --accent2-color: #CFCCD6;
 }
 
-/* Reset and base styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -45,144 +33,27 @@ body {
   line-height: var(--base-line-height);
   color: var(--primary-color);
   background-color: var(--background-color);
-  margin: 0 auto;
-  width:90%;
-  max-width:1200px;
+  margin: 0 0 50px 50px;
   overflow-x: hidden;
 }
 
-/* Typography */
-h1 {
-  font-size: calc(var(--font-size-large) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio));
-  margin: var(--spacing-large) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio);
-  padding: var(--spacing-large) * var(--golden-ratio) * var(--golden-ratio) * var(--golden-ratio);
-  text-transform: uppercase;
-  text-align: center;
-  user-select: none;
-}
+.object-page {
+  height: 300vh;
+  width:95%;
+  margin-right: calc(var(--spacing-large)*var(--golden-ratio));
+  z-index: -1;
+  position: absolute;
 
-h2 {
-    font-size: var(--font-size-large);
-    margin-bottom: var(--spacing-small);
-}
-
-p {
-    margin-bottom: var(--base-spacing);
-}
-
-/* Layout */
-header, main, footer {
-    padding: var(--spacing-large);
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: var(--spacing-small);
-    align-content: space-between;
-}
-
-nav li {
-  display: inline-block; /* Makes list items inline */
-  list-style-type: none; /* Removes default bullet points */
-  padding: 0; /* Removes default padding */
-}
-
-nav a {
-    color: var(--primary-color);
-    text-decoration: none;
-    text-align: center;
-}
-
-nav .button {
-  border: 1px solid var(--primary-color);
-  border-radius: var(--spacing-large);
-  display:flex;
-  justify-content: space-between;
-  padding:  var(--spacing-small) calc(var(--spacing-large) * var(--golden-ratio));
-  gap: calc(var(--spacing-large) *var(--golden-ratio));
-}
-
-.button {
-  border: 1px solid var(--primary-color);
-  border-radius: var(--spacing-large);
-  display:flex;
-  justify-content: center;
-  padding:  var(--spacing-small) (var(--spacing-small));
-  margin:  var(--spacing-small) (var(--spacing-small));
-  }
-
-
-
-
-#tour-button {
-  background-color: var(--primary-color);
 
 }
-
-#tour-text {
-  color: var(--background-color)
-}
-
-/* Accessibility */
-a:focus, button:focus {
-    outline: 2px solid var(--primary-color);
-    outline-offset: 2px;
-}
-  
-#hero {
-  height: 80vh;
-  width: 100vw;
-  max-width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('partenone1.svg'); /* Path to your SVG file */
-  background-size: 40%; /* Ensures the SVG covers the entire div */
-  background-position: center; /* Centers the SVG within the div */
-  background-repeat: no-repeat; /* Prevents the SVG from repeating */
-}
-
-#home, #about {
-  height: 100vh;
-  width: 100vw;
-  max-width: 100vw;
-}
-
-  
-  /* Navigation Buttons */
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  /* Container for both buttons */
-.navigation-buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
-  }
-
-  
-  h1 {
-    font-size: 60px; /* Increase size for prominence */
-    text-align: center;
-    color: #B7B5E4; /* Match the primary color for consistency */
-    margin-top: 40px; /* Add space above the title */
-    margin-bottom: 40px; /* Add space below the title */
-}
-
-.object-page .top-navigation{
-  padding-top: 0;
-}
+ 
 
   /* Top Navigation Strip */
   .top-navigation {
     display: flex;
     justify-content: space-between; /* Align buttons to the edges */
     align-items: center;
-    background-color: #6c757d; /* Background color */
+    background-color: var(--background-color); /* Background color */
     margin: 0; /* Remove extra margin */
     width: 100%; /* Ensure it spans the full width */
     height: 100px; /* Adjust height as needed */
@@ -233,7 +104,7 @@ a:focus, button:focus {
     margin-bottom: 20px; /* Spacing between sections */
     padding: 20px; /* Inner spacing */
     border-radius: 15px; /* Rounded corners for sections */
-    background-color: #3a3a3a; /* Section background color */
+    background-color:  /* Section background color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
     border: 1px solid #fff;
   }

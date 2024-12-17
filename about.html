@@ -2,35 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>The Stolen Archive</title>
     <link rel="stylesheet" href="styles.css">
-     <script src="timeline.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+    <script src="timeline.js"></script>
+    <script src="lightmode.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
-
 <body>
     <header>
+        <!-- NAVBAR -->
+         
+        <!-- toggle -->
         <nav>
-            <ul>
-                <div class="button" id="long-button">
-
-                <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="#tours">tours</a></li>
-                <li><a href="#documentation">documentation</a></li>
-                
-            </ul>
-
-        </div>
-        <ul>
-        <div class="button" id="tour-button">
-            <li><a href="#starttour" id="tour-text">start tour</a></li>
+            <div class="theme-toggle-container">
+                <div class="toggle">
+                    <label class="theme-switch">
+                        <input type="checkbox">
+                        <span class="toggle-track"></span>
+                    </label>
+                </div>
             </div>
-        </ul>
+
+            
+           
+            
+        <!-- main button (long-button) -->
+                <div class="button" id="long-button">
+                    <ul>
+                        <li><a href="#index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="#tours">tours</a></li>
+                        <li><a href="#documentation">documentation</a></li>
+                    </ul>
+                </div>
+                
+                <!-- icons -->
+                <div class="icon-container">
+
+                    <a href="#map" class="icon-link">
+                      <div class="button" id="icon-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM10 5.47l4 1.4v11.66l-4-1.4V5.47zm-5 .99l3-1.01v11.7l-3 1.16V6.46zm14 11.08l-3 1.01V6.86l3-1.16v11.84z"/>
+                      </svg>
+                      </div>
+                    </a>
+
+                    <a href="#grid" class="icon-link">
+                        <div class="button" id="icon-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z"/>
+                      </svg>
+                    </div>
+                    </a>
+                
+                  </div>
+                  
+                  <!-- tour button -->
+                <div class="button" id="tour-button">
+                    <a href="#starttour" id="tour-text">start tour</a>
+                </div>
+            
+            
         </nav>
+        
+        <!-- end of nav -->
     </header>
+    
+        <!-- copy-paste header for every page!!!!!!!! -->
     <main>
         <section id="about-section">
             <h2>About The Stolen Archive</h2>
@@ -41,3 +81,15 @@
             <h2>The Team</h2>
         </section>
     </main>
+        <!-- copy paste footer into every page -->
+        <footer>
+            <hr>
+            <h2 class="footer-h2">The Stolen Archive</h2>
+            <p>Is a project developed for the final examination of the course Information Modelling and Web Technologies held by professor Fabio Vitali in the context of the Masters Degree program Digital Humanities and Digital Knowledge at Alma Mater Studiorum University of Bologna. As such, this project will not be maintained or updated past the scope of the course's examination.<br>However, if you have any reclaims or suggestions, you can contact us through our team page.</p>
+            <hr>
+            <p>&copy; 2024 The Stolen Archive. All rights reserved.</p>
+        </footer>
+    
+        <script src="map.js"></script>
+    </body>
+    </html>
