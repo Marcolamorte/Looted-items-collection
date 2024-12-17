@@ -28,7 +28,6 @@
 
 body {
   font-family: "Karrik", sans-serif;
-  font-weight: 200;
   font-size: var(--base-font-size);
   line-height: var(--base-line-height);
   color: var(--primary-color);
@@ -37,152 +36,77 @@ body {
   overflow-x: hidden;
 }
 
-.object-page {
-  height: 300vh;
-  width:95%;
-  margin-right: calc(var(--spacing-large)*var(--golden-ratio));
-  z-index: -1;
-  position: absolute;
-
-
+.outer-container {
+  margin: 10vh;
+  padding: calc(var(--spacing-large)*var(--golden-ratio));
+  border: solid 2px var(--primary-color);
+  border-radius: var(--spacing-large);
 }
  
-
-  /* Top Navigation Strip */
-  .top-navigation {
-    display: flex;
-    justify-content: space-between; /* Align buttons to the edges */
-    align-items: center;
-    background-color: var(--background-color); /* Background color */
-    margin: 0; /* Remove extra margin */
-    width: 100%; /* Ensure it spans the full width */
-    height: 100px; /* Adjust height as needed */
-    box-sizing: border-box; /* Ensure padding doesn’t affect width/height */
+#object-title {
+  margin: 0;
+  padding-bottom: 0;
 }
-  
-  /* Navigation Buttons */
-  .button-container {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Space between button and text */
-  }
-  
-  /* Circular Buttons */
-  .circular-button {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%; /* Makes it a circle */
-    border: none;
-    background-color: #4a90e2; /* Button background */
-    color: white; /* Arrow color */
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  /* Hover Effect */
-  .circular-button:hover {
-    background-color: #3a7dc4;
-  }
+
+.item-section {
+  height: fit-content;
+  width:100%;
+}
+
+
+
   
   /* Text for Buttons */
   .button-text {
-    font-size: 14px;
+    font-size: var(--font-size-small);
     font-weight: bold;
   }
   
-  /* Content Section Inside Container */
-  .content {
-    padding: 20px; /* Inner spacing */
-  }
+
   
   /* Individual Sections (e.g., Items, Geolocalization, Metadata) */
   section {
     margin-bottom: 20px; /* Spacing between sections */
     padding: 20px; /* Inner spacing */
     border-radius: 15px; /* Rounded corners for sections */
-    background-color:  /* Section background color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
     border: 1px solid #fff;
   }
 
 
 
-button {
-    background-color: #B7B5E4; /* Base button color */
-    color: #fff; /* Text color */
-    border: none; /* Remove default border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px 20px; /* Add padding for proper click area */
-    font-size: 16px; /* Consistent font size */
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
-    width: auto; /* Let the width be determined by the content */
-    display: inline-block; /* Allow buttons to be inline but block-level */
-    text-align: center; /* Align text */
-}
 
 
 
-button:hover {
-    background-color: #9A93C9; /* Darker color on hover */
-}
+
 
   /* Individual button + text container */
   .button-container {
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between button and text */
+    height: var(--spacing-large);
   }
   
   
-  /* Circular buttons */
-  .circular-button {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%; /* Makes it a circle */
-    border: none;
-    background-color: #4a90e2; /* Button background */
-    color: white; /* Arrow color */
-    font-size: 24px; /* Arrow size */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+
   
-  /* Button hover effect */
-  .circular-button:hover {
-    background-color: #3a7dc4; /* Slightly darker blue */
-  }
-  
+ 
   /* Text styling */
   .button-text {
     font-size: 16px;
     font-weight: bold;
     color: white;
+    text-wrap: nowrap;
   }
-  
-  /* Tour Tabs */
+ 
   .tour-tabs {
     display: flex;
-    justify-content: flex-start; /* Align buttons to the left */
-    align-items: center; /* Align vertically */
-    gap: 10px; /* Space between buttons */
-    padding: 10px 0; /* Add vertical spacing */
-}
+    gap: var(--spacing-large);
+    height: fit-content;
+    
+  }
 
-  .tour-btn {
-    margin: 0 10px;
-    background-color: #B7B5E4;
-    color: #0c0c0f;
-    border: 1px solid #6f6f8b;
-    border-radius: 10px;
-    padding: 10px 20px;
+  .object-right, .object-left {
+    width: 50%;
   }
   
 
@@ -191,19 +115,19 @@ button:hover {
   /* Immagine */
   .image-text-container {
     display: flex; /* Align image and text horizontally */
-    gap: 20px; /* Space between the image and the text */
+    gap: var(--spacing-large); /* Space between the image and the text */
     flex-wrap: wrap; /* Allow the image and text to wrap if there's no room */
-    align-items: flex-start; /* Align text and image at the top */
+    align-items: center; /* Align text and image at the top */
     width: 100%; /* Ensure the container spans the full width */
     box-sizing: border-box; /* Include padding and borders in width calculations */
-    margin-bottom: 20px; /* Spazio inferiore per separare da altri elementi */
+    margin-bottom: var(--spacing-large); /* Spazio inferiore per separare da altri elementi */
     position: relative;
 }
 
 .image-text-container img {
-    max-width: 50%; /* Limit image to half the container width */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Rounded corners */
+    width: 100%;
+    border-radius: var(--spacing-small); /* Optional: Rounded corners */
     flex: 1; /* Allow the image to take proportional space */
 }
 
@@ -219,24 +143,6 @@ button:hover {
 
 
 
-.image-text-container button {
-    background-color: #B7B5E4;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 12px 24px; /* Match the padding of other buttons */
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: auto; /* Keep width based on content */
-    margin-top: 20px; /* Space below the text and buttons */
-    align-self: flex-start; /* Align the button to the left of the container */
-}
-
-/* Hover effect for Next Button */
-.image-text-container button:hover {
-    background-color: #9A93C9; /* Darker shade on hover */
-}
 
 
   .content img {
