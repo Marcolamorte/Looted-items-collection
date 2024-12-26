@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Page</title>
+    <link rel="stylesheet" href="map_page.css">
+</head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <div class="button" id="long-button">
+
+                        <li><a href="#about.html">about</a></li>
+                        <li><a href="#documentation.html">documentation</a></li>
+                        <li><a href="#disclaimer.html">disclaimer</a></li>
+                        
+                </ul>
+                    </div>
+                <ul>
+                    <div class="button" id="tour-button">
+                        <li><a href="#starttour" id="tour-text"><b>Start Tour</b></a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section class="map-object_panel">
+                <div class="map">
+                    <h1>MAP - room 1</h1>
+                    <img src=".\images\map_museum_placeholder.png" alt="Map Layout">
+                </div>
+
+                <div class="aside-panel">
+                    <h2>Achaemenid Reliefs</h2>
+                    <div class="object-box"> </div>
+                </div>
+            </section>
+
+            <div class="gallery">
+                <h2>Gallery</h2>
+                <button class="scroll-left">←</button>
+                    <div class="gallery-content">
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                        <div class="gallery-box"></div>
+                    </div>
+                <button class="scroll-right">→</button>
+            </div>
+        
+
+            <div class="metadata">
+                <h2> Metadata</h2>
+                <div class="metadata-box"></div>
+            </div>
+
+            <div class="geolocalization">
+                <h2> Geolocalization</h2>
+                <div class="geolocalization-box">
+                </div>
+            </div>
+
+        </main>
+
+        <script> // document.querySelector: This method is used to select elements from the HTML document based on a CSS selector (like a class, id, or tag).
+            const galleryContent = document.querySelector('.gallery-content'); // .gallery-content: Selects the <div> element with the class gallery-content. This is the container that holds the gallery boxes and will be scrolled.
+            const scrollLeftButton = document.querySelector('.scroll-left'); // scroll-left : Select the left  button, which allow the user to scroll the gallery content.
+            const scrollRightButton = document.querySelector('.scroll-right');// scroll-right: Select the  right button, which allow the user to scroll the gallery content.
+            const scrollAmount = 300; // This variable defines how far the gallery will scroll when one of the buttons is clicked=> he gallery will scroll 300 pixels left or right each time the button is clicked.
+          
+            
+            
+            // When the left scroll button (←) is clicked, the scrollLeft property of the galleryContent is decreased by scrollAmount (i.e., 300px).
+            scrollLeftButton.addEventListener('click', () => {  // addEventListener('click', ...): This attaches a "click" event to each button (scroll-left and scroll-right). When the button is clicked, the function inside the addEventListener is executed.
+                galleryContent.scrollLeft -= scrollAmount; // This line tells the browser to move the .gallery-content container 300px to the left.
+               
+            });
+
+            scrollRightButton.addEventListener('click', () => { // When the right scroll button (→) is clicked, the scrollLeft property of the galleryContent is increased by scrollAmount (i.e., 300px).
+              galleryContent.scrollLeft += scrollAmount;  // This line tells the browser to move the .gallery-content container 300px to the right.
+            });
+        </script>
+
+    </body>
+</html>
