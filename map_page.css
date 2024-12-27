@@ -44,7 +44,7 @@
     line-height: var(--base-line-height);
     color: var(--primary-color);
     background-color: var(--background-color);
-    margin: 0 50px 50px 50px;
+    margin: 0 0 50px 50px;
     overflow-x: hidden; /* it is used to hide content that overflows horizontally (beyond the width) of an element's container. */
   }
 
@@ -53,76 +53,119 @@
     padding: var(--spacing-large);
   }
 
-  nav {
+ /* navbar map-page */
+  nav.nav_map-page {
+    margin-top: var(--spacing-small);
     display: flex;
-    gap: calc(var(--spacing-large) *(var(--golden-ratio)*7));  /* Adds spacing between the direct children of <nav>. */
-    justify-content: space-evenly;  /* Distributes the <nav> items evenly within the horizontal axis (main axis), ensuring there’s equal spacing on either side. */
-    flex-wrap:nowrap; /* Prevents the navigation items from wrapping onto a new line */
-    list-style-type: none; /* Removes default bullet points */
+    align-items: center;
+    justify-content: space-evenly;
+    padding: var(--spacing-large);
+    width: 100%;
+    position: fixed;
+    height: 5vh;
+    z-index: 10;
   }
 
-  nav li{
-    display: inline-block; /* Makes list items inline */
-  }
-
-  nav .button{
-    border: 2px solid var(--primary-color);
-    background-color: var(--background-color);
-    border-radius: var(--spacing-small);  /* this control the the rounding of an element's corners. */
-    display:flex;
-    justify-content: space-between;
-    padding:  var(--spacing-small) calc(var(--spacing-large) * var(--golden-ratio));
-    gap: calc(var(--spacing-large) *(var(--golden-ratio)*3));
-    position: fixed; /* the element is positioned relative to the viewport (the browser window), not its parent or any other ancestor: it stays in the same place on the screen even when the user scrolls the page. */
-    z-index: 2; /* it controls the stacking order of elements along the z-axis (visual depth). It determines whether an element appears in front of or behind other elements. A value of 2 means that the nav. button will be on top of other elements. */
+nav ul {
+    display: flex;
+    gap: var(--spacing-large);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-  a {
-    text-decoration: none; /* none; Removes the default underline style from links. */
+nav li {
+    display: inline-block;
+    margin-right: var(--spacing-large);
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    text-align: center;
+}
+
+.button {
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-small);
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    padding: var(--spacing-small) var(--spacing-large);
     color: var(--primary-color);
-    background-color: transparent; /*  Ensures the background of the link is fully transparent */
-  }
+}
 
-  #long-button {
-    border: 2px solid var(--accent2-color);
-    background-color: var(--background-color);
-    color: var(--secondary-color)
-  }
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: transparent;
+}
 
-  #tour-button {
+
+#tour-button {
     background-color: var(--primary-color);
-  }
+    margin-right: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio)*var(--golden-ratio));
+}
 
-  #tour-text {
-    color: var(--background-color)
-  }
+/* map-page long button */
+#long-button_1 {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    margin-right: var(--spacing-large);
+    margin-left: calc(var(--spacing-large)*2);
+}
 
-  main {
-    margin-top: calc(var(--spacing-large)*5);
-    margin-bottom: calc(var(--spacing-large)*10);
+#tour-text {
+    color: var(--background-color);
+}
 
-  }
+a:focus, button:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
 
-  .map-object_panel {
+/* customized a:focus */
+a[href="#starttour"]:focus {
+  outline: 2px solid white; /* Change the outline color to red */
+  outline-offset: 2px; /* Add space between the outline and the element */
+}
+
+/* main map-page */
+main.main_map-page {
+  margin-top: calc(var(--spacing-large)*5);
+  margin-bottom: calc(var(--spacing-large)*10);
+}
+
+  /* map-page section */
+  section.map-object_aside-panel {
     display: flex;
   }
 
-  .map {
+  /* map-page section */
+  .map_rooms {
       width: 100%; 
       margin-left: calc(var(--spacing-large)*2);
       padding-left: calc(var(--spacing-large)*3); 
   }
 
-  .map img {
+  /* map-page section */
+  .map_rooms img{
     padding-top: var(--spacing-large);
     width: 80%;
     height: auto;
   }
 
-  .map h1 {
-    font-size: calc(var(--base-font-size)*3);
+  /* map-page section */
+  .map_rooms h1{
+    font-size: calc(var(--base-font-size)*2);
   }
 
+  /* map-page section */
   .aside-panel {
     border: 2px solid var(--accent2-color);
     border-radius:10px;
@@ -136,6 +179,7 @@
     flex-direction: column;
   }
 
+  /* map-page section */
   .object-box{
     border: 2px solid var(--accent2-color);
     border-radius:10px;
@@ -143,10 +187,12 @@
     flex: 1; 
   }
    
+  /* map-page gallery */
   .gallery {
     position: relative;
   }
 
+  /* map-page gallery */  
   .gallery-content{
     position: relative;
     border: 2px solid var(--accent2-color);
@@ -161,13 +207,15 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
-    
+  
+  /* map-page gallery */
   .gallery h2 {
     top:20px;   
     left: 150px;
     position: absolute;
   }
 
+  /* map-page gallery */
   .gallery-box {
     border: 2px solid var(--accent2-color);
     border-radius: 10px;
@@ -178,8 +226,8 @@
     flex: 1;
     min-width: 300px;
   }
-
-  button {
+  /* scroll-left button gallery map-page  */
+  button.scroll-left{
     background-color: var(--primary-color);
     border: 2px solid var(--primary-color);
     border-radius: 50%;
@@ -194,16 +242,30 @@
     display: flex;
     justify-content: center;
     line-height: 1;
-  }
-
-  .scroll-left {
     left: 100px; /* Position left button */
   }
 
-  .scroll-right {
+  /* scroll-right button gallery map-page  */
+  button.scroll-right{
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    color:white;
+    font-size: var(--font-size-large);
+    cursor: pointer;
+    z-index: 2; /* Makes sure buttons are above gallery */
+    position: absolute; /*  for position the buttons absolutely to the gallery container */
+    top: 50%;  /* it places the top edge of the button at 50% of the parent's height. In combination with transform: translateY(-50%) this ensure that the button's center aligns with the middle of the parent. */
+    transform: translateY(-50%);   /* shifts the button upwards by 50% of its own height(of the button itself). */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
     right: 80px; /* Position right button */ 
   }
 
+
+  /* map-page metadata  */
   .metadata {
     position: relative;
     border: 2px solid var(--accent2-color);
@@ -217,18 +279,22 @@
     display: flex;
     flex-direction: column;
   }
+
+  /* map-page metadata  */
   .metadata h2 {
     position: absolute;
-     z-index: 10; /* for avoiding overlapping of <h2> with other elements-container */
+     /* for avoiding overlapping of <h2> with other elements-container */
   }
 
-  .metadata .metadata-box{
+  /* map-page metadata  */
+  .metadata-box{
     border: 2px solid var(--accent2-color);
     border-radius:10px;
     margin-top: calc(var(--spacing-large)*2);
     flex: 1;
   }
 
+  /* map-page .geolocalization */
   .geolocalization {
     position: relative;
     border: 2px solid var(--accent2-color);
@@ -236,18 +302,19 @@
     margin-top: calc(var(--spacing-large)*2);
     margin-left: calc(var(--spacing-large)*5);
     margin-right: calc(var(--spacing-large)*4);
-    padding-left: var(--spacing-small);
     height: 75vh;
     padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
     display: flex;
     flex-direction: column;
   }
 
+  /* map-page .geolocalization */
   .geolocalization h2 {
     position: absolute;
   }
 
-  .geolocalization .geolocalization-box {
+  /* map-page .geolocalization */
+  .geolocalization-box {
     border: 2px solid var(--accent2-color);
     border-radius:10px;
     margin-top: calc(var(--spacing-large)*2);

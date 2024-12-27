@@ -546,3 +546,243 @@ hr {
         animation: none !important;
     }
 }
+
+/* !--map-page section--! */
+
+/* navbar map-page */
+nav.nav_map-page {
+    margin-top: var(--spacing-small);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: var(--spacing-large);
+    width: 100%;
+    position: fixed;
+    height: 5vh;
+    z-index: 10;
+  }
+
+/* map-page long button */
+#long-button_1 {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    margin-right: var(--spacing-large);
+    margin-left: calc(var(--spacing-large)*3);
+}
+
+/* customized a:focus */
+a[href="#starttour"]:focus {
+    outline: 2px solid white; /* Change the outline color to red */
+    outline-offset: 2px; /* Add space between the outline and the element */
+}
+
+/* main map-page */
+main.main_map-page {
+    margin: 0;
+    margin-top: calc(var(--spacing-large)*5);
+    margin-bottom: calc(var(--spacing-large)*10);
+}
+
+/* main map-page h1 reset*/
+.main_map-page h1 {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    text-transform: unset;
+    text-align: left;
+    animation: none;
+    user-select: none;
+    font-size: calc(var(--base-font-size)*2);
+}
+
+/* main map-page h2 reset*/
+.main_map-page h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+
+  
+/* map-page section */
+section.map-object_aside-panel {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+}
+
+/* map-page section */
+.map_rooms {
+    width: 100%; 
+    margin-left: calc(var(--spacing-large)*2);
+    padding-left: calc(var(--spacing-large)*3); 
+}
+
+  /* map-page section */
+  .map_rooms img{
+    padding-top: var(--spacing-large);
+    width: 80%;
+    height: auto;
+  }
+
+
+
+/* map-page section */
+.aside-panel {
+    border: 2px solid var(--accent2-color);
+    border-radius:10px;
+    margin-top: calc(var(--spacing-large)*5);
+    margin-right: calc(var(--spacing-large)*4);
+    margin-bottom: var(--spacing-small);
+    text-align: left;
+    width: 30%;
+    padding: var(--spacing-small) var(--spacing-small) var(--spacing-small) var(--spacing-small);
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+
+  /* map-page section */
+  .object-box{
+    border: 2px solid var(--accent2-color);
+    border-radius:10px;
+    margin: var(--spacing-small) var(--spacing-small) var(--spacing-small) var(--spacing-small);
+    flex: 1; 
+  }
+
+    /* map-page gallery */
+    .gallery {
+        position: relative;
+      }
+    
+      /* map-page gallery */  
+      .gallery-content{
+        position: relative;
+        border: 2px solid var(--accent2-color);
+        border-radius:10px;
+        margin-top: calc(var(--spacing-large)*2);
+        margin-left: calc(var(--spacing-large)*5);
+        margin-right: calc(var(--spacing-large)*4);
+        height: 75vh;
+        padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
+        display: flex;
+        gap: var(--spacing-large);
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+      }
+      
+      /* map-page gallery */
+      .gallery h2 {
+        top:20px;   
+        left: 150px;
+        position: absolute;
+      }
+    
+      /* map-page gallery */
+      .gallery-box {
+        border: 2px solid var(--accent2-color);
+        border-radius: 10px;
+        margin-top: calc(var(--spacing-large)*2);
+        padding: var(--spacing-small);
+        background-color: var(--background-color);
+        color: var(--primary-color);
+        flex: 1;
+        min-width: 300px;
+      }
+      /* scroll-left button gallery map-page  */
+      button.scroll-left{
+        background-color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        border-radius: 50%;
+        color:white;
+        font-size: var(--font-size-large);
+        cursor: pointer;
+        z-index: 2; /* Makes sure buttons are above gallery */
+        position: absolute; /*  for position the buttons absolutely to the gallery container */
+        top: 50%;  /* it places the top edge of the button at 50% of the parent's height. In combination with transform: translateY(-50%) this ensure that the button's center aligns with the middle of the parent. */
+        transform: translateY(-50%);   /* shifts the button upwards by 50% of its own height(of the button itself). */
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        line-height: 1;
+        left: 100px; /* Position left button */
+      }
+    
+      /* scroll-right button gallery map-page  */
+      button.scroll-right{
+        background-color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        border-radius: 50%;
+        color:white;
+        font-size: var(--font-size-large);
+        cursor: pointer;
+        z-index: 2; /* Makes sure buttons are above gallery */
+        position: absolute; /*  for position the buttons absolutely to the gallery container */
+        top: 50%;  /* it places the top edge of the button at 50% of the parent's height. In combination with transform: translateY(-50%) this ensure that the button's center aligns with the middle of the parent. */
+        transform: translateY(-50%);   /* shifts the button upwards by 50% of its own height(of the button itself). */
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        line-height: 1;
+        right: 80px; /* Position right button */ 
+      }
+    
+    
+      /* map-page metadata  */
+      .metadata {
+        position: relative;
+        border: 2px solid var(--accent2-color);
+        border-radius:10px;
+        margin-top: calc(var(--spacing-large)*2);
+        margin-left: calc(var(--spacing-large)*5);
+        margin-right: calc(var(--spacing-large)*4);
+        padding-left: var(--spacing-small);
+        height: 75vh;
+        padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
+        display: flex;
+        flex-direction: column;
+      }
+    
+      /* map-page metadata  */
+      .metadata h2 {
+        position: absolute;
+         /* for avoiding overlapping of <h2> with other elements-container */
+      }
+    
+      /* map-page metadata  */
+      .metadata-box{
+        border: 2px solid var(--accent2-color);
+        border-radius:10px;
+        margin-top: calc(var(--spacing-large)*2);
+        flex: 1;
+      }
+    
+      /* map-page .geolocalization */
+      .geolocalization {
+        position: relative;
+        border: 2px solid var(--accent2-color);
+        border-radius:10px;
+        margin-top: calc(var(--spacing-large)*2);
+        margin-left: calc(var(--spacing-large)*5);
+        margin-right: calc(var(--spacing-large)*4);
+        padding-left: var(--spacing-small);
+        height: 75vh;
+        padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
+        display: flex;
+        flex-direction: column;
+      }
+    
+      /* map-page .geolocalization */
+      .geolocalization h2 {
+        position: absolute;
+      }
+    
+      /* map-page .geolocalization */
+      .geolocalization-box {
+        border: 2px solid var(--accent2-color);
+        border-radius:10px;
+        margin-top: calc(var(--spacing-large)*2);
+        flex: 1;
+      }
+
