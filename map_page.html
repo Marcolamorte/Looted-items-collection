@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="lightmode.js"></script>
 </head>
 
     <body>
@@ -13,7 +14,18 @@
 
             <!-- Nav map page -->
             <nav class="nav_map-page">
-                 <!-- main button (long-button) -->
+
+                <!-- switch light button -->
+                <div class="theme-toggle-container">
+                    <div class="toggle">
+                        <label class="theme-switch">
+                            <input type="checkbox">
+                            <span class="toggle-track"></span>
+                        </label>
+                    </div>
+                </div>
+                
+                <!-- main button (long-button) -->
                 <div class="button" id="long-button_1">
                     <ul>
                         <li><a href="#about.html">about</a></li>

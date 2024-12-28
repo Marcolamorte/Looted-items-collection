@@ -551,14 +551,6 @@ hr {
 
 /* navbar map-page */
 nav.nav_map-page {
-    margin-top: var(--spacing-small);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: var(--spacing-large);
-    width: 100%;
-    position: fixed;
-    height: 5vh;
     z-index: 10;
   }
 
@@ -568,7 +560,7 @@ nav.nav_map-page {
     background-color: var(--background-color);
     color: var(--secondary-color);
     margin-right: var(--spacing-large);
-    margin-left: calc(var(--spacing-large)*3);
+    margin-left: var(--spacing-large);
 }
 
 /* customized a:focus */
