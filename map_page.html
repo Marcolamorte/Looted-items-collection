@@ -8,8 +8,12 @@
 </head>
 
     <body>
+        <!-- Header map page -->
         <header>
+
+            <!-- Nav map page -->
             <nav class="nav_map-page">
+                 <!-- main button (long-button) -->
                 <div class="button" id="long-button_1">
                     <ul>
                         <li><a href="#about.html">about</a></li>
@@ -23,10 +27,15 @@
                     </ul>
                 </div>
             </nav>
-        </header>
+            <!-- Nav map page end-->
 
+        </header>
+        <!-- Header map page end -->
+
+        <!-- Main map page -->
         <main class="main_map-page">
 
+            <!-- Museum Map and object panel section -->
             <section class="map-object_aside-panel">
                 <div class="map_rooms">
                     <h1>MAP - room 1</h1>
@@ -39,6 +48,7 @@
                 </div>
             </section>
 
+            <!-- Gallery section -->
             <div class="gallery">
                 <h2>Gallery</h2>
                 <button class="scroll-left">←</button>
@@ -62,12 +72,13 @@
                 <button class="scroll-right">→</button>
             </div>
         
-
+            <!-- Metadata section -->
             <div class="metadata">
                 <h2> Metadata</h2>
                 <div class="metadata-box"></div>
             </div>
 
+            <!-- Geolocalization section -->
             <div class="geolocalization">
                 <h2> Geolocalization</h2>
                 <div class="geolocalization-box">
@@ -75,6 +86,10 @@
             </div>
 
         </main>
+        <!-- Main map page end -->
+
+
+        <!-- Scritp for scrolling items in gallery section -->
 
         <script> // document.querySelector: This method is used to select elements from the HTML document based on a CSS selector (like a class, id, or tag).
             const galleryContent = document.querySelector('.gallery-content'); // .gallery-content: Selects the <div> element with the class gallery-content. This is the container that holds the gallery boxes and will be scrolled.
@@ -82,12 +97,9 @@
             const scrollRightButton = document.querySelector('.scroll-right');// scroll-right: Select the  right button, which allow the user to scroll the gallery content.
             const scrollAmount = 300; // This variable defines how far the gallery will scroll when one of the buttons is clicked=> he gallery will scroll 300 pixels left or right each time the button is clicked.
           
-            
-            
             // When the left scroll button (←) is clicked, the scrollLeft property of the galleryContent is decreased by scrollAmount (i.e., 300px).
             scrollLeftButton.addEventListener('click', () => {  // addEventListener('click', ...): This attaches a "click" event to each button (scroll-left and scroll-right). When the button is clicked, the function inside the addEventListener is executed.
-                galleryContent.scrollLeft -= scrollAmount; // This line tells the browser to move the .gallery-content container 300px to the left.
-               
+                galleryContent.scrollLeft -= scrollAmount; // This line tells the browser to move the .gallery-content container 300px to the left.              
             });
 
             scrollRightButton.addEventListener('click', () => { // When the right scroll button (→) is clicked, the scrollLeft property of the galleryContent is increased by scrollAmount (i.e., 300px).
@@ -95,5 +107,14 @@
             });
         </script>
 
+        <!-- Footer Map page -->
+        <footer>
+            <hr>
+            <h2 class="footer-h2">The Stolen Archive</h2>
+            <p>Is a project developed for the final examination of the course Information Modelling and Web Technologies held by professor Fabio Vitali in the context of the Masters Degree program Digital Humanities and Digital Knowledge at Alma Mater Studiorum University of Bologna. As such, this project will not be maintained or updated past the scope of the course's examination.<br>However, if you have any reclaims or suggestions, you can contact us through our team page.</p>
+            <hr>
+            <p>&copy; 2024 The Stolen Archive. All rights reserved.</p>
+        </footer>
+        
     </body>
 </html>
