@@ -36,12 +36,252 @@ body {
   overflow-x: hidden;
 }
 
-.outer-container {
-  margin: 10vh;
-  padding: calc(var(--spacing-large)*var(--golden-ratio));
-  border: solid 2px var(--primary-color);
+
+/* Object Page */
+
+/* Contenitore Principale */
+/*.object-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 var(--spacing-large) var(--spacing-large) var(--spacing-large);
+  background-color: var(--background-color);
+  border: 2px solid var(--accent2-color);
   border-radius: var(--spacing-large);
 }
+
+/* Object Navigation */
+/*.object-navigation {
+  width: 100%;
+  background-color: var(--accent2-color);
+  border-top-left-radius: var(--spacing-small);
+  border-top-right-radius: var(--spacing-small);
+  padding: var(--spacing-small);
+  margin-bottom: var(--spacing-large);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Circular Buttons */
+/*.circular-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  font-size: var(--font-size-large);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box;
+}
+
+  .circular-button:hover {
+      background-color: var(--accent1-color);
+      transform: scale(1.1);
+  }
+
+  .circular-button:active {
+      transform: scale(0.95);
+      background-color: var(--accent2-color);
+  }
+
+/* Testo accanto ai Pulsanti */
+/*.navigation-text {
+  color: var(--primary-color);
+  margin-left: var(--spacing-small);
+  text-transform: uppercase;
+}
+
+/* Flex Wrapper per Pulsanti e Testo */
+/*.navigation-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-small);
+}
+
+/* Contenitore Immagine + Testo */
+/*.image-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin-bottom: var(--spacing-large);
+  padding: var(--spacing-large);
+  background-color: var(--background-color);
+  border-radius: var(--spacing-small);
+  border: 2px solid var(--primary-color);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  gap: var(--spacing-large);
+}
+
+  .content-wrapper img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: var(--spacing-small);
+      flex: 1 1 300px;
+  }
+
+.text-area {
+  padding-top: var(--spacing-small);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small);
+  width: 50%;
+  text-align: left;
+}
+
+  .text-area .button {
+      align-self: flex-start;
+      background-color: var(--primary-color);
+      color: var(--background-color);
+      padding: var(--spacing-small) var(--spacing-large);
+      border: none;
+      border-radius: var(--spacing-small);
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+      .text-area .button:hover {
+          background-color: var(--accent1-color);
+          transform: scale(1.05);
+      }
+
+/* Sezione "More Info" */
+/*.more-info {
+  margin-top: var(--spacing-large);
+}
+
+  .more-info p {
+      color: var(--secondary-color);
+      margin-bottom: var(--spacing-small);
+      text-align: left;
+  }
+
+.more-buttons {
+  display: flex;
+  gap: var(--spacing-small);
+}
+
+  .more-buttons .button {
+      background-color: var(--primary-color);
+      color: var(--background-color);
+      padding: var(--spacing-small) var(--spacing-large);
+      border: none;
+      border-radius: var(--spacing-small);
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+      .more-buttons .button:hover {
+          background-color: var(--accent1-color);
+          transform: scale(1.05);
+      }
+
+/* Object Tours */
+/*.object-tours {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--spacing-large);
+  margin-top: var(--spacing-small);
+  margin-bottom: var(--spacing-large);
+  width: 100%;
+}
+
+  .object-tours .button {
+      background-color: var(--primary-color);
+      color: var(--background-color);
+      border: none;
+      border-radius: var(--spacing-small);
+      padding: var(--spacing-small) var(--spacing-large);
+      font-size: var(--font-size-large);
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+      .object-tours .button:hover {
+          background-color: var(--accent1-color);
+          transform: scale(1.05);
+      }
+
+      .object-tours .button:active {
+          background-color: var(--accent2-color);
+          transform: scale(0.95);
+      }
+
+/* Map-Geolocalization Container */
+/*.map-geolocation-container {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  border-radius: var(--spacing-large);
+  background-color: var(--background-color);
+  padding: var(--spacing-small);
+  overflow: hidden;
+  gap: var(--spacing-small);
+  position: relative;
+  border: 2px solid var(--accent2-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Map Section */
+/*.map-section {
+  width: 50%;
+  padding: var(--spacing-large);
+  box-sizing: border-box;
+  margin: 0;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+/* Geolocalization Section */
+/*.geolocalization-section {
+  width: 50%;
+  padding: var(--spacing-large);
+  box-sizing: border-box;
+  margin: 0;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+/* Divider */
+/*
+.divider {
+  background-color: var(--accent1-color);
+  width: 2px;
+  margin: 0 auto;
+  height: 100%; /* Estende la divider per tutta l'altezza del contenitore
+} 
+*/
+
+
+
+
+
+
+
+
+
+
  
 #object-title {
   margin: 0;
@@ -49,185 +289,249 @@ body {
   text-align: left;
 }
 
-.item-section {
-  height: fit-content;
-  width:100%;
-}
-
-
-
-  
-  /* Text for Buttons */
-  .button-text {
-    font-size: var(--font-size-small);
-    font-weight: bold;
-  }
-  
-
-  
   /* Individual Sections (e.g., Items, Geolocalization, Metadata) */
   section {
-    margin-bottom: 20px; /* Spacing between sections */
-    padding: 20px; /* Inner spacing */
-    border-radius: 15px; /* Rounded corners for sections */
-    border: 1px solid #fff;
-  }
-
-
-
-
-
-
-
-
-  /* Individual button + text container */
-  .button-container {
+    min-height: 80vh; /* Cambiato da height per maggiore flessibilit� */
     display: flex;
-    align-items: center;
-    height: var(--spacing-large);
-  }
-  
-  
-
-  
- 
-  /* Text styling */
-  .button-text {
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    text-wrap: nowrap;
-  }
- 
-  .tour-tabs {
-    display: flex;
-    gap: var(--spacing-large);
-    height: fit-content;
-    
-  }
-
-  .object-right, .object-left {
-    width: 50%;
-  }
-  
-
-  /* Contenitore immagine + testo */
-  
-  /* Immagine */
-  .image-text-container {
-    display: flex; /* Align image and text horizontally */
-    gap: var(--spacing-large); /* Space between the image and the text */
-    flex-wrap: wrap; /* Allow the image and text to wrap if there's no room */
-    align-items: center; /* Align text and image at the top */
-    width: 100%; /* Ensure the container spans the full width */
-    box-sizing: border-box; /* Include padding and borders in width calculations */
-    margin-bottom: var(--spacing-large); /* Spazio inferiore per separare da altri elementi */
-    position: relative;
+    justify-content: left;
 }
 
-.image-text-container img {
-    height: auto; /* Maintain aspect ratio */
-    width: 100%;
-    border-radius: var(--spacing-small); /* Optional: Rounded corners */
-    flex: 1; /* Allow the image to take proportional space */
+/* Object Page */
+
+/* Contenitore Principale */
+.object-main-container {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: flex-start; /* Align content to the top */
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Optional: limit maximum width for layout */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: var(--spacing-large); /* Add consistent padding */
+  box-sizing: border-box; /* Include padding in width calculations */
+  background-color: var(--background-color);
+  border: 2px solid var(--accent2-color);
+  border-radius: var(--spacing-large);
+  overflow: visible; /* Allow the container to grow with its content */
+  height: auto; /* Ensure the height grows dynamically */
 }
 
-.image-text-container .text {
-    flex: 1; /* Allow text to take proportional space */
-    font-size: 16px;
-    line-height: 1.6; /* Improve readability */
-    color: white;
-    text-align: justify; /* Clean alignment */
-    max-width: 100%; /* Prevent text from overflowing its container */
-    box-sizing: border-box; /* Include padding and borders in width calculations */
+/* Object Navigation */
+.object-navigation {
+  width: 100%;
+  background-color: var(--accent2-color);
+  border-top-left-radius: var(--spacing-small);
+  border-top-right-radius: var(--spacing-small);
+  padding: var(--spacing-small);
+  margin-bottom: var(--spacing-large);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 
+/* Circular Buttons */
+.circular-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  font-size: var(--font-size-large);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box;
+}
 
-
-
-
-  .content img {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
+  .circular-button:hover {
+      background-color: var(--accent1-color);
+      transform: scale(1.1);
   }
-  .more-info button {
-    margin: 10px 5px;
-    background-color: #B7B5E4;
-    color: #fff;
-    border-radius: 10px;
-    padding: 10px;
-    justify-content: flex-start;
-    gap: 15px; /* Space between "I want more" and buttons */
+
+  .circular-button:active {
+      transform: scale(0.95);
+      background-color: var(--accent2-color);
   }
 
- 
-  
-/* Container for Map and Geolocalization sections */
+/* Testo accanto ai Pulsanti */
+.navigation-text {
+  color: var(--primary-color);
+  margin-left: var(--spacing-small);
+  text-transform: uppercase;
+}
+
+/* Flex Wrapper per Pulsanti e Testo */
+.navigation-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-small);
+}
+
+/* Contenitore Immagine + Testo */
+.image-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin-bottom: var(--spacing-large);
+  padding: var(--spacing-large);
+  background-color: var(--background-color);
+  border-radius: var(--spacing-small);
+  border: 2px solid var(--primary-color);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  gap: var(--spacing-large);
+}
+
+  .content-wrapper img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: var(--spacing-small);
+      flex: 1 1 300px;
+  }
+
+.text-area {
+  padding-top: var(--spacing-small);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small);
+  width: 50%;
+  text-align: left;
+}
+
+  .text-area .button {
+      align-self: flex-start;
+      background-color: var(--primary-color);
+      color: var(--background-color);
+      padding: var(--spacing-small) var(--spacing-large);
+      border: none;
+      border-radius: var(--spacing-small);
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+      .text-area .button:hover {
+          background-color: var(--accent1-color);
+          transform: scale(1.05);
+      }
+
+/* Sezione "More Info" */
+.more-info {
+  margin-top: var(--spacing-large);
+}
+
+  .more-info p {
+      color: var(--secondary-color);
+      margin-bottom: var(--spacing-small);
+      text-align: left;
+  }
+
+.more-buttons {
+  display: flex;
+  gap: var(--spacing-small);
+}
+
+  .more-buttons .button {
+      background-color: var(--primary-color);
+      color: var(--background-color);
+      padding: var(--spacing-small) var(--spacing-large);
+      border: none;
+      border-radius: var(--spacing-small);
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+      .more-buttons .button:hover {
+          background-color: var(--accent1-color);
+          transform: scale(1.05);
+      }
+
+/* Object Tours */
+.object-tours {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--spacing-large);
+  margin-top: var(--spacing-small);
+  margin-bottom: var(--spacing-large);
+  width: 100%;
+}
+
+  .object-tours .button {
+      background-color: var(--primary-color);
+      color: var(--background-color);
+      border: none;
+      border-radius: var(--spacing-small);
+      padding: var(--spacing-small) var(--spacing-large);
+      font-size: var(--font-size-large);
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+      .object-tours .button:hover {
+          background-color: var(--accent1-color);
+          transform: scale(1.05);
+      }
+
+      .object-tours .button:active {
+          background-color: var(--accent2-color);
+          transform: scale(0.95);
+      }
+
 /* Map-Geolocalization Container */
 .map-geolocation-container {
-    display: flex; /* Align items horizontally by default */
-    align-items: stretch; /* Ensure sections have equal height */
-    flex-wrap: nowrap; /* Prevent wrapping unless screen is small */
-    border-radius: 15px;
-    background-color: #1f1f1f;
-    padding: 0;
-    overflow: hidden; /* Keep content within rounded corners */
-    gap: 0; /* No gap by default */
-    position: relative; /* Ensure proper layout adjustments */
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  border-radius: var(--spacing-large);
+  background-color: var(--background-color);
+  padding: var(--spacing-small);
+  overflow: hidden;
+  gap: var(--spacing-small);
+  position: relative;
+  border: 2px solid var(--accent2-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.map-section{   
-    width: 50%; /* Each section takes up half the width */
-    padding: 20px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    box-sizing: border-box; /* Include padding in width calculation */
-    margin: 0;
+/* Map Section */
+.map-section {
+  width: 50%;
+  padding: var(--spacing-large);
+  box-sizing: border-box;
+  margin: 0;
+  color: var(--primary-color);
+  text-align: center;
 }
 
+/* Geolocalization Section */
 .geolocalization-section {
-    width: 50%; /* Each section takes up half the width */
-    padding: 20px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    box-sizing: border-box; /* Include padding in width calculation */
-    margin: 0;
-
+  width: 50%;
+  padding: var(--spacing-large);
+  box-sizing: border-box;
+  margin: 0;
+  color: var(--primary-color);
+  text-align: center;
 }
 
+/* Divider */
 .divider {
-    background-color: #fff; /* White color for the divider */
-    margin: 0; /* No margin around the divider */
-    height: auto; /* Extend the divider to match the container's height */
-}
-
-
-  /* Metadata */
-  .metadata {
-    margin-top: 40px;
-    background-color: #1f1f1f;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-  }
-  .rdf img {
-    max-width: 100%;
-    border-radius: 10px;
-  }
-  .rdf button {
-    background-color: #b5b5d8;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 10px;
-  }
-
-  .text-container {
-    width: 30vw;
-    float: left;
-
+  background-color: var(--accent1-color);
+  width: 2px;
+  margin: 0 auto;
+  height: 100%; /* Estende la divider per tutta l'altezza del contenitore */
 }
 
   .footer-h2 {
