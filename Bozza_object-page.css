@@ -26,35 +26,31 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Karrik", sans-serif;
-  font-size: var(--base-font-size);
-  line-height: var(--base-line-height);
-  color: var(--primary-color);
-  background-color: var(--background-color);
-  margin: 0 0 0 0;
-  overflow-x: hidden;
-}
+
 
 
  
+
+
+
+/* OBJECT-PAGE */
+
 #object-title {
   padding: var(--spacing-large) 0 var(--spacing-large) 0;
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 
-  /* Individual Sections (e.g., Items, Geolocalization, Metadata) */
-  section {
-    min-height: 80vh; /* Cambiato da height per maggiore flessibilit� */
-    display: flex;
-    justify-content: left;
-    border-radius: var(--spacing-large);
+.nav_object_page {
+  z-index: 10;
 }
 
-/* Object Page */
+.object-page-body {
+  margin: 0 var(--spacing-large) 0 var(--spacing-large);
+}
 
 /* Contenitore Principale */
+
 .object-main-container {
   display: flex;
   flex-direction: column; /* Stack child elements vertically */
@@ -66,7 +62,7 @@ body {
   padding: calc(var(--spacing-large) * var(--golden-ratio)); /* Add consistent padding */
   box-sizing: border-box; /* Include padding in width calculations */
   background-color: var(--background-color);
-  border: 2px solid var(--accent2-color);
+  border: 2px solid var(--primary-color);
   border-radius: var(--spacing-large);
   overflow: visible; /* Allow the container to grow with its content */
   height: auto; /* Ensure the height grows dynamically */
@@ -79,9 +75,11 @@ body {
 /* Object Navigation */
 .object-navigation {
   width: 100%;
-  background-color: var(--accent2-color);
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
   border-top-left-radius: var(--spacing-large);
   border-top-right-radius: var(--spacing-large);
+  box-sizing: border-box;
   padding: var(--spacing-small);
   top: 0;
   left: 0;
@@ -123,7 +121,7 @@ body {
 
 /* Testo accanto ai Pulsanti */
 .navigation-text {
-  color: var(--primary-color);
+  color: var(--background-color);
   margin-left: var(--spacing-small);
   text-transform: uppercase;
 }
@@ -169,6 +167,7 @@ body {
   }
 
 .text-area {
+  color: var(--accent1-color);
   padding-top: var(--spacing-small);
   display: flex;
   flex-direction: column;
@@ -269,8 +268,7 @@ body {
   overflow: hidden;
   gap: var(--spacing-small);
   position: relative;
-  border: 2px solid var(--accent2-color);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--primary-color);
 }
 
 /* Map Section */
@@ -311,11 +309,9 @@ body {
   height: 100%; /* Estende la divider per tutta l'altezza del contenitore */
 }
 
-  .footer-h2 {
-    text-transform: uppercase;
-}
 
-.metadata {
+
+.metadata-container {
   display: flex;
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center items horizontally */
@@ -328,55 +324,8 @@ body {
   border-radius: var(--spacing-large);
   border: 2px solid var(--primary-color);
   height: auto;
-  margin-bottom: calc(var(--spacing-large) * var(--golden-ratio));
+  margin: calc(var(--spacing-large) * var(--golden-ratio)) 0 calc(var(--spacing-large) * var(--golden-ratio)) 0;
 }  
 
-  /* Media Queries */
-@media screen and (max-width: 768px) {
-  :root {
-      --base-font-size: 14px;
-  }
-  
-  header, main, footer {
-      padding: var(--base-spacing);
-  }
-  
-  nav ul {
-      flex-direction: column;
-  }
 
-  .image-text-container {
-    .map-geolocation-container {
-        flex-direction: column; /* Stack sections vertically */
-        gap: 10px; /* Reduced gap between sections */
-      }
-
-    .divider {
-        display: none; /* Hide the divider */
-    }
-
-    .map-section, .geolocalization-section {
-        box-sizing: border-box;
-        flex: 1;
-        width: 100%; /* Make each section take full width */
-    }
-}
-
-/* High contrast mode */
-@media (prefers-contrast: high) {
-  :root {
-      --primary-color: #B7B5E4;
-      --secondary-color: #000000;
-      --background-color: #ffffff;
-      --text-color: #000000;
-  }
-}
-
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  * {
-      transition: none !important;
-      animation: none !important;
-  }
-}
-}
+/* FINE OBJECT-PAGE*/
