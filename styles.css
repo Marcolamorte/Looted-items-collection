@@ -759,12 +759,12 @@ hr {
   }
   
   
-  
+  /* Object Page Metadata section */
+
   .metadata-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: flex-start; /* Align items at the top */
+    align-items: flex-start; /* align items on the left */
     width: 100%; /* Take the full width of the parent */
     max-width: 1200px; /* Optional: limit the maximum width */
     padding: var(--spacing-large); /* Add spacing inside */
@@ -776,7 +776,44 @@ hr {
     margin: calc(var(--spacing-large) * var(--golden-ratio)) 0 calc(var(--spacing-large) * var(--golden-ratio)) 0;
   }  
   
-  
+.metadata-container h2 {
+    margin-bottom: 0;
+}
+
+.metadata-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.Rdf-Graph, .Table-Metadata {
+    width:50%;
+    border: 2px solid var(--primary-color);
+    font-weight: bold;
+    font-size: var(--base-font-size);
+   
+}
+
+#view-drawio_button {
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-small);
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    padding: var(--spacing-small);
+    color: black;
+    background-color: var(--primary-color);
+    font-family: "Karrik", sans-serif;
+    font-weight: 200;
+    font-size: var(--base-font-size);
+    
+    
+}
+
+.Table-Metadata {
+    text-align: center;
+}
+
+
   /* FINE OBJECT-PAGE*/
   
 
