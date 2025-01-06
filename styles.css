@@ -787,10 +787,34 @@ hr {
 }
 .Rdf-Graph, .Table-Metadata {
     width:50%;
+    height: auto;
     border: 2px solid var(--primary-color);
     font-weight: bold;
     font-size: var(--base-font-size);
+    
    
+}
+
+#par_1 {
+    text-align: center;
+}
+
+#par_2 {
+    font-weight: lighter;
+  }
+#ul_1 {
+    font-weight: lighter;
+    padding: revert;
+    margin-bottom: var(--base-spacing);
+}  
+
+#ul_1 a{
+    text-decoration: underline;
+}
+
+#ul_1 a:hover{
+    background-color: white;
+    color: var(--accent1-color);
 }
 
 #view-drawio_button {
@@ -803,10 +827,8 @@ hr {
     color: black;
     background-color: var(--primary-color);
     font-family: "Karrik", sans-serif;
-    font-weight: 200;
+    font-weight: bold;
     font-size: var(--base-font-size);
-    
-    
 }
 
 .Table-Metadata {
