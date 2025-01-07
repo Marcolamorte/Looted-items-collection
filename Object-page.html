@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Object Visualization</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="Items_JS_HTML\table_metadata.css"> -->
     <script src="timeline.js"></script>
     <script src="lightmode.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -156,15 +157,14 @@
                         <div class="Table-Metadata">
                             <p>General Information</p>
                             <script>
-                                fetch('path-to-your-table-file.html')
+                                fetch('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html')
                                     .then(response => response.text())
                                     .then(data => {
                                         // Usa l'ID corretto per il div
-                                        document.getElementById('Table-Metadata').innerHTML += data;
+                                        document.querySelector(".Table-Metadata").innerHTML += data;
                                     })
                                     .catch(error => console.error('Error loading table:', error));
                             </script>
-                            
                         </div>
                     </div>
             </section>
