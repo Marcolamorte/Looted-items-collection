@@ -806,7 +806,6 @@ hr {
     width:50%;
     height: auto;
     border: 2px solid var(--primary-color);
-    font-weight: bold;
     font-size: var(--base-font-size);
     
    
@@ -814,10 +813,13 @@ hr {
 
 #par_1 {
     text-align: center;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 #par_2 {
     font-weight: lighter;
+    
   }
 #ul_1 {
     font-weight: lighter;
@@ -853,8 +855,12 @@ hr {
     text-align: center;
 }
 
-/* Table content */
+#par_3 {
+    font-weight: bold;
+    font-size: 18px;
+}
 
+/* Table content */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -889,7 +895,8 @@ caption {
 .metadata-element {
     font-family: "Courier New", Courier, monospace;
     color: #555;
-}
+} 
+/* Table content - end */
 
 
 
