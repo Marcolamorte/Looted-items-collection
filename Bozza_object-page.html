@@ -33,7 +33,7 @@
                 <div class="button" id="long-button">
                     <ul>
                         <li><a href="#index.html">home</a></li>
-                        <li><a href="about.html">about</a></li>
+                        <li><a href="#about.html">about</a></li>
                         <li><a href="#tours">tours</a></li>
                         <li><a href="#documentation">documentation</a></li>
                     </ul>
@@ -60,9 +60,9 @@
                   </div>
                   
                   <!-- tour button -->
-                <div class="button" id="tour-button">
-                    <a href="#starttour" id="tour-text">start tour</a>
-                </div>
+                <button class="button" id="tour-button">
+                    <a href="#starttour" id="tour-text">Start Tour</a>
+                <button>
             
             
         </nav>
@@ -138,11 +138,20 @@
                             <p id="par_1">RDF Graph Visualization</p>
                             <p id="par_2">For a better interactive visualization of the graph:</p>
                                 <ul id="ul_1">
-                                    <li>Copy the following <a href="https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf">link</a></li>
+                                    <li>Copy the following <a href="https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf" id="text-link">link</a></li>
                                     <li>Click on the "View on isSemantic.net" button below</li>
                                     <li>Paste the link under "Enter website address:" and click on "Submit" button.</li>
                                 </ul>
-                            <button id="view-drawio_button">View on isSemantic.net</button>
+                                <button class="button" id="view-drawio_button"> 
+                                    <a href="https://issemantic.net/rdf-visualizer" id="isSemantic-text">View on isSemantic.net</a>
+                                </button>
+                                <!-- This is for making all the button clickable  -->
+                                 <script> 
+                                        document.getElementById('view-drawio_button').addEventListener('click', (e) => {
+                                             e.preventDefault(); <!-- This is for preventing  default behavior of the <a> element: it goes directly to the web page. -->
+                                             window.open('https://issemantic.net/rdf-visualizer', '_blank');
+                                        });
+                            </script>
                         </div>
                         <div class="Table-Metadata">
                             <p>General Information</p>

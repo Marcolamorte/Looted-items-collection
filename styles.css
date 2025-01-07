@@ -130,7 +130,15 @@ a {
 #tour-button {
     background-color: var(--primary-color);
     margin-right: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio)*var(--golden-ratio));
+    font-family: "Karrik", sans-serif;
+    font-weight: 200;
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    color: var(--primary-color);
+
 }
+
+
 
 #long-button {
     border: 2px solid var(--secondary-color);
@@ -143,10 +151,19 @@ a {
     color: var(--background-color);
 }
 
+#tour-text:hover {
+    color: #ffffff;
+}
+
 a:focus, button:focus {
     outline: 2px solid var(--primary-color);
     outline-offset: 2px;
 }
+
+button:hover {
+    cursor: pointer;
+}
+
 
 #icon-button {
     padding: var(--spacing-small) var(--spacing-small);
@@ -812,23 +829,24 @@ hr {
     text-decoration: underline;
 }
 
-#ul_1 a:hover{
-    background-color: white;
-    color: var(--accent1-color);
+
+#text-link:hover{
+    color: #ffffff;
 }
 
 #view-drawio_button {
-    border: 2px solid var(--primary-color);
-    border-radius: var(--spacing-small);
-    display: flex;
-    width: fit-content;
-    justify-content: center;
-    padding: var(--spacing-small);
-    color: black;
     background-color: var(--primary-color);
     font-family: "Karrik", sans-serif;
-    font-weight: bold;
     font-size: var(--base-font-size);
+    padding: var(--spacing-small);
+}
+#view-drawio_button a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#isSemantic-text:hover {
+   color: #ffffff;
 }
 
 .Table-Metadata {
@@ -921,10 +939,6 @@ nav.nav_map-page {
 }
 
 /* customized a:focus */
-a[href="#starttour"]:focus {
-    outline: 2px solid white; /* Change the outline color to red */
-    outline-offset: 2px; /* Add space between the outline and the element */
-}
 
 /* main map-page */
 main.main_map-page {
@@ -1039,6 +1053,7 @@ section.map-object_aside-panel {
         flex: 1;
         min-width: 300px;
       }
+
       /* scroll-left button gallery map-page  */
       button.scroll-left{
         background-color: var(--primary-color);
