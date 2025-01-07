@@ -155,6 +155,16 @@
                         </div>
                         <div class="Table-Metadata">
                             <p>General Information</p>
+                            <script>
+                                fetch('path-to-your-table-file.html')
+                                    .then(response => response.text())
+                                    .then(data => {
+                                        // Usa l'ID corretto per il div
+                                        document.getElementById('Table-Metadata').innerHTML += data;
+                                    })
+                                    .catch(error => console.error('Error loading table:', error));
+                            </script>
+                            
                         </div>
                     </div>
             </section>
