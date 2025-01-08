@@ -881,15 +881,22 @@ th {
     color:black;
 }
 
+
 td {
     text-align: justify;
+
 }
 
-.metadata-element {
+.metadata-element a {
     font-family: "Courier New", Courier, monospace;
     color: var(--secondary-color);
     font-weight: bold;
 } 
+.metadata-element a:hover {
+    color: white;
+}
+
+
 /* Table content - end */
 
 
