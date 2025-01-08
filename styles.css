@@ -801,11 +801,12 @@ hr {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: var(--spacing-small);
 }
 .Rdf-Graph, .Table-Metadata {
     width:50%;
     height: auto;
-    border: 2px solid var(--primary-color);
+    /* border: 2px solid var(--primary-color); */
     font-size: var(--base-font-size);
     
    
@@ -814,7 +815,7 @@ hr {
 #par_1 {
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #par_2 {
@@ -823,8 +824,8 @@ hr {
   }
 #ul_1 {
     font-weight: lighter;
-    padding: revert;
-    margin-bottom: var(--base-spacing);
+    padding: revert;  /* default browser value */
+    margin-bottom: var(--base-spacing); 
 }  
 
 #ul_1 a{
@@ -857,7 +858,7 @@ hr {
 
 #par_3 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Table content */
@@ -870,31 +871,24 @@ table {
 th, td {
     border: 1px solid #ccc;
     padding: 10px;
-    text-align: left;
 }
 
 th {
-    background-color: #f4f4f4;
+    background-color: var(--accent1-color);
     text-align: center;
-    font-size: larger;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-tr:hover {
-    background-color: #f1f1f1;
-}
-
-caption {
-    margin-bottom: 10px;
+    font-size: 18px;
     font-weight: bold;
-    font-size: 1.2em;
+    color:black;
+}
+
+td {
+    text-align: justify;
 }
 
 .metadata-element {
     font-family: "Courier New", Courier, monospace;
-    color: #555;
+    color: var(--secondary-color);
+    font-weight: bold;
 } 
 /* Table content - end */
 
