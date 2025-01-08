@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Tour selection</title>
+    <link rel="stylesheet" href="Bozza_tours.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="timeline.js"></script>
+    <script src="lightmode.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body class="object-page-body">
+    <header>
+        <!-- NAVBAR -->
+         
+        <!-- toggle -->
+        <nav class="nav_object_page">
+            <div class="theme-toggle-container">
+                <div class="toggle">
+                    <label class="theme-switch">
+                        <input type="checkbox">
+                        <span class="toggle-track"></span>
+                    </label>
+                </div>
+            </div>
+
+            
+           
+            
+        <!-- main button (long-button) -->
+                <div class="button" id="long-button">
+                    <ul>
+                        <li><a href="#index.html">home</a></li>
+                        <li><a href="#about.html">about</a></li>
+                        <li><a href="#tours">tours</a></li>
+                        <li><a href="#documentation">documentation</a></li>
+                    </ul>
+                </div>
+                
+                <!-- icons -->
+                <div class="icon-container">
+
+                    <a href="#map" class="icon-link">
+                      <div class="button" id="icon-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM10 5.47l4 1.4v11.66l-4-1.4V5.47zm-5 .99l3-1.01v11.7l-3 1.16V6.46zm14 11.08l-3 1.01V6.86l3-1.16v11.84z"/>
+                      </svg>
+                      </div>
+                    </a>
+
+                    <a href="#grid" class="icon-link">
+                        <div class="button" id="icon-button">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z"/>
+                      </svg>
+                    </div>
+                    </a>
+                
+                  </div>
+                  
+                  <!-- tour button -->
+                <button class="button" id="tour-button">
+                    <a href="#starttour" id="tour-text">Start Tour</a>
+                <button>
+            
+            
+        </nav>
+        
+        <!-- end of nav -->
+    </header>
+    
+        <!-- copy-paste header for every page!!!!!!!! -->
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="personalization-intro" class="object-main-container">
+            <h2 id="personalization-title">Welcome to the Looted Items Collection</h2>
+            <p>
+                The <strong>Looted Items Collection</strong> virtual tour is designed to provide a personalized exploration experience tailored to your interests and objectives. Whether you're curious about the historical timeline, the social and political impacts of colonialism, or the geographical journey of these artifacts, this is the start of your personalized journey.
+            </p>
+            <p>
+                Select one of the tours below to begin your exploration. Each option provides a unique perspective on the artifacts and the stories behind them, allowing you to shape your journey through looted history.
+            </p>
+        </section>
+
+        <!-- Tours Selection Section -->
+        <section id="tours-selection" class="object-main-container">
+            <h2 id="tours-title">Choose Your Virtual Tour</h2>
+            <div class="tours-container">
+                <!-- Tour 1 -->
+                <div class="tour-section">
+                    <h3>Timeline Tour</h3>
+                    <p>
+                        Discover the historical and artistic value of looted items through a chronological journey, highlighting their cultural and historical significance.
+                    </p>
+                    <button class="button" onclick="location.href='#timeline-tour'">Explore Timeline Tour</button>
+                </div>
+
+                <!-- Tour 2 -->
+                <div class="tour-section">
+                    <h3>Colonial Conquests and Cultural Loss</h3>
+                    <p>
+                        Understand the social and political consequences of colonialism and looting, examining the stories behind the removal of these treasures.
+                    </p>
+                    <button class="button" onclick="location.href='#colonial-tour'">Explore Colonial Tour</button>
+                </div>
+
+                <!-- Tour 3 -->
+                <div class="tour-section">
+                    <h3>Geo Tour</h3>
+                    <p>
+                        Explore the geographical origins of these items and the historical events tied to their creation and looting, tracing their journey across the globe.
+                    </p>
+                    <button class="button" onclick="location.href='#geo-tour'">Explore Geo Tour</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- copy paste footer into every page -->
+    <footer>
+        <hr>
+        <h2 class="footer-h2">The Stolen Archive</h2>
+        <p>Is a project developed for the final examination of the course Information Modelling and Web Technologies held by professor Fabio Vitali in the context of the Masters Degree program Digital Humanities and Digital Knowledge at Alma Mater Studiorum University of Bologna. As such, this project will not be maintained or updated past the scope of the course's examination.<br>However, if you have any reclaims or suggestions, you can contact us through our team page.</p>
+        <hr>
+        <p>&copy; 2024 The Stolen Archive. All rights reserved.</p>
+    </footer>
+
+    <script src="map.js"></script>
+</body>
+</html>
