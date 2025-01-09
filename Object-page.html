@@ -130,43 +130,39 @@
                 </div>
             </section>
 
-
             <section class="metadata-container">
-                    <h2>Metadata</h2>
-                    <div class="metadata-content">
-                        <div class="Rdf-Graph">
-                            <p id="par_1">RDF Graph Visualization</p>
-                            <img src="rdf_files_graphs\11_Achaemenid_Reliefs.png" alt="Rdf Graph image" id="graph-image_id" class="graph-image_class">
-                            <p id="par_2">For a better interactive visualization of the graph:</p>
-                                <ul id="ul_1">
-                                    <li>Copy the following <a href="https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf" id="text-link">link</a></li>
-                                    <li>Click on the "View on isSemantic.net" button below</li>
-                                    <li>Paste the link under "Enter website address:" and click on "Submit" button.</li>
-                                </ul>
-                                <button class="button" id="view-drawio_button"> 
-                                    <a href="https://issemantic.net/rdf-visualizer" id="isSemantic-text">View on isSemantic.net</a>
-                                </button>
-                                <!-- This is for making all the button clickable  -->
-                                 <script> 
-                                        document.getElementById('view-drawio_button').addEventListener('click', (e) => {
-                                             e.preventDefault(); <!-- This is for preventing  default behavior of the <a> element: it goes directly to the web page. -->
-                                             window.open('https://issemantic.net/rdf-visualizer', '_blank');
-                                        });
-                            </script>
-                        </div>
-                        <div class="Table-Metadata">
-                            <p id="par_3">General Information</p>
-                            <script>
-                                fetch('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html')
-                                    .then(response => response.text())
-                                    .then(data => {
-                                        // Usa l'ID corretto per il div
-                                        document.querySelector(".Table-Metadata").innerHTML += data;
-                                    })
-                                    .catch(error => console.error('Error loading table:', error));
-                            </script>
+                <h2>Metadata</h2>
+                <div class="metadata-content">
+                    <div class="Rdf-Graph">
+                        <p id="par_1">RDF Graph Visualization</p>
+                        <img src="rdf_files_graphs\11_Achaemenid_Reliefs.png" alt="Rdf Graph image" id="graph-image_id" class="graph-image_class"  onclick="openModal(this.src)" >
+                        <p id="par_2">For a better interactive visualization of the graph:</p>
+                            <ul id="ul_1">
+                                <li>Copy the following <a href="https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf" target="_blank" id="text-link">link</a></li>
+                                <li>Click on the "View on isSemantic.net" button below</li>
+                                <li>Paste the link under "Enter website address:" and click on "Submit" button.</li>
+                            </ul>
+                            <button class="button" id="view-drawio_button"> 
+                                <a href="https://issemantic.net/rdf-visualizer"  id="isSemantic-text">View on isSemantic.net</a>
+                            </button>
+                    </div>
+
+                    <!-- This html snippet is for the modal container of the img -->
+                    <div id="imageModal" class="modal">
+                        <!-- “X” close button -->
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        
+                        <!-- Container for the image we want to show enlarged -->
+                        <div class="modal-content">
+                          <img id="expandedImg" src="" alt="Full size image" />
                         </div>
                     </div>
+                      <!-- End of the modal container -->
+
+                    <div class="Table-Metadata">
+                        <p id="par_3">General Information</p>
+                    </div>
+                </div>
             </section>
         </section> 
     </main>
@@ -182,6 +178,113 @@
         <hr>
         <p>&copy; 2024 The Stolen Archive. All rights reserved.</p>
     </footer>
+     
+     <!-- This is for making all the 'view-drawio_button' button clickable  -->
+    <script> 
+        document.getElementById('view-drawio_button').addEventListener('click', (e) => {
+            e.preventDefault(); <!-- This is for preventing  the default behavior of the <a> element: it goes directly to the web page. -->
+            window.open('https://issemantic.net/rdf-visualizer', '_blank');
+        });
+    </script>
+
+    <!-- Script for making the modal container work and open the full image of the graph properly -->
+    <script>
+        // References to modal elements
+        const modal       = document.getElementById("imageModal");
+        const expandedImg = document.getElementById("expandedImg");
+        const modalContent = document.querySelector(".modal-content");
+        
+        // Variables for zoom and pan
+        let scale = 1;
+        let isDragging = false;
+        let startX = 0;
+        let startY = 0;
+        let translateX = 0;
+        let translateY = 0;
+        
+        // Open the modal with the given `src`
+        function openModal(src) {
+            // Set the enlarged image src to the one clicked
+            expandedImg.src = src;
+            
+            // Reset scale and translation each time
+            scale = 1;
+            translateX = 0;
+            translateY = 0;
+            applyTransform();
+        
+            // Show the modal
+            modal.style.display = "block";
+        }
+        
+        // Close the modal
+        function closeModal() {
+            modal.style.display = "none";
+        }
+        
+        // Apply the current scale/translate values
+        function applyTransform() {
+            expandedImg.style.transform = `
+                translate(-50%, -50%)
+                translate(${translateX}px, ${translateY}px)
+                scale(${scale})
+            `;}
+        
+        // Handle mouse wheel (zoom)
+        expandedImg.addEventListener('wheel', (e) => {
+            e.preventDefault(); // Avoid entire page scroll
+        
+            // You can tweak the zoom factor (0.001) to taste
+            scale -= e.deltaY * 0.001;
+            
+            // Limit scale range to avoid infinite zoom
+            if (scale < 0.2) scale = 0.2;
+            if (scale > 10) scale = 10;
+        
+            applyTransform();
+        });
+        
+        // Handle mouse down (start dragging)
+        expandedImg.addEventListener('mousedown', (e) => {
+            e.preventDefault();
+            isDragging = true;
+            // Record initial mouse position minus current translate
+            startX = e.clientX - translateX;
+            startY = e.clientY - translateY;
+        });
+        
+        // Handle mouse move (panning)
+        expandedImg.addEventListener('mousemove', (e) => {
+            if (!isDragging) return; 
+            translateX = e.clientX - startX;
+            translateY = e.clientY - startY;
+            applyTransform();
+        });
+        
+        // Stop dragging on mouse up or leaving the image area
+        expandedImg.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
+        expandedImg.addEventListener('mouseleave', () => {
+            isDragging = false;
+        });
+        
+        // Expose openModal / closeModal globally if needed
+        window.openModal = openModal;
+        window.closeModal = closeModal;
+    </script>
+        
+    <!-- This is for loading the table metadata from github -->
+    <script>
+        fetch('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html')
+            .then(response => response.text())
+            .then(data => {
+                // Usa l'ID corretto per il div
+                document.querySelector(".Table-Metadata").innerHTML += data;
+            })
+            .catch(error => console.error('Error loading table:', error));
+    </script>
+    
 
     <script src="map.js"></script>
 </body>
