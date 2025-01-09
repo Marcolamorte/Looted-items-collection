@@ -11,7 +11,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="Bozza_tours.js"></script>
 </head>
+
+
 <body class="object-page-body">
     <header>
         <!-- NAVBAR -->
@@ -90,14 +93,43 @@
         <section id="tours-selection" class="object-main-container">
             <h2 id="tours-title">Choose Your Virtual Tour</h2>
             <div class="tours-container">
+
+
                 <!-- Tour 1 -->
                 <div class="tour-section">
                     <h3>Timeline Tour</h3>
                     <p>
                         Discover the historical and artistic value of looted items through a chronological journey, highlighting their cultural and historical significance.
                     </p>
-                    <button class="button" onclick="location.href='#timeline-tour'">Explore Timeline Tour</button>
+                    <button class="expand-button">▼</button>
+                    <div class="expandable-content">
+                        <div class="personalization-options">
+                            <h3>Customize Your Tour</h3>
+                            <form id="personalization-form">
+                        
+                                <!-- Select Tour Length -->
+                                <label for="tour-length">Tour Length:</label>
+                                <select id="tour-length" name="tour-length">
+                                    <option value="" disabled selected>-- Select a length</option>
+                                    <option value="short">Short</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="long">Long</option>
+                                </select>
+                        
+                                <!-- Select Tour Complexity -->
+                                <label for="tour-complexity">Complexity:</label>
+                                <select id="tour-complexity" name="tour-complexity">
+                                    <option value="" disabled selected>-- Select a level of complexity</option>
+                                    <option value="basic">Fun</option>
+                                    <option value="detailed">Basic</option>
+                                    <option value="expert">Expert</option>
+                                </select>
+                            </form>
+                        </div>
+                        <button type="button" id="start-tour-button"><a href="timeline-tour.html" class="tour-link">Start Timeline Tour</a></button>           
+                    </div>
                 </div>
+
 
                 <!-- Tour 2 -->
                 <div class="tour-section">
@@ -105,8 +137,35 @@
                     <p>
                         Understand the social and political consequences of colonialism and looting, examining the stories behind the removal of these treasures.
                     </p>
-                    <button class="button" onclick="location.href='#colonial-tour'">Explore Colonial Tour</button>
+                    <button class="expand-button">▼</button>
+                    <div class="expandable-content">
+                        <div class="personalization-options">
+                            <h3>Customize Your Tour</h3>
+                            <form id="personalization-form">
+                        
+                                <!-- Select Tour Length -->
+                                <label for="tour-length">Tour Length:</label>
+                                <select id="tour-length" name="tour-length">
+                                    <option value="" disabled selected>-- Select a length</option>
+                                    <option value="short">Short</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="long">Long</option>
+                                </select>
+                        
+                                <!-- Select Tour Complexity -->
+                                <label for="tour-complexity">Complexity:</label>
+                                <select id="tour-complexity" name="tour-complexity">
+                                    <option value="" disabled selected>-- Select a level of complexity</option>
+                                    <option value="basic">Fun</option>
+                                    <option value="detailed">Basic</option>
+                                    <option value="expert">Expert</option>
+                                </select>
+                            </form>
+                        </div>
+                        <button type="button" id="start-tour-button"><a href="colonial-tour.html" class="tour-link">Start Colonial Conquests and Cultural Loss Tour</a></button>
+                    </div>
                 </div>
+
 
                 <!-- Tour 3 -->
                 <div class="tour-section">
@@ -114,7 +173,33 @@
                     <p>
                         Explore the geographical origins of these items and the historical events tied to their creation and looting, tracing their journey across the globe.
                     </p>
-                    <button class="button" onclick="location.href='#geo-tour'">Explore Geo Tour</button>
+                    <button class="expand-button">▼</button>
+                    <div class="expandable-content">
+                        <div class="personalization-options">
+                            <h3>Customize Your Tour</h3>
+                            <form id="personalization-form">
+                        
+                                <!-- Select Tour Length -->
+                                <label for="tour-length">Tour Length:</label>
+                                <select id="tour-length" name="tour-length">
+                                    <option value="" disabled selected>-- Select a length</option>
+                                    <option value="short">Short</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="long">Long</option>
+                                </select>
+                        
+                                <!-- Select Tour Complexity -->
+                                <label for="tour-complexity">Complexity:</label>
+                                <option value="" disabled selected>-- Select a level of complexity</option>
+                                <select id="tour-complexity" name="tour-complexity">
+                                    <option value="basic">Fun</option>
+                                    <option value="detailed">Basic</option>
+                                    <option value="expert">Expert</option>
+                                </select>
+                            </form>
+                        </div>
+                        <button type="button" id="start-tour-button"><a href="geo-tour.html" class="tour-link">Start Geo Tour</a></button>
+                    </div>
                 </div>
             </div>
         </section>

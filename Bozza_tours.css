@@ -34,61 +34,142 @@ body.tours-page-body {
 }
 
 .tours-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--spacing-large);
-    justify-content: center;
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack tour sections vertically */
+    gap: var(--spacing-large); /* Add spacing between sections */
 }
 
 .tour-section {
-    flex: 1 1 calc(33% - var(--spacing-large));
+    display: flex; /* Use Flexbox for horizontal alignment of elements */
+    flex-direction: row; /* Align title, text, and button horizontally */
+    align-items: center; /* Vertically align all elements */
+    gap: calc(var(--spacing-large) * var(--golden-ratio)); /* Add harmonious spacing between elements */
     background-color: var(--background-color);
     border: 2px solid var(--primary-color);
     border-radius: var(--spacing-large);
     padding: var(--spacing-large);
-    display: flex; /* Use Flexbox for alignment */
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Align elements horizontally by their center */
-    justify-content: center; /* Center all items vertically */
-    gap: calc(var(--spacing-large) * var(--golden-ratio)); /* Add harmonic spacing between elements */
-    text-align: center;
+    text-align: left; /* Align text to the left for better readability */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Make each section span the full width */
+    position:relative
 }
 
-.tour-section:hover {
-    transform: scale(1.05);
-}
+
 
 .tour-section h3 {
     font-size: calc(var(--font-size-large));
     color: var(--primary-color);
-    margin: 0; /* Remove any extra margin */
+    margin: 0;
+    flex: 1; /* Allow flexible width */
 }
 
 .tour-section p {
-    font-size: calc(var(--font-size-small) * var(--golden-ratio)); /* Use proportional font size */
+    font-size: calc(var(--font-size-small) * var(--golden-ratio));
     color: var(--secondary-color);
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    flex: 3; /* Take more space for the text */
 }
 
-.tour-section .button {
+.expand-button {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 50%;
+    font-size: calc(var(--font-size-small) * var(--golden-ratio));
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.expand-button:hover {
+    background-color: var(--accent1-color);
+}
+
+.expand-button:active {
+    background-color: var(--accent2-color);
+}
+
+.expand-button[aria-expanded="true"] {
+    transform: rotate(180deg); /* Rotate arrow when expanded */
+}
+
+.expandable-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    width: 100%;
+    margin-top: var(--spacing-large);
+}
+
+.expandable-content.expanded {
+    max-height: 500px; /* Adjust based on your content */
+    padding: var(--spacing-large) 0;
+}
+
+/* Adjust tour section for expandable content */
+.tour-section {
+    flex-wrap: wrap;
+}
+
+.expandable-content {
+    flex-basis: 100%;
+}
+
+
+.personalization-options {
+    margin: var(--spacing-large) auto;
+    padding: var(--spacing-large);
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-small);
+    width: 100%;
+    text-align: center;
+}
+
+.personalization-options h3 {
+    font-size: calc(var(--font-size-large) * var(--golden-ratio));
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-large);
+}
+
+.personalization-options label {
+    display: block;
+    margin: var(--spacing-small) 0 var(--spacing-small) 0;
+    font-size: var(--font-size-large);
+    color: var(--primary-color);
+    text-align:left;
+}
+
+.personalization-options select {
+    width: 100%;
+    padding: var(--spacing-small);
+    margin-bottom: var(--spacing-large);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--spacing-small);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    font-size: var(--font-size-large);
+}
+
+#start-tour-button {
     padding: var(--spacing-small) var(--spacing-large);
     background-color: var(--primary-color);
     color: var(--background-color);
     border: none;
     border-radius: var(--spacing-small);
-    font-size: var(--base);
-    text-transform: uppercase;
+    font-size: calc(var(--font-size-small) * var(--golden-ratio));
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
-.tour-section .button:hover {
+#start-tour-button:hover {
     background-color: var(--accent1-color);
-    transform: scale(1.05);
 }
 
-.tour-section .button:active {
+#start-tour-button:active {
     background-color: var(--accent2-color);
-    transform: scale(0.95);
 }
