@@ -73,25 +73,28 @@ body.tours-page-body {
 .expand-button {
     width: 50px;
     height: 50px;
-    background-color: var(--primary-color);
-    color: var(--background-color);
-    border: none;
     border-radius: 50%;
-    font-size: calc(var(--font-size-small) * var(--golden-ratio));
-    cursor: pointer;
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    font-size: var(--font-size-large);
     display: flex;
-    align-items: center;
     justify-content: center;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-}
-
-.expand-button:hover {
-    background-color: var(--accent1-color);
-}
-
-.expand-button:active {
-    background-color: var(--accent2-color);
-}
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+    .expand-button:hover {
+        background-color: var(--accent1-color);
+        transform: scale(1.1);
+    }
+  
+    .expand-button:active {
+        transform: scale(0.95);
+        background-color: var(--accent2-color);
+    }
 
 .expand-button[aria-expanded="true"] {
     transform: rotate(180deg); /* Rotate arrow when expanded */
@@ -152,24 +155,26 @@ body.tours-page-body {
     border-radius: var(--spacing-small);
     background-color: var(--background-color);
     color: var(--secondary-color);
-    font-size: var(--font-size-large);
+    font-size: var(calc(var(--font-size-small) * var(--golden-ratio)));
 }
 
-#start-tour-button {
+.start-tour-button {
     padding: var(--spacing-small) var(--spacing-large);
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--background-color);
     border: none;
     border-radius: var(--spacing-small);
     font-size: calc(var(--font-size-small) * var(--golden-ratio));
     cursor: pointer;
     transition: background-color 0.3s ease;
+    justify-content: center;
 }
 
-#start-tour-button:hover {
-    background-color: var(--accent1-color);
+.start-tour-button:hover {
+    background-color: var(--accent2-color);
+    color: #ffffff;
 }
 
-#start-tour-button:active {
+.start-tour-button:active {
     background-color: var(--accent2-color);
 }
