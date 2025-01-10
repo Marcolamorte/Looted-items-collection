@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Tour selection</title>
-    <link rel="stylesheet" href="Bozza_tours.css">
+    <link rel="stylesheet" href="bozza_tours.css">
     <link rel="stylesheet" href="styles.css">
     <script src="timeline.js"></script>
     <script src="lightmode.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="Bozza_tours.js"></script>
 </head>
-
 
 <body class="object-page-body">
     <header>
@@ -76,144 +74,68 @@
     
         <!-- copy-paste header for every page!!!!!!!! -->
 
-    <!-- Main Content -->
-    <main>
-        <!-- Introduction Section -->
-        <section id="personalization-intro" class="object-main-container">
-            <h2 id="personalization-title">Welcome to the Looted Items Collection</h2>
-            <p>
-                The <strong>Looted Items Collection</strong> virtual tour is designed to provide a personalized exploration experience tailored to your interests and objectives. Whether you're curious about the historical timeline, the social and political impacts of colonialism, or the geographical journey of these artifacts, this is the start of your personalized journey.
-            </p>
-            <p>
-                Select one of the tours below to begin your exploration. Each option provides a unique perspective on the artifacts and the stories behind them, allowing you to shape your journey through looted history.
-            </p>
-        </section>
-
-        <!-- Tours Selection Section -->
-        <section id="tours-selection" class="object-main-container">
-            <h2 id="tours-title">Choose Your Virtual Tour</h2>
-            <div class="tours-container">
-
-
-                <!-- Tour 1 -->
-                <div class="tour-section">
-                    <h3>Timeline Tour</h3>
-                    <p>
-                        Discover the historical and artistic value of looted items through a chronological journey, highlighting their cultural and historical significance.
-                    </p>
-                    <button class="expand-button">▼</button>
-                    <div class="expandable-content">
-                        <div class="personalization-options">
-                            <h3>Customize Your Tour</h3>
-                            <form id="personalization-form">
-                        
-                                <!-- Select Tour Length -->
-                                <label for="tour-length">Tour Length:</label>
-                                <select id="tour-length" name="tour-length">
-                                    <option value="" disabled selected>-- Select a length</option>
-                                    <option value="short">Short</option>
-                                    <option value="medium">Medium</option>
-                                    <option value="long">Long</option>
-                                </select>
-                        
-                                <!-- Select Tour Complexity -->
-                                <label for="tour-complexity">Complexity:</label>
-                                <select id="tour-complexity" name="tour-complexity">
-                                    <option value="" disabled selected>-- Select a level of complexity</option>
-                                    <option value="basic">Fun</option>
-                                    <option value="detailed">Basic</option>
-                                    <option value="expert">Expert</option>
-                                </select>
-                            </form>
-                        </div>
-                        <button class="start-tour-button"><a href="timeline-tour.html" class="tour-link">Start</a></button>           
+    
+        <!-- Main Content -->
+        <main>
+            <!-- Introduction Section -->
+            <section id="tours-introduction" class="object-main-container">
+                <h2 id="personalization-title">Tour Presentation - Looted Items Collection</h2>
+                <p>
+                    The <strong>Looted Items Collection</strong> offers a unique opportunity to personalize your exploration. 
+                    While personalization is key, these three tours Timeline, Colonial Conquests, and Geo represent 
+                    the core ways to interact with our collection. Dive deeper into each to see how they enrich your experience.
+                <br><br>
+                    When you've decided which tour is more compliant to your needs and objectives click on the "Start tour" button up-right in order to continue.
+                </p>
+            </section>
+    
+            <!-- Tours Selection Section -->
+            <section id="tours-presentation" class="object-main-container">
+                <h2 id="tours-title">Explore Our Tours</h2>
+                <div class="tours-des-container">
+    
+    
+                    <!-- Tour 1 -->
+                    <div class="tours-des">
+                        <h3>Timeline Tour</h3>
+                        <p>
+                            Understanding the legacy of colonial looting and the cultural loss that accompanied it requires more than just looking at individual artefacts. When we arrange these looted items in chronological order, we uncover a broader, more complex story—one that shows the steady unfolding of imperial expansion, cultural encounters, and the lasting impact on societies around the world.
+                            This narrative was carefully constructed to guide you through the timeline of these events. Each artefact represents a moment in history when conflict, conquest, and imperial ambition collided with the cultural heritage of nations. By following this path, you'll see how the forces of colonialism evolved over time, how different parts of the world were affected, and how these artefacts became symbols of both loss and resilience.
+                            From the oldest looted treasures to more recent historical conflicts, this journey highlights the changing dynamics of power and resistance, showing that the story of these items is also the story of the people and nations that continue to fight for their rightful return.
+                            
+                        </p>
+                    </div>
+    
+    
+                    <!-- Tour 2 -->
+                    <div class="tours-des">
+                        <h3>Colonial Conquests and Cultural Loss</h3>
+                        <p>
+                            Colonialism profoundly altered the course of global history, not only through the conquest of territories but also through the systematic looting of cultural and historical treasures. This narrative delves into the darker legacy of colonialism, where artifacts, sacred objects, and symbols of national identity were forcibly removed from their homelands, stripping cultures of their heritage. The looted artifacts on display today serve as reminders of these violent encounters. This journey traces the stories behind the theft, the motivations of colonial powers, and the enduring impact on the communities who lost their cultural heritage. As we explore each artifact, we reflect on the ways colonial conquests shaped cultural identities and the ongoing debates surrounding restitution.                        </p>
+                    </div>
+    
+    
+                    <!-- Tour 3 -->
+                    <div class="tours-des">
+                        <h3>Geo Tour</h3>
+    
+                        <p>
+                            The GEO LOOTING TOUR invites visitors to explore the complex and often painful history of colonialism through the lens of cultural artifacts taken from their countries of origin. Each section highlights a specific continent, illuminating the stories behind the looted items that embody the rich cultural heritages of diverse societies. By understanding the historical context in which these treasures were appropriated, visitors can appreciate the significance of repatriation efforts and the ongoing conversations surrounding cultural ownership. As we journey through Africa, Asia, Europe, Oceania, and the Americas, we will uncover how colonial powers, motivated by curiosity, conquest, and economic gain, systematically stripped cultures of their historical artifacts, leaving lasting scars on the nations and communities affected.
+                        </p>
                     </div>
                 </div>
-
-
-                <!-- Tour 2 -->
-                <div class="tour-section">
-                    <h3>Colonial Conquests and Cultural Loss</h3>
-                    <p>
-                        Understand the social and political consequences of colonialism and looting, examining the stories behind the removal of these treasures.
-                    </p>
-                    <button class="expand-button">▼</button>
-                    <div class="expandable-content">
-                        <div class="personalization-options">
-                            <h3>Customize Your Tour</h3>
-                            <form id="personalization-form">
-                        
-                                <!-- Select Tour Length -->
-                                <label for="tour-length">Tour Length:</label>
-                                <select id="tour-length" name="tour-length">
-                                    <option value="" disabled selected>-- Select a length</option>
-                                    <option value="short">Short</option>
-                                    <option value="medium">Medium</option>
-                                    <option value="long">Long</option>
-                                </select>
-                        
-                                <!-- Select Tour Complexity -->
-                                <label for="tour-complexity">Complexity:</label>
-                                <select id="tour-complexity" name="tour-complexity">
-                                    <option value="" disabled selected>-- Select a level of complexity</option>
-                                    <option value="basic">Fun</option>
-                                    <option value="detailed">Basic</option>
-                                    <option value="expert">Expert</option>
-                                </select>
-                            </form>
-                        </div>
-                        <button class="start-tour-button"><a href="colonial-tour.html" class="tour-link">Start</a></button>
-                    </div>
-                </div>
-
-
-                <!-- Tour 3 -->
-                <div class="tour-section">
-                    <h3>Geo Tour</h3>
-                    <p>
-                        Explore the geographical origins of these items and the historical events tied to their creation and looting, tracing their journey across the globe.
-                    </p>
-                    <button class="expand-button">▼</button>
-                    <div class="expandable-content">
-                        <div class="personalization-options">
-                            <h3>Customize Your Tour</h3>
-                            <form id="personalization-form">
-                        
-                                <!-- Select Tour Length -->
-                                <label for="tour-length">Tour Length:</label>
-                                <select id="tour-length" name="tour-length">
-                                    <option value="" disabled selected>-- Select a length</option>
-                                    <option value="short">Short</option>
-                                    <option value="medium">Medium</option>
-                                    <option value="long">Long</option>
-                                </select>
-                        
-                                <!-- Select Tour Complexity -->
-                                <label for="tour-complexity">Complexity:</label>
-                                <select id="tour-complexity" name="tour-complexity">
-                                    <option value="" disabled selected>-- Select a level of complexity</option>
-                                    <option value="basic">Fun</option>
-                                    <option value="detailed">Basic</option>
-                                    <option value="expert">Expert</option>
-                                </select>
-                            </form>
-                        </div>
-                        <button class="start-tour-button"><a href="geo-tour.html" class="tour-link">Start</a></button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- copy paste footer into every page -->
-    <footer>
-        <hr>
-        <h2 class="footer-h2">The Stolen Archive</h2>
-        <p>Is a project developed for the final examination of the course Information Modelling and Web Technologies held by professor Fabio Vitali in the context of the Masters Degree program Digital Humanities and Digital Knowledge at Alma Mater Studiorum University of Bologna. As such, this project will not be maintained or updated past the scope of the course's examination.<br>However, if you have any reclaims or suggestions, you can contact us through our team page.</p>
-        <hr>
-        <p>&copy; 2024 The Stolen Archive. All rights reserved.</p>
-    </footer>
-
-    <script src="map.js"></script>
-</body>
-</html>
+            </section>
+        </main>
+    
+        <!-- copy paste footer into every page -->
+        <footer>
+            <hr>
+            <h2 class="footer-h2">The Stolen Archive</h2>
+            <p>Is a project developed for the final examination of the course Information Modelling and Web Technologies held by professor Fabio Vitali in the context of the Masters Degree program Digital Humanities and Digital Knowledge at Alma Mater Studiorum University of Bologna. As such, this project will not be maintained or updated past the scope of the course's examination.<br>However, if you have any reclaims or suggestions, you can contact us through our team page.</p>
+            <hr>
+            <p>&copy; 2024 The Stolen Archive. All rights reserved.</p>
+        </footer>
+    
+        <script src="map.js"></script>
+    </body>
+    </html>
