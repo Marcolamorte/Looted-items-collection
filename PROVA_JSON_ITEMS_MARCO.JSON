@@ -7,8 +7,8 @@
             "title":"Parthenon Marbles – 447-438 BCE",
             "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon1.jpg",
             "metadata":{
-                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
-                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
             },
             
             "fun": {
@@ -31,7 +31,7 @@
             "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok1.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
-                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
             },
 
 
@@ -52,6 +52,11 @@
 
         "item3": {
             "title":"Achaemenid Reliefs – 5th Century BCE", 
+            "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/achaemenid.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+            },
             "fun": { 
                 "short": "The achaemenid reliefs are stone carvings from the Persian Empire, over 2,500 years ago! They tell stories about ancient kings and warriors. Explorers took them in the 1800s, and today, they’re displayed far away in Europe. Fun fact: Persia was one of the most powerful empires ever, and these carvings show off its greatness!", 
                 "medium": "The Achaemenid Reliefs are magnificent stone carvings created over 2,500 years ago during the reign of the Persian Empire. These detailed carvings, found primarily in Persepolis, depict the grandeur of Persian kings, warriors, and court officials. The reliefs were designed to celebrate the might of the empire, showcasing the power and influence of rulers like Darius the Great. Carved into the stone walls of palaces and ceremonial structures, these reliefs once welcomed foreign dignitaries and impressed visitors with their intricacy.  - Fun fact: Persia was one of the most powerful empires of the ancient world, stretching from Egypt to India, and these carvings serve as a visual testament to its greatness!<br>Sadly, in the 19th century, European explorers took these cultural treasures during their expeditions, and today they are displayed in museums far from their original context. The removal of these artifacts from Persepolis, the heart of the Persian Empire, means they have lost much of their historical connection to the land where they were created.", 
@@ -393,8 +398,8 @@
             "title":"Parthenon Marbles", 
             "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon1.jpg",
             "metadata":{
-                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
-                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
             },
             "fun": { 
                 "short": "The Parthenon Marbles are beautiful sculptures that decorated an ancient temple in Athens! Lord Elgin took them to the UK, and now they’re in the British Museum. Greece has been asking for them back ever since. Fun fact: These marbles tell stories about Greek gods and heroes, and they’re more than 2,000 years old!", 
@@ -465,7 +470,7 @@
             "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok2.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
-                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
             },
 
             "fun": { 
@@ -558,7 +563,7 @@
             "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok3.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
-                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
             },
             "fun": { 
                 "short": "These ancient clay statues are some of the oldest artworks from Africa, made by the Nok people. Sadly, many of them were looted by European collectors and now live in museums far from Nigeria. Fun fact: The Nok people created these statues more than 2,000 years ago!", 
@@ -710,8 +715,8 @@
             "title":"The Parthenon (Elgin) Marbles (Europe) ", 
             "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon2.jpeg",
             "metadata":{
-                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
-                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
             },
             "fun": { 
                 "short": "The Parthenon Marbles are stunning sculptures that used to decorate a grand temple in ancient Athens! They were taken by Lord Elgin in the early 1800s and are now displayed in the British Museum. Fun fact: Greece has been asking for these marbles back for over 200 years!", 
