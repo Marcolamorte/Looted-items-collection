@@ -1,10 +1,14 @@
 {
-    "Timeline Tour": {
+    "Timeline_Tour": {
       "items": ["item1", "item2", "item3","item4", "item5", "item6","item7", "item8", "item9", "item10", "item11", "item12","item13", "item14", "item15"],
       "texts": {
         "item1": {
             
             "title":"Parthenon Marbles – 447-438 BCE",
+            "image":"images/cropped-parthenon1.jpg",
+            "metadata" { "Rdf-Graph:"
+
+            }
             
             "fun": {
                 "short": "The Parthenon Marbles are sculptures that used to decorate an amazing temple in ancient Athens! Imagine walking around a giant building with statues of gods and heroes everywhere. Lord Elgin took these sculptures, and now they live in the British Museum instead of Greece. Fun fact: Greece has been asking for these marbles back for over 200 years!", 
@@ -257,7 +261,7 @@
     },
 
 
-    "Colonial Conquests Tour": {"items": ["item1", "item2", "item3","item4", "item5", "item6","item7", "item8", "item9", "item10", "item11", "item12","item13", "item14", "item15"],
+    "Colonial-Conquests_Tour": {"items": ["item1", "item2", "item3","item4", "item5", "item6","item7", "item8", "item9", "item10", "item11", "item12","item13", "item14", "item15"],
     "texts": {
               "item1": {
             "title":"Benin Bronzes", 
@@ -512,7 +516,7 @@
         },
 
 
-    "Geo Tour": { "items": ["item1", "item2", "item3","item4", "item5", "item6","item7", "item8", "item9", "item10", "item11", "item12","item13", "item14", "item15"],
+    "Geo_Tour": { "items": ["item1", "item2", "item3","item4", "item5", "item6","item7", "item8", "item9", "item10", "item11", "item12","item13", "item14", "item15"],
     "texts": {
               "item1": {
             "title":"Benin Bronzes (Africa) ", 
