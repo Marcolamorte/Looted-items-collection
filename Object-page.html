@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="object-page.js"></script>
+    <script src="PERSONALIZATION.js"></script>
 </head>
 <body class="object-page-body">
     <header>
@@ -74,8 +75,7 @@
         <!-- copy-paste header for every page!!!!!!!! -->
 
       <main>
-        <h1 id="object-title">Here goes the title</h1>
-
+        <h1 id="item-title"></h1>
         <section class="object-main-container">
             <div class="object-navigation">
                 <div class="navigation-item">
@@ -92,28 +92,28 @@
 
             <section class="image-text-container">
                 <div class="object-tours">
-                    <button class="button">TIMELINE TOUR</button>
-                    <button class="button">COLONIAL CONQUESTS TOUR</button>
-                    <button class="button">GEO TOUR</button>
+                    <button class="button" id="timeline-button">TIMELINE TOUR</button>
+                    <button class="button" id="colonial-button">COLONIAL CONQUESTS TOUR</button>
+                    <button class="button" id="geo-button">GEO TOUR</button>
                 </div>
                 
                 <div class="content-wrapper">
                     <img src="images/achaemenid.jpg" alt="Achaemenid Relief">
                     <div class="text-area">
-                        <p id="item-text"> Text here
+                        <p id="item-text"> 
                         </p>
                         <button class="button" id="next">Next</button>
                         <div class="more-info">
                             <p>COMPLEXITY</p>
                             <div class="more-buttons">
-                                <button class="button">Less</button>
-                                <button class="button">More</button>
+                                <button class="button" id="complexity-less">Less</button>
+                                <button class="button"  id="complexity-more">More</button>
                             </div>
 
                             <p>LENGTH</p>
                             <div class="more-buttons">
-                                <button class="button">Less</button>
-                                <button class="button">More</button>
+                                <button class="button" id="length-less">Less</button>
+                                <button class="button" id="length-more">More</button>
                             </div>
                         </div>
                     </div>
@@ -167,6 +167,7 @@
                     <div class="Table-Metadata">
                         <p id="par_3">General Information</p>
                     </div>
+                    <div id="current-index" style="display: none;"></div>
                 </div>
             </section>
         </section> 
@@ -287,8 +288,6 @@
             })
             .catch(error => console.error('Error loading table:', error));
     </script>
-    
-
     <script src="map.js"></script>
 </body>
 </html>
