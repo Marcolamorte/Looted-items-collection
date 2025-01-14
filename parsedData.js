@@ -44,6 +44,12 @@ const jsonData = {
       },
       "item2": {
         "title": "Nok Terracotta Statues – 500 BCE-200 CE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+            },
         "fun": {
           "short": "The Nok people made these incredible clay statues more than 2,000 years ago! These figures are some of the earliest examples of African art. But today, many of these treasures are far away, in museums outside of Nigeria. Fun fact: Nok art is so old that it was created while some of the first cities in the world were being built!",
           "medium": "The Nok people, who lived in what is now Nigeria, created these incredible clay statues more than 2,000 years ago! The figures are some of the earliest examples of African art, showcasing intricate designs and expressions that still captivate people today. These terracotta sculptures are often thought to represent ancestors or important figures in Nok society. Sadly, many of these cultural treasures were taken during the colonial era, and today, they are housed in museums far away from their homeland.  - Fun fact: Nok art is so ancient that it was created around the same time as some of the world’s earliest cities, like those in Mesopotamia!<br>The Nok culture is one of the earliest known African civilizations, flourishing from around 1000 BCE to 300 CE. These statues were made with a remarkable understanding of human and animal forms, providing a glimpse into the spiritual and social life of the Nok people. Unfortunately, colonial expeditions led to their removal from Nigeria, scattering them across Europe and the U.S.",
@@ -62,6 +68,12 @@ const jsonData = {
       },
       "item3": {
         "title": "Achaemenid Reliefs – 5th Century BCE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/achaemenid.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+        },
         "fun": {
           "short": "The achaemenid reliefs are stone carvings from the Persian Empire, over 2,500 years ago! They tell stories about ancient kings and warriors. Explorers took them in the 1800s, and today, they’re displayed far away in Europe. Fun fact: Persia was one of the most powerful empires ever, and these carvings show off its greatness!",
           "medium": "The Achaemenid Reliefs are magnificent stone carvings created over 2,500 years ago during the reign of the Persian Empire. These detailed carvings, found primarily in Persepolis, depict the grandeur of Persian kings, warriors, and court officials. The reliefs were designed to celebrate the might of the empire, showcasing the power and influence of rulers like Darius the Great. Carved into the stone walls of palaces and ceremonial structures, these reliefs once welcomed foreign dignitaries and impressed visitors with their intricacy.  - Fun fact: Persia was one of the most powerful empires of the ancient world, stretching from Egypt to India, and these carvings serve as a visual testament to its greatness!<br>Sadly, in the 19th century, European explorers took these cultural treasures during their expeditions, and today they are displayed in museums far from their original context. The removal of these artifacts from Persepolis, the heart of the Persian Empire, means they have lost much of their historical connection to the land where they were created.",
@@ -353,6 +365,12 @@ const jsonData = {
       },
       "item3": {
         "title": "The Moai statue",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+            },
         "fun": {
           "short": "This Moai statue is one of the famous giant stone heads from Easter Island, made by the Rapa Nui people. But this one was taken by British sailors, and now it’s far from home in a museum.  Fun fact: The Rapa Nui made hundreds of these statues, which they believed held the spirits of their ancestors!",
           "medium": "The Moai statues of Easter Island are famous all over the world, and Hoa Hakananai’a is one of them! These giant stone heads were made by the Rapa Nui people to honor their ancestors, and they hold great spiritual significance. However, in 1868, British sailors took this particular statue and brought it to the UK, where it now resides in a museum far from home. Fun fact: The Rapa Nui created hundreds of these statues to represent the spirits of their ancestors and connect the island’s people to their past!The removal of this Moai is just one example of how colonial powers extracted not just material wealth, but cultural and spiritual treasures from indigenous societies. The loss of Hoa Hakananai’a represents the broader erasure of native histories and traditions through colonial theft.",
@@ -540,6 +558,12 @@ const jsonData = {
     },
     "item13": {
       "title": "The Achaemenid Reliefs",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/achaemenid.jpg",
+      "metadata":{
+          "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
+          "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
+          "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+      },
       "fun": {
         "short": "These stone carvings are from the Persian Empire, over 2,500 years ago! They tell stories about ancient kings and warriors. Explorers took them in the 1800s, and today, they’re displayed far away in Europe. Fun fact: Persia was one of the most powerful empires ever, and these carvings show off its greatness!",
         "medium": "The Achaemenid Reliefs are stunning stone carvings from the Persian Empire, created over 2,500 years ago! These intricate artworks tell fascinating stories about ancient kings and warriors, capturing the grandeur of one of history's most powerful empires. However, explorers took them in the 1800s, and today, they are displayed far from their original home in Europe.Fun fact: The Persian Empire was renowned for its vastness and power, and these carvings showcase the remarkable achievements of its civilization, reflecting its influence on art and culture across the ages!<br>The journey of the Achaemenid Reliefs highlights the lasting impact of colonial looting on cultural heritage, reminding us that even great empires could be vulnerable to the whims of exploration and extraction.",
@@ -632,6 +656,12 @@ const jsonData = {
       },
       "item2": {
         "title": "Nok Terracotta Statues (Africa)",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+            },
         "fun": {
           "short": "These ancient clay statues are some of the oldest artworks from Africa, made by the Nok people. Sadly, many of them were looted by European collectors and now live in museums far from Nigeria. Fun fact: The Nok people created these statues more than 2,000 years ago!",
           "medium": "The Nok Terracotta statues are some of Africa’s oldest artworks, created by the Nok people over 2,000 years ago in what is now northern Nigeria. These ancient sculptures show humans with elongated heads, wide eyes, and elaborate hairstyles, offering insight into the early cultural and artistic expressions of West Africa. Sadly, during the colonial period, many of these statues were looted by European archaeologists and collectors who were eager to display these rare finds in Western museums. The Nok culture’s connection to early ironworking and agriculture shows how advanced this society was for its time. Fun fact: The Nok people lived at the same time as some of the earliest cities in the world, and their statues reveal a unique sense of style and creativity!",
@@ -704,6 +734,12 @@ const jsonData = {
       },
       "item6": {
         "title": "The Achaemenid Reliefs (Asia) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/achaemenid.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+        },
         "fun": {
           "short": "These stone reliefs from Persepolis were taken by European explorers in the 19th and 20th centuries. They’re now in the British Museum. Fun fact: Persepolis was the grand capital of the ancient Persian Empire!",
           "medium": "These stunning stone reliefs were once part of the majestic palaces of Persepolis, the grand capital of the ancient Persian Empire. Carved in the 5th century BCE during the reign of the Achaemenid dynasty, they depicted ceremonial scenes and were a testament to the empire’s power and sophistication. In the 19th and early 20th centuries, European explorers and collectors removed many of these reliefs during their expeditions to Persia. Today, they are displayed in the British Museum, far from their original home. Fun fact: Persepolis was so grand that even Alexander the Great was awed by it—though he later set fire to the city during his conquest of Persia!",
