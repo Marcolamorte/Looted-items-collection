@@ -262,9 +262,9 @@ const jsonData = {
         "title": "Gdańsk Astronomical Clock - 15th century",
         "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/158cae703e81c348853e750a2b07cabbe57beefe/images/cropped-gdansk1.jpeg",
         "metadata":{
-            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
-            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
-            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
         },
         "fun": {
           "short": "This medieval clock was made in Gdańsk, Poland. It was taken by German forces during World War II but later returned to Poland. Fun fact: The clock is so old, it has more than just hours—it shows the moon phases and zodiac signs, too!",
@@ -593,6 +593,12 @@ const jsonData = {
       },
       "item9": {
         "title": "Gdańsk Astronomical Clock",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/images/cropped-gdansk2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
+        },
         "fun": {
           "short": "This clock was made in the 1400s to show the movement of the stars and planets! It was taken by German forces during World War II, and Poland has been trying to get it back ever since. Fun fact: The Gdańsk clock is not just a timekeeper—it’s a masterpiece of art and science from hundreds of years ago!",
           "medium": "The Gdańsk Astronomical Clock was made in the 1400s, and it’s not just a clock! This amazing creation was designed to track the movement of the stars, the moon phases, and even display the calendar. It stood proudly in St. Mary’s Church for centuries until it was taken by German forces during World War II. Poland has been trying to get it back ever since. Fun fact: The clock is considered one of the greatest technological and artistic achievements of its time, combining science, religion, and art in one extraordinary piece!<br>Unfortunately, this masterpiece became part of the vast cultural losses suffered during wartime looting, where treasures were removed from their original locations as spoils of war, a practice common in times of conflict and colonization.",
@@ -1040,6 +1046,12 @@ const jsonData = {
       },
       "item12": {
         "title": "Gdańsk Astronomical Clock (Europe) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/images/cropped-gdansk3.jpeg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
+        },
         "fun": {
           "short": "This amazing clock from Gdańsk is not just a timekeeper; it tells the story of Polish craftsmanship! It was taken by the Nazis during World War II and is now part of a collection in Germany. Fun fact: The clock can show not just the time but also the phases of the moon!",
           "medium": "The Gdańsk Astronomical Clock is a masterpiece of Polish Renaissance craftsmanship, created in the 16th century. Located in St. Mary’s Church in Gdańsk, this clock was more than just a timekeeper—it could display the phases of the moon and other celestial movements, making it a remarkable piece of science and art for its time! Unfortunately, during World War II, Nazi forces took the clock as part of their widespread looting campaign in Poland, and it now sits in a German collection. Fun fact: The clock was so advanced that it could predict astronomical events—quite an impressive feat for the 1500s! Its journey from Poland to Germany mirrors the broader story of how war and conquest can lead to the displacement of national treasures.",
