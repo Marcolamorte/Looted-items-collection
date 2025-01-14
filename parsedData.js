@@ -92,6 +92,12 @@ const jsonData = {
       },
       "item4": {
         "title": "Bust of Nefertiti – 1345 BCE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
+                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
+            },
         "fun": {
           "short": "Meet Queen Nefertiti! Her bust shows off her royal beauty, and it’s over 3,000 years old. German archaeologists took this sculpture to Berlin, and it’s been there for more than 100 years. Fun fact: Queen Nefertiti was famous for her beauty—and she’s still a star today!",
           "medium": "Meet Queen Nefertiti, one of ancient Egypt’s most famous and beautiful figures! The Bust of Nefertiti, over 3,000 years old, captures the elegance of this iconic queen who ruled alongside Pharaoh Akhenaten during the Amarna Period. The bust was uncovered in 1912 by German archaeologists and was taken to Berlin, where it remains a star attraction at the Neues Museum. Her perfectly symmetrical face and serene expression are a testament to the artistic mastery of Egyptian sculptors, showcasing the height of royal portraiture at the time.  - Fun fact: Queen Nefertiti was so renowned for her beauty that even today, her bust is seen as a global icon, and she continues to inspire modern fashion and art!<br>While this sculpture immortalizes her royal beauty, its presence in Berlin rather than Egypt has sparked a century of controversy. Egypt has repeatedly asked for the bust’s return, yet it remains in Europe, a relic of the colonial era’s power imbalance in archaeology.",
@@ -110,6 +116,12 @@ const jsonData = {
       },
       "item5": {
         "title": "The Altar of Pergamon - 2nd Century BCE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-pergamon1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
+            },
         "fun": {
           "short": "The Altar of Pergamon is like an ancient Greek temple! German archaeologists took it to Berlin, where it still stands today. It’s huge, and Turkey has been asking for it to come back. Fun fact: Imagine having to move an entire building—that’s how big this altar is!",
           "medium": "The Altar of Pergamon is a massive structure, built more than 2,000 years ago in what is now modern-day Turkey. This altar was dedicated to Zeus and Athena, showcasing the power and prestige of the Hellenistic city of Pergamon. German archaeologists unearthed it in the 19th century and transported it, piece by piece, to Berlin, where it still stands today. It’s an incredible example of ancient Greek architecture, with its monumental frieze depicting the battle between gods and giants (the Gigantomachy).  - Fun fact: The altar is so large that when it was moved to Berlin, it required the construction of an entire wing of the Pergamon Museum just to house it!<br>However, the removal of the altar from its original location in Turkey has caused controversy for decades. Turkey has made repeated requests for its return, but the altar remains in Berlin, symbolizing a broader issue of cultural heritage and repatriation.",
@@ -128,6 +140,12 @@ const jsonData = {
       },
       "item6": {
         "title": "The Sultanganj Buddha - 5th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-buddha1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
+            },
         "fun": {
           "short": "This giant bronze Buddha statue, made about 1,500 years ago in India, weighs over 500 kilograms! It was found by British workers while they were building a railway. Today, you can visit it in Birmingham, UK. Fun fact: This statue is so big, it had to be transported in pieces!",
           "medium": "This massive bronze Buddha statue, known as the Sultanganj Buddha, is an incredible 1,500 years old! Discovered in India during the British colonial period, it weighs more than 500 kilograms, making it one of the largest bronze Buddhist statues ever found. British workers came across it while building a railway in 1861, and it was later sent to Birmingham in the UK, where it has been displayed for over a century. The statue is an extraordinary example of early Buddhist art, representing the serenity and wisdom of the Buddha.  - Fun fact: The statue is so enormous that it had to be carefully disassembled and transported in pieces, all the way from India to England!<br>The relocation of the Sultanganj Buddha highlights the vast scale of colonial-era artifact removal. Although it is admired in Birmingham today, many feel that it should be returned to India, where it was originally created and venerated.",
@@ -443,6 +461,12 @@ const jsonData = {
       },
       "item7": {
         "title": "Bust of Nefertiti",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
+                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
+            },
         "fun": {
           "short": "Queen Nefertiti was one of the most famous rulers of ancient Egypt! Her bust, showing her royal beauty, was taken by German archaeologists in the early 1900s and moved to Berlin, where it still is today.  Fun fact: Queen Nefertiti was known for her power and beauty—she was like a celebrity of ancient times!",
           "medium": "Queen Nefertiti was one of the most famous rulers of ancient Egypt, known for her incredible beauty and powerful reign alongside Pharaoh Akhenaten. Her bust, crafted in 1345 BCE, is one of the most iconic depictions of ancient Egyptian art, symbolizing her status as a royal figure. In 1912, German archaeologists removed the bust from Egypt and brought it to Berlin, where it has been ever since. Fun fact: Nefertiti’s name means the beautiful one has come, and she was so famous in her time that her image became a symbol of power and elegance, much like a modern celebrity!  <br>The story of the bust’s removal is a prime example of how colonial-era expeditions often resulted in the extraction of cultural treasures from their countries of origin, reinforcing the unequal power dynamics of the time.",
@@ -522,6 +546,12 @@ const jsonData = {
     },
     "item11": {
       "title": "The Sultanganj Buddha ",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-buddha1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
+            },
       "fun": {
         "short": "This giant statue of Buddha was found in India and taken by a British official. Now it’s in a museum in the UK! Fun fact: The Sultanganj Buddha is made of bronze and weighs more than a small car!",
         "medium": "The Sultanganj Buddha is a giant bronze statue that represents one of the most impressive artistic achievements of ancient India! This magnificent statue was found in the region of Sultanganj, India, and taken by a British official during the colonial era. Now, it resides in a museum in the UK, far from its home.  Fun fact: This statue is so massive that it weighs more than a small car, showcasing the incredible craftsmanship of the artisans who created it!<br>The removal of the Sultanganj Buddha is a vivid illustration of the broader trend of colonial powers extracting cultural and religious artifacts from colonized lands, often without regard for their significance to the local communities.",
@@ -582,6 +612,12 @@ const jsonData = {
     },
     "item14": {
       "title": "The Altar of Pergamon ",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-pergamon1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
+            },
       "fun": {
         "short": "The Altar of Pergamon is like an ancient Greek temple! German archaeologists took it to Berlin, where it still stands today. It’s huge, and Turkey has been asking for it to come back. Fun fact: Imagine having to move an entire building—that’s how big this altar is!",
         "medium": "The Altar of Pergamon is a colossal structure resembling an ancient Greek temple! Built in the 2nd century BCE, this monumental piece of architecture was taken by German archaeologists to Berlin in the 19th century, where it stands to this day. Turkey has been asking for its return ever since.<br>Fun fact: Imagine having to move an entire building—that’s just how huge this altar is! The removal of the Altar of Pergamon reflects a broader trend of colonial practices, where even large structures were taken from their original contexts, disrupting cultural continuity.",
@@ -716,6 +752,12 @@ const jsonData = {
       },
       "item5": {
         "title": "The Bust of Nefertiti (Africa) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
+                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
+            },
         "fun": {
           "short": "This beautiful bust of Queen Nefertiti was discovered by German archaeologists in 1912 and taken to Germany. It now sits in the Neues Museum in Berlin. Fun fact: Nefertiti’s name means “the beautiful one has come”!",
           "medium": "The Bust of Queen Nefertiti is one of the most recognizable symbols of ancient Egypt. It was discovered in 1912 by a team of German archaeologists led by Ludwig Borchardt at Amarna, the capital city established by Pharaoh Akhenaten, Nefertiti's husband. The bust was taken to Germany under disputed circumstances and has since been housed in the Neues Museum in Berlin. This masterpiece, crafted in the 14th century BCE, captures the elegance and power of the Egyptian queen, with her name translating to “the beautiful one has come.” Fun fact: Germany and Egypt have been in a century-long diplomatic struggle over the bust’s rightful ownership, with Egypt persistently calling for its return.",
@@ -794,6 +836,12 @@ const jsonData = {
       },
       "item9": {
         "title": "The Sultanganj Buddha (Asia) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-buddha1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
+            },
         "fun": {
           "short": "This giant bronze Buddha statue was found in India and taken by British archaeologists to the UK in the 1800s. Now it lives in a museum far away from where it was created.  Fun fact: The statue is so big that it weighs over 500 kilograms—that’s as much as a grand piano!",
           "medium": "The Sultanganj Buddha is a massive bronze statue that dates back to the 5th or 6th century CE. It was discovered by British archaeologists in the 19th century during the construction of a railway in Sultanganj, India. The British, fascinated by this ancient artwork, transported it back to the UK where it now resides in the Birmingham Museum. This Buddha statue is an important symbol of Buddhist art and spirituality, and its presence in Europe is a reminder of how colonial powers removed significant religious and cultural objects from their original homes. Fun fact: The statue is over two meters tall and weighs more than 500 kilograms, making it one of the largest surviving bronze Buddhas from ancient India! The removal of such a massive object required incredible effort and showed the lengths to which colonial powers went to claim India’s cultural treasures.",
@@ -872,6 +920,12 @@ const jsonData = {
       },
       "item13": {
         "title": "The Altar of Pergamon (Europe) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-pergamon1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
+            },
         "fun": {
           "short": "The Altar of Pergamon is like an ancient Greek temple! German archaeologists took it to Berlin in the 19th century, and it’s massive. Turkey has been asking for it to come back for years! Fun fact: Moving the entire altar was a huge challenge—it’s like relocating a whole building!",
           "medium": "The Altar of Pergamon is an ancient marvel, often compared to a Greek temple, even though it stood in what is now modern-day Turkey. This massive structure was dedicated to the gods and features elaborate carvings that depict legendary battles between gods and giants. German archaeologists excavated the altar in the late 19th century and transported it to Berlin, where it now resides in the Pergamon Museum. The removal was a monumental task—moving such a massive altar was like relocating an entire building! Fun fact: The altar’s intricately carved friezes stretch over 100 feet long, making it one of the most impressive ancient artworks still in existence. Turkey has been asking for its return for many years, arguing that it is part of their national heritage.",
