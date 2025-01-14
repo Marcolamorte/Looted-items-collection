@@ -842,6 +842,12 @@ const jsonData = {
       },
       "item4": {
         "title": "Throne of King Glele (Africa)",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/e8a43337ee5bd0726099b8598d029d57b17e7f22/images/cropped-throne3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.png",
+            "Rdf-file_link":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
+        },
         "fun": {
           "short": "This throne belonged to King Glele of Benin, and it was taken by French soldiers after a battle. Today, it’s in a French museum. Fun fact: The throne has cool carvings of lions and panthers to show off the king’s power!",
           "medium": "The Throne of King Glele is an impressive royal artifact from the Kingdom of Dahomey (modern-day Benin). King Glele ruled during the mid-19th century and was known for his fierce military campaigns and leadership. His throne, taken by French soldiers after one of the many battles in the French-Dahomey wars, now sits in a French museum far from its original home. The carvings on the throne, especially of lions and panthers, were meant to symbolize the king’s power, courage, and authority over his people and enemies. Fun fact: The lions and panthers carved into the throne are meant to show off the king’s strength and dominance, just like those mighty animals in the wild! Today, this magnificent piece of Dahomean heritage remains a symbol of how colonial invasions stripped African kingdoms of their cultural treasures.",
