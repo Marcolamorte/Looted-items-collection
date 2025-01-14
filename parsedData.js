@@ -259,7 +259,13 @@ const jsonData = {
         }
       },
       "item11": {
-        "title": ". Gdańsk Astronomical Clock - 15th century",
+        "title": "Gdańsk Astronomical Clock - 15th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-summerpalace2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+        },
         "fun": {
           "short": "This medieval clock was made in Gdańsk, Poland. It was taken by German forces during World War II but later returned to Poland. Fun fact: The clock is so old, it has more than just hours—it shows the moon phases and zodiac signs, too!",
           "medium": "The Gdańsk Astronomical Clock is one of Poland’s most incredible medieval inventions! Built between 1464 and 1470, it doesn’t just show the time—it also tracks the moon’s phases and the zodiac signs. During World War II, German forces took the clock from Gdańsk, but thankfully, it was returned to Poland in 1958.  - Fun fact: This clock is so detailed that it even has moving figures that come out to mark the hours!<br>This clock is a great example of how old technology could be incredibly advanced, combining science and art into one amazing creation.",
