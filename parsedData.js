@@ -20,6 +20,12 @@ const jsonData = {
     "texts": {
       "item1": {
         "title": "Parthenon Marbles – 447-438 BCE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
+        },
         "fun": {
           "short": "The Parthenon Marbles are sculptures that used to decorate an amazing temple in ancient Athens! Imagine walking around a giant building with statues of gods and heroes everywhere. Lord Elgin took these sculptures, and now they live in the British Museum instead of Greece. Fun fact: Greece has been asking for these marbles back for over 200 years!",
           "medium": "The Parthenon Marbles are magnificent sculptures that once adorned the Parthenon in Athens, a grand temple built for the goddess Athena. These masterpieces were crafted by the finest artists of ancient Greece and depicted gods, heroes, and mythological battles in incredible detail. However, during the early 19th century, Lord Elgin, a British nobleman, removed many of these sculptures and transported them to the UK. Today, they reside in the British Museum, far from their original home in Greece.  - Fun fact: Greece has been asking for these marbles back for over 200 years, starting one of the longest-running cultural heritage disputes! The Parthenon was more than just a religious building—it was a symbol of Athens' power and culture. The marbles, carved in 447-438 BCE, reflect the artistic and intellectual achievements of the city during its Golden Age. Their removal by Elgin has sparked centuries of debate, as Greece continues to campaign for their return.",
@@ -437,6 +443,12 @@ const jsonData = {
       },
       "item8": {
         "title": "Parthenon Marbles",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
+        },
         "fun": {
           "short": "The Parthenon Marbles are beautiful sculptures that decorated an ancient temple in Athens! Lord Elgin took them to the UK, and now they’re in the British Museum. Greece has been asking for them back ever since. Fun fact: These marbles tell stories about Greek gods and heroes, and they’re more than 2,000 years old!",
           "medium": "The Parthenon Marbles are a collection of beautiful sculptures that once decorated the Parthenon, an ancient temple in Athens. They were made by Greek artists more than 2,000 years ago, showing scenes of gods, heroes, and important events in Greek mythology. But in the early 1800s, Lord Elgin took them from Greece and brought them to the UK. Today, they are in the British Museum, even though Greece has been asking for their return for many years. Fun fact: These marbles were originally painted in bright colors, though most of the paint has worn off over time! The removal of these marbles reflects a larger story of cultural displacement during times of imperial expansion, where powerful nations claimed cultural treasures as symbols of their dominance over others.",
@@ -782,6 +794,12 @@ const jsonData = {
       },
       "item11": {
         "title": "The Parthenon (Elgin) Marbles (Europe) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
+        },
         "fun": {
           "short": "The Parthenon Marbles are stunning sculptures that used to decorate a grand temple in ancient Athens! They were taken by Lord Elgin in the early 1800s and are now displayed in the British Museum. Fun fact: Greece has been asking for these marbles back for over 200 years!",
           "medium": "The Parthenon Marbles are remarkable sculptures that once adorned the Parthenon, a temple dedicated to the goddess Athena on the Acropolis in Athens. These intricate artworks, crafted in the 5th century BCE, depict scenes of Greek mythology and religious rituals. But in the early 1800s, Lord Elgin, a British ambassador to the Ottoman Empire (which ruled Greece at the time), removed the marbles and took them to England. They’ve been in the British Museum ever since. Fun fact: Greece has been asking for the marbles' return for over 200 years, but so far, they remain in London! This dispute continues to symbolize the deep cultural connection Greece has to its ancient heritage and the ongoing debate over rightful ownership of looted treasures.",
