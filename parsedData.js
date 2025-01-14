@@ -164,6 +164,12 @@ const jsonData = {
       },
       "item7": {
         "title": "Koh-i-Noor Diamond - Formed around the 5th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-koh-diamond.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
+            },
         "fun": {
           "short": "The Koh-i-Noor diamond is one of the biggest diamonds in the world! Weighing a whopping 105 carats, it was taken by the British in 1849. Now it’s part of the Crown Jewels in London, where it sparkles for visitors. Fun fact: Legends say this diamond brings bad luck to men who wear it!",
           "medium": "The Koh-i-Noor diamond is one of the largest and most famous diamonds in the world! Weighing a massive 105 carats, this dazzling gemstone was originally found in India, where it became a prized possession of Indian rulers. However, it was taken by the British in 1849, after they annexed the region of Punjab. Since then, the diamond has been part of the British Crown Jewels, sparkling in royal crowns and tiaras in London. The diamond’s name, Koh-i-Noor, means Mountain of Light in Persian, a fitting title for such a magnificent gem.  - Fun fact: There’s a legend that the Koh-i-Noor brings bad luck to any man who wears it, which is why it has only been worn by women in the British royal family!<br>Today, the Koh-i-Noor remains a symbol of British imperialism, with India, Pakistan, and even Afghanistan calling for its return.",
@@ -182,6 +188,12 @@ const jsonData = {
       },
       "item8": {
         "title": "Moai Statue - 1000-1500 CE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-moaistatues1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
+        },
         "fun": {
           "short": "This giant stone statue, made by the Rapa Nui people of Easter Island, is one of the famous Moai statues! British sailors took it back to England in the 1800s, and now it’s in the British Museum. Fun fact: The Moai were carved to represent important ancestors, and some weigh more than 80 tons!",
           "medium": "The Moai statues of Easter Island, carved by the Rapa Nui people, are some of the most iconic stone figures in the world! Standing tall and proud, these statues were made to honor important ancestors, and some of them weigh as much as 80 tons! The Moai called Hoa Hakananai’a is one of the most famous—it was taken by British sailors in the 1800s and is now housed in the British Museum.  - Fun fact: Many Moai statues were placed to watch over the villages of the Rapa Nui people, facing inward toward the land as a symbol of protection and ancestral power.<br>The Moai statues are not only symbols of artistic achievement but also deeply spiritual objects, representing the connection between the Rapa Nui and their ancestors. This statue’s removal to the UK is part of a larger story of cultural loss for the Rapa Nui people, who continue to fight for its return to Easter Island.",
@@ -365,6 +377,12 @@ const jsonData = {
       },
       "item2": {
         "title": "Koh-i-Noor Diamond ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-koh-diamond2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
+            },
         "fun": {
           "short": "The Koh-i-Noor is one of the biggest and most famous diamonds in the world! It once belonged to Indian rulers, but the British took it after they conquered India. Fun fact: The Koh-i-Noor has had many owners—kings, queens, and even conquerors!",
           "medium": "The Koh-i-Noor is one of the world’s largest and most famous diamonds! Once part of Indian royal collections, it was taken by the British in the 19th century after they conquered Punjab. Now, it rests in the British Crown Jewels. Fun fact: The Koh-i-Noor has passed through the hands of kings, emperors, and conquerors, each claiming it as a symbol of their power!           This diamond, like many colonial trophies, symbolizes the extraction of wealth from colonized lands. The British took not only the riches of the Indian subcontinent but also its symbols of authority, reinforcing their dominance and control. The loss of the Koh-i-Noor is part of a larger story of colonial exploitation that stripped nations of their resources and pride.",
@@ -383,12 +401,12 @@ const jsonData = {
       },
       "item3": {
         "title": "The Moai statue",
-        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok1.jpg",
-            "metadata":{
-                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
-                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
-            },
+       "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-moaistatues2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
+        },
         "fun": {
           "short": "This Moai statue is one of the famous giant stone heads from Easter Island, made by the Rapa Nui people. But this one was taken by British sailors, and now it’s far from home in a museum.  Fun fact: The Rapa Nui made hundreds of these statues, which they believed held the spirits of their ancestors!",
           "medium": "The Moai statues of Easter Island are famous all over the world, and Hoa Hakananai’a is one of them! These giant stone heads were made by the Rapa Nui people to honor their ancestors, and they hold great spiritual significance. However, in 1868, British sailors took this particular statue and brought it to the UK, where it now resides in a museum far from home. Fun fact: The Rapa Nui created hundreds of these statues to represent the spirits of their ancestors and connect the island’s people to their past!The removal of this Moai is just one example of how colonial powers extracted not just material wealth, but cultural and spiritual treasures from indigenous societies. The loss of Hoa Hakananai’a represents the broader erasure of native histories and traditions through colonial theft.",
@@ -570,6 +588,12 @@ const jsonData = {
     },
     "item12": {
       "title": "Nok Terracotta Statues ",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+            },
       "fun": {
         "short": "The Nok people made these incredible clay statues more than 2,000 years ago! These figures are some of the earliest examples of African art. But today, many of these treasures are far away, in museums outside of Nigeria. Fun fact: Nok art is so old that it was created while some of the first cities in the world were being built!",
         "medium": "The Nok Terracotta Statues are stunning clay sculptures created by the Nok people more than 2,000 years ago! These remarkable figures are among the earliest examples of African art, showcasing the artistic ingenuity of a civilization that flourished in what is now Nigeria. However, many of these treasures are now far from home, residing in museums outside Nigeria.  Fun fact: The Nok culture is so ancient that it was thriving while some of the first cities in the world were being built!<br>The removal of these statues highlights a painful legacy of colonialism, where cultural artifacts were often taken without permission, stripping nations of their historical identities.",
@@ -692,7 +716,7 @@ const jsonData = {
       },
       "item2": {
         "title": "Nok Terracotta Statues (Africa)",
-        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok1.jpg",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok3.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
@@ -800,6 +824,12 @@ const jsonData = {
       },
       "item7": {
         "title": "Koh-i-Noor Diamond (Africa) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-koh-diamond3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
+            },
         "fun": {
           "short": "The Koh-i-Noor diamond is one of the most famous gems in the world! It was taken by the British from India and is now part of the British Crown Jewels. Many believe that the diamond was passed between rulers for centuries before it ended up in British hands. Fun fact: The Koh-i-Noor is thought to bring bad luck to men—only women can wear it safely!",
           "medium": "The Koh-i-Noor diamond is one of the most famous and controversial gems in the world. Originally from India, this dazzling diamond has passed through the hands of several rulers over centuries before it was taken by the British. It was seized during the British annexation of Punjab in 1849 and became part of the British Crown Jewels, where it remains today. The diamond, believed to have been mined in the 13th century, symbolizes the immense wealth and power of India’s rulers before it was taken to Britain. Fun fact: According to legend, the Koh-i-Noor is said to bring bad luck to men, which is why it’s only worn by female members of the British royal family! The journey of this diamond is a reminder of how colonialism reshaped the cultural and economic landscape of India, with British forces seizing the most prized treasures of Indian royalty.",
@@ -944,6 +974,12 @@ const jsonData = {
       },
       "item14": {
         "title": "Moai Statue (Oceania) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-moaistatues3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
+        },
         "fun": {
           "short": "The Moai statues of Easter Island are amazing stone figures made by the Rapa Nui people! One of these, Hoa Hakananai'a, was taken by British sailors in the 19th century and now stands in the British Museum. Fun fact: These giant statues were made to honor ancestors, and they can weigh over 80 tons!",
           "medium": "The Moai statues of Easter Island are incredible stone figures created by the Rapa Nui people between 1200 and 1500 CE. These monumental carvings were made from volcanic rock and stood as silent guardians, symbolizing the power and spirit of Rapa Nui ancestors. One of the most well-known statues, Hoa Hakananai'a, was taken by British sailors in 1868 and now resides in the British Museum. Fun fact: The Moai statues were originally placed with their backs to the sea, watching over the island, and some of them weigh as much as 80 tons! Transporting them remains one of the great mysteries of ancient engineering, as the Rapa Nui people moved these massive structures without the use of wheels or metal tools.",
