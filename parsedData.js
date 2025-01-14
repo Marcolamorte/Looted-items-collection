@@ -20,6 +20,12 @@ const jsonData = {
     "texts": {
       "item1": {
         "title": "Parthenon Marbles – 447-438 BCE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
+        },
         "fun": {
           "short": "The Parthenon Marbles are sculptures that used to decorate an amazing temple in ancient Athens! Imagine walking around a giant building with statues of gods and heroes everywhere. Lord Elgin took these sculptures, and now they live in the British Museum instead of Greece. Fun fact: Greece has been asking for these marbles back for over 200 years!",
           "medium": "The Parthenon Marbles are magnificent sculptures that once adorned the Parthenon in Athens, a grand temple built for the goddess Athena. These masterpieces were crafted by the finest artists of ancient Greece and depicted gods, heroes, and mythological battles in incredible detail. However, during the early 19th century, Lord Elgin, a British nobleman, removed many of these sculptures and transported them to the UK. Today, they reside in the British Museum, far from their original home in Greece.  - Fun fact: Greece has been asking for these marbles back for over 200 years, starting one of the longest-running cultural heritage disputes! The Parthenon was more than just a religious building—it was a symbol of Athens' power and culture. The marbles, carved in 447-438 BCE, reflect the artistic and intellectual achievements of the city during its Golden Age. Their removal by Elgin has sparked centuries of debate, as Greece continues to campaign for their return.",
@@ -38,6 +44,12 @@ const jsonData = {
       },
       "item2": {
         "title": "Nok Terracotta Statues – 500 BCE-200 CE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+            },
         "fun": {
           "short": "The Nok people made these incredible clay statues more than 2,000 years ago! These figures are some of the earliest examples of African art. But today, many of these treasures are far away, in museums outside of Nigeria. Fun fact: Nok art is so old that it was created while some of the first cities in the world were being built!",
           "medium": "The Nok people, who lived in what is now Nigeria, created these incredible clay statues more than 2,000 years ago! The figures are some of the earliest examples of African art, showcasing intricate designs and expressions that still captivate people today. These terracotta sculptures are often thought to represent ancestors or important figures in Nok society. Sadly, many of these cultural treasures were taken during the colonial era, and today, they are housed in museums far away from their homeland.  - Fun fact: Nok art is so ancient that it was created around the same time as some of the world’s earliest cities, like those in Mesopotamia!<br>The Nok culture is one of the earliest known African civilizations, flourishing from around 1000 BCE to 300 CE. These statues were made with a remarkable understanding of human and animal forms, providing a glimpse into the spiritual and social life of the Nok people. Unfortunately, colonial expeditions led to their removal from Nigeria, scattering them across Europe and the U.S.",
@@ -56,6 +68,12 @@ const jsonData = {
       },
       "item3": {
         "title": "Achaemenid Reliefs – 5th Century BCE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/achaemenid.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+        },
         "fun": {
           "short": "The achaemenid reliefs are stone carvings from the Persian Empire, over 2,500 years ago! They tell stories about ancient kings and warriors. Explorers took them in the 1800s, and today, they’re displayed far away in Europe. Fun fact: Persia was one of the most powerful empires ever, and these carvings show off its greatness!",
           "medium": "The Achaemenid Reliefs are magnificent stone carvings created over 2,500 years ago during the reign of the Persian Empire. These detailed carvings, found primarily in Persepolis, depict the grandeur of Persian kings, warriors, and court officials. The reliefs were designed to celebrate the might of the empire, showcasing the power and influence of rulers like Darius the Great. Carved into the stone walls of palaces and ceremonial structures, these reliefs once welcomed foreign dignitaries and impressed visitors with their intricacy.  - Fun fact: Persia was one of the most powerful empires of the ancient world, stretching from Egypt to India, and these carvings serve as a visual testament to its greatness!<br>Sadly, in the 19th century, European explorers took these cultural treasures during their expeditions, and today they are displayed in museums far from their original context. The removal of these artifacts from Persepolis, the heart of the Persian Empire, means they have lost much of their historical connection to the land where they were created.",
@@ -74,6 +92,12 @@ const jsonData = {
       },
       "item4": {
         "title": "Bust of Nefertiti – 1345 BCE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
+                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
+            },
         "fun": {
           "short": "Meet Queen Nefertiti! Her bust shows off her royal beauty, and it’s over 3,000 years old. German archaeologists took this sculpture to Berlin, and it’s been there for more than 100 years. Fun fact: Queen Nefertiti was famous for her beauty—and she’s still a star today!",
           "medium": "Meet Queen Nefertiti, one of ancient Egypt’s most famous and beautiful figures! The Bust of Nefertiti, over 3,000 years old, captures the elegance of this iconic queen who ruled alongside Pharaoh Akhenaten during the Amarna Period. The bust was uncovered in 1912 by German archaeologists and was taken to Berlin, where it remains a star attraction at the Neues Museum. Her perfectly symmetrical face and serene expression are a testament to the artistic mastery of Egyptian sculptors, showcasing the height of royal portraiture at the time.  - Fun fact: Queen Nefertiti was so renowned for her beauty that even today, her bust is seen as a global icon, and she continues to inspire modern fashion and art!<br>While this sculpture immortalizes her royal beauty, its presence in Berlin rather than Egypt has sparked a century of controversy. Egypt has repeatedly asked for the bust’s return, yet it remains in Europe, a relic of the colonial era’s power imbalance in archaeology.",
@@ -92,6 +116,12 @@ const jsonData = {
       },
       "item5": {
         "title": "The Altar of Pergamon - 2nd Century BCE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-pergamon1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
+            },
         "fun": {
           "short": "The Altar of Pergamon is like an ancient Greek temple! German archaeologists took it to Berlin, where it still stands today. It’s huge, and Turkey has been asking for it to come back. Fun fact: Imagine having to move an entire building—that’s how big this altar is!",
           "medium": "The Altar of Pergamon is a massive structure, built more than 2,000 years ago in what is now modern-day Turkey. This altar was dedicated to Zeus and Athena, showcasing the power and prestige of the Hellenistic city of Pergamon. German archaeologists unearthed it in the 19th century and transported it, piece by piece, to Berlin, where it still stands today. It’s an incredible example of ancient Greek architecture, with its monumental frieze depicting the battle between gods and giants (the Gigantomachy).  - Fun fact: The altar is so large that when it was moved to Berlin, it required the construction of an entire wing of the Pergamon Museum just to house it!<br>However, the removal of the altar from its original location in Turkey has caused controversy for decades. Turkey has made repeated requests for its return, but the altar remains in Berlin, symbolizing a broader issue of cultural heritage and repatriation.",
@@ -110,6 +140,12 @@ const jsonData = {
       },
       "item6": {
         "title": "The Sultanganj Buddha - 5th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-buddha1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
+            },
         "fun": {
           "short": "This giant bronze Buddha statue, made about 1,500 years ago in India, weighs over 500 kilograms! It was found by British workers while they were building a railway. Today, you can visit it in Birmingham, UK. Fun fact: This statue is so big, it had to be transported in pieces!",
           "medium": "This massive bronze Buddha statue, known as the Sultanganj Buddha, is an incredible 1,500 years old! Discovered in India during the British colonial period, it weighs more than 500 kilograms, making it one of the largest bronze Buddhist statues ever found. British workers came across it while building a railway in 1861, and it was later sent to Birmingham in the UK, where it has been displayed for over a century. The statue is an extraordinary example of early Buddhist art, representing the serenity and wisdom of the Buddha.  - Fun fact: The statue is so enormous that it had to be carefully disassembled and transported in pieces, all the way from India to England!<br>The relocation of the Sultanganj Buddha highlights the vast scale of colonial-era artifact removal. Although it is admired in Birmingham today, many feel that it should be returned to India, where it was originally created and venerated.",
@@ -128,6 +164,12 @@ const jsonData = {
       },
       "item7": {
         "title": "Koh-i-Noor Diamond - Formed around the 5th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-koh-diamond.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
+            },
         "fun": {
           "short": "The Koh-i-Noor diamond is one of the biggest diamonds in the world! Weighing a whopping 105 carats, it was taken by the British in 1849. Now it’s part of the Crown Jewels in London, where it sparkles for visitors. Fun fact: Legends say this diamond brings bad luck to men who wear it!",
           "medium": "The Koh-i-Noor diamond is one of the largest and most famous diamonds in the world! Weighing a massive 105 carats, this dazzling gemstone was originally found in India, where it became a prized possession of Indian rulers. However, it was taken by the British in 1849, after they annexed the region of Punjab. Since then, the diamond has been part of the British Crown Jewels, sparkling in royal crowns and tiaras in London. The diamond’s name, Koh-i-Noor, means Mountain of Light in Persian, a fitting title for such a magnificent gem.  - Fun fact: There’s a legend that the Koh-i-Noor brings bad luck to any man who wears it, which is why it has only been worn by women in the British royal family!<br>Today, the Koh-i-Noor remains a symbol of British imperialism, with India, Pakistan, and even Afghanistan calling for its return.",
@@ -146,6 +188,12 @@ const jsonData = {
       },
       "item8": {
         "title": "Moai Statue - 1000-1500 CE",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-moaistatues1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
+        },
         "fun": {
           "short": "This giant stone statue, made by the Rapa Nui people of Easter Island, is one of the famous Moai statues! British sailors took it back to England in the 1800s, and now it’s in the British Museum. Fun fact: The Moai were carved to represent important ancestors, and some weigh more than 80 tons!",
           "medium": "The Moai statues of Easter Island, carved by the Rapa Nui people, are some of the most iconic stone figures in the world! Standing tall and proud, these statues were made to honor important ancestors, and some of them weigh as much as 80 tons! The Moai called Hoa Hakananai’a is one of the most famous—it was taken by British sailors in the 1800s and is now housed in the British Museum.  - Fun fact: Many Moai statues were placed to watch over the villages of the Rapa Nui people, facing inward toward the land as a symbol of protection and ancestral power.<br>The Moai statues are not only symbols of artistic achievement but also deeply spiritual objects, representing the connection between the Rapa Nui and their ancestors. This statue’s removal to the UK is part of a larger story of cultural loss for the Rapa Nui people, who continue to fight for its return to Easter Island.",
@@ -164,6 +212,12 @@ const jsonData = {
       },
       "item9": {
         "title": "Benin Bronzes - 13th-19th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-benin1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+        },
         "fun": {
           "short": "These bronze sculptures, made by the Kingdom of Benin in Nigeria, are some of the most amazing works of African art! In 1897, British forces took them, and now they’re in museums in Europe. Fun fact: Some of these sculptures were used to decorate the royal palace in Benin!",
           "medium": "The Benin Bronzes are some of the most stunning works of art from Africa! Made by the Kingdom of Benin in present-day Nigeria, these intricate bronze plaques and sculptures were used to decorate the royal palace and depict scenes of court life, warriors, and religious ceremonies. But in 1897, British soldiers attacked Benin City and took thousands of these bronzes, bringing them to Europe. Today, they’re spread across museums around the world, but there are growing calls for them to be returned to Nigeria.  - Fun fact: Some of the Benin Bronzes show the Oba, or king, of Benin wearing elaborate royal regalia, and these works of art were considered sacred in the Kingdom of Benin!<br>The Benin Bronzes are not just beautiful—they are sacred royal treasures that tell the story of the Kingdom of Benin’s rich cultural and artistic heritage.",
@@ -182,6 +236,12 @@ const jsonData = {
       },
       "item10": {
         "title": "Old Summer Palace Artefacts - 13th-19th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-summerpalace1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+        },
         "fun": {
           "short": "These treasures came from the Old Summer Palace in Beijing. British and French soldiers looted them during the Second Opium War in 1860. Fun fact: The Old Summer Palace was so huge, it had over 1,000 buildings filled with art and treasures!",
           "medium": "The treasures of the Old Summer Palace in Beijing are some of the most valuable artefacts in Chinese history. These treasures were looted by British and French soldiers during the Second Opium War in 1860, when the palace was destroyed. The palace, also known as Yuanmingyuan, was a sprawling complex with over 1,000 buildings, all filled with priceless art, jewellery, and historical items.  - Fun fact: The Old Summer Palace was so vast and beautiful that it was often called the Versailles of the East! Imagine a place with lakes, gardens, and palaces stretching over hundreds of hectares!<br>The looting and destruction of the Old Summer Palace remains a painful memory in China’s history, as many of its treasures were taken to European museums, where they are still displayed today.",
@@ -199,7 +259,13 @@ const jsonData = {
         }
       },
       "item11": {
-        "title": ". Gdańsk Astronomical Clock - 15th century",
+        "title": "Gdańsk Astronomical Clock - 15th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/158cae703e81c348853e750a2b07cabbe57beefe/images/cropped-gdansk1.jpeg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
+        },
         "fun": {
           "short": "This medieval clock was made in Gdańsk, Poland. It was taken by German forces during World War II but later returned to Poland. Fun fact: The clock is so old, it has more than just hours—it shows the moon phases and zodiac signs, too!",
           "medium": "The Gdańsk Astronomical Clock is one of Poland’s most incredible medieval inventions! Built between 1464 and 1470, it doesn’t just show the time—it also tracks the moon’s phases and the zodiac signs. During World War II, German forces took the clock from Gdańsk, but thankfully, it was returned to Poland in 1958.  - Fun fact: This clock is so detailed that it even has moving figures that come out to mark the hours!<br>This clock is a great example of how old technology could be incredibly advanced, combining science and art into one amazing creation.",
@@ -218,6 +284,12 @@ const jsonData = {
       },
       "item12": {
         "title": "Machu Picchu Artefacts - 15th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/b52944aa7ed653d50de657dbc19cfd4346d7080b/images/cropped-machu_picchu1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/685d4f5fb18035b7b3f88d7e9100bac60f0ea3d9/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
+        },
         "fun": {
           "short": "The Machu Picchu artefacts include beautifully crafted pottery, tools, and ceremonial objects that showcase the incredible craftsmanship of the Inca civilization. These artefacts were taken from the ancient city of Machu Picchu by American archaeologist Hiram Bingham in the early 20th century. Many were returned to Peru in 2011. Fun fact: Bingham’s adventures inspired the character Indiana Jones! ",
           "medium": "The Machu Picchu artefacts, including beautifully crafted pottery, tools, and ceremonial objects, offer a window into the extraordinary craftsmanship of the Inca civilization. These artefacts were removed by American archaeologist Hiram Bingham after he rediscovered the ancient city in 1911. For decades, they remained at Yale University until many were returned to Peru in 2011.  - Fun fact: Hiram Bingham’s adventures as an archaeologist exploring Machu Picchu inspired the character of Indiana Jones! Imagine discovering a hidden city in the mountains, full of ancient treasures!<br>The artefacts’ return was a major victory for Peru, but their journey also reminds us of the ongoing challenges countries face in reclaiming their cultural heritage.",
@@ -236,6 +308,12 @@ const jsonData = {
       },
       "item13": {
         "title": "Mask of Queen Idia - 16th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-maskqueen1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
+            },
         "fun": {
           "short": "This stunning ivory mask depicts Queen Idia, a powerful figure in Nigerian history known for her role in the Kingdom of Benin. The mask was looted by British forces during their invasion of Benin in 1897. Fun fact: Queen Idia was the first woman in her kingdom to hold the title of Queen Mother! ",
           "medium": "This stunning ivory mask of Queen Idia, a powerful leader in Nigerian history, was taken by British forces during their invasion of Benin in 1897. Queen Idia, known for her wisdom and influence, was the first woman to hold the title of Queen Mother in the Kingdom of Benin, and this mask celebrates her strength and legacy.  - Fun fact: Queen Idia’s leadership was so legendary that she became the inspiration for future generations of women in power within the kingdom!<br>The mask is now in the British Museum, and there have been many efforts to bring it back to Nigeria, where it belongs.",
@@ -254,6 +332,12 @@ const jsonData = {
       },
       "item14": {
         "title": "Tipu Sultan’s Tiger - 1790s",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-tiputiger1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
+            },
         "fun": {
           "short": "Tipu Sultan’s Tiger is a fascinating mechanical toy depicting a tiger attacking a British soldier, symbolizing the fierce resistance of Tipu Sultan against colonial rule. This unique artefact was taken by British soldiers after Tipu’s defeat in 1799. Fun fact: The tiger actually makes roaring sounds while the British soldier cries out! ",
           "medium": "Tipu Sultan’s Tiger is a fascinating mechanical toy that depicts a tiger attacking a British soldier, symbolizing the fierce resistance of Tipu Sultan against colonial rule. This unique artefact was seized by British soldiers after Tipu Sultan’s defeat in 1799.  - Fun fact: The tiger actually roars while the British soldier cries out, making it not just a toy but a statement of defiance!<br>This remarkable piece serves as a reminder of the cultural narratives that arise in the aftermath of colonial conquest and the complex ways artifacts can embody resistance.",
@@ -272,6 +356,12 @@ const jsonData = {
       },
       "item15": {
         "title": "Throne of King Glele - Late 19th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-throne1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.png",
+                "Rdf-file_link":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
+            },
         "fun": {
           "short": "The Throne of King Glele, adorned with intricate carvings of fierce animals like lions and panthers, showcases the artistry and power of the Benin Kingdom. This royal throne was taken by French soldiers during the late 19th century after the French-Dahomey wars, and it now resides in the Musée du Quai Branly in Paris. Fun fact: The throne's decorations were designed to symbolize the king’s strength and authority! ",
           "medium": "The Throne of King Glele, adorned with intricate carvings of fierce animals like lions and panthers, showcases the artistry and power of the Benin Kingdom. This royal throne was taken by French soldiers during the late 19th century after the French-Dahomey wars, and it now resides in the Musée du Quai Branly in Paris.  - Fun fact: The throne's decorations symbolize the king’s strength and authority, reflecting the deep cultural significance of kingship in Benin!<br>The throne stands as a powerful reminder of the artistic achievements of the Benin Kingdom and the impact of colonial conquests on royal heritage.",
@@ -311,6 +401,12 @@ const jsonData = {
     "texts": {
       "item1": {
         "title": "Benin Bronzes",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-benin2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+        },
         "fun": {
           "short": "The Benin Bronzes are amazing works of art made by the Kingdom of Benin in Nigeria hundreds of years ago! These metal plaques and statues tell stories of the kingdom’s rich history. But British soldiers took them in the late 1800s, and now they’re far away in museums. Fun fact: The Bronzes were made by a very skilled group of artists who passed down their craft from generation to generation!",
           "medium": "The Benin Bronzes are amazing works of art crafted by the Kingdom of Benin in Nigeria. These detailed metal plaques and statues tell stories of the kingdom’s leaders, warriors, and spiritual life. But when British forces invaded in 1897, they looted the Bronzes, taking them far from their homeland.  Fun fact: The Bronzes were made by highly skilled artisans who passed their craft down through generations, preserving traditions for centuries! <br>Colonial looting wasn’t just about taking treasures; it stripped communities of their cultural pride and identity. The removal of artifacts like the Benin Bronzes left scars that are still felt today, as the descendants of these societies struggle to reclaim their history and heritage.",
@@ -329,6 +425,12 @@ const jsonData = {
       },
       "item2": {
         "title": "Koh-i-Noor Diamond ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-koh-diamond2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
+            },
         "fun": {
           "short": "The Koh-i-Noor is one of the biggest and most famous diamonds in the world! It once belonged to Indian rulers, but the British took it after they conquered India. Fun fact: The Koh-i-Noor has had many owners—kings, queens, and even conquerors!",
           "medium": "The Koh-i-Noor is one of the world’s largest and most famous diamonds! Once part of Indian royal collections, it was taken by the British in the 19th century after they conquered Punjab. Now, it rests in the British Crown Jewels. Fun fact: The Koh-i-Noor has passed through the hands of kings, emperors, and conquerors, each claiming it as a symbol of their power!           This diamond, like many colonial trophies, symbolizes the extraction of wealth from colonized lands. The British took not only the riches of the Indian subcontinent but also its symbols of authority, reinforcing their dominance and control. The loss of the Koh-i-Noor is part of a larger story of colonial exploitation that stripped nations of their resources and pride.",
@@ -347,6 +449,12 @@ const jsonData = {
       },
       "item3": {
         "title": "The Moai statue",
+       "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-moaistatues2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
+        },
         "fun": {
           "short": "This Moai statue is one of the famous giant stone heads from Easter Island, made by the Rapa Nui people. But this one was taken by British sailors, and now it’s far from home in a museum.  Fun fact: The Rapa Nui made hundreds of these statues, which they believed held the spirits of their ancestors!",
           "medium": "The Moai statues of Easter Island are famous all over the world, and Hoa Hakananai’a is one of them! These giant stone heads were made by the Rapa Nui people to honor their ancestors, and they hold great spiritual significance. However, in 1868, British sailors took this particular statue and brought it to the UK, where it now resides in a museum far from home. Fun fact: The Rapa Nui created hundreds of these statues to represent the spirits of their ancestors and connect the island’s people to their past!The removal of this Moai is just one example of how colonial powers extracted not just material wealth, but cultural and spiritual treasures from indigenous societies. The loss of Hoa Hakananai’a represents the broader erasure of native histories and traditions through colonial theft.",
@@ -365,6 +473,12 @@ const jsonData = {
       },
       "item4": {
         "title": "The Mask of Queen Idia",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-maskqueen2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
+            },
         "fun": {
           "short": "The Mask of Queen Idia is a beautiful ivory mask from Nigeria, made to honour a powerful queen. But when the British attacked, they took the mask, and now it’s far from home.  Fun fact: Queen Idia was so important to her people that this mask was made to protect her spirit forever!",
           "medium": "The Mask of Queen Idia is an exquisite ivory mask made in the Kingdom of Benin to honor Queen Idia, a powerful and revered leader. This beautiful mask was crafted to protect her spirit and ensure her legacy lived on. However, when British forces attacked Benin in 1897, they looted this and many other treasures, taking them to Europe, where they are now kept in museums. Fun fact: Queen Idia was such an important figure that she is considered the mother of the first Oba (king) to unite the kingdom! The looting of the mask represents the larger cultural devastation caused by colonial invasions, as entire societies lost their heritage, identity, and symbols of power, leaving a lasting impact on future generations.",
@@ -383,6 +497,12 @@ const jsonData = {
       },
       "item5": {
         "title": "Old Summer Palace Artifacts",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-summerpalace2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+        },
         "fun": {
           "short": "The Old Summer Palace in China was once full of amazing treasures, but British and French soldiers destroyed it during a war and took many of its treasures away. These precious items are now in museums far from China. Fun fact: The palace was so big and full of art that it took days to loot and burn it down!",
           "medium": "The Old Summer Palace, or Yuanmingyuan, was once a grand royal residence in China, filled with art, gardens, and treasures. British and French forces destroyed it in 1860 during the Second Opium War, looting countless priceless artifacts. These treasures, which included paintings, sculptures, and luxury items, were taken from China and are now displayed in museums far from their homeland.  Fun fact: The palace was so vast and filled with so many valuable items that it took soldiers multiple days to loot and burn it to the ground! This act of looting wasn’t just about taking beautiful objects—it represented a violent assault on China’s cultural heritage and national pride, showing how colonialism targeted both the physical and symbolic centers of power in colonized nations.",
@@ -401,6 +521,12 @@ const jsonData = {
       },
       "item6": {
         "title": "The Throne of King Glele – 19th Century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-throne2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.png",
+            "Rdf-file_link":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
+        },
         "fun": {
           "short": "The throne of King Glele was a special seat for one of the kings of the Kingdom of Dahomey, which is now called Benin! The French took this royal throne after they defeated the kingdom in a battle. Fun fact: The throne was made with symbols of strength, like lions, to show how powerful the king was!",
           "medium": "The Throne of King Glele was the royal seat of one of the powerful kings of the Kingdom of Dahomey (modern-day Benin). It was a symbol of the king’s authority, adorned with motifs like lions, representing strength and leadership. However, after French forces defeated Dahomey in 1892, they took this magnificent throne back to France, where it now sits in a European museum.Fun fact: The throne's design, with its intricate carvings, reflects Dahomey’s military power and the king’s role as both a spiritual and political leader! Like many other cultural treasures, the removal of the throne was part of a broader pattern where colonial forces stripped conquered nations of their symbols of power, leaving behind a weakened sense of identity and history for the people of Dahomey.",
@@ -419,6 +545,12 @@ const jsonData = {
       },
       "item7": {
         "title": "Bust of Nefertiti",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
+                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
+            },
         "fun": {
           "short": "Queen Nefertiti was one of the most famous rulers of ancient Egypt! Her bust, showing her royal beauty, was taken by German archaeologists in the early 1900s and moved to Berlin, where it still is today.  Fun fact: Queen Nefertiti was known for her power and beauty—she was like a celebrity of ancient times!",
           "medium": "Queen Nefertiti was one of the most famous rulers of ancient Egypt, known for her incredible beauty and powerful reign alongside Pharaoh Akhenaten. Her bust, crafted in 1345 BCE, is one of the most iconic depictions of ancient Egyptian art, symbolizing her status as a royal figure. In 1912, German archaeologists removed the bust from Egypt and brought it to Berlin, where it has been ever since. Fun fact: Nefertiti’s name means the beautiful one has come, and she was so famous in her time that her image became a symbol of power and elegance, much like a modern celebrity!  <br>The story of the bust’s removal is a prime example of how colonial-era expeditions often resulted in the extraction of cultural treasures from their countries of origin, reinforcing the unequal power dynamics of the time.",
@@ -437,6 +569,12 @@ const jsonData = {
       },
       "item8": {
         "title": "Parthenon Marbles",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
+        },
         "fun": {
           "short": "The Parthenon Marbles are beautiful sculptures that decorated an ancient temple in Athens! Lord Elgin took them to the UK, and now they’re in the British Museum. Greece has been asking for them back ever since. Fun fact: These marbles tell stories about Greek gods and heroes, and they’re more than 2,000 years old!",
           "medium": "The Parthenon Marbles are a collection of beautiful sculptures that once decorated the Parthenon, an ancient temple in Athens. They were made by Greek artists more than 2,000 years ago, showing scenes of gods, heroes, and important events in Greek mythology. But in the early 1800s, Lord Elgin took them from Greece and brought them to the UK. Today, they are in the British Museum, even though Greece has been asking for their return for many years. Fun fact: These marbles were originally painted in bright colors, though most of the paint has worn off over time! The removal of these marbles reflects a larger story of cultural displacement during times of imperial expansion, where powerful nations claimed cultural treasures as symbols of their dominance over others.",
@@ -455,6 +593,12 @@ const jsonData = {
       },
       "item9": {
         "title": "Gdańsk Astronomical Clock",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/images/cropped-gdansk2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
+        },
         "fun": {
           "short": "This clock was made in the 1400s to show the movement of the stars and planets! It was taken by German forces during World War II, and Poland has been trying to get it back ever since. Fun fact: The Gdańsk clock is not just a timekeeper—it’s a masterpiece of art and science from hundreds of years ago!",
           "medium": "The Gdańsk Astronomical Clock was made in the 1400s, and it’s not just a clock! This amazing creation was designed to track the movement of the stars, the moon phases, and even display the calendar. It stood proudly in St. Mary’s Church for centuries until it was taken by German forces during World War II. Poland has been trying to get it back ever since. Fun fact: The clock is considered one of the greatest technological and artistic achievements of its time, combining science, religion, and art in one extraordinary piece!<br>Unfortunately, this masterpiece became part of the vast cultural losses suffered during wartime looting, where treasures were removed from their original locations as spoils of war, a practice common in times of conflict and colonization.",
@@ -474,6 +618,12 @@ const jsonData = {
     },
     "item10": {
       "title": "Machu Picchu Artifacts ",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/b52944aa7ed653d50de657dbc19cfd4346d7080b/images/cropped-machu_picchu2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/685d4f5fb18035b7b3f88d7e9100bac60f0ea3d9/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
+        },
       "fun": {
         "short": "The artifacts from Machu Picchu were made by the Inca people, who built their city high up in the mountains of Peru! These treasures were taken by American explorers and are now far away in the US. Fun fact: Machu Picchu is one of the most famous ancient cities in the world, and people still visit it today!",
         "medium": "The Machu Picchu artifacts were made by the Inca people, who built their incredible city high up in the Andes Mountains of Peru. These treasures include pottery, tools, and ceremonial objects, all left behind when the city was abandoned. In the early 1900s, American explorer Hiram Bingham took many of these artifacts to the US, and they are still there today.  Fun fact: Machu Picchu is one of the world’s most famous ancient cities, and people travel from all over to see the Inca’s amazing stonework and learn about their culture!<br>The removal of the artifacts sparked a long-standing debate between Peru and the US, raising questions about the ethics of removing cultural heritage during exploratory expeditions.",
@@ -492,6 +642,12 @@ const jsonData = {
     },
     "item11": {
       "title": "The Sultanganj Buddha ",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-buddha2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
+            },
       "fun": {
         "short": "This giant statue of Buddha was found in India and taken by a British official. Now it’s in a museum in the UK! Fun fact: The Sultanganj Buddha is made of bronze and weighs more than a small car!",
         "medium": "The Sultanganj Buddha is a giant bronze statue that represents one of the most impressive artistic achievements of ancient India! This magnificent statue was found in the region of Sultanganj, India, and taken by a British official during the colonial era. Now, it resides in a museum in the UK, far from its home.  Fun fact: This statue is so massive that it weighs more than a small car, showcasing the incredible craftsmanship of the artisans who created it!<br>The removal of the Sultanganj Buddha is a vivid illustration of the broader trend of colonial powers extracting cultural and religious artifacts from colonized lands, often without regard for their significance to the local communities.",
@@ -510,6 +666,12 @@ const jsonData = {
     },
     "item12": {
       "title": "Nok Terracotta Statues ",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+            },
       "fun": {
         "short": "The Nok people made these incredible clay statues more than 2,000 years ago! These figures are some of the earliest examples of African art. But today, many of these treasures are far away, in museums outside of Nigeria. Fun fact: Nok art is so old that it was created while some of the first cities in the world were being built!",
         "medium": "The Nok Terracotta Statues are stunning clay sculptures created by the Nok people more than 2,000 years ago! These remarkable figures are among the earliest examples of African art, showcasing the artistic ingenuity of a civilization that flourished in what is now Nigeria. However, many of these treasures are now far from home, residing in museums outside Nigeria.  Fun fact: The Nok culture is so ancient that it was thriving while some of the first cities in the world were being built!<br>The removal of these statues highlights a painful legacy of colonialism, where cultural artifacts were often taken without permission, stripping nations of their historical identities.",
@@ -528,6 +690,12 @@ const jsonData = {
     },
     "item13": {
       "title": "The Achaemenid Reliefs",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/ca41458c60f1a4c00f42ca74930fcf24f184e911/images/achaemenid2.jpg",
+      "metadata":{
+          "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
+          "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
+          "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+      },
       "fun": {
         "short": "These stone carvings are from the Persian Empire, over 2,500 years ago! They tell stories about ancient kings and warriors. Explorers took them in the 1800s, and today, they’re displayed far away in Europe. Fun fact: Persia was one of the most powerful empires ever, and these carvings show off its greatness!",
         "medium": "The Achaemenid Reliefs are stunning stone carvings from the Persian Empire, created over 2,500 years ago! These intricate artworks tell fascinating stories about ancient kings and warriors, capturing the grandeur of one of history's most powerful empires. However, explorers took them in the 1800s, and today, they are displayed far from their original home in Europe.Fun fact: The Persian Empire was renowned for its vastness and power, and these carvings showcase the remarkable achievements of its civilization, reflecting its influence on art and culture across the ages!<br>The journey of the Achaemenid Reliefs highlights the lasting impact of colonial looting on cultural heritage, reminding us that even great empires could be vulnerable to the whims of exploration and extraction.",
@@ -546,6 +714,12 @@ const jsonData = {
     },
     "item14": {
       "title": "The Altar of Pergamon ",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-pergamon2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
+            },
       "fun": {
         "short": "The Altar of Pergamon is like an ancient Greek temple! German archaeologists took it to Berlin, where it still stands today. It’s huge, and Turkey has been asking for it to come back. Fun fact: Imagine having to move an entire building—that’s how big this altar is!",
         "medium": "The Altar of Pergamon is a colossal structure resembling an ancient Greek temple! Built in the 2nd century BCE, this monumental piece of architecture was taken by German archaeologists to Berlin in the 19th century, where it stands to this day. Turkey has been asking for its return ever since.<br>Fun fact: Imagine having to move an entire building—that’s just how huge this altar is! The removal of the Altar of Pergamon reflects a broader trend of colonial practices, where even large structures were taken from their original contexts, disrupting cultural continuity.",
@@ -564,6 +738,12 @@ const jsonData = {
     },
     "item15": {
       "title": "Tipu Sultan’s Tiger",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-tiputiger2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
+            },
       "fun": {
         "short": "Tipu Sultan’s Tiger is a mechanical toy that shows a tiger attacking a British soldier—it was made by Tipu Sultan, the ruler of Mysore in India! The British took it after defeating him in battle. Fun fact: The tiger could even make sounds and move like a real animal!",
         "medium": "Tipu Sultan’s Tiger is a remarkable mechanical toy that vividly depicts a tiger mauling a British soldier, symbolizing the fierce resistance of Tipu Sultan, the ruler of Mysore, against British colonial forces. This intricately crafted automaton was not just a plaything—it represented a powerful political statement. Made under Tipu Sultan’s command, it embodied the sultan’s disdain for British imperialism and his efforts to protect his kingdom from foreign domination. After Tipu’s defeat in the Fourth Anglo-Mysore War in 1799, British forces took the tiger as a trophy of their victory. Fun fact: the tiger could growl and make sounds like a real animal while its mechanical innards allowed it to move! Today, it stands as a reminder of both Tipu Sultan’s fight and the immense cultural loss India endured during British rule.",
@@ -602,6 +782,12 @@ const jsonData = {
     "texts": {
       "item1": {
         "title": "Benin Bronzes (Africa) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-benin3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+        },
         "fun": {
           "short": "These incredible bronze plaques once decorated the royal palace of the Benin Kingdom in Nigeria. British forces took them during the invasion of Benin in 1897. They now sit in museums around the world. Fun fact: The bronzes are so detailed that they show kings and warriors in action!",
           "medium": "The Benin Bronzes are stunning metal plaques that once adorned the royal palace of the Oba in the Kingdom of Benin, now part of modern-day Nigeria. In 1897, British forces raided Benin City as part of a military operation known as the British Punitive Expedition, during which they looted the palace and seized thousands of cultural treasures. The expedition was sparked after British officials were ambushed while attempting to impose their trading rights on the Oba, who had resisted foreign control over his kingdom’s resources. Fun fact: The bronzes depict royal figures, warriors, and scenes of court life with incredible precision, offering a glimpse into the kingdom’s sophisticated artistic traditions. These intricate works are now spread across museums worldwide, far from their place of origin, and are at the heart of ongoing debates over cultural restitution.",
@@ -620,6 +806,12 @@ const jsonData = {
       },
       "item2": {
         "title": "Nok Terracotta Statues (Africa)",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+            },
         "fun": {
           "short": "These ancient clay statues are some of the oldest artworks from Africa, made by the Nok people. Sadly, many of them were looted by European collectors and now live in museums far from Nigeria. Fun fact: The Nok people created these statues more than 2,000 years ago!",
           "medium": "The Nok Terracotta statues are some of Africa’s oldest artworks, created by the Nok people over 2,000 years ago in what is now northern Nigeria. These ancient sculptures show humans with elongated heads, wide eyes, and elaborate hairstyles, offering insight into the early cultural and artistic expressions of West Africa. Sadly, during the colonial period, many of these statues were looted by European archaeologists and collectors who were eager to display these rare finds in Western museums. The Nok culture’s connection to early ironworking and agriculture shows how advanced this society was for its time. Fun fact: The Nok people lived at the same time as some of the earliest cities in the world, and their statues reveal a unique sense of style and creativity!",
@@ -638,6 +830,12 @@ const jsonData = {
       },
       "item3": {
         "title": "Mask of Queen Idia (Africa) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-maskqueen3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
+            },
         "fun": {
           "short": "This mask shows Queen Idia, a powerful woman in Nigerian history. British forces took it in 1897 during their invasion of Benin, and it now sits in a foreign museum. Fun fact: Queen Idia was the first woman to be given the title of Queen Mother in her kingdom!",
           "medium": "The Mask of Queen Idia is a beautifully carved ivory mask, representing Queen Idia, one of the most powerful women in the history of the Benin Kingdom, now modern-day Nigeria. She was the first woman to hold the prestigious title of Queen Mother, thanks to her influence in military and political affairs. In 1897, British forces raided Benin City, looted countless treasures, including this mask, during a brutal military operation aimed at subduing the kingdom’s resistance to British control. Fun fact: Queen Idia was instrumental in securing the throne for her son, Oba Esigie, who relied on her wisdom in both governance and warfare. Today, this masterpiece sits in foreign museums, far from the land where it was revered.",
@@ -656,6 +854,12 @@ const jsonData = {
       },
       "item4": {
         "title": "Throne of King Glele (Africa)",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/e8a43337ee5bd0726099b8598d029d57b17e7f22/images/cropped-throne3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.png",
+            "Rdf-file_link":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
+        },
         "fun": {
           "short": "This throne belonged to King Glele of Benin, and it was taken by French soldiers after a battle. Today, it’s in a French museum. Fun fact: The throne has cool carvings of lions and panthers to show off the king’s power!",
           "medium": "The Throne of King Glele is an impressive royal artifact from the Kingdom of Dahomey (modern-day Benin). King Glele ruled during the mid-19th century and was known for his fierce military campaigns and leadership. His throne, taken by French soldiers after one of the many battles in the French-Dahomey wars, now sits in a French museum far from its original home. The carvings on the throne, especially of lions and panthers, were meant to symbolize the king’s power, courage, and authority over his people and enemies. Fun fact: The lions and panthers carved into the throne are meant to show off the king’s strength and dominance, just like those mighty animals in the wild! Today, this magnificent piece of Dahomean heritage remains a symbol of how colonial invasions stripped African kingdoms of their cultural treasures.",
@@ -674,6 +878,12 @@ const jsonData = {
       },
       "item5": {
         "title": "The Bust of Nefertiti (Africa) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
+                "Table":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
+            },
         "fun": {
           "short": "This beautiful bust of Queen Nefertiti was discovered by German archaeologists in 1912 and taken to Germany. It now sits in the Neues Museum in Berlin. Fun fact: Nefertiti’s name means “the beautiful one has come”!",
           "medium": "The Bust of Queen Nefertiti is one of the most recognizable symbols of ancient Egypt. It was discovered in 1912 by a team of German archaeologists led by Ludwig Borchardt at Amarna, the capital city established by Pharaoh Akhenaten, Nefertiti's husband. The bust was taken to Germany under disputed circumstances and has since been housed in the Neues Museum in Berlin. This masterpiece, crafted in the 14th century BCE, captures the elegance and power of the Egyptian queen, with her name translating to “the beautiful one has come.” Fun fact: Germany and Egypt have been in a century-long diplomatic struggle over the bust’s rightful ownership, with Egypt persistently calling for its return.",
@@ -692,6 +902,12 @@ const jsonData = {
       },
       "item6": {
         "title": "The Achaemenid Reliefs (Asia) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/ca41458c60f1a4c00f42ca74930fcf24f184e911/images/achaemenid3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+        },
         "fun": {
           "short": "These stone reliefs from Persepolis were taken by European explorers in the 19th and 20th centuries. They’re now in the British Museum. Fun fact: Persepolis was the grand capital of the ancient Persian Empire!",
           "medium": "These stunning stone reliefs were once part of the majestic palaces of Persepolis, the grand capital of the ancient Persian Empire. Carved in the 5th century BCE during the reign of the Achaemenid dynasty, they depicted ceremonial scenes and were a testament to the empire’s power and sophistication. In the 19th and early 20th centuries, European explorers and collectors removed many of these reliefs during their expeditions to Persia. Today, they are displayed in the British Museum, far from their original home. Fun fact: Persepolis was so grand that even Alexander the Great was awed by it—though he later set fire to the city during his conquest of Persia!",
@@ -710,6 +926,12 @@ const jsonData = {
       },
       "item7": {
         "title": "Koh-i-Noor Diamond (Africa) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-koh-diamond3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
+            },
         "fun": {
           "short": "The Koh-i-Noor diamond is one of the most famous gems in the world! It was taken by the British from India and is now part of the British Crown Jewels. Many believe that the diamond was passed between rulers for centuries before it ended up in British hands. Fun fact: The Koh-i-Noor is thought to bring bad luck to men—only women can wear it safely!",
           "medium": "The Koh-i-Noor diamond is one of the most famous and controversial gems in the world. Originally from India, this dazzling diamond has passed through the hands of several rulers over centuries before it was taken by the British. It was seized during the British annexation of Punjab in 1849 and became part of the British Crown Jewels, where it remains today. The diamond, believed to have been mined in the 13th century, symbolizes the immense wealth and power of India’s rulers before it was taken to Britain. Fun fact: According to legend, the Koh-i-Noor is said to bring bad luck to men, which is why it’s only worn by female members of the British royal family! The journey of this diamond is a reminder of how colonialism reshaped the cultural and economic landscape of India, with British forces seizing the most prized treasures of Indian royalty.",
@@ -728,6 +950,12 @@ const jsonData = {
       },
       "item8": {
         "title": "Old Summer Palace Artifacts (Asia)",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-summerpalace4.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+        },
         "fun": {
           "short": "The Old Summer Palace was a grand royal residence in China filled with beautiful artwork and treasures. During the Second Opium War, British and French troops destroyed it and took many valuable items, which are now scattered in museums around the world. Fun fact: The Old Summer Palace was so big that it took over 3,000 soldiers to loot it!",
           "medium": "The Old Summer Palace, known as Yuanmingyuan, was once one of the most magnificent royal complexes in China. It was a vast network of palaces, pavilions, gardens, and lakes, home to some of the most exquisite art, rare treasures, and cultural relics in Chinese history. However, during the Second Opium War in 1860, British and French forces attacked Beijing and destroyed this architectural wonder. They looted priceless artifacts—everything from fine jade carvings to detailed silk scrolls—which are now scattered across museums in Europe. Fun fact: The palace was so massive that it took over 3,000 soldiers two whole days to pillage and burn it to the ground! The looting of the Old Summer Palace marks one of the most dramatic acts of cultural vandalism in history, symbolizing the extent of European aggression towards China during the colonial era.",
@@ -746,6 +974,12 @@ const jsonData = {
       },
       "item9": {
         "title": "The Sultanganj Buddha (Asia) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/e4b4f48b297e8d4486cdf0aa663f51937fa94c1f/images/cropped-buddha3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
+            },
         "fun": {
           "short": "This giant bronze Buddha statue was found in India and taken by British archaeologists to the UK in the 1800s. Now it lives in a museum far away from where it was created.  Fun fact: The statue is so big that it weighs over 500 kilograms—that’s as much as a grand piano!",
           "medium": "The Sultanganj Buddha is a massive bronze statue that dates back to the 5th or 6th century CE. It was discovered by British archaeologists in the 19th century during the construction of a railway in Sultanganj, India. The British, fascinated by this ancient artwork, transported it back to the UK where it now resides in the Birmingham Museum. This Buddha statue is an important symbol of Buddhist art and spirituality, and its presence in Europe is a reminder of how colonial powers removed significant religious and cultural objects from their original homes. Fun fact: The statue is over two meters tall and weighs more than 500 kilograms, making it one of the largest surviving bronze Buddhas from ancient India! The removal of such a massive object required incredible effort and showed the lengths to which colonial powers went to claim India’s cultural treasures.",
@@ -764,6 +998,12 @@ const jsonData = {
       },
       "item10": {
         "title": "Tipu Sultan’s Tiger (Asia) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-tiputiger3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
+            },
         "fun": {
           "short": "This mechanical tiger was made for Tipu Sultan, a ruler in India who fought against British colonization. It shows a tiger attacking a British soldier, and it was taken by the British after they defeated Tipu Sultan. Fun fact: Tipu Sultan’s Tiger can even growl like a real tiger thanks to its hidden machinery!",
           "medium": "Tipu Sultan’s Tiger is an iconic mechanical toy commissioned by Tipu Sultan, the ruler of Mysore, who fiercely resisted British colonial rule in India. The sculpture vividly portrays a tiger—Tipu’s personal symbol of power—attacking a British soldier, representing the Sultan’s defiance against colonial aggression. When the British finally defeated him in 1799, they seized this striking object as a war trophy. Fun fact: The mechanical tiger could actually move and growl thanks to its intricate internal mechanisms, adding a lifelike touch to this symbolic artwork. Today, it stands as a reminder of the intense conflicts between Indian rulers and the British East India Company, which sought to expand its influence and economic control over the subcontinent.",
@@ -782,6 +1022,12 @@ const jsonData = {
       },
       "item11": {
         "title": "The Parthenon (Elgin) Marbles (Europe) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/f6244e192026580c418a2e6da8fa5185f38b6d4c/images/cropped-parthenon3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
+        },
         "fun": {
           "short": "The Parthenon Marbles are stunning sculptures that used to decorate a grand temple in ancient Athens! They were taken by Lord Elgin in the early 1800s and are now displayed in the British Museum. Fun fact: Greece has been asking for these marbles back for over 200 years!",
           "medium": "The Parthenon Marbles are remarkable sculptures that once adorned the Parthenon, a temple dedicated to the goddess Athena on the Acropolis in Athens. These intricate artworks, crafted in the 5th century BCE, depict scenes of Greek mythology and religious rituals. But in the early 1800s, Lord Elgin, a British ambassador to the Ottoman Empire (which ruled Greece at the time), removed the marbles and took them to England. They’ve been in the British Museum ever since. Fun fact: Greece has been asking for the marbles' return for over 200 years, but so far, they remain in London! This dispute continues to symbolize the deep cultural connection Greece has to its ancient heritage and the ongoing debate over rightful ownership of looted treasures.",
@@ -800,6 +1046,12 @@ const jsonData = {
       },
       "item12": {
         "title": "Gdańsk Astronomical Clock (Europe) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/images/cropped-gdansk3.jpeg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
+        },
         "fun": {
           "short": "This amazing clock from Gdańsk is not just a timekeeper; it tells the story of Polish craftsmanship! It was taken by the Nazis during World War II and is now part of a collection in Germany. Fun fact: The clock can show not just the time but also the phases of the moon!",
           "medium": "The Gdańsk Astronomical Clock is a masterpiece of Polish Renaissance craftsmanship, created in the 16th century. Located in St. Mary’s Church in Gdańsk, this clock was more than just a timekeeper—it could display the phases of the moon and other celestial movements, making it a remarkable piece of science and art for its time! Unfortunately, during World War II, Nazi forces took the clock as part of their widespread looting campaign in Poland, and it now sits in a German collection. Fun fact: The clock was so advanced that it could predict astronomical events—quite an impressive feat for the 1500s! Its journey from Poland to Germany mirrors the broader story of how war and conquest can lead to the displacement of national treasures.",
@@ -818,6 +1070,12 @@ const jsonData = {
       },
       "item13": {
         "title": "The Altar of Pergamon (Europe) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/b476c84ecfac2a0cbc122640efc52421a410145c/images/cropped-pergamon3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
+            },
         "fun": {
           "short": "The Altar of Pergamon is like an ancient Greek temple! German archaeologists took it to Berlin in the 19th century, and it’s massive. Turkey has been asking for it to come back for years! Fun fact: Moving the entire altar was a huge challenge—it’s like relocating a whole building!",
           "medium": "The Altar of Pergamon is an ancient marvel, often compared to a Greek temple, even though it stood in what is now modern-day Turkey. This massive structure was dedicated to the gods and features elaborate carvings that depict legendary battles between gods and giants. German archaeologists excavated the altar in the late 19th century and transported it to Berlin, where it now resides in the Pergamon Museum. The removal was a monumental task—moving such a massive altar was like relocating an entire building! Fun fact: The altar’s intricately carved friezes stretch over 100 feet long, making it one of the most impressive ancient artworks still in existence. Turkey has been asking for its return for many years, arguing that it is part of their national heritage.",
@@ -836,6 +1094,12 @@ const jsonData = {
       },
       "item14": {
         "title": "Moai Statue (Oceania) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-moaistatues3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
+        },
         "fun": {
           "short": "The Moai statues of Easter Island are amazing stone figures made by the Rapa Nui people! One of these, Hoa Hakananai'a, was taken by British sailors in the 19th century and now stands in the British Museum. Fun fact: These giant statues were made to honor ancestors, and they can weigh over 80 tons!",
           "medium": "The Moai statues of Easter Island are incredible stone figures created by the Rapa Nui people between 1200 and 1500 CE. These monumental carvings were made from volcanic rock and stood as silent guardians, symbolizing the power and spirit of Rapa Nui ancestors. One of the most well-known statues, Hoa Hakananai'a, was taken by British sailors in 1868 and now resides in the British Museum. Fun fact: The Moai statues were originally placed with their backs to the sea, watching over the island, and some of them weigh as much as 80 tons! Transporting them remains one of the great mysteries of ancient engineering, as the Rapa Nui people moved these massive structures without the use of wheels or metal tools.",
@@ -854,6 +1118,12 @@ const jsonData = {
       },
       "item15": {
         "title": "Machu Picchu Artifacts (America) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/b52944aa7ed653d50de657dbc19cfd4346d7080b/images/cropped-machu_picchu3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/685d4f5fb18035b7b3f88d7e9100bac60f0ea3d9/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
+        },
         "fun": {
           "short": "The artifacts from Machu Picchu are amazing treasures from the Inca Empire! These beautiful objects were found in a lost city high in the Andes Mountains. During the early 20th century, explorers took many items back to Europe and North America. Fun fact: Machu Picchu is often called the Lost City of the Incas and was only rediscovered in 1911!",
           "medium": "The artifacts from Machu Picchu are incredible treasures from the heart of the Inca Empire! This lost city, hidden high in the Andes Mountains, was a mysterious and sacred place for the Incas. In the early 20th century, when explorer Hiram Bingham rediscovered Machu Picchu, many of the artifacts were taken to Europe and North America. These items, including ceramics, textiles, and tools, now sit in museums far from their homeland. Fun fact: Machu Picchu is often called the Lost City of the Incas, even though the local people had never really forgotten about it!",
