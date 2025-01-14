@@ -1,3 +1,10 @@
+
+// function named startTour that takes one parameter, tourName. 
+// This parameter represents the name of the tour being started.
+// tourLength determines and returns the ID of an HTML element based on the tourName value.
+//Similar to tourLength, tourComplexity determines and returns the ID of an HTML element based 
+// on the tourName value
+
 function startTour(tourName) {
     const tourLength = () => {
         if (tourName === 'Timeline Tour') {
@@ -22,9 +29,19 @@ function startTour(tourName) {
             return 'tour-complexity-3';
         }
     }
+
+
+//Retrieves the values of the HTML elements whose IDs are determined by calling the 
+// tourLength and tourComplexity functions.
+//length stores the value of the element related to the tour's length.
+//complexity stores the value of the element related to the tour's complexity.
+
     
     const length = document.getElementById(tourLength()).value;
     const complexity = document.getElementById(tourComplexity()).value;
+
+
+//Logs the retrieved values of length and complexity to the console.
 
     console.log(`length: ${length}, complexity: ${complexity}`);
 
@@ -34,18 +51,19 @@ function startTour(tourName) {
     }
     console.log(`length: ${length}, complexity: ${complexity}`);
 
-    // Redirect with query parameters
-    // const url = `Object-page.html?tour=${encodeURIComponent(tourName)}&length=${encodeURIComponent(length)}&complexity=${encodeURIComponent(complexity)}`;
-    // window.location.href = url;
+
+
+
     console.log('starting tour')
     const tourData = { tourName: tourName, length, complexity };
     localStorage.setItem('tourData', JSON.stringify(tourData));
 
     console.log('Tour data saved:', tourData);
 
-    console.log("Start tour desde el js");
+    console.log("Start tour from js");
 }
 
-
+//Without this line, startTour would only be accessible within the script file where it's defined.
+//Adding it to the window object allows other parts of the application to invoke it.
 
 window.startTour = startTour;
