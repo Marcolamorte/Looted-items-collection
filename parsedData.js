@@ -260,7 +260,7 @@ const jsonData = {
       },
       "item11": {
         "title": "Gdańsk Astronomical Clock - 15th century",
-        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-summerpalace2.jpg",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/158cae703e81c348853e750a2b07cabbe57beefe/images/cropped-gdansk1.jpeg",
         "metadata":{
             "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
             "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
