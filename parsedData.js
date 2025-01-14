@@ -302,6 +302,12 @@ const jsonData = {
       },
       "item13": {
         "title": "Mask of Queen Idia - 16th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-maskqueen1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
+            },
         "fun": {
           "short": "This stunning ivory mask depicts Queen Idia, a powerful figure in Nigerian history known for her role in the Kingdom of Benin. The mask was looted by British forces during their invasion of Benin in 1897. Fun fact: Queen Idia was the first woman in her kingdom to hold the title of Queen Mother! ",
           "medium": "This stunning ivory mask of Queen Idia, a powerful leader in Nigerian history, was taken by British forces during their invasion of Benin in 1897. Queen Idia, known for her wisdom and influence, was the first woman to hold the title of Queen Mother in the Kingdom of Benin, and this mask celebrates her strength and legacy.  - Fun fact: Queen Idia’s leadership was so legendary that she became the inspiration for future generations of women in power within the kingdom!<br>The mask is now in the British Museum, and there have been many efforts to bring it back to Nigeria, where it belongs.",
@@ -320,6 +326,12 @@ const jsonData = {
       },
       "item14": {
         "title": "Tipu Sultan’s Tiger - 1790s",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-tiputiger1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
+            },
         "fun": {
           "short": "Tipu Sultan’s Tiger is a fascinating mechanical toy depicting a tiger attacking a British soldier, symbolizing the fierce resistance of Tipu Sultan against colonial rule. This unique artefact was taken by British soldiers after Tipu’s defeat in 1799. Fun fact: The tiger actually makes roaring sounds while the British soldier cries out! ",
           "medium": "Tipu Sultan’s Tiger is a fascinating mechanical toy that depicts a tiger attacking a British soldier, symbolizing the fierce resistance of Tipu Sultan against colonial rule. This unique artefact was seized by British soldiers after Tipu Sultan’s defeat in 1799.  - Fun fact: The tiger actually roars while the British soldier cries out, making it not just a toy but a statement of defiance!<br>This remarkable piece serves as a reminder of the cultural narratives that arise in the aftermath of colonial conquest and the complex ways artifacts can embody resistance.",
@@ -338,6 +350,12 @@ const jsonData = {
       },
       "item15": {
         "title": "Throne of King Glele - Late 19th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-throne1.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.png",
+                "Rdf-file_link":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
+            },
         "fun": {
           "short": "The Throne of King Glele, adorned with intricate carvings of fierce animals like lions and panthers, showcases the artistry and power of the Benin Kingdom. This royal throne was taken by French soldiers during the late 19th century after the French-Dahomey wars, and it now resides in the Musée du Quai Branly in Paris. Fun fact: The throne's decorations were designed to symbolize the king’s strength and authority! ",
           "medium": "The Throne of King Glele, adorned with intricate carvings of fierce animals like lions and panthers, showcases the artistry and power of the Benin Kingdom. This royal throne was taken by French soldiers during the late 19th century after the French-Dahomey wars, and it now resides in the Musée du Quai Branly in Paris.  - Fun fact: The throne's decorations symbolize the king’s strength and authority, reflecting the deep cultural significance of kingship in Benin!<br>The throne stands as a powerful reminder of the artistic achievements of the Benin Kingdom and the impact of colonial conquests on royal heritage.",
@@ -449,6 +467,12 @@ const jsonData = {
       },
       "item4": {
         "title": "The Mask of Queen Idia",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-maskqueen2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
+            },
         "fun": {
           "short": "The Mask of Queen Idia is a beautiful ivory mask from Nigeria, made to honour a powerful queen. But when the British attacked, they took the mask, and now it’s far from home.  Fun fact: Queen Idia was so important to her people that this mask was made to protect her spirit forever!",
           "medium": "The Mask of Queen Idia is an exquisite ivory mask made in the Kingdom of Benin to honor Queen Idia, a powerful and revered leader. This beautiful mask was crafted to protect her spirit and ensure her legacy lived on. However, when British forces attacked Benin in 1897, they looted this and many other treasures, taking them to Europe, where they are now kept in museums. Fun fact: Queen Idia was such an important figure that she is considered the mother of the first Oba (king) to unite the kingdom! The looting of the mask represents the larger cultural devastation caused by colonial invasions, as entire societies lost their heritage, identity, and symbols of power, leaving a lasting impact on future generations.",
@@ -491,6 +515,12 @@ const jsonData = {
       },
       "item6": {
         "title": "The Throne of King Glele – 19th Century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-throne2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.png",
+            "Rdf-file_link":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
+        },
         "fun": {
           "short": "The throne of King Glele was a special seat for one of the kings of the Kingdom of Dahomey, which is now called Benin! The French took this royal throne after they defeated the kingdom in a battle. Fun fact: The throne was made with symbols of strength, like lions, to show how powerful the king was!",
           "medium": "The Throne of King Glele was the royal seat of one of the powerful kings of the Kingdom of Dahomey (modern-day Benin). It was a symbol of the king’s authority, adorned with motifs like lions, representing strength and leadership. However, after French forces defeated Dahomey in 1892, they took this magnificent throne back to France, where it now sits in a European museum.Fun fact: The throne's design, with its intricate carvings, reflects Dahomey’s military power and the king’s role as both a spiritual and political leader! Like many other cultural treasures, the removal of the throne was part of a broader pattern where colonial forces stripped conquered nations of their symbols of power, leaving behind a weakened sense of identity and history for the people of Dahomey.",
@@ -696,6 +726,12 @@ const jsonData = {
     },
     "item15": {
       "title": "Tipu Sultan’s Tiger",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-tiputiger2.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
+            },
       "fun": {
         "short": "Tipu Sultan’s Tiger is a mechanical toy that shows a tiger attacking a British soldier—it was made by Tipu Sultan, the ruler of Mysore in India! The British took it after defeating him in battle. Fun fact: The tiger could even make sounds and move like a real animal!",
         "medium": "Tipu Sultan’s Tiger is a remarkable mechanical toy that vividly depicts a tiger mauling a British soldier, symbolizing the fierce resistance of Tipu Sultan, the ruler of Mysore, against British colonial forces. This intricately crafted automaton was not just a plaything—it represented a powerful political statement. Made under Tipu Sultan’s command, it embodied the sultan’s disdain for British imperialism and his efforts to protect his kingdom from foreign domination. After Tipu’s defeat in the Fourth Anglo-Mysore War in 1799, British forces took the tiger as a trophy of their victory. Fun fact: the tiger could growl and make sounds like a real animal while its mechanical innards allowed it to move! Today, it stands as a reminder of both Tipu Sultan’s fight and the immense cultural loss India endured during British rule.",
@@ -782,6 +818,12 @@ const jsonData = {
       },
       "item3": {
         "title": "Mask of Queen Idia (Africa) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-maskqueen3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
+            },
         "fun": {
           "short": "This mask shows Queen Idia, a powerful woman in Nigerian history. British forces took it in 1897 during their invasion of Benin, and it now sits in a foreign museum. Fun fact: Queen Idia was the first woman to be given the title of Queen Mother in her kingdom!",
           "medium": "The Mask of Queen Idia is a beautifully carved ivory mask, representing Queen Idia, one of the most powerful women in the history of the Benin Kingdom, now modern-day Nigeria. She was the first woman to hold the prestigious title of Queen Mother, thanks to her influence in military and political affairs. In 1897, British forces raided Benin City, looted countless treasures, including this mask, during a brutal military operation aimed at subduing the kingdom’s resistance to British control. Fun fact: Queen Idia was instrumental in securing the throne for her son, Oba Esigie, who relied on her wisdom in both governance and warfare. Today, this masterpiece sits in foreign museums, far from the land where it was revered.",
@@ -938,6 +980,12 @@ const jsonData = {
       },
       "item10": {
         "title": "Tipu Sultan’s Tiger (Asia) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-tiputiger3.jpg",
+            "metadata":{
+                "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.png",
+                "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
+            },
         "fun": {
           "short": "This mechanical tiger was made for Tipu Sultan, a ruler in India who fought against British colonization. It shows a tiger attacking a British soldier, and it was taken by the British after they defeated Tipu Sultan. Fun fact: Tipu Sultan’s Tiger can even growl like a real tiger thanks to its hidden machinery!",
           "medium": "Tipu Sultan’s Tiger is an iconic mechanical toy commissioned by Tipu Sultan, the ruler of Mysore, who fiercely resisted British colonial rule in India. The sculpture vividly portrays a tiger—Tipu’s personal symbol of power—attacking a British soldier, representing the Sultan’s defiance against colonial aggression. When the British finally defeated him in 1799, they seized this striking object as a war trophy. Fun fact: The mechanical tiger could actually move and growl thanks to its intricate internal mechanisms, adding a lifelike touch to this symbolic artwork. Today, it stands as a reminder of the intense conflicts between Indian rulers and the British East India Company, which sought to expand its influence and economic control over the subcontinent.",
