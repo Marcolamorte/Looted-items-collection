@@ -212,6 +212,12 @@ const jsonData = {
       },
       "item9": {
         "title": "Benin Bronzes - 13th-19th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-benin1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+        },
         "fun": {
           "short": "These bronze sculptures, made by the Kingdom of Benin in Nigeria, are some of the most amazing works of African art! In 1897, British forces took them, and now they’re in museums in Europe. Fun fact: Some of these sculptures were used to decorate the royal palace in Benin!",
           "medium": "The Benin Bronzes are some of the most stunning works of art from Africa! Made by the Kingdom of Benin in present-day Nigeria, these intricate bronze plaques and sculptures were used to decorate the royal palace and depict scenes of court life, warriors, and religious ceremonies. But in 1897, British soldiers attacked Benin City and took thousands of these bronzes, bringing them to Europe. Today, they’re spread across museums around the world, but there are growing calls for them to be returned to Nigeria.  - Fun fact: Some of the Benin Bronzes show the Oba, or king, of Benin wearing elaborate royal regalia, and these works of art were considered sacred in the Kingdom of Benin!<br>The Benin Bronzes are not just beautiful—they are sacred royal treasures that tell the story of the Kingdom of Benin’s rich cultural and artistic heritage.",
@@ -230,6 +236,12 @@ const jsonData = {
       },
       "item10": {
         "title": "Old Summer Palace Artefacts - 13th-19th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-summerpalace1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+        },
         "fun": {
           "short": "These treasures came from the Old Summer Palace in Beijing. British and French soldiers looted them during the Second Opium War in 1860. Fun fact: The Old Summer Palace was so huge, it had over 1,000 buildings filled with art and treasures!",
           "medium": "The treasures of the Old Summer Palace in Beijing are some of the most valuable artefacts in Chinese history. These treasures were looted by British and French soldiers during the Second Opium War in 1860, when the palace was destroyed. The palace, also known as Yuanmingyuan, was a sprawling complex with over 1,000 buildings, all filled with priceless art, jewellery, and historical items.  - Fun fact: The Old Summer Palace was so vast and beautiful that it was often called the Versailles of the East! Imagine a place with lakes, gardens, and palaces stretching over hundreds of hectares!<br>The looting and destruction of the Old Summer Palace remains a painful memory in China’s history, as many of its treasures were taken to European museums, where they are still displayed today.",
@@ -359,6 +371,12 @@ const jsonData = {
     "texts": {
       "item1": {
         "title": "Benin Bronzes",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-benin2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+        },
         "fun": {
           "short": "The Benin Bronzes are amazing works of art made by the Kingdom of Benin in Nigeria hundreds of years ago! These metal plaques and statues tell stories of the kingdom’s rich history. But British soldiers took them in the late 1800s, and now they’re far away in museums. Fun fact: The Bronzes were made by a very skilled group of artists who passed down their craft from generation to generation!",
           "medium": "The Benin Bronzes are amazing works of art crafted by the Kingdom of Benin in Nigeria. These detailed metal plaques and statues tell stories of the kingdom’s leaders, warriors, and spiritual life. But when British forces invaded in 1897, they looted the Bronzes, taking them far from their homeland.  Fun fact: The Bronzes were made by highly skilled artisans who passed their craft down through generations, preserving traditions for centuries! <br>Colonial looting wasn’t just about taking treasures; it stripped communities of their cultural pride and identity. The removal of artifacts like the Benin Bronzes left scars that are still felt today, as the descendants of these societies struggle to reclaim their history and heritage.",
@@ -443,6 +461,12 @@ const jsonData = {
       },
       "item5": {
         "title": "Old Summer Palace Artifacts",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-summerpalace2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+        },
         "fun": {
           "short": "The Old Summer Palace in China was once full of amazing treasures, but British and French soldiers destroyed it during a war and took many of its treasures away. These precious items are now in museums far from China. Fun fact: The palace was so big and full of art that it took days to loot and burn it down!",
           "medium": "The Old Summer Palace, or Yuanmingyuan, was once a grand royal residence in China, filled with art, gardens, and treasures. British and French forces destroyed it in 1860 during the Second Opium War, looting countless priceless artifacts. These treasures, which included paintings, sculptures, and luxury items, were taken from China and are now displayed in museums far from their homeland.  Fun fact: The palace was so vast and filled with so many valuable items that it took soldiers multiple days to loot and burn it to the ground! This act of looting wasn’t just about taking beautiful objects—it represented a violent assault on China’s cultural heritage and national pride, showing how colonialism targeted both the physical and symbolic centers of power in colonized nations.",
@@ -698,6 +722,12 @@ const jsonData = {
     "texts": {
       "item1": {
         "title": "Benin Bronzes (Africa) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-benin3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+        },
         "fun": {
           "short": "These incredible bronze plaques once decorated the royal palace of the Benin Kingdom in Nigeria. British forces took them during the invasion of Benin in 1897. They now sit in museums around the world. Fun fact: The bronzes are so detailed that they show kings and warriors in action!",
           "medium": "The Benin Bronzes are stunning metal plaques that once adorned the royal palace of the Oba in the Kingdom of Benin, now part of modern-day Nigeria. In 1897, British forces raided Benin City as part of a military operation known as the British Punitive Expedition, during which they looted the palace and seized thousands of cultural treasures. The expedition was sparked after British officials were ambushed while attempting to impose their trading rights on the Oba, who had resisted foreign control over his kingdom’s resources. Fun fact: The bronzes depict royal figures, warriors, and scenes of court life with incredible precision, offering a glimpse into the kingdom’s sophisticated artistic traditions. These intricate works are now spread across museums worldwide, far from their place of origin, and are at the heart of ongoing debates over cultural restitution.",
@@ -848,6 +878,12 @@ const jsonData = {
       },
       "item8": {
         "title": "Old Summer Palace Artifacts (Asia)",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-summerpalace4.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+        },
         "fun": {
           "short": "The Old Summer Palace was a grand royal residence in China filled with beautiful artwork and treasures. During the Second Opium War, British and French troops destroyed it and took many valuable items, which are now scattered in museums around the world. Fun fact: The Old Summer Palace was so big that it took over 3,000 soldiers to loot it!",
           "medium": "The Old Summer Palace, known as Yuanmingyuan, was once one of the most magnificent royal complexes in China. It was a vast network of palaces, pavilions, gardens, and lakes, home to some of the most exquisite art, rare treasures, and cultural relics in Chinese history. However, during the Second Opium War in 1860, British and French forces attacked Beijing and destroyed this architectural wonder. They looted priceless artifacts—everything from fine jade carvings to detailed silk scrolls—which are now scattered across museums in Europe. Fun fact: The palace was so massive that it took over 3,000 soldiers two whole days to pillage and burn it to the ground! The looting of the Old Summer Palace marks one of the most dramatic acts of cultural vandalism in history, symbolizing the extent of European aggression towards China during the colonial era.",
