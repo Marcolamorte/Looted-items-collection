@@ -278,6 +278,12 @@ const jsonData = {
       },
       "item12": {
         "title": "Machu Picchu Artefacts - 15th century",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/b52944aa7ed653d50de657dbc19cfd4346d7080b/images/cropped-machu_picchu1.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/685d4f5fb18035b7b3f88d7e9100bac60f0ea3d9/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
+        },
         "fun": {
           "short": "The Machu Picchu artefacts include beautifully crafted pottery, tools, and ceremonial objects that showcase the incredible craftsmanship of the Inca civilization. These artefacts were taken from the ancient city of Machu Picchu by American archaeologist Hiram Bingham in the early 20th century. Many were returned to Peru in 2011. Fun fact: Bingham’s adventures inspired the character Indiana Jones! ",
           "medium": "The Machu Picchu artefacts, including beautifully crafted pottery, tools, and ceremonial objects, offer a window into the extraordinary craftsmanship of the Inca civilization. These artefacts were removed by American archaeologist Hiram Bingham after he rediscovered the ancient city in 1911. For decades, they remained at Yale University until many were returned to Peru in 2011.  - Fun fact: Hiram Bingham’s adventures as an archaeologist exploring Machu Picchu inspired the character of Indiana Jones! Imagine discovering a hidden city in the mountains, full of ancient treasures!<br>The artefacts’ return was a major victory for Peru, but their journey also reminds us of the ongoing challenges countries face in reclaiming their cultural heritage.",
@@ -570,6 +576,12 @@ const jsonData = {
     },
     "item10": {
       "title": "Machu Picchu Artifacts ",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/b52944aa7ed653d50de657dbc19cfd4346d7080b/images/cropped-machu_picchu2.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/685d4f5fb18035b7b3f88d7e9100bac60f0ea3d9/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
+        },
       "fun": {
         "short": "The artifacts from Machu Picchu were made by the Inca people, who built their city high up in the mountains of Peru! These treasures were taken by American explorers and are now far away in the US. Fun fact: Machu Picchu is one of the most famous ancient cities in the world, and people still visit it today!",
         "medium": "The Machu Picchu artifacts were made by the Inca people, who built their incredible city high up in the Andes Mountains of Peru. These treasures include pottery, tools, and ceremonial objects, all left behind when the city was abandoned. In the early 1900s, American explorer Hiram Bingham took many of these artifacts to the US, and they are still there today.  Fun fact: Machu Picchu is one of the world’s most famous ancient cities, and people travel from all over to see the Inca’s amazing stonework and learn about their culture!<br>The removal of the artifacts sparked a long-standing debate between Peru and the US, raising questions about the ethics of removing cultural heritage during exploratory expeditions.",
@@ -1034,6 +1046,12 @@ const jsonData = {
       },
       "item15": {
         "title": "Machu Picchu Artifacts (America) ",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/b52944aa7ed653d50de657dbc19cfd4346d7080b/images/cropped-machu_picchu3.jpg",
+        "metadata":{
+            "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/685d4f5fb18035b7b3f88d7e9100bac60f0ea3d9/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.png",
+            "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
+            "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
+        },
         "fun": {
           "short": "The artifacts from Machu Picchu are amazing treasures from the Inca Empire! These beautiful objects were found in a lost city high in the Andes Mountains. During the early 20th century, explorers took many items back to Europe and North America. Fun fact: Machu Picchu is often called the Lost City of the Incas and was only rediscovered in 1911!",
           "medium": "The artifacts from Machu Picchu are incredible treasures from the heart of the Inca Empire! This lost city, hidden high in the Andes Mountains, was a mysterious and sacred place for the Incas. In the early 20th century, when explorer Hiram Bingham rediscovered Machu Picchu, many of the artifacts were taken to Europe and North America. These items, including ceramics, textiles, and tools, now sit in museums far from their homeland. Fun fact: Machu Picchu is often called the Lost City of the Incas, even though the local people had never really forgotten about it!",
