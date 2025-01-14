@@ -479,7 +479,7 @@ const jsonData = {
       },
       "item7": {
         "title": "Bust of Nefertiti",
-        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti1.jpg",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti2.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
@@ -612,7 +612,7 @@ const jsonData = {
     },
     "item13": {
       "title": "The Achaemenid Reliefs",
-      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/achaemenid.jpg",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/ca41458c60f1a4c00f42ca74930fcf24f184e911/images/achaemenid2.jpg",
       "metadata":{
           "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
           "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
@@ -636,7 +636,7 @@ const jsonData = {
     },
     "item14": {
       "title": "The Altar of Pergamon ",
-      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-pergamon1.jpg",
+      "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-pergamon2.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
@@ -776,7 +776,7 @@ const jsonData = {
       },
       "item5": {
         "title": "The Bust of Nefertiti (Africa) ",
-        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti1.jpg",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti3.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
@@ -800,7 +800,7 @@ const jsonData = {
       },
       "item6": {
         "title": "The Achaemenid Reliefs (Asia) ",
-        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/images/achaemenid.jpg",
+        "image":"https://github.com/Marcolamorte/Looted-items-collection/blob/ca41458c60f1a4c00f42ca74930fcf24f184e911/images/achaemenid3.jpg",
         "metadata":{
             "Rdf-Graph_image":"https://github.com/Marcolamorte/Looted-items-collection/blob/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
             "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
