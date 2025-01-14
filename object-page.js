@@ -85,7 +85,7 @@ async function loadTourContent() {
             "title": "Nok Terracotta Statues – 500 BCE-200 CE",
             "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok1.jpg",
                 "metadata":{
-                    "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                    "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e82c0273bb31ae751cdf0e8c8bc62c4611d5bbb9/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
                     "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
                     "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
                 },
@@ -707,7 +707,7 @@ async function loadTourContent() {
             "title": "Nok Terracotta Statues ",
             "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok2.jpg",
                   "metadata":{
-                      "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                      "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e82c0273bb31ae751cdf0e8c8bc62c4611d5bbb9/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
                       "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
                       "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
                   },
@@ -848,7 +848,7 @@ async function loadTourContent() {
             "title": "Nok Terracotta Statues (Africa)",
             "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok3.jpg",
                 "metadata":{
-                    "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
+                    "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e82c0273bb31ae751cdf0e8c8bc62c4611d5bbb9/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
                     "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
                     "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
                 },
