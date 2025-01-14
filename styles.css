@@ -501,10 +501,10 @@ hr {
 
 /* OBJECT-PAGE */
 
-#object-title {
+#item-title {
     padding: var(--spacing-large) 0 var(--spacing-large) 0;
     margin: 0;
-    text-align: center;
+    font-size: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
   }
   
   .nav_object_page {
