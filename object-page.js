@@ -227,7 +227,7 @@ async function loadTourContent() {
           },
           "item8": {
             "title": "Moai Statue - 1000-1500 CE",
-            "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-moaistatues1.jpg",
+            "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/29477b3069e1990b2edaa682f2cb042be0de7af7/images/cropped-moaistatues1.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
@@ -488,7 +488,7 @@ async function loadTourContent() {
           },
           "item3": {
             "title": "The Moai statue",
-           "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-moaistatues2.jpg",
+           "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/29477b3069e1990b2edaa682f2cb042be0de7af7/images/cropped-moaistatues2.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
