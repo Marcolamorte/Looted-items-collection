@@ -504,9 +504,12 @@ hr {
 #item-title {
     padding: var(--spacing-large) 0 var(--spacing-large) 0;
     margin: 0;
-    font-size: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
   }
   
+  .item-titolo{
+    font-size: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
+    
+  }
   .nav_object_page {
     z-index: 10;
   }
@@ -604,7 +607,7 @@ hr {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
-    justify-content: flex-start; /* Align items at the top */
+    justify-content: center; /* Align items at the top */
     width: 100%; /* Take the full width of the parent */
     max-width: 1200px; /* Optional: limit the maximum width */
     padding: var(--spacing-large); /* Add spacing inside */
@@ -616,30 +619,29 @@ hr {
     margin-top: calc(var(--spacing-large) * var(--golden-ratio)* var(--golden-ratio));
     margin-bottom: calc(var(--spacing-large) * var(--golden-ratio));
   }
-  
-  .content-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 100%;
-    gap: var(--spacing-large);
+  .content-wrapper div{
+    align-items: center;
   }
   
-    .content-wrapper img {
-        width: 50%;
+    .image-text-container img {
+        width: 80%;
         height: auto;
+        align-items: center !important; 
         border-radius: var(--spacing-small);
-        flex: 1 1 300px;
     }
   
   .text-area {
     color: var(--accent1-color);
-    padding-top: var(--spacing-small);
+    padding: var(--spacing-small);
     display: flex;
     flex-direction: column;
     gap: var(--spacing-small);
-    width: 50%;
+    width: 100%;
     text-align: left;
+  }
+  .text-area p{
+    padding: var(--spacing-small);
+
   }
   
     .text-area .button {
@@ -661,6 +663,11 @@ hr {
   /* Sezione "More Info" */
   .more-info {
     margin-top: var(--spacing-large);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: var(--spacing-large); /* Add spacing between sections */
   }
   
     .more-info p {
@@ -671,7 +678,8 @@ hr {
   
   .more-buttons {
     display: flex;
-    gap: var(--spacing-small);
+    width: 100%;
+
   }
   
     .more-buttons .button {
@@ -714,7 +722,6 @@ hr {
   
         .object-tours .button:hover {
             background-color: var(--accent1-color);
-            transform: scale(1.05);
         }
   
         .object-tours .button:active {
