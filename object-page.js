@@ -1262,6 +1262,12 @@ async function loadTourContent() {
               imageElement.src = itemData.image; // Set the new image URL
               imageElement.alt = itemData.title || 'Tour Image'; // Set the alt attribute for accessibility
             }
+            // get the rdf graph link file by id and update it
+            const rdfFileLinkElement = document.getElementById('rdf-text-link')
+             if (rdfFileLinkElement && itemData.metadata && itemData.metadata['Rdf-file_link']) {
+              // Imposta solo l'attributo href con il valore del link corretto
+              rdfFileLinkElement.href = itemData.metadata['Rdf-file_link'];
+          }
 
             // get the rdf graph image by id and update it
             const rdfGraphImageElement = document.getElementById('graph-image_id');
@@ -1270,6 +1276,7 @@ async function loadTourContent() {
               rdfGraphImageElement.alt = `Graph for ${itemData.title}`;
           }
           
+          // get the table metadata and update it
           const TableMetadata = document.getElementById('table-metadata');
             if (TableMetadata && itemData.metadata && itemData.metadata['Table']) {
                 const tableURL = itemData.metadata['Table'];

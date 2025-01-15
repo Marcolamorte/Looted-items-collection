@@ -831,10 +831,10 @@ hr {
 .metadata-content img {
     
     width: 100%;
-    height: 60%;
-    max-height: 60%;
-    margin-top: 4px;
-    margin-bottom: 30px;
+    height: 50%;
+    max-height: 50%;
+    margin-top: var(--spacing-small);
+    margin-bottom: var(--spacing-small);
     
 }
 
@@ -903,7 +903,7 @@ hr {
 }
 
 
-#text-link:hover{
+#rdf-text-link:hover{
     color: #ffffff;
 }
 
@@ -912,10 +912,15 @@ hr {
     font-family: "Karrik", sans-serif;
     font-size: var(--base-font-size);
     padding: var(--spacing-small);
+    
+ 
+    
+   
 }
 #view-drawio_button a {
     color: #000000;
     text-decoration: none;
+
 }
 
 #isSemantic-text:hover {
@@ -935,7 +940,7 @@ hr {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin-top: var(--spacing-large);
 }
 
 th, td {
