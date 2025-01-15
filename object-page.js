@@ -1231,7 +1231,7 @@ async function loadTourContent() {
               imageElement.src = itemData.image; // Set the new image URL
               imageElement.alt = itemData.title || 'Tour Image'; // Set the alt attribute for accessibility
             }
-
+            // get the rdf graph link file by id and update it
             const rdfFileLinkElement = document.getElementById('rdf-text-link')
              if (rdfFileLinkElement && itemData.metadata && itemData.metadata['Rdf-file_link']) {
               // Imposta solo l'attributo href con il valore del link corretto
