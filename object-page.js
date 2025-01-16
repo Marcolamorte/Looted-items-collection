@@ -9,6 +9,8 @@ function getQueryParams() {
 }
 
 
+
+
 function getItemsFromLocalStorage() {
     const tourData = localStorage.getItem('tourData');
     if (!tourData) {
@@ -1242,15 +1244,24 @@ async function loadTourContent() {
         let currentIndex = 0;
         document.getElementById('current-index').textContent = currentIndex;
 
-        function displayItem(index, length = 'short', complexity = 'basic') {
-            const itemId = items[index];
-            const itemData = texts[itemId];
-            if (!itemData) {
-                document.getElementById('item-title').textContent = 'Item Not Found';
-                document.getElementById('item-text').textContent = 'The selected item could not be retrieved.';
-                return;
-            }
-
+        function displayItem(index, length, complexity) {
+          // Recupera i dati salvati nel localStorage
+          const tourdataJson = localStorage.getItem('tourData');
+          const tourdata = JSON.parse(tourdataJson);
+      
+          // Assegna valori di default se length o complexity non sono specificati
+          length = length || tourdata.length || 'short';
+          complexity = complexity || tourdata.complexity || 'fun';
+      
+          // Resto del codice esistente per visualizzare l'item
+          const itemId = items[index];
+          const itemData = texts[itemId];
+          if (!itemData) {
+              document.getElementById('item-title').textContent = 'Item Not Found';
+              document.getElementById('item-text').textContent = 'The selected item could not be retrieved.';
+              return;
+          }
+      
             // Update the title and text dynamically
             document.getElementById('item-title').textContent = itemData.title || `Item ${index + 1}`;
             const itemText = itemData[complexity]?.[length] || 'No text available for this selection.';
@@ -1322,29 +1333,33 @@ async function loadTourContent() {
         });
 
         document.getElementById('length-less').addEventListener('click', () => {
-            let length = changeLength('less');
-            displayItem(currentIndex, length, complexity);
-        });
-        document.getElementById('length-more').addEventListener('click', () => {
-            let length = changeLength('more');
-            displayItem(currentIndex, length, complexity);
-        });
-        document.getElementById('complexity-less').addEventListener('click', () => {
-            let complexity = changeComplexity('less');
-            displayItem(currentIndex, length, complexity);
-        });
-        document.getElementById('complexity-more').addEventListener('click', () => {
-            let complexity = changeComplexity('more');
-            displayItem(currentIndex, length, complexity);
-        });
+          const { length, complexity } = changeLength('less');
+          displayItem(currentIndex, length, complexity);
+      });
+      
+      document.getElementById('length-more').addEventListener('click', () => {
+          const { length, complexity } = changeLength('more');
+          displayItem(currentIndex, length, complexity);
+      });
+      
+      document.getElementById('complexity-less').addEventListener('click', () => {
+          const { length, complexity } = changeComplexity('less');
+          displayItem(currentIndex, length, complexity);
+      });
+      
+      document.getElementById('complexity-more').addEventListener('click', () => {
+          const { length, complexity } = changeComplexity('more');
+          displayItem(currentIndex, length, complexity);
+      });
+
         document.getElementById('timeline-button').addEventListener('click', () => {
-            changeTour('Timeline Tour', length, complexity);
+            changeTour('Timeline Tour', 'short', 'fun');
         });
         document.getElementById('colonial-button').addEventListener('click', () => {
-            changeTour('Colonial Conquests Tour', length, complexity);
+            changeTour('Colonial Conquests Tour', 'short', 'fun');
         });
         document.getElementById('geo-button').addEventListener('click', () => {
-            changeTour('Geo Tour', length, complexity);
+            changeTour('Geo Tour', 'short', 'fun');
         });
 
 
@@ -1362,60 +1377,53 @@ function changeTour(tourName, length, complexity) {
 }
 
 function changeLength(direction) {
-    const tourdataJson = localStorage.getItem('tourData');
-    const tourdata = JSON.parse(tourdataJson);
-    console.log(tourdata.length)
-    if (tourdata.length === 'short') {
-        if (direction === 'more') {
-            tourdata.length = 'medium'; 
-        }
-    }
-    else if (tourdata.length == 'medium') {
-        if (direction === 'more') {
-            tourdata.length = 'long';
-        }
-        if (direction === 'less') {
-            tourdata.length = 'short';
-        }
-    }
-    else if (tourdata.length == 'long') {
-        if (direction === 'less') {
-            tourdata.length = 'medium';
-        }
-    }
-    localStorage.setItem('tourData', JSON.stringify(tourdata));
-    
-    return tourdata.length;
+  const tourdataJson = localStorage.getItem('tourData');
+  const tourdata = JSON.parse(tourdataJson);
+  if (tourdata.length === 'short' && direction === 'more') {
+      tourdata.length = 'medium';
+  } else if (tourdata.length === 'medium') {
+      if (direction === 'more') tourdata.length = 'long';
+      if (direction === 'less') tourdata.length = 'short';
+  } else if (tourdata.length === 'long' && direction === 'less') {
+      tourdata.length = 'medium';
+  }
+  localStorage.setItem('tourData', JSON.stringify(tourdata));
+  return { length: tourdata.length, complexity: tourdata.complexity };
 }
 
 function changeComplexity(direction) {
-    const tourdataJson = localStorage.getItem('tourData');
-    const tourdata = JSON.parse(tourdataJson);
-    console.log(tourdata.complexity)
-    if (tourdata.complexity === 'fun') {
-        if (direction === 'more') {
-            tourdata.complexity = 'basic'; 
-        }
-    }
-    else if (tourdata.complexity == 'basic') {
-        if (direction === 'more') {
-            tourdata.complexity = 'expert';
-        }
-        if (direction === 'less') {
-            tourdata.complexity = 'fun';
-        }
-    }
-    else if (tourdata.complexity == 'expert') {
-        if (direction === 'less') {
-            tourdata.complexity = 'basic';
-        }
-    }
-    localStorage.setItem('tourData', JSON.stringify(tourdata));
-    
-    return tourdata.complexity;
+  const tourdataJson = localStorage.getItem('tourData');
+  const tourdata = JSON.parse(tourdataJson);
+  if (tourdata.complexity === 'fun' && direction === 'more') {
+      tourdata.complexity = 'basic';
+  } else if (tourdata.complexity === 'basic') {
+      if (direction === 'more') tourdata.complexity = 'expert';
+      if (direction === 'less') tourdata.complexity = 'fun';
+  } else if (tourdata.complexity === 'expert' && direction === 'less') {
+      tourdata.complexity = 'basic';
+  }
+  localStorage.setItem('tourData', JSON.stringify(tourdata));
+  return { length: tourdata.length, complexity: tourdata.complexity };
 }
 
 
 // Run the script when the page loads
-window.onload = loadTourContent;  
+window.onload = () => {
+  const tourData = localStorage.getItem('tourData');
+
+  // Controlla se il localStorage è vuoto o contiene dati non validi
+  if (!tourData) {
+      localStorage.setItem('tourData', JSON.stringify({
+          tourName: 'Timeline Tour',
+          length: 'short',
+          complexity: 'fun'
+      }));
+  }
+
+  // Carica i contenuti del tour
+  loadTourContent();
+};
 window.loadTourContent = loadTourContent;  
+window.addEventListener('beforeunload', () => {
+  localStorage.clear(); // Cancella i dati nel localStorage
+});
