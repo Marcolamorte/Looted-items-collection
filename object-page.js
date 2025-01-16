@@ -1,3 +1,4 @@
+
 // Function to parse URL parameters
 function getQueryParams() {
     const params = new URLSearchParams(window.location.search);
@@ -1317,7 +1318,7 @@ async function loadTourContent() {
         displayItem(currentIndex, length, complexity);
 
         // Navigation logic
-
+       
         document.getElementById('prev').addEventListener('click', () => {
             if (currentIndex > 0) {
                 currentIndex--;
@@ -1361,9 +1362,7 @@ async function loadTourContent() {
         document.getElementById('geo-button').addEventListener('click', () => {
             changeTour('Geo Tour', 'short', 'fun');
         });
-
-
-
+      
     } catch (error) {
         console.error('Error loading tour data:', error);
         document.getElementById('item-title').textContent = 'Error Loading Data';
