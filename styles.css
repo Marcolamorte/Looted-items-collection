@@ -501,14 +501,12 @@ hr {
 
 /* OBJECT-PAGE */
 
-#item-title {
-    padding: var(--spacing-large) 0 var(--spacing-large) 0;
-    margin: 0;
-  }
   
   .item-titolo{
+    padding-top: var(--spacing-large);
+    padding-bottom: var(--spacing-small);
     font-size: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
-    
+    margin:0;
   }
   .nav_object_page {
     z-index: 10;
@@ -523,8 +521,6 @@ hr {
   .object-main-container {
     display: flex;
     flex-direction: column; /* Stack child elements vertically */
-    align-items: center; /* Center content horizontally */
-    justify-content: flex-start; /* Align content to the top */
     width: 100%; /* Full width */
     max-width: 1200px; /* Optional: limit maximum width for layout */
     margin: 0 auto; /* Center the container horizontally */
@@ -533,7 +529,6 @@ hr {
     background-color: var(--background-color);
     border: 2px solid var(--primary-color);
     border-radius: var(--spacing-large);
-    overflow: visible; /* Allow the container to grow with its content */
     height: auto; /* Ensure the height grows dynamically */
     position: relative;
   }
@@ -606,8 +601,8 @@ hr {
   .image-text-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Align items at the top */
+    justify-content: center; 
+    align-items: center; 
     width: 100%; /* Take the full width of the parent */
     max-width: 1200px; /* Optional: limit the maximum width */
     padding: var(--spacing-large); /* Add spacing inside */
@@ -619,68 +614,50 @@ hr {
     margin-top: calc(var(--spacing-large) * var(--golden-ratio)* var(--golden-ratio));
     margin-bottom: calc(var(--spacing-large) * var(--golden-ratio));
   }
-  .content-wrapper div{
-    align-items: center;
-  }
+
   
     .image-text-container img {
         width: 80%;
         height: auto;
-        align-items: center !important; 
         border-radius: var(--spacing-small);
     }
   
   .text-area {
     color: var(--accent1-color);
-    padding: var(--spacing-small);
+    padding: var(--spacing-large) 0 var(--spacing-small) 0;
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-small);
-    width: 100%;
+    gap: var(--spacing-large);
+    width: 90%;
     text-align: left;
   }
-  .text-area p{
-    padding: var(--spacing-small);
 
-  }
   
-    .text-area .button {
-        align-self: flex-start;
-        background-color: var(--primary-color);
-        color: var(--background-color);
-        padding: var(--spacing-small) var(--spacing-large);
-        border: none;
-        border-radius: var(--spacing-small);
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-    }
-  
-        .text-area .button:hover {
-            background-color: var(--accent1-color);
-            transform: scale(1.05);
-        }
   
   /* Sezione "More Info" */
   .more-info {
-    margin-top: var(--spacing-large);
     display: flex;
-    flex-direction: column; 
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    gap: var(--spacing-large); /* Add spacing between sections */
-  }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-large);
+    width: 100%;
+    padding: 0 var(--spacing-large); /* Add horizontal padding */
+}
   
     .more-info p {
         color: var(--secondary-color);
-        margin-bottom: var(--spacing-small);
-        text-align: left;
-    }
+        margin: var(--spacing-small) var(--spacing-large); /* Add horizontal margin */
+        text-align: center; /* Center the text */
+}
   
-  .more-buttons {
+.more-buttons {
     display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: var(--spacing-large); /* Consistent spacing between buttons */
     width: 100%;
-
-  }
+    align-items: center; /* Align buttons vertically */
+}
   
     .more-buttons .button {
         background-color: var(--primary-color);
@@ -701,7 +678,7 @@ hr {
   .object-tours {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: var(--spacing-large);
     margin-top: var(--spacing-small);
