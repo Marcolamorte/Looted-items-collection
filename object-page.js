@@ -443,7 +443,7 @@ async function loadTourContent() {
         "texts": {
           "item1": {
             "title": "The Achaemenid Reliefs",
-            "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/ca41458c60f1a4c00f42ca74930fcf24f184e911/images/achaemenid2.jpg",
+            "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/c477eb3c43991c21ede3448e9472fb3165accea1/images/achaemenid2.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
