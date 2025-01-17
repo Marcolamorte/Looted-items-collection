@@ -499,6 +499,8 @@ hr {
     margin-right: var(--spacing-large);
 }
 
+
+
 /* OBJECT-PAGE */
 
   
@@ -615,6 +617,9 @@ hr {
     margin-bottom: calc(var(--spacing-large) * var(--golden-ratio));
   }
 
+  #item-text {
+    text-align: justify;
+  }
   
     .image-text-container img {
         width: 80%;
