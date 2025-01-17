@@ -25,10 +25,7 @@
     margin-bottom: var(--spacing-small);
 }
 
-#Colonial_Conquest-par {
-    padding-right: var(--spacing-small);
-    
-}
+
 .tours-container {
     display: flex; /* Use Flexbox */
     flex-direction: column; /* Stack tour sections vertically */

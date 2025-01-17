@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="timeline.js"></script>
     <script src="lightmode.js"></script>
+    <script src="tours-buttons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -34,10 +35,10 @@
         <!-- main button (long-button) -->
                 <div class="button" id="long-button_tour-page">
                     <ul>
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="tours.html">tours</a></li>
-                        <li><a href="documentation.html">documentation</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="documentation.html">Documentation</a></li>
                     </ul>
                 </div>
                 
@@ -82,8 +83,14 @@
                     While personalization is key, these three tours "Timeline", "Colonial Conquests", and "Geo" represent 
                     the core ways to interact with our collection. Dive deeper into each to see how they enrich your experience.
                 <br><br>
-                    When you have decided which tour is more compliant to your needs and objectives click on the "Start Tour" below each tour section in order to continue. For every tour you can choose the lenght and the complexity of the texts representing our collection objects. All the texts have three level of lenght ("short", "medium","long") and complexity ("fun", "basic", "expert"), you can combine all these features according to your preferences. Each tour starts with the "short" and "fun" selection. Enjoy!
+                    When you have decided which tour is more compliant to your needs and objectives click on the "Start Tour" button below each tour section in order to continue. If you prefer you can also personalize your tour experience clicking on the following "Personalize your tour" button.
                 </p>
+                <div class="tour-page-button">
+                    <button class="button" id="tour-button_tour-page">
+                        <a href="personalization_tour.html" id="tour-text">Personalize your tour</a>
+                    </button>
+                </div>
+
 
                 
             </section>
@@ -104,8 +111,8 @@
                         </p>
                         <!--start tour button -->
                         <div class="tour-page-button">
-                            <button class="button" id="tour-button_tour-page">
-                                <a href="#starttour" id="tour-text">Start Tour</a>
+                            <button class="button" id="tour-button_tour-page" onclick="startTour('Timeline Tour')">
+                                <a href="#Object-page.html" id="tour-text">Start Tour</a>
                             </button>
                         </div>
                     
@@ -120,8 +127,8 @@
                          
                             <!--start tour button -->
                         <div class="tour-page-button">
-                            <button class="button" id="tour-button_tour-page">
-                                <a href="#starttour" id="tour-text">Start Tour</a>
+                            <button class="button" id="tour-button_tour-page" onclick="startTour('Colonial Conquests Tour')">
+                                <a href="" id="tour-text" >Start Tour</a>
                             </button>
                         </div>
                     </div>
@@ -137,8 +144,8 @@
                         </p>
                          <!--start tour button -->
                          <div class="tour-page-button">
-                            <button class="button" id="tour-button_tour-page">
-                                <a href="#starttour" id="tour-text">Start Tour</a>
+                            <button class="button" id="tour-button_tour-page" onclick="startTour('Geo Tour')">
+                                <a href="#Object-page.html" id="tour-text" >Start Tour</a>
                             </button>
                         </div>
 
@@ -147,6 +154,14 @@
             </section>
         </main>
     
+        <script> 
+            document.getElementById('tour-button_tour-page').addEventListener('click', (e) => {
+                e.preventDefault(); <!-- This is for preventing  the default behavior of the <a> element: it goes directly to the web page. -->
+                window.open('personalization_tour.html');
+            });
+        </script>
+
+
         <!-- copy paste footer into every page -->
         <footer>
             <hr>
