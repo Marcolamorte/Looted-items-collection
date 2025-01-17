@@ -1423,6 +1423,3 @@ window.onload = () => {
   loadTourContent();
 };
 window.loadTourContent = loadTourContent;  
-window.addEventListener('beforeunload', () => {
-  localStorage.clear(); // Cancella i dati nel localStorage
-});
