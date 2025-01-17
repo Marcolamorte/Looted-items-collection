@@ -1414,11 +1414,6 @@ function changeComplexity(direction) {
 
 // Run the script when the page loads
 window.onload = () => {
-  const DEFAULT_DATA = {
-    tourName: 'Timeline Tour',
-    length: 'short',
-    complexity: 'fun'
-};
   const tourData = localStorage.getItem('tourData');
 
   // Controlla se il localStorage è vuoto o contiene dati non validi
@@ -1428,17 +1423,6 @@ window.onload = () => {
           length: 'short',
           complexity: 'fun'
       }));
-      if (!sessionStorage.getItem('sessionActive')) {
-        console.log('Nuova sessione rilevata: reset dei dati predefiniti.');
-        
-        // Reimposta i dati del localStorage ai valori predefiniti
-        localStorage.setItem('tourData', JSON.stringify(DEFAULT_DATA));
-
-        // Imposta il flag nel sessionStorage per indicare una sessione attiva
-        sessionStorage.setItem('sessionActive', 'true');
-    } else {
-        console.log('Sessione attiva rilevata: mantieni i dati esistenti.');
-    }
   }
 
   // Carica i contenuti del tour
