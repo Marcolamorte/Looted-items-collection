@@ -939,6 +939,7 @@ hr {
     font-family: "Karrik", sans-serif;
     font-size: var(--base-font-size);
     padding: var(--spacing-small);
+    font-weight: bold;
     
  
     
