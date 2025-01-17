@@ -1353,16 +1353,18 @@ async function loadTourContent() {
           displayItem(currentIndex, length, complexity);
       });
 
-        document.getElementById('timeline-button').addEventListener('click', () => {
-            changeTour('Timeline Tour', 'short', 'fun');
-        });
-        document.getElementById('colonial-button').addEventListener('click', () => {
-            changeTour('Colonial Conquests Tour', 'short', 'fun');
-        });
-        document.getElementById('geo-button').addEventListener('click', () => {
-            changeTour('Geo Tour', 'short', 'fun');
-        });
-      
+      document.getElementById('timeline-button').addEventListener('click', () => {
+          changeTour('Timeline Tour', 'short', 'fun');
+          
+      });
+      document.getElementById('colonial-button').addEventListener('click', () => {
+          changeTour('Colonial Conquests Tour', 'short', 'fun');
+         
+      });
+      document.getElementById('geo-button').addEventListener('click', () => {
+          changeTour('Geo Tour', 'short', 'fun');
+      });
+    
     } catch (error) {
         console.error('Error loading tour data:', error);
         document.getElementById('item-title').textContent = 'Error Loading Data';
