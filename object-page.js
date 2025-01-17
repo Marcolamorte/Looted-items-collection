@@ -1355,14 +1355,18 @@ async function loadTourContent() {
 
       document.getElementById('timeline-button').addEventListener('click', () => {
           changeTour('Timeline Tour', 'short', 'fun');
+          location.reload(); // Ricarica la pagina
+         
           
       });
       document.getElementById('colonial-button').addEventListener('click', () => {
           changeTour('Colonial Conquests Tour', 'short', 'fun');
+          location.reload(); // Ricarica la pagina
          
       });
       document.getElementById('geo-button').addEventListener('click', () => {
           changeTour('Geo Tour', 'short', 'fun');
+          location.reload(); // Ricarica la pagina
       });
     
     } catch (error) {
