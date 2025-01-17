@@ -68,6 +68,7 @@ header, main, footer {
 
 
 nav {
+    
     margin-top: var(--spacing-small);
     display: flex;
     align-items: center;
@@ -140,12 +141,14 @@ a {
 
 
 
+
 #long-button {
     border: 2px solid var(--secondary-color);
     background-color: var(--background-color);
     color: var(--secondary-color);
     margin-right: var(--spacing-large);
 }
+
 
 #tour-text {
     color: var(--background-color);
@@ -246,7 +249,10 @@ input:checked + .toggle-track:before {
     gap: calc(var(--spacing-large));
     z-index: 10;
   }
-  
+
+
+
+
   .icon-link {
     display: flex;
     align-items: center;
@@ -499,6 +505,47 @@ hr {
     margin-right: var(--spacing-large);
 }
 
+
+/* TOUR-PAGE */
+
+
+.tours-des h3 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.icon-container_tour-page {
+    display: flex;
+    justify-content: flex-end; /* Posiziona le icone a destra */
+    gap: var(--spacing-large); /* Spazio tra le icone */
+    margin-right:calc(var(--spacing-large)*var(--golden-ratio)*3); /* Margine destro */
+    z-index: 10; /* Assicura che siano visibili sopra altri elementi */
+}
+
+#tour-button_tour-page {
+    background-color: var(--primary-color);
+    margin-top: var(--spacing-large);
+    margin-bottom: var(--spacing-large);
+    font-family: "Karrik", sans-serif;
+    font-weight: 200;
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    color: var(--primary-color);
+}
+
+
+#long-button_tour-page {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+   margin-left: var(--spacing-large);
+}
+
+.tour-page-button {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* OBJECT-PAGE */
