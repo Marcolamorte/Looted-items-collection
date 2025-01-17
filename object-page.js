@@ -1407,20 +1407,20 @@ function changeComplexity(direction) {
 
 
 // Run the script when the page loads
-// window.onload = () => {
-//   const tourData = localStorage.getItem('tourData');
+window.onload = () => {
+  const tourData = localStorage.getItem('tourData');
 
-//   // Controlla se il localStorage è vuoto o contiene dati non validi
-//   if (!tourData) {
-//       localStorage.setItem('tourData', JSON.stringify({
-//           tourName: 'Timeline Tour',
-//           length: 'short',
-//           complexity: 'fun'
-//       }));
-//   }
+  // Controlla se il localStorage è vuoto o contiene dati non validi
+  if (!tourData) {
+      localStorage.setItem('tourData', JSON.stringify({
+          tourName: 'Timeline Tour',
+          length: 'short',
+          complexity: 'fun'
+      }));
+  }
 
-//   // Carica i contenuti del tour
-//   loadTourContent();
-// };
-winwow.onload=loadTourContent
+  // Carica i contenuti del tour
+  loadTourContent();
+};
+
 window.loadTourContent = loadTourContent;  
