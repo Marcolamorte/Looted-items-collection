@@ -18,13 +18,17 @@
 
 #personalization-intro p,
 #tours-selection .tour-section p {
-    text-align: left;
+    text-align: justify;
     font-size: calc(var(--base-font-size) * 1.1);
     line-height: var(--base-line-height);
     color: var(--secondary-color);
     margin-bottom: var(--spacing-small);
 }
 
+#Colonial_Conquest-par {
+    padding-right: var(--spacing-small);
+    
+}
 .tours-container {
     display: flex; /* Use Flexbox */
     flex-direction: column; /* Stack tour sections vertically */
@@ -52,6 +56,9 @@
     color: var(--primary-color);
     margin: 0;
     flex: 1; /* Allow flexible width */
+}
+#Colonial_Conquests-h3 {
+    padding-right: var(--spacing-large);
 }
 
 .tour-section p {
