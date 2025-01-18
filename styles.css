@@ -147,6 +147,7 @@ a {
     background-color: var(--background-color);
     color: var(--secondary-color);
     margin-right: var(--spacing-large);
+    font-weight: 600;
 }
 
 
@@ -673,13 +674,16 @@ hr {
     }
   
   .text-area {
-    color: var(--accent1-color);
+    color: var(--primary-color);
     padding: var(--spacing-large) 0 var(--spacing-small) 0;
     display: flex;
     flex-direction: column;
     gap: var(--spacing-large);
     width: 90%;
-    text-align: left;
+    font-weight: 500;
+    line-height: 2.0;
+    font-size: 18px;
+    
   }
 
   
@@ -709,20 +713,21 @@ hr {
     align-items: center; /* Align buttons vertically */
 }
   
-    .more-buttons .button {
-        background-color: var(--primary-color);
-        color: var(--background-color);
-        padding: var(--spacing-small) var(--spacing-large);
-        border: none;
-        border-radius: var(--spacing-small);
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-    }
+.more-buttons .button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: var(--spacing-small) var(--spacing-large);
+    border: none;
+    border-radius: var(--spacing-small);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 600;
+}
   
-        .more-buttons .button:hover {
-            background-color: var(--accent1-color);
-            transform: scale(1.05);
-        }
+    .more-buttons .button:hover {
+        background-color: var(--accent1-color);
+        transform: scale(1.05);
+    }
   
   /* Object Tours */
   .object-tours {
@@ -749,6 +754,7 @@ hr {
   
         .object-tours .button:hover {
             background-color: var(--accent1-color);
+            
         }
   
         .object-tours .button:active {
@@ -917,12 +923,14 @@ hr {
 
 #par_2 {
     font-weight: lighter;
+    font-size: 18px;
     
   }
 #ul_1 {
     font-weight: lighter;
     padding: revert;  /* default browser value */
     margin-bottom: var(--base-spacing); 
+    font-size: 18px;
 }  
 
 #ul_1 a{
@@ -934,26 +942,48 @@ hr {
     color: #ffffff;
 }
 
+.light-mode #rdf-text-link:hover {
+    color:black;
+}
+
+
 #view-drawio_button {
     background-color: var(--primary-color);
     font-family: "Karrik", sans-serif;
     font-size: var(--base-font-size);
     padding: var(--spacing-small);
-    font-weight: bold;
-    
- 
-    
-   
+    font-weight: bold
+
 }
+
 #view-drawio_button a {
     color: #000000;
     text-decoration: none;
+    display: inline-block;
 
+}
+
+#view-drawio_button:hover {
+    transform: scale(1.05);
 }
 
 #isSemantic-text:hover {
    color: #ffffff;
 }
+
+.light-mode #view-drawio_button a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.light-mode #isSemantic-text:hover {
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9); /* Add a glowing effect */
+    transition: text-shadow 0.2s ease; /* Smooth animation for the glow */
+}
+ 
+
 
 .Table-Metadata {
     text-align: center;
@@ -969,6 +999,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: var(--spacing-large);
+    font-weight: 500;
 }
 
 th, td {
@@ -994,11 +1025,20 @@ td {
     font-family: "Courier New", Courier, monospace;
     color: var(--secondary-color);
     font-weight: bold;
+    display: inline-block;
 } 
 .metadata-element a:hover {
     color: white;
+    transform: scale(1.1); /* Slightly increase size (10% larger) */
+    transition: transform 0.2s ease, color 0.2s ease; /* Smooth animation */
 }
 
+/* Light mode hover effect */
+.light-mode .metadata-element a:hover {
+    color:#1D1D3B; /* Slightly darker gray for hover */
+    transform: scale(1.1); /* Slightly increase size (10% larger) */
+    transition: transform 0.2s ease, color 0.2s ease; /* Smooth animation */
+}
 
 /* Table content - end */
 
