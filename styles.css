@@ -978,11 +978,6 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 }
 
-/* #view-isSemantic_button:hover {
-    transform: scale(1.05);
-} */
-
-
 
 #view-isSemantic_button:hover {
     background-color: var(--accent1-color);
@@ -1008,12 +1003,6 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 }
 
-/* .light-mode #isSemantic-text:hover {
-    color: white;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9); 
-    transition: text-shadow 0.2s ease; 
-}
-  */
 
 
 .Table-Metadata {
