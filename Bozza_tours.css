@@ -33,6 +33,7 @@ body.tours-page-body {
     color: var(--primary-color);
     margin-bottom: var(--spacing-small);
     font-weight: lighter;
+    font-size: large;
 }
 
 .tours-des-container {
