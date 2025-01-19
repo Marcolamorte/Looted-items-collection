@@ -148,6 +148,7 @@ a {
     color: var(--secondary-color);
     margin-right: var(--spacing-large);
     font-weight: 600;
+    margin-left: var(--spacing-large);
 }
 
 
@@ -1365,4 +1366,14 @@ section.map-object_aside-panel {
     text-align: justify;
     font-size: large;
     line-height: 2.0;
+}
+
+
+/* PERSONALIZATION PAGE */
+.icon-container_personalization-tour {
+    display: flex;
+    justify-content: flex-end; /* Posiziona le icone a destra */
+    gap: var(--spacing-large); /* Spazio tra le icone */
+    margin-right:calc(var(--spacing-large)*var(--golden-ratio)*3); /* Margine destro */
+    z-index: 10; /* Assicura che siano visibili sopra altri elementi */
 }
