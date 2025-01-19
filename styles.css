@@ -296,6 +296,11 @@ input:checked + .toggle-track:before {
     margin: var(--spacing-large);
 }
 
+.minisection p{
+    text-align: justify;
+    font-size: large;
+}
+
 #home, #about, #timeline-section, #about-section {
     min-height: 120vh;
     width: 100%;
@@ -333,8 +338,15 @@ main {
 .text-container {
     width: 30vw;
     float: left;
+    margin-top: var(--spacing-large);
+
 }
 
+.text-container p{
+    text-align: justify;
+    line-height: 2.0;
+    font-size: large;
+}
 section {
     height: 80vh;
     display: flex;
@@ -408,10 +420,13 @@ section {
 #eraInfo {
     text-align: left;
     margin-top: var(--spacing-large);
-    color: var(--accent1-color);
+    color: var(--primary-color);
     height: 100%;
     display: block;
     padding-right: var(--spacing-large);
+    text-align: justify;
+    line-height: 2.0;
+    font-size: large;
 }
 
 #imageDisplayContainer {
@@ -457,12 +472,16 @@ section {
 
 #map-text {
     margin-top: 0;
-    color: var(--accent1-color);
-    text-align: left;
+    color: var(--primary-color);
+    /* text-align: left; */
+    margin-right: var(--spacing-large);
 }
 
 .p-map {
     margin-right: calc(var(--spacing-large)*var(--golden-ratio));
+    font-size: large;
+    text-align: justify;
+    line-height: 2.0;
 }
 
 .custom-pin .pin {
