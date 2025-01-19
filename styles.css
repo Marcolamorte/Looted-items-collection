@@ -151,6 +151,22 @@ a {
     margin-left: var(--spacing-large);
 }
 
+#long-button a {
+    display: inline-block;
+}
+
+#long-button a:hover {
+    color: white;
+    transform: scale(1.1); 
+    transition: transform 0.2s ease, color 0.2s ease; 
+}
+
+/* Light mode hover effect */
+.light-mode #long-button a:hover {
+    color:#1D1D3B;
+    transform: scale(1.1); 
+    transition: transform 0.2s ease, color 0.2s ease; 
+}
 
 #tour-text {
     color: var(--background-color);
@@ -344,7 +360,7 @@ main {
 
 .text-container p{
     text-align: justify;
-    line-height: 2.0;
+    /* line-height: 2.0; */
     font-size: large;
 }
 section {
@@ -425,7 +441,7 @@ section {
     display: block;
     padding-right: var(--spacing-large);
     text-align: justify;
-    line-height: 2.0;
+    /* line-height: 2.0; */
     font-size: large;
 }
 
@@ -475,13 +491,14 @@ section {
     color: var(--primary-color);
     /* text-align: left; */
     margin-right: var(--spacing-large);
+
 }
 
 .p-map {
     margin-right: calc(var(--spacing-large)*var(--golden-ratio));
     font-size: large;
     text-align: justify;
-    line-height: 2.0;
+    /* line-height: 2.0; */
 }
 
 .custom-pin .pin {
@@ -1073,6 +1090,7 @@ td {
     font-weight: bold;
     display: inline-block;
 } 
+
 .metadata-element a:hover {
     color: white;
     transform: scale(1.1); /* Slightly increase size (10% larger) */
