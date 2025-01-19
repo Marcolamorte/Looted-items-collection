@@ -143,7 +143,7 @@
                                 <li>Click on the "View on isSemantic.net" button below</li>
                                 <li>Paste the link under "Enter website address:" and click on "Submit" button.</li>
                             </ul>
-                            <button class="button" id="view-drawio_button"> 
+                            <button class="button" id="view-isSemantic_button"> 
                                 <a href="https://issemantic.net/rdf-visualizer"  id="isSemantic-text">View on isSemantic.net</a>
                             </button>
                     </div>
@@ -182,7 +182,7 @@
 
     <!-- This is for making all the 'view-drawio_button' button clickable  -->
     <script> 
-        document.getElementById('view-drawio_button').addEventListener('click', (e) => {
+        document.getElementById('view-isSemantic_button').addEventListener('click', (e) => {
             e.preventDefault(); <!-- This is for preventing  the default behavior of the <a> element: it goes directly to the web page. -->
             window.open('https://issemantic.net/rdf-visualizer', '_blank');
         });

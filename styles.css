@@ -522,6 +522,14 @@ hr {
     z-index: 10; /* Assicura che siano visibili sopra altri elementi */
 }
 
+
+.tour-page-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 #tour-button_tour-page {
     background-color: var(--primary-color);
     margin-top: var(--spacing-large);
@@ -545,12 +553,42 @@ transform: scale(0.95);
 background-color: var(--accent2-color);
 transition: background-color 0.3s ease, transform 0.3s ease;
 
+<<<<<<< Updated upstream
+=======
+
+#tour-button_tour-page:hover {
+    background-color: var(--accent1-color);
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
 
-.tour-page-button {
-    display: flex;
-    justify-content: center;
+#tour-button_tour-page:active{
+transform: scale(0.95);
+background-color: var(--accent2-color);
+transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
+
+#tour-button_tour-page a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.light-mode #tour-button_tour-page a:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9); /* Add a glowing effect */
+    transition: text-shadow 0.2s ease; /* Smooth animation for the glow */
+}
+
+#long-button_tour-page {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    margin-left: var(--spacing-large);
+    font-weight: 600;
+>>>>>>> Stashed changes
+}
+
 
 
 
@@ -693,7 +731,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     width: 90%;
     font-weight: 500;
     line-height: 2.0;
-    font-size: 18px;
+    font-size: large;
     
   }
 
@@ -933,15 +971,13 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 #par_2 {
-    font-weight: lighter;
-    font-size: 18px;
+    font-size: large;
     
   }
 #ul_1 {
-    font-weight: lighter;
     padding: revert;  /* default browser value */
     margin-bottom: var(--base-spacing); 
-    font-size: 18px;
+    font-size: large;
 }  
 
 #ul_1 a{
@@ -958,7 +994,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 
-#view-drawio_button {
+#view-isSemantic_button {
     background-color: var(--primary-color);
     font-family: "Karrik", sans-serif;
     font-size: var(--base-font-size);
@@ -967,14 +1003,14 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 }
 
-#view-drawio_button a {
+#view-isSemantic_button a {
     color: #000000;
     text-decoration: none;
     display: inline-block;
 
 }
 
-#view-drawio_button:hover {
+#view-isSemantic_button:hover {
     transform: scale(1.05);
 }
 
@@ -982,7 +1018,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
    color: #ffffff;
 }
 
-.light-mode #view-drawio_button a {
+.light-mode #view-isSemantic_button a {
     color: white;
     text-decoration: none;
 
@@ -1356,4 +1392,5 @@ section.map-object_aside-panel {
 /* ABOUT PAGE */
 #about_par {
     text-align: justify;
+    font-size: large;
 }

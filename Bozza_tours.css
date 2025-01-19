@@ -30,8 +30,9 @@ body.tours-page-body {
     text-align: justify;
     font-size: calc(var(--base-font-size) * 1.1);
     line-height: var(--base-line-height);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     margin-bottom: var(--spacing-small);
+    font-weight: lighter;
 }
 
 .tours-des-container {
