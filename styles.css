@@ -580,12 +580,38 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     transition: text-shadow 0.2s ease; /* Smooth animation for the glow */
 }
 
+
+#tour-button_tour-page:hover {
+    background-color: var(--accent1-color);
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+#tour-button_tour-page:active{
+transform: scale(0.95);
+background-color: var(--accent2-color);
+transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+#tour-button_tour-page a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.light-mode #tour-button_tour-page a:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9); /* Add a glowing effect */
+    transition: text-shadow 0.2s ease; /* Smooth animation for the glow */
+}
+
 #long-button_tour-page {
     border: 2px solid var(--secondary-color);
     background-color: var(--background-color);
     color: var(--secondary-color);
     margin-left: var(--spacing-large);
     font-weight: 600;
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 }
 
@@ -594,6 +620,10 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
   
 
+=======
+}
+
+>>>>>>> Stashed changes
 
 
 /* OBJECT-PAGE */
