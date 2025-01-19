@@ -187,14 +187,6 @@ button:hover {
 }
 
 
-#icon-button {
-    padding: var(--spacing-small) var(--spacing-small);
-    background-color: var(--background-color);
-    border-radius: 100%;
-    
-}
-
-
 .theme-toggle-container {
     display: inline-flex;
     align-items: center;
@@ -219,8 +211,6 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
-
-
 
 .theme-switch input {
     opacity: 0;
@@ -266,9 +256,16 @@ input:checked + .toggle-track:before {
 
 .icon-container {
     display: flex;
-    justify-items: space-between;
-    gap: calc(var(--spacing-large));
+    /* justify-items: space-between; */
+    gap: var(--spacing-large);
     z-index: 10;
+}
+
+#icon-button {
+    padding: var(--spacing-small) var(--spacing-small);
+    background-color: var(--background-color);
+    border-radius: 100%;
+
 }
 
 .icon-link {
@@ -276,8 +273,8 @@ input:checked + .toggle-track:before {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 40px;
-    height: 40px;
+    /* width: 40px;
+    height: 40px; */
     margin-left: var(--spacing-small);
     color: var(--secondary-color);
     transition: color 0.3s ease;
@@ -290,6 +287,7 @@ input:checked + .toggle-track:before {
 .icon-link svg {
     width: 24px;
     height: 24px;
+    
 }
 
 .icon-link svg:hover {
