@@ -1243,7 +1243,7 @@ section.map-object_aside-panel {
 
 /* map-page section container */
 .aside-panel {
-    border: 2px solid var(--accent2-color);
+    border: 2px solid var(--primary-color);
     border-radius:10px;
     margin-top: calc(var(--spacing-large)*5);
     margin-right: calc(var(--spacing-large)*4);
@@ -1259,7 +1259,7 @@ section.map-object_aside-panel {
 
 /* map-page section */
 .object-box{
-    border: 2px solid var(--accent2-color);
+    border: 2px solid var(--accent1-color);
     border-radius:10px;
     margin: var(--spacing-small) var(--spacing-small) var(--spacing-small) var(--spacing-small);
     flex: 1; 
@@ -1273,7 +1273,7 @@ section.map-object_aside-panel {
 /* map-page gallery */  
 .gallery-content{
     position: relative;
-    border: 2px solid var(--accent2-color);
+    border: 2px solid var(--primary-color);
     border-radius:10px;
     margin-top: calc(var(--spacing-large)*2);
     margin-left: calc(var(--spacing-large)*5);
@@ -1295,7 +1295,7 @@ section.map-object_aside-panel {
     
 /* map-page gallery */
 .gallery-box {
-    border: 2px solid var(--accent2-color);
+    border: 2px solid var(--accent1-color);
     border-radius: 10px;
     margin-top: calc(var(--spacing-large)*2);
     padding: var(--spacing-small);
@@ -1347,7 +1347,7 @@ button.scroll-right{
 /* map-page metadata  */
 .metadata {
     position: relative;
-    border: 2px solid var(--accent2-color);
+    border: 2px solid var(--primary-color);
     border-radius:10px;
     margin-top: calc(var(--spacing-large)*2);
     margin-left: calc(var(--spacing-large)*5);
@@ -1367,7 +1367,7 @@ button.scroll-right{
 
 /* map-page metadata  */
 .metadata-box{
-    border: 2px solid var(--accent2-color);
+    border: 2px solid var(--accent1-color);
     border-radius:10px;
     margin-top: calc(var(--spacing-large)*2);
     flex: 1;
@@ -1376,7 +1376,7 @@ button.scroll-right{
 /* map-page geolocalization */
 .geolocalization {
     position: relative;
-    border: 2px solid var(--accent2-color);
+    border: 2px solid var(--primary-color);
     border-radius:10px;
     margin-top: calc(var(--spacing-large)*2);
     margin-left: calc(var(--spacing-large)*5);
@@ -1395,7 +1395,7 @@ button.scroll-right{
 
 /* map-page geolocalization */
 .geolocalization-box {
-    border: 2px solid var(--accent2-color);
+    border: 2px solid var(--accent1-color);
     border-radius:10px;
     margin-top: calc(var(--spacing-large)*2);
     flex: 1;
