@@ -191,7 +191,9 @@ button:hover {
     padding: var(--spacing-small) var(--spacing-small);
     background-color: var(--background-color);
     border-radius: 100%;
+    
 }
+
 
 .theme-toggle-container {
     display: inline-flex;
@@ -289,6 +291,19 @@ input:checked + .toggle-track:before {
     height: 24px;
 }
 
+.icon-link svg:hover {
+    color: white;
+    transform: scale(1.1); /* Slightly increase size (10% larger) */
+    transition: transform 0.2s ease, color 0.2s ease; /* Smooth animation */
+}
+
+
+/* Light mode hover effect */
+.light-mode .icon-link svg:hover {
+    color:#1D1D3B; /* Slightly darker gray for hover */
+    transform: scale(1.1); /* Slightly increase size (10% larger) */
+    transition: transform 0.2s ease, color 0.2s ease; /* Smooth animation */
+}
 
 
 #hero {
