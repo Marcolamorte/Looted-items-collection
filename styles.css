@@ -196,6 +196,10 @@ button:hover {
     z-index: 1000;
 }
 
+.theme-toggle-container svg {
+    margin-right: var(--spacing-small);
+}
+
 .theme-switch {
     position: relative;
     display: inline-block;
