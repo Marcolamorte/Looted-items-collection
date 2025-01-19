@@ -272,6 +272,7 @@ input:checked + .toggle-track:before {
 }
 
 .icon-link {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -297,6 +298,32 @@ input:checked + .toggle-track:before {
     transition: transform 0.2s ease, color 0.2s ease; /* Smooth animation */
 }
 
+.tooltip {
+    visibility: hidden;
+    background-color:var(--background-color); /* Sfondo del tooltip */
+    color: var(--secondary-color); /* Colore del testo */
+    text-align: center;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px; /* Angoli arrotondati */
+    padding: 5px 10px; /* Spaziatura interna */
+    position: absolute;
+    z-index: 1;
+    top: 120%; /* Posiziona il tooltip sotto l'icona */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; /* Evita che il testo vada a capo */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .icon-link:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .light-mode .icon-link:hover .tooltip {
+    color:#1D1D3B;
+  }
 
 /* Light mode hover effect */
 .light-mode .icon-link svg:hover {
