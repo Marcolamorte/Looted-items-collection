@@ -386,7 +386,9 @@ input:checked + .toggle-track:before {
     display: flex;
     flex-direction: column;
 }
-
+.team-section {
+    margin-top: calc(var(--spacing-large)*var(--golden-ratio));
+}
 main {
     margin: calc(var(--spacing-large)*var(--golden-ratio));
 }
