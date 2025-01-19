@@ -2,8 +2,8 @@
     @font-face {
         font-family: 'Karrik';
         src: url('fonts/Karrik-Regular.woff2') format('woff2'),
-             url('fonts/Karrik-Regular.woff') format('woff'),
-             url('fonts/Karrik-Regular.ttf') format('truetype');
+            url('fonts/Karrik-Regular.woff') format('woff'),
+            url('fonts/Karrik-Regular.ttf') format('truetype');
     }
     --golden-ratio: 1.618;
     --base-font-size: 16px;
@@ -184,9 +184,9 @@ button:hover {
     /* Add these lines */
     position: relative;
     z-index: 1000;
-  }
-  
-  .theme-switch {
+}
+
+.theme-switch {
     position: relative;
     display: inline-block;
     width: 60px;
@@ -194,7 +194,7 @@ button:hover {
     flex-shrink: 0;
     /* Add this line */
     overflow: visible;
-  }
+}
 
 .toggle {
     display: inline-flex;
@@ -251,9 +251,9 @@ input:checked + .toggle-track:before {
     justify-items: space-between;
     gap: calc(var(--spacing-large));
     z-index: 10;
-  }
+}
 
-  .icon-link {
+.icon-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -262,18 +262,18 @@ input:checked + .toggle-track:before {
     margin-left: var(--spacing-small);
     color: var(--secondary-color);
     transition: color 0.3s ease;
-  }
-  
-  .icon-link:hover {
+}
+
+.icon-link:hover {
     color: var(--primary-color);
-  }
-  
-  .icon-link svg {
+}
+
+.icon-link svg {
     width: 24px;
     height: 24px;
-  }
-  
-  
+}
+
+
 
 #hero {
     height: 100vh;
@@ -567,24 +567,33 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 /* OBJECT-PAGE */
 
-  
-  .item-titolo{
+
+.item-titolo{
     padding-top: var(--spacing-large);
     padding-bottom: var(--spacing-small);
     font-size: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
     margin:0;
-  }
-  .nav_object_page {
+}
+.nav_object_page {
     z-index: 10;
-  }
-  
-  .object-page-body {
+}
+
+.object-page-body {
     margin: 0 var(--spacing-large) 0 var(--spacing-large);
-  }
-  
-  /* Contenitore Principale */
-  
-  .object-main-container {
+}
+
+.icon-container_object-page {
+    display: flex;
+    justify-content: flex-end; /* Posiziona le icone a destra */
+    gap: var(--spacing-large); /* Spazio tra le icone */
+    margin-right:calc(var(--spacing-large)*var(--golden-ratio)*3); /* Margine destro */
+    z-index: 10; /* Assicura che siano visibili sopra altri elementi */
+}
+
+
+/* Contenitore Principale */
+
+.object-main-container {
     display: flex;
     flex-direction: column; /* Stack child elements vertically */
     width: 100%; /* Full width */
@@ -597,13 +606,13 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     border-radius: var(--spacing-large);
     height: auto; /* Ensure the height grows dynamically */
     position: relative;
-  }
-  
-  
-  
-  
-  /* Object Navigation */
-  .object-navigation {
+}
+
+
+
+
+/* Object Navigation */
+.object-navigation {
     width: 100%;
     border: 2px solid var(--primary-color);
     background-color: var(--primary-color);
@@ -620,10 +629,10 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     align-items: center;
     box-sizing: border-box;
     position: absolute;
-  }
-  
-  /* Circular Buttons */
-  .circular-button {
+}
+
+/* Circular Buttons */
+.circular-button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -637,34 +646,34 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-sizing: border-box;
-  }
-  
-    .circular-button:hover {
-        background-color: var(--accent1-color);
-        transform: scale(1.1);
-    }
-  
-    .circular-button:active {
-        transform: scale(0.95);
-        background-color: var(--accent2-color);
-    }
-  
-  /* Testo accanto ai Pulsanti */
-  .navigation-text {
+}
+
+.circular-button:hover {
+    background-color: var(--accent1-color);
+    transform: scale(1.1);
+}
+
+.circular-button:active {
+    transform: scale(0.95);
+    background-color: var(--accent2-color);
+}
+
+/* Testo accanto ai Pulsanti */
+.navigation-text {
     color: var(--background-color);
     margin-left: var(--spacing-small);
     text-transform: uppercase;
-  }
-  
-  /* Flex Wrapper per Pulsanti e Testo */
-  .navigation-item {
+}
+
+/* Flex Wrapper per Pulsanti e Testo */
+.navigation-item {
     display: flex;
     align-items: center;
     gap: var(--spacing-small);
-  }
-  
-  /* Contenitore Immagine + Testo */
-  .image-text-container {
+}
+
+/* Contenitore Immagine + Testo */
+.image-text-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     justify-content: center; 
@@ -679,19 +688,19 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     height: auto;
     margin-top: calc(var(--spacing-large) * var(--golden-ratio)* var(--golden-ratio));
     margin-bottom: calc(var(--spacing-large) * var(--golden-ratio));
-  }
+}
 
-  #item-text {
+#item-text {
     text-align: justify;
-  }
-  
-    .image-text-container img {
-        width: 80%;
-        height: auto;
-        border-radius: var(--spacing-small);
-    }
-  
-  .text-area {
+}
+
+.image-text-container img {
+    width: 80%;
+    height: auto;
+    border-radius: var(--spacing-small);
+}
+
+.text-area {
     color: var(--primary-color);
     padding: var(--spacing-large) 0 var(--spacing-small) 0;
     display: flex;
@@ -702,12 +711,11 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     line-height: 2.0;
     font-size: large;
     
-  }
+}
 
-  
-  
-  /* Sezione "More Info" */
-  .more-info {
+
+/* Sezione "More Info" */
+.more-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -716,13 +724,13 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     width: 100%;
     padding: 0 var(--spacing-large); /* Add horizontal padding */
 }
-  
-    .more-info p {
-        color: var(--secondary-color);
-        margin: var(--spacing-small) var(--spacing-large); /* Add horizontal margin */
-        text-align: center; /* Center the text */
+
+.more-info p {
+    color: var(--secondary-color);
+    margin: var(--spacing-small) var(--spacing-large); /* Add horizontal margin */
+    text-align: center; /* Center the text */
 }
-  
+
 .more-buttons {
     display: flex;
     justify-content: center; /* Center the buttons */
@@ -730,7 +738,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     width: 100%;
     align-items: center; /* Align buttons vertically */
 }
-  
+
 .more-buttons .button {
     background-color: var(--primary-color);
     color: var(--background-color);
@@ -741,14 +749,14 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     transition: background-color 0.3s ease, transform 0.3s ease;
     font-weight: 600;
 }
-  
-    .more-buttons .button:hover {
-        background-color: var(--accent1-color);
-        transform: scale(1.05);
-    }
-  
-  /* Object Tours */
-  .object-tours {
+
+.more-buttons .button:hover {
+    background-color: var(--accent1-color);
+    transform: scale(1.05);
+}
+
+/* Object Tours */
+.object-tours {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -757,31 +765,31 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     margin-top: var(--spacing-small);
     margin-bottom: var(--spacing-large);
     width: 100%;
-  }
-  
-    .object-tours .button {
-        background-color: var(--primary-color);
-        color: var(--background-color);
-        border: none;
-        border-radius: var(--spacing-small);
-        padding: var(--spacing-small) var(--spacing-large);
-        font-size: var(--font-size-large);
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.2s ease;
-    }
-  
-        .object-tours .button:hover {
-            background-color: var(--accent1-color);
-            
-        }
-  
-        .object-tours .button:active {
-            background-color: var(--accent2-color);
-            transform: scale(0.95);
-        }
-  
-  /* Map-Geolocalization Container */
-  .map-geolocation-container {
+}
+
+.object-tours .button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: var(--spacing-small);
+    padding: var(--spacing-small) var(--spacing-large);
+    font-size: var(--font-size-large);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.object-tours .button:hover {
+    background-color: var(--accent1-color);
+    
+}
+
+.object-tours .button:active {
+    background-color: var(--accent2-color);
+    transform: scale(0.95);
+}
+
+/* Map-Geolocalization Container */
+.map-geolocation-container {
     width:100%;
     display: flex;
     align-items: stretch;
@@ -793,50 +801,50 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     gap: var(--spacing-small);
     position: relative;
     border: 2px solid var(--primary-color);
-  }
-  
-  /* Map Section */
-  .map-section {
+}
+
+/* Map Section */
+.map-section {
     width: 50%;
     padding: var(--spacing-large);
     box-sizing: border-box;
     margin: 0;
     color: var(--primary-color);
     text-align: center;
-  }
-  
-  .map-section img {
+}
+
+.map-section img {
     width: 100%;
     height: auto;
-  }
-  
-  /* Geolocalization Section */
-  .geolocalization-section {
+}
+
+/* Geolocalization Section */
+.geolocalization-section {
     width: 50%;
     padding: var(--spacing-large);
     box-sizing: border-box;
     margin: 0;
     color: var(--primary-color);
     text-align: center;
-  }
-  
-  .geolocalization-section img {
+}
+
+.geolocalization-section img {
     width: 100%;
     height: auto;
-  }
-  
-  /* Divider */
-  .divider {
+}
+
+/* Divider */
+.divider {
     background-color: var(--accent1-color);
     width: 2px;
     margin: 0 auto;
     height: 100%; /* Estende la divider per tutta l'altezza del contenitore */
-  }
-  
-  
-  /* Object Page Metadata section */
+}
 
-  .metadata-container {
+
+/* Object Page Metadata section */
+
+.metadata-container {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: flex-start; /* align items on the left */
@@ -849,8 +857,8 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     border: 2px solid var(--primary-color);
     height: auto;
     margin: calc(var(--spacing-large) * var(--golden-ratio)) 0 calc(var(--spacing-large) * var(--golden-ratio)) 0;
-  }  
-  
+}  
+
 .metadata-container h2 {
     margin-bottom: 0;
 }
@@ -861,7 +869,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     width: 100%;
     margin-top: var(--spacing-small);
     gap: 20px;
-   
+
 }
 .Rdf-Graph, .Table-Metadata {
     width:50%;
@@ -869,7 +877,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     /* border: 2px solid var(--primary-color); */
     font-size: var(--base-font-size);
     
-   
+
 }
 
 
@@ -918,18 +926,18 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     cursor: pointer;
     z-index: 10000;  /* Keep above everything else in the modal */
 }
-  
-  /* The container that holds the enlarged image */
-  .modal-content {
+
+/* The container that holds the enlarged image */
+.modal-content {
     position: relative;
     width: 100vw;
     height: 100vh;
     /* No explicit margins so it can fill the space, and we can pan around */
     cursor: move; /* We'll let the user drag the image around */
 }
-  
-  /* The enlarged image itself */
-  .modal-content img {
+
+/* The enlarged image itself */
+.modal-content img {
     position: absolute; /* We’ll move it with translate() while panning */
     top: 50%;
     left: 50%;
@@ -942,7 +950,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 #par_2 {
     font-size: large;
     
-  }
+}
 #ul_1 {
     padding: revert;  /* default browser value */
     margin-bottom: var(--base-spacing); 
@@ -995,7 +1003,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 #isSemantic-text:hover {
-   color: #ffffff;
+color: #ffffff;
 }
 
 .light-mode #view-isSemantic_button a {
@@ -1060,13 +1068,10 @@ td {
 }
 
 /* Table content - end */
+/* FINE OBJECT-PAGE*/
 
 
-
-  /* FINE OBJECT-PAGE*/
-  
-
-/*collection page*/
+/*Collection page*/
 
 .left {
     text-align: left;
@@ -1131,12 +1136,12 @@ td {
     }
 }
 
-/* !--map-page section--! */
+/* !--Map-page Section--! */
 
 /* navbar map-page */
 nav.nav_map-page {
     z-index: 10;
-  }
+}
 
 /* map-page long button */
 #long-button_1 {
@@ -1175,7 +1180,7 @@ main.main_map-page {
 }
 
 
-  
+
 /* map-page section container */
 section.map-object_aside-panel {
     display: flex;
@@ -1190,12 +1195,12 @@ section.map-object_aside-panel {
     padding-left: calc(var(--spacing-large)*3); 
 }
 
-  /* map-page section */
-  .map_rooms img{
+/* map-page section */
+.map_rooms img{
     padding-top: var(--spacing-large);
     width: 80%;
     height: auto;
-  }
+}
 
 
 
@@ -1211,154 +1216,154 @@ section.map-object_aside-panel {
     padding: var(--spacing-small) var(--spacing-small) var(--spacing-small) var(--spacing-small);
     display: flex;
     flex-direction: column;
-  }
+}
 
- 
 
-  /* map-page section */
-  .object-box{
+
+/* map-page section */
+.object-box{
     border: 2px solid var(--accent2-color);
     border-radius:10px;
     margin: var(--spacing-small) var(--spacing-small) var(--spacing-small) var(--spacing-small);
     flex: 1; 
-  }
+}
 
-    /* map-page gallery */
-    .gallery {
-        position: relative;
-      }
-    
-      /* map-page gallery */  
-      .gallery-content{
-        position: relative;
-        border: 2px solid var(--accent2-color);
-        border-radius:10px;
-        margin-top: calc(var(--spacing-large)*2);
-        margin-left: calc(var(--spacing-large)*5);
-        margin-right: calc(var(--spacing-large)*4);
-        height: 75vh;
-        padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
-        display: flex;
-        gap: var(--spacing-large);
-        overflow-x: hidden;
-        scroll-behavior: smooth;
-      }
-      
-      /* map-page gallery */
-      .gallery h2 {
-        top:20px;   
-        left: 150px;
-        position: absolute;
-      }
-    
-      /* map-page gallery */
-      .gallery-box {
-        border: 2px solid var(--accent2-color);
-        border-radius: 10px;
-        margin-top: calc(var(--spacing-large)*2);
-        padding: var(--spacing-small);
-        background-color: var(--background-color);
-        color: var(--primary-color);
-        flex: 1;
-        min-width: 300px;
-      }
+/* map-page gallery */
+.gallery {
+    position: relative;
+}
 
-      /* scroll-left button gallery map-page  */
-      button.scroll-left{
-        background-color: var(--primary-color);
-        border: 2px solid var(--primary-color);
-        border-radius: 50%;
-        color:white;
-        font-size: var(--font-size-large);
-        cursor: pointer;
-        z-index: 2; /* Makes sure buttons are above gallery */
-        position: absolute; /*  for position the buttons absolutely to the gallery container */
-        top: 50%;  /* it places the top edge of the button at 50% of the parent's height. In combination with transform: translateY(-50%) this ensure that the button's center aligns with the middle of the parent. */
-        transform: translateY(-50%);   /* shifts the button upwards by 50% of its own height(of the button itself). */
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        line-height: 1;
-        left: 100px; /* Position left button */
-      }
+/* map-page gallery */  
+.gallery-content{
+    position: relative;
+    border: 2px solid var(--accent2-color);
+    border-radius:10px;
+    margin-top: calc(var(--spacing-large)*2);
+    margin-left: calc(var(--spacing-large)*5);
+    margin-right: calc(var(--spacing-large)*4);
+    height: 75vh;
+    padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
+    display: flex;
+    gap: var(--spacing-large);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
     
-      /* scroll-right button gallery map-page  */
-      button.scroll-right{
-        background-color: var(--primary-color);
-        border: 2px solid var(--primary-color);
-        border-radius: 50%;
-        color:white;
-        font-size: var(--font-size-large);
-        cursor: pointer;
-        z-index: 2; /* Makes sure buttons are above gallery */
-        position: absolute; /*  for position the buttons absolutely to the gallery container */
-        top: 50%;  /* it places the top edge of the button at 50% of the parent's height. In combination with transform: translateY(-50%) this ensure that the button's center aligns with the middle of the parent. */
-        transform: translateY(-50%);   /* shifts the button upwards by 50% of its own height(of the button itself). */
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        line-height: 1;
-        right: 80px; /* Position right button */ 
-      }
+/* map-page gallery */
+.gallery h2 {
+    top:20px;   
+    left: 150px;
+    position: absolute;
+}
+    
+/* map-page gallery */
+.gallery-box {
+    border: 2px solid var(--accent2-color);
+    border-radius: 10px;
+    margin-top: calc(var(--spacing-large)*2);
+    padding: var(--spacing-small);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    flex: 1;
+    min-width: 300px;
+}
+
+/* scroll-left button gallery map-page  */
+button.scroll-left{
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    color:white;
+    font-size: var(--font-size-large);
+    cursor: pointer;
+    z-index: 2; /* Makes sure buttons are above gallery */
+    position: absolute; /*  for position the buttons absolutely to the gallery container */
+    top: 50%;  /* it places the top edge of the button at 50% of the parent's height. In combination with transform: translateY(-50%) this ensure that the button's center aligns with the middle of the parent. */
+    transform: translateY(-50%);   /* shifts the button upwards by 50% of its own height(of the button itself). */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    left: 100px; /* Position left button */
+}
+
+/* scroll-right button gallery map-page  */
+button.scroll-right{
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    color:white;
+    font-size: var(--font-size-large);
+    cursor: pointer;
+    z-index: 2; /* Makes sure buttons are above gallery */
+    position: absolute; /*  for position the buttons absolutely to the gallery container */
+    top: 50%;  /* it places the top edge of the button at 50% of the parent's height. In combination with transform: translateY(-50%) this ensure that the button's center aligns with the middle of the parent. */
+    transform: translateY(-50%);   /* shifts the button upwards by 50% of its own height(of the button itself). */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    right: 80px; /* Position right button */ 
+}
     
     
-      /* map-page metadata  */
-      .metadata {
-        position: relative;
-        border: 2px solid var(--accent2-color);
-        border-radius:10px;
-        margin-top: calc(var(--spacing-large)*2);
-        margin-left: calc(var(--spacing-large)*5);
-        margin-right: calc(var(--spacing-large)*4);
-        padding-left: var(--spacing-small);
-        height: 75vh;
-        padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
-        display: flex;
-        flex-direction: column;
-      }
-    
-      /* map-page metadata  */
-      .metadata h2 {
-        position: absolute;
-         /* for avoiding overlapping of <h2> with other elements-container */
-      }
-    
-      /* map-page metadata  */
-      .metadata-box{
-        border: 2px solid var(--accent2-color);
-        border-radius:10px;
-        margin-top: calc(var(--spacing-large)*2);
-        flex: 1;
-      }
-    
-      /* map-page geolocalization */
-      .geolocalization {
-        position: relative;
-        border: 2px solid var(--accent2-color);
-        border-radius:10px;
-        margin-top: calc(var(--spacing-large)*2);
-        margin-left: calc(var(--spacing-large)*5);
-        margin-right: calc(var(--spacing-large)*4);
-        padding-left: var(--spacing-small);
-        height: 75vh;
-        padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
-        display: flex;
-        flex-direction: column;
-      }
-    
-      /* map-page geolocalization */
-      .geolocalization h2 {
-        position: absolute;
-      }
-    
-      /* map-page geolocalization */
-      .geolocalization-box {
-        border: 2px solid var(--accent2-color);
-        border-radius:10px;
-        margin-top: calc(var(--spacing-large)*2);
-        flex: 1;
-      }
-    /* !--map-page section end--! */
+/* map-page metadata  */
+.metadata {
+    position: relative;
+    border: 2px solid var(--accent2-color);
+    border-radius:10px;
+    margin-top: calc(var(--spacing-large)*2);
+    margin-left: calc(var(--spacing-large)*5);
+    margin-right: calc(var(--spacing-large)*4);
+    padding-left: var(--spacing-small);
+    height: 75vh;
+    padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
+    display: flex;
+    flex-direction: column;
+}
+
+/* map-page metadata  */
+.metadata h2 {
+    position: absolute;
+    /* for avoiding overlapping of <h2> with other elements-container */
+}
+
+/* map-page metadata  */
+.metadata-box{
+    border: 2px solid var(--accent2-color);
+    border-radius:10px;
+    margin-top: calc(var(--spacing-large)*2);
+    flex: 1;
+}
+
+/* map-page geolocalization */
+.geolocalization {
+    position: relative;
+    border: 2px solid var(--accent2-color);
+    border-radius:10px;
+    margin-top: calc(var(--spacing-large)*2);
+    margin-left: calc(var(--spacing-large)*5);
+    margin-right: calc(var(--spacing-large)*4);
+    padding-left: var(--spacing-small);
+    height: 75vh;
+    padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
+    display: flex;
+    flex-direction: column;
+}
+
+/* map-page geolocalization */
+.geolocalization h2 {
+    position: absolute;
+}
+
+/* map-page geolocalization */
+.geolocalization-box {
+    border: 2px solid var(--accent2-color);
+    border-radius:10px;
+    margin-top: calc(var(--spacing-large)*2);
+    flex: 1;
+}
+/* !--map-page section end--! */
 
 
 /* ABOUT PAGE */
