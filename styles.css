@@ -1418,4 +1418,5 @@ section.map-object_aside-panel {
 #about_par {
     text-align: justify;
     font-size: large;
+    line-height: 2.0;
 }

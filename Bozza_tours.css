@@ -29,7 +29,7 @@ body.tours-page-body {
 #tours-presentation  p {
     text-align: justify;
     font-size: calc(var(--base-font-size) * 1.1);
-    line-height: var(--base-line-height);
+    line-height: 2.0;
     color: var(--primary-color);
     margin-bottom: var(--spacing-small);
     font-weight: lighter;
