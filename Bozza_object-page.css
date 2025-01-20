@@ -41,13 +41,11 @@
   text-align: center;
 }
 
-.nav_object_page {
-  z-index: 10;
-}
 
-.object-page-body {
+
+/* .object-page-body {
   margin: 0 var(--spacing-large) 0 var(--spacing-large);
-}
+} */
 
 /* Contenitore Principale */
 

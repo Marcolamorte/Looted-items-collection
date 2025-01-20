@@ -77,6 +77,7 @@ nav {
     width: 100%;
     position: fixed;
     height: 5vh;
+    z-index: 10;
 }
 
 nav ul {
@@ -260,9 +261,12 @@ input:checked + .toggle-track:before {
 
 .icon-container {
     display: flex;
+    justify-content: flex-end; 
     /* justify-items: space-between; */
     gap: var(--spacing-large);
     z-index: 10;
+    gap: var(--spacing-large); 
+    margin-right:calc(var(--spacing-large)*var(--golden-ratio)); 
 }
 
 #icon-button {
@@ -302,18 +306,18 @@ input:checked + .toggle-track:before {
 
 .tooltip {
     visibility: hidden;
-    background-color:var(--background-color); /* Sfondo del tooltip */
-    color: var(--secondary-color); /* Colore del testo */
+    background-color:var(--background-color); 
+    color: var(--secondary-color); 
     text-align: center;
     border: 2px solid var(--primary-color);
-    border-radius: 4px; /* Angoli arrotondati */
-    padding: 5px 10px; /* Spaziatura interna */
+    border-radius: 4px; 
+    padding: 5px 10px; 
     position: absolute;
     z-index: 1;
-    top: 120%; /* Posiziona il tooltip sotto l'icona */
+    top: 120%; 
     left: 50%;
     transform: translateX(-50%);
-    white-space: nowrap; /* Evita che il testo vada a capo */
+    white-space: nowrap; 
     opacity: 0;
     transition: opacity 0.3s;
   }
@@ -597,14 +601,6 @@ hr {
 }
 
 
-.icon-container_tour-page {
-    display: flex;
-    justify-content: flex-end; /* Posiziona le icone a destra */
-    gap: var(--spacing-large); /* Spazio tra le icone */
-    margin-right:calc(var(--spacing-large)*var(--golden-ratio)*3); /* Margine destro */
-    z-index: 10; /* Assicura che siano visibili sopra altri elementi */
-}
-
 
 .tour-page-button {
     display: flex;
@@ -656,21 +652,11 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     font-size: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
     margin:0;
 }
-.nav_object_page {
-    z-index: 10;
-}
 
-.object-page-body {
+
+/* .object-page-body {
     margin: 0 var(--spacing-large) 0 var(--spacing-large);
-}
-
-.icon-container_object-page {
-    display: flex;
-    justify-content: flex-end; /* Posiziona le icone a destra */
-    gap: var(--spacing-large); /* Spazio tra le icone */
-    margin-right:calc(var(--spacing-large)*var(--golden-ratio)*3); /* Margine destro */
-    z-index: 10; /* Assicura che siano visibili sopra altri elementi */
-}
+} */
 
 
 /* Contenitore Principale */
@@ -1458,10 +1444,3 @@ button.scroll-right{
 
 
 /* PERSONALIZATION PAGE */
-.icon-container_personalization-tour {
-    display: flex;
-    justify-content: flex-end; /* Posiziona le icone a destra */
-    gap: var(--spacing-large); /* Spazio tra le icone */
-    margin-right:calc(var(--spacing-large)*var(--golden-ratio)*3); /* Margine destro */
-    z-index: 10; /* Assicura che siano visibili sopra altri elementi */
-}
