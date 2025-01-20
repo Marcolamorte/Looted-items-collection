@@ -136,8 +136,27 @@ a {
     font-weight: 200;
     font-size: var(--base-font-size);
     line-height: var(--base-line-height);
-    color: var(--primary-color);
+   
 
+}
+
+#tour-button:hover {
+    background-color: var(--accent1-color);
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+#tour-button:active {
+transform: scale(0.95);
+background-color: var(--accent2-color);
+transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+#tour-button a{
+    display: inline-block;
+    text-decoration: none;
 }
 
 
