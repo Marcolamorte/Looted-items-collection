@@ -78,7 +78,35 @@ nav {
     position: fixed;
     height: 5vh;
     z-index: 10;
+    transform: translateY(0); 
+    transition: transform 0.5s ease-in-out; /
+    
 }
+
+nav.hidden {
+    transform: translateY(-130%);
+    transition: transform 0.5s ease;
+    position: fixed;
+    top: 0;
+}
+
+/* Area sensibile all'hover */
+.hover-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 35px; 
+    z-index: 20; 
+    background: transparent; 
+}
+
+/* Mostra la navbar quando il cursore è sopra l'area hover */
+.hover-area:hover + nav,
+nav:hover {
+    transform: translateY(0); /* Navbar visibile */
+}
+
 
 nav ul {
     display: flex;
@@ -102,6 +130,7 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
+
 
 .button {
     border: 2px solid var(--primary-color);
