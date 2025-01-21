@@ -160,11 +160,12 @@ a {
 
 #tour-button {
     background-color: var(--primary-color);
-    margin-right: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio)*var(--golden-ratio));
+    margin-right: calc(var(--spacing-large)*var(--golden-ratio)*var(--golden-ratio));
     font-family: "Karrik", sans-serif;
     font-weight: 200;
     font-size: var(--base-font-size);
     line-height: var(--base-line-height);
+    
    
 
 }
@@ -183,9 +184,12 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 }
 
-#tour-button a{
+#tour-button a {
     display: inline-block;
     text-decoration: none;
+    white-space: nowrap;
+
+ 
 }
 
 
@@ -312,8 +316,7 @@ input:checked + .toggle-track:before {
     justify-content: flex-end; 
     /* justify-items: space-between; */
     gap: var(--spacing-large);
-    z-index: 10;
-    gap: var(--spacing-large); 
+    z-index: 10; 
     margin-right:calc(var(--spacing-large)*var(--golden-ratio)); 
 }
 
