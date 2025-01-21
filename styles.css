@@ -619,6 +619,8 @@ section {
     background-color: var(--background-color);
 }
 
+/* FOOTER */
+
 footer {
     height: 20vh;
     margin: calc(var(--spacing-large)*var(--golden-ratio)) var(--spacing-large);
@@ -630,6 +632,7 @@ footer {
 
 footer p {
     margin-top: var(--spacing-large);
+    
 }
 
 hr {
@@ -640,12 +643,130 @@ hr {
 }
 
 
+/* Responsive FOOTER : tablet */
+@media screen and (max-width: 768px) {
+    footer  { 
+        padding: var(--base-spacing);
+        margin: calc(var(--spacing-small)*var(--golden-ratio)) var(--spacing-small);
+    }
+   
+    footer p {
+        font-size: 0.8 rem;
+        line-height: 1.4;
+        
+    }
+    footer h2 {
+        font-size: 1.2rem;
+    }
+
+    footer hr {
+        height: 2px;
+        margin-right: var(--spacing-small);
+        
+    }
+}
+
+
+/* Responsive FOOTER : smartphone */
+@media screen and (max-width: 480px) {
+   
+   
+    footer p {
+        font-size:  0.7rem;
+        line-height: 1.2;
+        
+    }
+    footer h2 {
+        font-size: 1rem;
+    }
+
+    footer hr {
+        height: 1px;
+        margin-right: 0;
+        
+    }
+   
+}
+
+
+
+
+
+
 /* TOUR-PAGE */
+
+
+#tours-introduction, #tours-presentation {
+    /* text-align: left !important; */
+    margin: calc(var(--spacing-large) * var(--golden-ratio)) auto;
+    padding: calc(var(--spacing-large) * var(--golden-ratio));
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    max-width: 1200px;
+}
+
+#tours-introduction h2,
+#tours-presentation h2 {
+    text-align: center;
+    font-size: calc(var(--font-size-large) * var(--golden-ratio));
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-large);
+}
+
+#tours-introduction p,
+#tours-presentation  p {
+    text-align: justify;
+    font-size: calc(var(--base-font-size) * 1.1);
+    line-height: 2.0;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-small);
+    font-weight: lighter;
+    font-size: large;
+}
+
+.tours-des-container {
+    display: flex; 
+    flex-direction: column; 
+    gap: var(--spacing-large); 
+    
+}
+
+.tour-des {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Vertically align all elements */
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    padding: var(--spacing-large);
+    text-align: left; /* Align text to the left for better readability */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Make each section span the full width */
+    position:relative
+}
+
+
+.tours-des p {
+    font-size: calc(var(--font-size-small) * var(--golden-ratio));
+    color: var(--secondary-color);
+    /* padding-right: var(--spacing-large); */
+    flex: 3; /* Take more space for the text */
+    padding-top: var(--spacing-small); /* Add breathing space at the top */
+    padding-bottom: var(--spacing-small); /* Add breathing space at the bottom */
+    margin-top: var(--spacing-large); /* Additional margin if needed */
+    margin-bottom: var(--spacing-large);
+    
+}
 
 
 .tours-des h3 {
     font-weight: bold;
     font-size: larger;
+    font-size: calc(var(--font-size-large));
+    color: var(--primary-color);
+    margin: 0;
+    flex: 1; /* Allow flexible width */
 }
 
 
@@ -688,7 +809,66 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
 }
 
+/* Responsive TOUR PAGE : tablet */
+@media screen and (max-width: 768px) {
+    #tours-presentation button   {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+    #tours-introduction button {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
 
+    #tours-introduction p, #tours-presentation p {
+        font-size: 1rem;
+        line-height: 1.4;
+        
+    }
+    #tours-introduction h2, #tours-presentation h2 {
+        font-size: 1.2rem;
+    }
+
+    #tours-presentation h3 {
+        font-size: 1rem;
+    }
+
+    #tours-introduction, #tours-presentation {
+        padding: var(--spacing-large);
+    }
+
+/* Responsive TOUR PAGE : smartphone */
+@media screen and (max-width: 480px) {
+    #tours-presentation button   {
+        padding: 4px 8px;
+        font-size: 0.7rem;
+    }
+    #tours-introduction button {
+        padding: 4px 8px;
+        font-size: 0.7rem;
+    }
+
+    #tours-introduction p, #tours-presentation p {
+        font-size:  0.7rem;
+        line-height: 1.2;
+        
+    }
+    #tours-introduction h2, #tours-presentation h2 {
+        font-size: 1rem;
+    }
+
+    #tours-presentation h3 {
+        font-size: 0.9rem;
+    }
+
+    #tours-introduction, #tours-presentation {
+        padding: var(--spacing-small);
+    }
+}
+
+}
+
+/* TOUR PAGE END */
 
 
 /* OBJECT-PAGE */
@@ -1185,6 +1365,7 @@ td {
 }
 
 /* Table content - end */
+
 /* FINE OBJECT-PAGE*/
 
 
@@ -1229,7 +1410,7 @@ td {
     :root {
         --base-font-size: 14px;
     }
-    header, main, footer {
+    header, main {
         padding: var(--base-spacing);
     }
     nav ul {
