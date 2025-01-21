@@ -33,7 +33,7 @@ body {
     line-height: var(--base-line-height);
     color: var(--primary-color);
     background-color: var(--background-color);
-    margin: 0 0 50px 50px;
+    margin: 0 0 50px 0;
     overflow-x: hidden;
 }
 
@@ -1491,4 +1491,181 @@ button.scroll-right{
 }
 
 
-/* PERSONALIZATION PAGE */
+/* OBJECT PAGE MEDIA QUERIES */
+
+/* Large screens (laptops/desktops, 1200px and below) */
+@media screen and (max-width: 1200px) {
+    .object-main-container {
+        margin: 0 var(--spacing-small); /* Reduced side margins */
+        padding: var(--spacing-small);
+    }
+
+    .object-tours {
+        gap: var(--spacing-small);
+    }
+
+    .object-tours .button {
+        font-size: var(--base-font-size);
+    }
+}
+
+/* Medium screens (tablets, 768px and below) */
+@media screen and (max-width: 768px) {
+    .item-titolo {
+        font-size: calc(var(--spacing-large) * var(--golden-ratio));
+        text-align: center;
+    }
+
+    .object-main-container {
+        margin: 0 calc(var(--spacing-small) / 2); /* Further reduced margins */
+        padding: var(--spacing-small);
+    }
+
+    .object-navigation {
+        padding: var(--spacing-small) calc(var(--spacing-small) / 2);
+    }
+
+    .circular-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navigation-text {
+        font-size: var(--base-font-size);
+    }
+
+    .image-text-container {
+        padding: var(--spacing-small);
+        margin-top: calc(var(--spacing-large) * var(--golden-ratio));
+    }
+
+    .text-area {
+        width: 100%;
+        font-size: var(--base-font-size);
+    }
+
+    /* Keep the more-buttons horizontal */
+    .more-info {
+        gap: var(--spacing-small);
+    }
+
+    .more-buttons {
+        gap: var(--spacing-small);
+        justify-content: space-between;
+    }
+
+    .more-buttons .button {
+        padding: var(--spacing-small);
+        min-width: 60px;
+    }
+
+    .more-buttons p {
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    /* Keep tour buttons horizontal */
+    .object-tours {
+        flex-direction: row;
+        justify-content: center;
+        gap: var(--spacing-small);
+    }
+
+    .map-geolocation-container {
+        flex-direction: column;
+        overflow: visible;
+        height: auto;
+    }
+
+    .map-section,
+    .geolocalization-section {
+        width: 100%;
+        padding: var(--spacing-large);
+        min-height: 200px; /* Ensure minimum height for content visibility */
+    }
+
+    .map-section img,
+    .geolocalization-section img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .divider {
+        width: 100%;
+        height: 2px;
+        margin: var(--spacing-small) 0;
+    }
+
+    .metadata-content {
+        flex-direction: column;
+    }
+
+    .Rdf-Graph,
+    .Table-Metadata {
+        width: 100%;
+    }
+}
+
+/* Small screens (mobile phones, 480px and below) */
+@media screen and (max-width: 480px) {
+    .object-main-container {
+        margin: 0 calc(var(--spacing-small) / 4); /* Minimal margins on mobile */
+        padding: var(--spacing-small);
+    }
+
+    .item-titolo {
+        font-size: calc(var(--spacing-large));
+        padding: var(--spacing-small) 0;
+    }
+
+    .object-tours {
+        flex-direction: row;
+        justify-content: center;
+        gap: calc(var(--spacing-small) / 2);
+    }
+
+    .object-tours .button {
+        padding: calc(var(--spacing-small) / 2) var(--spacing-small);
+    }
+
+    .navigation-text {
+        display: none;
+    }
+
+    .circular-button {
+        width: 35px;
+        height: 35px;
+    }
+
+    .metadata-container {
+        padding: var(--spacing-small);
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    th, td {
+        padding: 8px;
+        min-width: 120px;
+    }
+}
+
+/* For very small screens (320px and below) */
+@media screen and (max-width: 320px) {
+    .object-main-container {
+        margin: 0 calc(var(--spacing-small) / 6); /* Minimal margins */
+        padding: calc(var(--spacing-small) / 2);
+    }
+
+    .circular-button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .object-tours .button {
+        padding: calc(var(--spacing-small) / 3) calc(var(--spacing-small) / 2);
+    }
+}
