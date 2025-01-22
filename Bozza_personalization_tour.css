@@ -29,10 +29,6 @@
 }
 
 
-
-
-
-
 .tours-container {
     display: flex; /* Use Flexbox */
     flex-direction: column; /* Stack tour sections vertically */
