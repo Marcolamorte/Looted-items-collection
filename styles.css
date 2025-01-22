@@ -852,16 +852,17 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     }
 
     #tours-introduction p, #tours-presentation p {
-        font-size:  0.7rem;
-        line-height: 1.2;
+        font-size:  1rem;
+        line-height: 1.4;
+        
         
     }
     #tours-introduction h2, #tours-presentation h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     #tours-presentation h3 {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     #tours-introduction, #tours-presentation {
@@ -1911,14 +1912,16 @@ button.scroll-right{
 
 
 .tour-section h3 {
-    font-size: calc(var(--font-size-large));
+    font-size: var(--font-size-large);
     color: var(--primary-color);
     margin: 0;
     flex: 1; /* Allow flexible width */
-}
-#Colonial_Conquests-h3 {
     padding-right: var(--spacing-large);
+
 }
+/* #Colonial_Conquests-h3 {
+    padding-right: var(--spacing-large);
+} */
 
 .tour-section p {
     font-size: calc(var(--font-size-small) * var(--golden-ratio));
@@ -2060,6 +2063,96 @@ button.scroll-right{
     transform: scale(0.95);
 }
 
+/* Responsive PRESENTATION PAGE */
+
+@media screen and (max-width: 1000px) {
+    #tours-selection .tour-section {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    #tours-selection .tours-container p  {
+        padding-right: 0;
+    }
+    
+    #tours-selection .tours-container h3 {
+        padding-right: 0;
+    }
+
+}
+
+/* Responsive PRESENTATION PAGE : tablet */
+@media screen and (max-width: 768px) {
+   
+#personalization-intro h2, #tours-selection h2 {
+    font-size: 1.2rem;
+}
+
+#personalization-intro p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+#tours-selection .tours-container p  {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+
+#tours-selection .tours-container h3 {
+    font-size: 1rem;
+}
+
+#tours-selection .expand-button {
+    width: 45px;
+    height: 45px; 
+}
+
+
+
+/* Responsive TOUR PAGE : smartphone */
+@media screen and (max-width: 480px) {
+    #personalization-intro h2, #tours-selection h2 {
+        font-size: 1.2rem;
+    }
+    
+    #personalization-intro p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    
+    #tours-selection .tours-container p  {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+    
+    
+    #tours-selection .tours-container h3 {
+        font-size: 1rem;
+    }
+    
+    #tours-selection .expand-button {
+        width: 40px;
+        height: 40px; 
+    }
+    
+
+    } 
+
+
+    @media screen and (max-width: 350px) {
+        #personalization-intro, #tours-selection {
+            max-width: 100%; 
+            word-wrap: break-word; 
+            overflow-wrap: break-word;
+            font-size: 0.9rem; 
+            padding: 10px; 
+            box-sizing: border-box; 
+        }
+    }
+
+}
 
 
 /* PERSONALIZATION TOUR PAGE END */
