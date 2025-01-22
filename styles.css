@@ -707,7 +707,8 @@ hr {
     border: 2px solid var(--primary-color);
     border-radius: var(--spacing-large);
     max-width: 1200px;
-}
+   
+} 
 
 #tours-introduction h2,
 #tours-presentation h2 {
@@ -1866,6 +1867,7 @@ button.scroll-right{
     border: 2px solid var(--primary-color);
     border-radius: var(--spacing-large);
     max-width: 1200px;
+    min-width: 300px;
 }
 
 #personalization-intro h2,
@@ -1893,6 +1895,7 @@ button.scroll-right{
     display: flex; /* Use Flexbox */
     flex-direction: column; /* Stack tour sections vertically */
     gap: var(--spacing-large); /* Add spacing between sections */
+    
 }
 
 .tour-section {
@@ -1906,7 +1909,9 @@ button.scroll-right{
     text-align: left; /* Align text to the left for better readability */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%; /* Make each section span the full width */
-    position:relative
+    position:relative;
+    
+
 }
 
 
@@ -2111,8 +2116,14 @@ button.scroll-right{
 
 
 
-/* Responsive TOUR PAGE : smartphone */
+/* Responsive PRESENATION PAGE : smartphone */
 @media screen and (max-width: 480px) {
+
+    #personalization-intro, #tours-selection {
+        padding: var(--spacing-large);
+       
+    }
+
     #personalization-intro h2, #tours-selection h2 {
         font-size: 1.2rem;
     }
@@ -2143,16 +2154,35 @@ button.scroll-right{
 
     @media screen and (max-width: 350px) {
         #personalization-intro, #tours-selection {
-            max-width: 100%; 
-            word-wrap: break-word; 
-            overflow-wrap: break-word;
-            font-size: 0.9rem; 
-            padding: 10px; 
-            box-sizing: border-box; 
+            padding: var(--spacing-small);
+           
         }
+
+
+
+        #personalization-intro p, #tours-selection .tours-container p {
+            font-size: 0.8rem;
+            line-height: 1.2;
+        }
+
+        #personalization-intro h2, #tours-selection h2 {
+            font-size: 1rem;
+        }
+
+        #tours-selection .tours-container h3 {
+            font-size: 0.9rem;
+        }
+       
+        
+        #tours-selection .tour-section  {
+            padding: var(--spacing-small);
+           
+             
+        } 
+        
     }
 
 }
 
 
-/* PERSONALIZATION TOUR PAGE END */
+/* PERSONALIZATION TOUR PAGE END */ 
