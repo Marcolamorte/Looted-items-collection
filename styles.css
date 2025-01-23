@@ -1724,8 +1724,13 @@ button.scroll-right{
 
 /* Medium screens (tablets, 768px and below) */
 @media screen and (max-width: 768px) {
-    .main{
-        margin:0;
+    main{
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .object-main-container > * {
+        border: none; 
     }
 
     .item-titolo {
@@ -1826,8 +1831,14 @@ button.scroll-right{
 
 /* Small screens (mobile phones, 480px and below) */
 @media screen and (max-width: 480px) {
-    .main{
-        margin:0;
+
+    .object-main-container > * {
+        border: none; 
+    }
+
+    main{
+        margin-left:0;
+        margin-right:0;
     }
     .object-main-container {
         margin: 0 calc(var(--spacing-small) / 4); /* Minimal margins on mobile */
