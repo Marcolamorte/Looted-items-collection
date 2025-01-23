@@ -1511,6 +1511,10 @@ button.scroll-right{
 
 /* Medium screens (tablets, 768px and below) */
 @media screen and (max-width: 768px) {
+    .main{
+        margin:0;
+    }
+
     .item-titolo {
         font-size: calc(var(--spacing-large) * var(--golden-ratio));
         text-align: center;
@@ -1609,6 +1613,9 @@ button.scroll-right{
 
 /* Small screens (mobile phones, 480px and below) */
 @media screen and (max-width: 480px) {
+    .main{
+        margin:0;
+    }
     .object-main-container {
         margin: 0 calc(var(--spacing-small) / 4); /* Minimal margins on mobile */
         padding: var(--spacing-small);
@@ -1655,10 +1662,7 @@ button.scroll-right{
 
 /* For very small screens (320px and below) */
 @media screen and (max-width: 320px) {
-    .object-main-container {
-        margin: 0 calc(var(--spacing-small) / 6); /* Minimal margins */
-        padding: calc(var(--spacing-small) / 2);
-    }
+
 
     .circular-button {
         width: 30px;
