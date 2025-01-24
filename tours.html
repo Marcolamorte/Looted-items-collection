@@ -49,12 +49,26 @@
                 </div>
             </div>
 
-            
-           
-            
+           <!-- Hamburger icon (mobile view) -->
+    <!-- <div class="hamburger" id="hamburger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>-->
+
+    <!-- 1) Checkbox nascosto -->
+    <input type="checkbox" id="menu-toggle" />
+
+    <!-- 2) Label che funge da hamburger (cliccandolo attiva il checkbox) -->
+    <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    
         <!-- main button (long-button) -->
                 <div class="button" id="long-button">
-                    <ul>
+                    <ul class="menu-links">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="tours.html">Tours</a></li>
@@ -68,7 +82,7 @@
                     <a href="map_page.html" class="icon-link">
                       <div class="button" id="icon-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                         <path fill="currentColor" d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM10 5.47l4 1.4v11.66l-4-1.4V5.47zm-5 .99l3-1.01v11.7l-3 1.16V6.46zm14 11.08l-3 1.01V6.86l3-1.16v11.84z"/>
-                      </svg>
+                        </svg>
                       </div>
                       <span class="tooltip">Go to object map section</span>
                     </a>
@@ -88,7 +102,6 @@
                     <a href="Object-page.html" id="tour-text">Start Tour</a>
                 </button>
                 
-            
         </nav>
         
         <!-- end of nav -->
@@ -185,6 +198,7 @@
             });
         </script>
 
+      
 
         <!-- copy paste footer into every page -->
         <footer>
