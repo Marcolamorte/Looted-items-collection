@@ -43,14 +43,28 @@
                         </label>
                     </div>
                 </div>
+
+                <!-- 1) Hidden Checkbox  -->
+                <input type="checkbox" id="menu-toggle" />
+
+                <!-- 2) Hamburgher label  -->
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            
                 
                 <!-- main button (long-button) -->
                 <div class="button" id="long-button">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="tours.html">Tours</a></li>
-                        <li><a href="documentation.html">Documentation</a></li>
+                    <ul class="menu-links">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="tours.html">tours</a></li>
+                        <li class="hidden-desktop"><a href="map_page.html">item museum map</a></li>
+                        <li class="hidden-desktop"><a href="#grid">item collection</a></li>
+                        <li class="hidden-desktop"><a href="Object-page.html" class="start-tour-btn">Start Tour</a></li>
+                        <li><a href="documentation.html">documentation</a></li>
                         <!-- <li><a href="#disclaimer.html">disclaimer</a></li> -->
                     </ul>
                 </div>

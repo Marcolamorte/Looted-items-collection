@@ -146,30 +146,9 @@ nav a {
     display: block;
     width: 25px;
     height: 3px;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
     background: var(--primary-color);
   }
-
-
- 
-
-
-/* Hamburger icon default style */
-/* .hamburger {
-    display: none;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 5px;
-    z-index: 100;
-}
-
-.hamburger span {
-    background-color: var(--primary-color);
-    height: 3px;
-    width: 25px;
-    border-radius: 5px;
-} */
-
 
 
 
@@ -414,6 +393,7 @@ input:checked + .toggle-track:before {
     white-space: nowrap; 
     opacity: 0;
     transition: opacity 0.3s;
+    font-weight: 500;
   }
 
   .icon-link:hover .tooltip {
@@ -2323,22 +2303,23 @@ button.scroll-right{
 
 
 /* RESPONSIVE NAVBAR  */
-@media (min-width: 769px) {
+@media (min-width: 876px) {
     .hidden-desktop {
-      display: none !important;  /* Non compaiono su desktop */
+      display: none !important;  
     }
   }
 
 
 /* ----- RESPONSIVE ----- */
-@media (max-width: 768px) {
+@media (max-width: 875px) {
 
     .hidden-desktop {
         display: list-item; 
       }
     
     .hamburger {
-      display: block;  
+    display: block;  
+    margin-right: var(--spacing-small);
       
     }
 
@@ -2378,6 +2359,73 @@ button.scroll-right{
 
      nav{
         justify-content: space-between;
+        
+        
      }
+
+     
+@media (max-width: 768px) {
+    .theme-switch {
+        width: 50px; 
+        height: 28px; 
+    }
+
+    .toggle-track {
+        border-radius: 28px;
+    }
+
+    .toggle-track:before {
+        width: 20px; 
+        height: 20px;
+        left: 4px;
+        bottom: 4px;
+    }
+
+    input:checked + .toggle-track:before {
+        transform: translateX(22px);
+    }
+
+    .theme-toggle-container svg {
+        width: 28px; 
+        height: 28px;
+    }
+
+    
+@media (max-width: 480px) {
+    .theme-switch {
+        width: 40px;
+        height: 24px;
+    }
+
+    .toggle-track {
+        border-radius: 24px;
+    }
+
+    .toggle-track:before {
+        width: 18px;
+        height: 18px;
+        left: 2.7px;
+        bottom: 2.7px;
+    }
+
+    input:checked + .toggle-track:before {
+        transform: translateX(16px);
+    }
+
+    .theme-toggle-container svg {
+        width: 24px; 
+        height: 24px;
+    }
+
+}
+
+
+
+
+}
+     
+
+     
+
       
-  }
+}

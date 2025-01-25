@@ -5,14 +5,40 @@ let lastScrollPosition = 0;
 window.addEventListener('scroll', () => {
   const currentScrollPosition = window.scrollY;
 
-  // Mostra la navbar solo se si è in cima alla pagina
+  if (window.innerWidth <= 875) {
+    
+    navbar.classList.remove('hidden');
+    return;
+  }
+
+
+  
   if (currentScrollPosition === 0) {
     navbar.classList.remove('hidden');
   } else if (currentScrollPosition > lastScrollPosition) {
-    // Scroll verso il basso - nasconde la navbar
+    
     navbar.classList.add('hidden');
   }
 
-  // Aggiorna la posizione dello scroll
+  
   lastScrollPosition = currentScrollPosition;
 });
+
+const nav = document.querySelector('nav'); 
+            const menuToggle = document.getElementById('menu-toggle');
+            let hideTimeout = null;
+        
+            // Quando il mouse esce, avviamo un timer di 300ms (puoi variare il valore).
+            nav.addEventListener('mouseleave', () => {
+            hideTimeout = setTimeout(() => {
+                menuToggle.checked = false;
+            }, 500);
+            });
+        
+            // Se rientra prima che scada il tempo, annulliamo il timer e il menu resta aperto.
+            nav.addEventListener('mouseenter', () => {
+            if (hideTimeout) {
+                clearTimeout(hideTimeout);
+                hideTimeout = null;
+            }
+            });
