@@ -72,6 +72,9 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="tours.html">Tours</a></li>
+                        <li class="hidden-desktop"><a href="map_page.html">item museum map</a></li>
+                        <li class="hidden-desktop"><a href="#grid">item collection</a></li>
+                        <li class="hidden-desktop"><a href="Object-page.html" class="start-tour-btn">Start Tour</a></li>
                         <li><a href="documentation.html">Documentation</a></li>
                     </ul>
                 </div>
@@ -84,7 +87,7 @@
                         <path fill="currentColor" d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM10 5.47l4 1.4v11.66l-4-1.4V5.47zm-5 .99l3-1.01v11.7l-3 1.16V6.46zm14 11.08l-3 1.01V6.86l3-1.16v11.84z"/>
                         </svg>
                       </div>
-                      <span class="tooltip">Go to object map section</span>
+                      <span class="tooltip">Go to item museum map</span>
                     </a>
 
                     <a href="#grid" class="icon-link">
@@ -93,7 +96,7 @@
                         <path fill="currentColor" d="M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z"/>
                       </svg>
                     </div>
-                    <span class="tooltip">Show the object collection</span>
+                    <span class="tooltip">Show the items collection</span>
                     </a>
                   </div>
                   
@@ -195,6 +198,27 @@
             document.getElementById('tour-button_tour-page').addEventListener('click', (e) => {
                 e.preventDefault(); <!-- This is for preventing  the default behavior of the <a> element: it goes directly to the web page. -->
                 window.open('personalization_tour.html');
+            });
+        </script>
+
+        <script>
+            const nav = document.querySelector('nav'); 
+            const menuToggle = document.getElementById('menu-toggle');
+            let hideTimeout = null;
+        
+            // Quando il mouse esce, avviamo un timer di 300ms (puoi variare il valore).
+            nav.addEventListener('mouseleave', () => {
+            hideTimeout = setTimeout(() => {
+                menuToggle.checked = false;
+            }, 500);
+            });
+        
+            // Se rientra prima che scada il tempo, annulliamo il timer e il menu resta aperto.
+            nav.addEventListener('mouseenter', () => {
+            if (hideTimeout) {
+                clearTimeout(hideTimeout);
+                hideTimeout = null;
+            }
             });
         </script>
 

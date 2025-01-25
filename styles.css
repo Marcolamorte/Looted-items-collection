@@ -135,7 +135,7 @@ nav a {
     display: none;
   }
 
-/* Hamburger di base */
+
 .hamburger {
     display: none; 
     cursor: pointer;
@@ -151,6 +151,7 @@ nav a {
   }
 
 
+ 
 
 
 /* Hamburger icon default style */
@@ -243,6 +244,8 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     font-weight: 600;
     margin-left: var(--spacing-large);
 }
+
+
 
 #long-button a {
     display: inline-block;
@@ -2317,3 +2320,64 @@ button.scroll-right{
 
 
 /* PERSONALIZATION TOUR PAGE END */ 
+
+
+/* RESPONSIVE NAVBAR  */
+@media (min-width: 769px) {
+    .hidden-desktop {
+      display: none !important;  /* Non compaiono su desktop */
+    }
+  }
+
+
+/* ----- RESPONSIVE ----- */
+@media (max-width: 768px) {
+
+    .hidden-desktop {
+        display: list-item; 
+      }
+    
+    .hamburger {
+      display: block;  
+      
+    }
+
+
+    .menu-links {
+      display: none;  
+      flex-direction: column; 
+      gap: 1rem;
+      background: var(--background-color);
+      position: absolute;
+      top: 50px;      
+      left: 0;
+      width: 100%;
+      padding: 1rem;
+    }
+    
+    #menu-toggle:checked ~ .hamburger ~ #long-button ul.menu-links {
+        display: flex;
+       
+        
+      }
+      
+      .icon-container {
+        display: none;
+     }
+
+     #long-button {
+        border: none;
+      /* visibility: hidden; */
+      display: contents;
+        
+     }
+
+     #tour-button {
+        display: none;
+     }
+
+     nav{
+        justify-content: space-between;
+     }
+      
+  }
