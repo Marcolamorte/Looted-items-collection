@@ -2334,14 +2334,55 @@ button.scroll-right{
       left: 0;
       width: 100%;
       padding: 1rem;
+      
     }
+
+   
+    .menu-links li {
+       
+        background-color:#BBC2E24D; /* Sfondo di default */
+        box-shadow: 0 20px 0 #BBC2E24D; /* Simula il colore sul margine */
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+        
+        
+       
+    }
+
+    .menu-links li a {
+        padding-left: 5px;
+    }
+
+   
+    .hidden-desktop:nth-child(n+4):nth-child(-n+7) {
+        padding-left: 6px;
+    }
+
+    .menu-links li:last-child {
+        margin-right: var(--spacing-large);
+        padding-left: 6px;
+    }
+
+   
+    .menu-links li:hover {
+        text-decoration: none; /* Evita che compaia durante l'hover */
+        transform: scale(1.02);
+    }
+
+    .menu-links li a:hover {
+        text-decoration: none; /* Evita che compaia durante l'hover */
+        transform: scale(1.02);
+        
+    }
+
+    
     
     #menu-toggle:checked ~ .hamburger ~ #long-button ul.menu-links {
         display: flex;
        
         
       }
-      
+
+
       .icon-container {
         display: none;
      }
@@ -2362,6 +2403,8 @@ button.scroll-right{
         
         
      }
+
+
 
      
 @media (max-width: 768px) {
