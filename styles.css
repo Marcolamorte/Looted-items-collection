@@ -2320,57 +2320,91 @@ button.scroll-right{
     .hamburger {
     display: block;  
     margin-right: var(--spacing-small);
+    margin-top: var(--spacing-small);
       
     }
 
+  
 
     .menu-links {
       display: none;  
       flex-direction: column; 
-      gap: 1rem;
-      background: var(--background-color);
+      gap: 0;
       position: absolute;
       top: 50px;      
       left: 0;
       width: 100%;
-      padding: 1rem;
+      padding: 0 1rem 0 1rem;
+      margin-top: var(--spacing-small);
+      
+      
       
     }
 
-   
+
+    .blurred {
+        filter: blur(8px); 
+        transition: filter 0.3s ease; 
+    }
+
+     
     .menu-links li {
-       
-        background-color:#BBC2E24D; /* Sfondo di default */
-        box-shadow: 0 20px 0 #BBC2E24D; /* Simula il colore sul margine */
+        background-color: var(--background-color);
         transition: box-shadow 0.3s ease, transform 0.3s ease;
-        
-        
+        padding-bottom: calc(var(--spacing-small)*2);
+        border-left: 1px solid var(--accent1-color);
+        border-right: 1px solid var(--accent1-color);
        
+    }
+
+    .light-mode .menu-links li {
+        background-color: var(--background-color);
     }
 
     .menu-links li a {
         padding-left: 5px;
+        
     }
 
    
-    .hidden-desktop:nth-child(n+4):nth-child(-n+7) {
-        padding-left: 6px;
+    .hidden-desktop:nth-child(n+4):nth-child(-n+6):hover, .menu-links li:last-child:hover {
+        padding-left: 5px;
     }
+
+    .menu-links li:first-child {
+        border-top: 2px solid var(--accent1-color);
+    }
+
+    .menu-links li:nth-child(n+1):nth-child(-n+6) {
+        border-bottom: 2px solid var(--accent1-color);
+    }
+
 
     .menu-links li:last-child {
         margin-right: var(--spacing-large);
-        padding-left: 6px;
+        border-bottom: 2px solid var(--accent1-color);
+       
     }
 
    
     .menu-links li:hover {
-        text-decoration: none; /* Evita che compaia durante l'hover */
-        transform: scale(1.02);
+        text-decoration: none; 
+        transform: scale(1.03);
+        font-weight: bolder;
+        filter: brightness(1.5);
+        transition: filter 0.3s ease, transform 0.3s ease;
     }
+
+    .light-mode .menu-links li:hover {
+        filter: brightness(1.02);
+        transition: filter 0.3s ease, transform 0.3s ease;
+
+    }
+
 
     .menu-links li a:hover {
         text-decoration: none; /* Evita che compaia durante l'hover */
-        transform: scale(1.02);
+        transform: scale(1.03);
         
     }
 
@@ -2399,7 +2433,9 @@ button.scroll-right{
      }
 
      nav{
+        
         justify-content: space-between;
+        
         
         
      }
