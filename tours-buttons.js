@@ -19,3 +19,4 @@ function startTour(tourName) {
 
 // Rendi la funzione disponibile globalmente
 window.startTour = startTour;
+

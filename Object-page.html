@@ -48,15 +48,28 @@
                 </div>
             </div>
 
-            
+            <!-- 1) Hidden Checkbox  -->
+            <input type="checkbox" id="menu-toggle" />
+
+            <!-- 2) Hamburgher label  -->
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+                    
+                    
            
             
         <!-- main button (long-button) -->
                 <div class="button" id="long-button">
-                    <ul>
+                    <ul class="menu-links">
                         <li><a href="index.html">home</a></li>
                         <li><a href="about.html">about</a></li>
                         <li><a href="tours.html">tours</a></li>
+                        <li class="hidden-desktop"><a href="map_page.html">item museum map</a></li>
+                        <li class="hidden-desktop"><a href="#grid">item collection</a></li>
+                        <li class="hidden-desktop"><a href="Object-page.html" class="start-tour-btn">Start Tour</a></li>
                         <li><a href="documentation.html">documentation</a></li>
                     </ul>
                 </div>
@@ -100,7 +113,13 @@
     
         <!-- copy-paste header for every page!!!!!!!! -->
 
-      <main>
+        <!-- button for scrolling up to the top of the page -->
+    <button id="scroll-to-top">
+        ↑
+    </button>
+
+
+      <main id="main-object_page">
         <h2 id="item-title" class="item-titolo"></h2>
         <section class="object-main-container">
             <div class="object-navigation">
@@ -127,15 +146,15 @@
                     <p id="item-text"> 
                     </p>
                     <div class="more-info">
-                        <div class="more-buttons">
+                        <div class="more-buttons" id="more-buttons-1">
                             <button class="button" id="complexity-less">Less</button>
                             <p>COMPLEXITY</p>
                             <button class="button"  id="complexity-more">More</button>
                         </div>
 
-                        <div class="more-buttons">
+                        <div class="more-buttons" id="more-buttons-2">
                             <button class="button" id="length-less">Less</button>
-                            <p>LENGTH</p>
+                            <p id="par_length">LENGTH</p>
                             <button class="button" id="length-more">More</button>
                         </div>
                     </div>
@@ -163,6 +182,7 @@
                     <div class="Rdf-Graph">
                         <p id="par_1">RDF Graph Visualization</p>
                         <img id="graph-image_id" src="" alt="Rdf Graph image"  class="graph-image_class"  onclick="openModal(this.src)" >
+                        <div class="rdf-bottom">
                         <p id="par_2">For a better interactive visualization of the graph:</p>
                             <ul id="ul_1">
                                 <li>Copy the following <a href="" target="_blank" id="rdf-text-link">link</a></li>
@@ -172,6 +192,7 @@
                             <button class="button" id="view-isSemantic_button"> 
                                 <a href="https://issemantic.net/rdf-visualizer"  id="isSemantic-text">View on isSemantic.net</a>
                             </button>
+                        </div>
                     </div>
 
                     <!-- This html snippet is for the modal container of the img -->
