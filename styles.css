@@ -987,6 +987,8 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 .object-main-container {
     display: flex;
     flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
     width: 100%; /* Full width */
     max-width: 1200px; /* Optional: limit maximum width for layout */
     min-width: 300px;
