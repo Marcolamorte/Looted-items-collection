@@ -98,7 +98,7 @@
                   
                   <!-- tour button -->
                 <button class="button" id="tour-button">
-                    <a href="Object-page.html" id="tour-text">start tour</a>
+                    <a href="Object-page.html" id="tour-text">Start Tour</a>
                 </button>
              
             
@@ -228,6 +228,8 @@
         document.getElementById('view-isSemantic_button').addEventListener('click', (e) => {
             e.preventDefault(); <!-- This is for preventing  the default behavior of the <a> element: it goes directly to the web page. -->
             window.open('https://issemantic.net/rdf-visualizer', '_blank');
+            e.target.blur();
+
         });
     </script>
 
@@ -316,6 +318,44 @@
         // Expose openModal / closeModal globally if needed
         window.openModal = openModal;
         window.closeModal = closeModal;
+
+    // Variabili per gestire il touch
+    let isTouchDragging = false;
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    // Gestione di touchstart (inizio del tocco)
+    expandedImg.addEventListener('touchstart', (e) => {
+        e.preventDefault();
+        isTouchDragging = true;
+
+        // Registra la posizione iniziale del tocco
+        const touch = e.touches[0];
+        touchStartX = touch.clientX - translateX;
+        touchStartY = touch.clientY - translateY;
+
+        modalContent.style.cursor = 'grabbing';
+    });
+
+    // Gestione di touchmove (movimento del tocco)
+    expandedImg.addEventListener('touchmove', (e) => {
+        if (!isTouchDragging) return;
+
+        e.preventDefault();
+
+        // Ottieni la posizione corrente del tocco
+        const touch = e.touches[0];
+        translateX = touch.clientX - touchStartX;
+        translateY = touch.clientY - touchStartY;
+
+        applyTransform();
+    });
+
+    // Gestione di touchend (fine del tocco)
+    expandedImg.addEventListener('touchend', () => {
+        isTouchDragging = false;
+        modalContent.style.cursor = 'grab';
+    });
     </script>
         
     <script src="map.js"></script>

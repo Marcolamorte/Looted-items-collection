@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Tours</title>
+    <title>Tour presentation</title>
+    <!-- <link rel="stylesheet" href="bozza_tours.css"> -->
     <link rel="stylesheet" href="styles.css">
     <script src="timeline.js"></script>
     <script src="lightmode.js"></script>
+    <script src="tours-buttons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="object-page.js"></script>
-    <script src="PERSONALIZATION.js"></script>
 </head>
+
 <body>
     <header>
         <!-- NAVBAR -->
@@ -83,7 +84,7 @@
                       <span class="tooltip">Go to item museum map</span>
                     </a>
 
-                    <a href="grid" class="icon-link">
+                    <a href="#grid" class="icon-link">
                         <div class="button" id="icon-button">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                         <path fill="currentColor" d="M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z"/>
@@ -91,12 +92,11 @@
                     </div>
                     <span class="tooltip">Show the items collection</span>
                     </a>
-                
                   </div>
                   
-                  <!-- tour button -->
+                      <!-- tour button -->
                 <button class="button" id="tour-button">
-                    <a href="Object-page.html" id="tour-text">Start TSour</a>
+                    <a href="Object-page.html" id="tour-text">Start Tour</a>
                 </button>
                 
         </nav>
@@ -150,7 +150,7 @@
                         <!--start tour button -->
                         <div class="tour-page-button">
                             <button class="button" id="tour-button_tour-page" onclick="startTour('Timeline Tour')">
-                                <a href="Object-page.html" id="tour-text">Start Tour</a>
+                                <a href="#Object-page.html" id="tour-text">Start Tour</a>
                             </button>
                         </div>
                     
@@ -166,7 +166,7 @@
                             <!--start tour button -->
                         <div class="tour-page-button">
                             <button class="button" id="tour-button_tour-page" onclick="startTour('Colonial Conquests Tour')">
-                                <a href="Object-page.html" id="tour-text" >Start Tour</a>
+                                <a href="#Object-page.html" id="tour-text" >Start Tour</a>
                             </button>
                         </div>
                     </div>
@@ -183,7 +183,7 @@
                          <!--start tour button -->
                          <div class="tour-page-button">
                             <button class="button" id="tour-button_tour-page" onclick="startTour('Geo Tour')">
-                                <a href="Object-page.html" id="tour-text" >Start Tour</a>
+                                <a href="#Object-page.html" id="tour-text" >Start Tour</a>
                             </button>
                         </div>
 

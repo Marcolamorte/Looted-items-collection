@@ -26,9 +26,6 @@
     box-sizing: border-box;
 }
 
-section {
-    margin: var(--spacing-large);
-}
 body {
     font-family: "Karrik", sans-serif;
     font-weight: 200;
@@ -476,7 +473,6 @@ input:checked + .toggle-track:before {
     min-height: 120vh;
     width: 100%;
     max-width: 100%;
-    margin-bottom: var(--spacing-large);
 }
 
 #home, #about {
@@ -486,14 +482,14 @@ input:checked + .toggle-track:before {
 
 #home {
     background-image: url('partenone2.svg');
-    background-size: 50%;
+    background-size: 60%;
     background-position: right;
     background-repeat: no-repeat;
 }
 
 #about {
     background-image: url('partenone3.svg');
-    background-size: 40%;
+    background-size: 50%;
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -638,7 +634,6 @@ section {
     z-index: -1;
     border: 2px solid var(--accent2-color);
     border-radius: var(--spacing-large);
-    margin: var(--spacing-large);
 }
 
 .wrapper {
@@ -870,6 +865,10 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 }
 
+#tour-button_tour-page:focus {
+    outline: none;
+}
+
 #tour-button_tour-page a{
     display: inline-block;
     text-decoration: none;
@@ -981,9 +980,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 .object-main-container {
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
+    flex-direction: column; /* Stack child elements vertically */
     width: 100%; /* Full width */
     max-width: 1200px; /* Optional: limit maximum width for layout */
     min-width: 300px;
@@ -1293,15 +1290,15 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 /* The modal overlay that fills the screen */
 .modal {
-    display: none;        /* Hidden by default */
-    position: fixed;            /* Sit on top of the page */
-    z-index: 9999;             /* So it’s above everything else */
+    display: none;        
+    position: fixed;           
+    z-index: 9999;      
     left: 0;
     top: 0;
-    width: 100vw;              /* Full width */
-    height: 100vh;             /* Full height */
-    overflow: hidden;          /* Hide scrollbars; we’ll pan inside instead */
-    background-color: rgba(0,0,0,0.8); /* Semi-transparent backdrop */
+    width: 100vw;             
+    height: 100vh;            
+    overflow: hidden;          
+    background-color: rgba(0,0,0,0.8); 
 }
 
 /* The close button (X) */
@@ -1313,7 +1310,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
-    z-index: 10000;  /* Keep above everything else in the modal */
+    z-index: 10000; 
 }
 
 /* The container that holds the enlarged image */
@@ -1321,19 +1318,23 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     position: relative;
     width: 100vw;
     height: 100vh;
-    /* No explicit margins so it can fill the space, and we can pan around */
-    cursor: move; /* We'll let the user drag the image around */
+   
+    cursor: move; 
 }
 
 /* The enlarged image itself */
 .modal-content img {
-    position: absolute; /* We’ll move it with translate() while panning */
+    position: absolute; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1); 
-    transform-origin: center center; /* Zoom around the image center */
-    max-width: none;  /* Allow image to exceed container bounds for panning */
-    max-height: none; /* We will manually manage scaling via JS */
+    transform-origin: center center; 
+    max-width: 100%;  
+    max-height: 100%; 
+    width: auto;
+    height: auto;
+    object-fit: contain;
+
 }
 
 #par_2 {
@@ -1391,6 +1392,9 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 
 }
 
+
+
+
 #isSemantic-text:hover {
 color: #ffffff;
 }
@@ -1400,6 +1404,9 @@ color: #ffffff;
     text-decoration: none;
 
 }
+
+
+
 
 .rdf-bottom {
     display: flex;
@@ -1551,7 +1558,6 @@ nav.nav_map-page {
     margin-left: var(--spacing-large);
 }
 
-/* customized a:focus */
 
 /* main map-page */
 main.main_map-page {
@@ -1675,15 +1681,15 @@ button.scroll-left{
     color:white;
     font-size: var(--font-size-large);
     cursor: pointer;
-    z-index: 2; /* Makes sure buttons are above gallery */
-    position: absolute; /*  for position the buttons absolutely to the gallery container */
-    top: 50%;  /* it places the top edge of the button at 50% of the parent's height. In combination with transform: translateY(-50%) this ensure that the button's center aligns with the middle of the parent. */
-    transform: translateY(-50%);   /* shifts the button upwards by 50% of its own height(of the button itself). */
+    z-index: 2;
+    position: absolute; 
+    top: 50%;  
+    transform: translateY(-50%);  
     padding: 10px;
     display: flex;
     justify-content: center;
     line-height: 1;
-    left: 100px; /* Position left button */
+    left: 100px; 
 }
 
 /* scroll-right button gallery map-page  */
@@ -1694,15 +1700,15 @@ button.scroll-right{
     color:white;
     font-size: var(--font-size-large);
     cursor: pointer;
-    z-index: 2; /* Makes sure buttons are above gallery */
-    position: absolute; /*  for position the buttons absolutely to the gallery container */
-    top: 50%;  /* it places the top edge of the button at 50% of the parent's height. In combination with transform: translateY(-50%) this ensure that the button's center aligns with the middle of the parent. */
-    transform: translateY(-50%);   /* shifts the button upwards by 50% of its own height(of the button itself). */
+    z-index: 2; 
+    position: absolute; 
+    top: 50%;  
+    transform: translateY(-50%);  
     padding: 10px;
     display: flex;
     justify-content: center;
     line-height: 1;
-    right: 80px; /* Position right button */ 
+    right: 80px; 
 }
     
     
@@ -2018,7 +2024,11 @@ button.scroll-right{
     th, td {
         padding: 8px;
         min-width: 120px;
+        font-size: 14px;
+        
     }
+
+ 
 }
 @media screen and (max-width: 360px) {
 
