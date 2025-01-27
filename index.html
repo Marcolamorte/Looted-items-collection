@@ -10,6 +10,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="object-page.js"></script>
+    <script src="PERSONALIZATION.js"></script>
 </head>
 <body>
     <header>
@@ -38,7 +40,6 @@
                     <line x1="5"  y1="27" x2="8"  y2="24" stroke="currentColor" stroke-width="2" />   
                     <line x1="24" y1="24" x2="27" y2="27" stroke="currentColor" stroke-width="2" />
                   </svg>
-                  
                 <div class="toggle">
                     <label class="theme-switch">
                         <input type="checkbox">
@@ -53,10 +54,10 @@
         <!-- main button (long-button) -->
                 <div class="button" id="long-button">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="tours.html">Tours</a></li>
-                        <li><a href="documentation.html">Documentation</a></li>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="tours.html">tours</a></li>
+                        <li><a href="documentation.html">documentation</a></li>
                     </ul>
                 </div>
                 
@@ -71,7 +72,7 @@
                       <span class="tooltip">Go to object map section</span>
                     </a>
 
-                    <a href="#grid" class="icon-link">
+                    <a href="grid" class="icon-link">
                         <div class="button" id="icon-button">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                         <path fill="currentColor" d="M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z"/>
@@ -79,12 +80,17 @@
                     </div>
                     <span class="tooltip">Show the object collection</span>
                     </a>
-                </div>
+                
+                  </div>
                   
                   <!-- tour button -->
                 <button class="button" id="tour-button">
-                    <a href="Object-page.html" id="tour-text">Start Tour</a>
+                    <a href="#starttour" id="tour-text">start tour</a>
                 </button>
+<<<<<<< Updated upstream
+=======
+             
+>>>>>>> Stashed changes
             
         </nav>
         
@@ -92,7 +98,6 @@
     </header>
     
         <!-- copy-paste header for every page!!!!!!!! -->
-
     <section id="hero">
         <h1 id="hero-text">The Stolen<br>Archive</h1>
     </section>
@@ -125,7 +130,7 @@
         <section id="map-section">
             <div class="wrapper">
                 <h2 class="uppercase" id="map-text">...but where were they looted from???</h2>
-                <p id="map-text" class="p-map">The colonial appropriation of cultural artifacts represents a profound and enduring legacy of imperialism, spanning from ancient times to the mid-20th century. This systematic theft of cultural heritage began in earnest during the early colonial period (1500-1700) and reached its zenith during the imperial era (1700-1914).<br><br>The Benin Bronzes, forcibly seized in 1897, epitomize the violent nature of these acquisitions. Similarly, the removal of the Parthenon Marbles in the early 19th century and the looting of the Old Summer Palace in 1860 demonstrate the scale of cultural dispossession. These acts were not merely about acquiring beautiful objects; they were deliberate attempts to assert dominance over colonized peoples by stripping them of their cultural symbols.<br><br>The ongoing debates surrounding repatriation, exemplified by cases like the Nok terracotta statues and the bust of Nefertiti, highlight the persistent impact of these historical injustices. As we critically examine this history, it becomes clear that the restitution of these artifacts is not just about returning objects, but about addressing deep-seated inequalities.</p>
+                <p id="map-text" class="p-map">This systematic theft of cultural heritage began in earnest during the early colonial period (1500-1700) and reached its zenith during the imperial era (1700-1914).<br><br>The Benin Bronzes, forcibly seized in 1897, epitomize the violent nature of these acquisitions. Similarly, the removal of the Parthenon Marbles in the early 19th century and the looting of the Old Summer Palace in 1860 demonstrate the scale of cultural dispossession. These acts were not merely about acquiring beautiful objects; they were deliberate attempts to assert dominance over colonized peoples by stripping them of their cultural symbols.<br><br>The ongoing debates surrounding repatriation, exemplified by cases like the Nok terracotta statues and the bust of Nefertiti, highlight the persistent impact of these historical injustices. As we critically examine this history, it becomes clear that the restitution of these artifacts is not just about returning objects, but about addressing deep-seated inequalities.</p>
             </div>
             <div id="map"></div>
         </section>

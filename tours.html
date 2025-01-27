@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Tour presentation</title>
-    <!-- <link rel="stylesheet" href="bozza_tours.css"> -->
+    <title>Tours</title>
     <link rel="stylesheet" href="styles.css">
     <script src="timeline.js"></script>
     <script src="lightmode.js"></script>
-    <script src="tours-buttons.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="object-page.js"></script>
+    <script src="PERSONALIZATION.js"></script>
 </head>
-
 <body>
     <header>
         <!-- NAVBAR -->
@@ -55,10 +54,10 @@
         <!-- main button (long-button) -->
                 <div class="button" id="long-button">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="tours.html">Tours</a></li>
-                        <li><a href="documentation.html">Documentation</a></li>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="tours.html">tours</a></li>
+                        <li><a href="documentation.html">documentation</a></li>
                     </ul>
                 </div>
                 
@@ -73,7 +72,7 @@
                       <span class="tooltip">Go to object map section</span>
                     </a>
 
-                    <a href="#grid" class="icon-link">
+                    <a href="grid" class="icon-link">
                         <div class="button" id="icon-button">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                         <path fill="currentColor" d="M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z"/>
@@ -81,13 +80,18 @@
                     </div>
                     <span class="tooltip">Show the object collection</span>
                     </a>
+                
                   </div>
                   
-                      <!-- tour button -->
+                  <!-- tour button -->
                 <button class="button" id="tour-button">
+<<<<<<< Updated upstream
                     <a href="Object-page.html" id="tour-text">Start Tour</a>
+=======
+                    <a href="#starttour" id="tour-text">start tour</a>
+>>>>>>> Stashed changes
                 </button>
-                
+             
             
         </nav>
         
