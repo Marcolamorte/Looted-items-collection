@@ -26,6 +26,10 @@
     box-sizing: border-box;
 }
 
+section {
+    margin: var(--spacing-large);
+}
+
 body {
     font-family: "Karrik", sans-serif;
     font-weight: 200;
@@ -473,6 +477,7 @@ input:checked + .toggle-track:before {
     min-height: 120vh;
     width: 100%;
     max-width: 100%;
+    margin-bottom: var(--spacing-large);
 }
 
 #home, #about {
@@ -482,14 +487,14 @@ input:checked + .toggle-track:before {
 
 #home {
     background-image: url('partenone2.svg');
-    background-size: 60%;
+    background-size: 50%;
     background-position: right;
     background-repeat: no-repeat;
 }
 
 #about {
     background-image: url('partenone3.svg');
-    background-size: 50%;
+    background-size: 40%;
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -634,6 +639,7 @@ section {
     z-index: -1;
     border: 2px solid var(--accent2-color);
     border-radius: var(--spacing-large);
+    margin: var(--spacing-large);
 }
 
 .wrapper {
