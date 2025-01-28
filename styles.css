@@ -1485,6 +1485,94 @@ td {
 /* FINE OBJECT-PAGE*/
 
 
+/* Documentation Page Styles */
+
+/* Documentation Page Styles */
+body.tours-page-body {
+    font-family: 'Karrik', sans-serif;
+    color: var(--secondary-color);
+    background-color: var(--background-colorr);
+    margin: 0;
+    padding: 0;
+}
+
+#tours-introduction, #tours-presentation {
+    text-align: left !important;
+    margin: calc(var(--spacing-large) * var(--golden-ratio)) auto;
+    padding: calc(var(--spacing-large) * var(--golden-ratio));
+    background-color: var(--background-colorr);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    max-width: 1200px;
+}
+
+#tours-introduction h2,
+#tours-presentation h2 {
+    text-align: center;
+    font-size: calc(var(--font-size-large) * var(--golden-ratio));
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-large);
+}
+
+#tours-introduction p,
+#tours-presentation  p {
+    text-align: justify;
+    font-size: calc(var(--base-font-size) * 1.1);
+    line-height: 2.0;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-small);
+    font-weight: lighter;
+    font-size: large;
+}
+
+.tours-des-container {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack tour sections vertically */
+    gap: var(--spacing-large); /* Add spacing between sections */
+}
+
+.tour-des {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Vertically align all elements */
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    padding: var(--spacing-large);
+    text-align: left; /* Align text to the left for better readability */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Make each section span the full width */
+    position:relative
+}
+
+
+
+.tour-des h3 {
+    font-size: calc(var(--font-size-large));
+    color: var(--primary-color);
+    margin: 0;
+    flex: 1; /* Allow flexible width */
+}
+
+.tours-des p {
+    font-size: calc(var(--font-size-small) * var(--golden-ratio));
+    color: var(--secondary-color);
+    padding-right: var(--spacing-large);
+    flex: 3; /* Take more space for the text */
+    padding-top: var(--spacing-small); /* Add breathing space at the top */
+    padding-bottom: var(--spacing-small); /* Add breathing space at the bottom */
+    margin-top: var(--spacing-large); /* Additional margin if needed */
+    margin-bottom: var(--spacing-large);
+    
+}
+
+
+
+
+
+
+
+
 /*Collection page*/
 
 .left {
