@@ -505,6 +505,7 @@ input:checked + .toggle-track:before {
 }
 .team-section {
     margin-top: calc(var(--spacing-large)*var(--golden-ratio));
+    
 }
 main {
     margin: calc(var(--spacing-large)*var(--golden-ratio));
@@ -1873,6 +1874,129 @@ button.scroll-right{
     font-size: large;
     line-height: 2.0;
 }
+
+#about-section {
+    min-height: auto;
+    height: auto;
+}
+.team-section {
+    flex-direction: column;
+}
+
+#about-section, .team-section {
+    min-width: 300px;
+}
+.team-photo {
+    display: flex;
+    /* border: 2px solid var(--primary-color); */
+    height: 100%;
+    padding: var(--spacing-large);
+    padding-right: var(--spacing-small);
+    gap: var(--spacing-small);
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+}
+#photo-1, #photo-2, #photo-3 {
+    /* width: 100%;
+    height: 70%; */
+    margin: calc(var(--spacing-large)*2);
+    flex: 1 1 calc(33% - var(--spacing-small)); 
+    max-width: calc(33% - var(--spacing-small)); 
+    aspect-ratio: 4/5; 
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    
+    
+}
+
+#photo-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    
+}
+
+#photo-2 p {
+    position: absolute;
+    bottom: -3px; 
+    width: 100%; 
+    text-align: center;
+    color: var(--primary-color); 
+    margin: 0; 
+    background-color: var(--background-color); 
+    padding: 5px; 
+    
+}
+/* ABOUT PAGE Media query */
+
+@media screen and (max-width: 768px) {
+
+    #about-section {
+        width:auto;
+    }
+
+    #about-section h2 {
+        font-size: var(--font-size-large);
+    }
+
+    #about-section p {
+        font-size: var(--base-font-size);
+        line-height: var(--base-line-height);
+    }
+
+    
+}
+
+@media screen and (max-width: 1270px) {
+    #photo-1, #photo-2, #photo-3 {
+        margin: var(--spacing-large);
+        
+
+    }  
+
+    .team-photo {
+        align-items: center;
+    }
+
+    .team-section {
+        height: auto;
+    }
+              
+
+}
+
+@media screen and (max-width: 1050px) {
+    #photo-1, #photo-2, #photo-3 {
+        margin: var(--spacing-small);
+    }
+    .about_main {
+        padding:var(--spacing-small);
+        margin-left: var(--spacing-large);
+
+    }
+
+    .team-photo {
+        padding: var(--spacing-small);
+    }
+
+}
+
+    
+    @media screen and (max-width: 876px) {
+        .team-section {
+            margin: var(--spacing-small);
+            margin-top: calc(var(--spacing-large)*var(--golden-ratio));
+        }
+
+       
+    }
+    
+
 
 
 /* OBJECT PAGE MEDIA QUERIES */
