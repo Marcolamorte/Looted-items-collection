@@ -1597,9 +1597,50 @@ body.tours-page-body {
 #metadata_intro_p-2,
 #metadata_table_p-1,
 #metadata_table_p-2,
-#metadata_table_p-3 {
+#metadata_table_p-3,
+#metadata_table_p-4,
+#metadata_table_p-5,
+#metadata_rdf_graph-intro, 
+metadata_rdf_graph-1,
+#metadata_rdf_graph-2,
+#metadata_rdf_graph-3{
     margin-bottom: var(--spacing-large);
 }
+
+#table-1 {
+    margin-top: var(--spacing-large);
+    margin-bottom: var(--spacing-small);
+    width: 100%;
+
+}
+
+#table-2 {
+    margin-top: var(--spacing-large);
+    margin-bottom: var(--spacing-small);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+
+}
+
+#table-3 {
+    margin-top: var(--spacing-large);
+    margin-bottom: var(--spacing-small);
+    width: 100%;
+
+}
+
+#table-4 {
+    margin-top: var(--spacing-large);
+    margin-bottom: var(--spacing-small);
+    width: 100%;
+
+}
+
+
+
+
 
 
 
