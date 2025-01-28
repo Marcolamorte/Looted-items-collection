@@ -309,13 +309,22 @@
             </div>
             <div id="metadata-des">
             <h3>Metadata section</h3>
-            <p>
+            <p id="metadata_intro_p-1">
             The last section of the Object page is dedicated to the metadata. This section called <i>metadata-container</i> is composed by two parts(<i>metadata-content</i>): the first one contains the Image of a <strong>Rdf Graph</strong> and a short text to guide the user to a better visualization of the graph itself; the second one is dedicated to a html table enriched with <strong>Dublin core Metadata elements</strong>. 
+            </p>
+            
+            <p id="metadata_intro_p-2">
             Essentially, to guarantee a precise and detailed metadata representation for each item, it was decided to use the Dublin Core metadata elements as a vocabulary for a general description. Moreover, for a better understanding of the cultural and historical background as well as the item’s movement from one place to another, it was adopted the CIDOC CRM conceptual model in combination with other ontologies/models (such as DBpedia), and then created a RDF Graph to provide a complete visual representation.
             </p>
-            <br>
-            <p>
-                Essentially, to guarantee a precise and detailed metadata representation for each item, it was decided to use the Dublin Core metadata elements as a vocabulary for a general description. Moreover, for a better understanding of the cultural and historical background as well as the item’s movement from one place to another, it was adopted the CIDOC CRM conceptual model in combination with other ontologies/models (such as DBpedia), and then created a RDF Graph to provide a complete visual representation.
+            <h3> Metadata Table</h3>
+            <p id="metadata_table_p-1">
+                As already mentioned, a html table containing general Dublin Core metadata elements was created for each one of the 15 items and inserted within the metadata <i>metadata-container</i> section in a div container defined as <i>metadata-content</i> using a JavaScript code.
+            </p>
+            <p id="metadata_table_p-2">
+                From the Dublin Core metadata were taken some of the main elements used when describing any resource, such as dc:title, dc:creator, , dc:subject, dc:type, dc:description, dcterms:created,dcterms:spatial. The idea was to give general information about the author/s. date/place of creation, main subjects, title etc…
+            </p>
+            <p id="metadata_table_p-3">
+                The table is composed by two columns: the one in the left contains the Dublin core elements, while the other in the right contains the corresponding values. Here is an example of the code structure of the table:
             </p>
         </div>
 

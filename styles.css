@@ -1593,6 +1593,13 @@ body.tours-page-body {
     flex: 1; 
     margin-bottom: var(--spacing-small);
 }
+#metadata_intro_p-1, 
+#metadata_intro_p-2,
+#metadata_table_p-1,
+#metadata_table_p-2,
+#metadata_table_p-3 {
+    margin-bottom: var(--spacing-large);
+}
 
 
 
