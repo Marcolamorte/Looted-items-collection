@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Object Visualization</title>
+    <title>Documentation</title>
     <link rel="stylesheet" href="styles.css">
     <script src="timeline.js"></script>
     <script src="lightmode.js"></script>
@@ -303,6 +303,24 @@
                 </p>
             </div>
         </section>
+        <section class="object_page-des">
+            <div id="object-visualization-des">
+                <h2> Object page Visualization</h2>
+            </div>
+            <div id="metadata-des">
+            <h3>Metadata section</h3>
+            <p>
+            The last section of the Object page is dedicated to the metadata. This section called <i>metadata-container</i> is composed by two parts(<i>metadata-content</i>): the first one contains the Image of a <strong>Rdf Graph</strong> and a short text to guide the user to a better visualization of the graph itself; the second one is dedicated to a html table enriched with <strong>Dublin core Metadata elements</strong>. 
+            Essentially, to guarantee a precise and detailed metadata representation for each item, it was decided to use the Dublin Core metadata elements as a vocabulary for a general description. Moreover, for a better understanding of the cultural and historical background as well as the item’s movement from one place to another, it was adopted the CIDOC CRM conceptual model in combination with other ontologies/models (such as DBpedia), and then created a RDF Graph to provide a complete visual representation.
+            </p>
+            <br>
+            <p>
+                Essentially, to guarantee a precise and detailed metadata representation for each item, it was decided to use the Dublin Core metadata elements as a vocabulary for a general description. Moreover, for a better understanding of the cultural and historical background as well as the item’s movement from one place to another, it was adopted the CIDOC CRM conceptual model in combination with other ontologies/models (such as DBpedia), and then created a RDF Graph to provide a complete visual representation.
+            </p>
+        </div>
+
+
+        </section>
     </main>
 </body>
 </html>
@@ -318,5 +336,8 @@
         <hr>
         <p>&copy; 2024 The Stolen Archive. All rights reserved.</p>
     </footer>
+
+    <script src="toggle-navbar.js"></script>
+    <script src="start-tour-button.js"></script>
 </body>
 </html>

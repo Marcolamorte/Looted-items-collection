@@ -1486,7 +1486,7 @@ td {
 /* FINE OBJECT-PAGE*/
 
 
-/* Documentation Page Styles */
+
 
 /* Documentation Page Styles */
 body.tours-page-body {
@@ -1497,7 +1497,7 @@ body.tours-page-body {
     padding: 0;
 }
 
-#tours-introduction, #tours-presentation {
+#tours-introduction, #tours-presentation, .object_page-des {
     text-align: left !important;
     margin: calc(var(--spacing-large) * var(--golden-ratio)) auto;
     padding: calc(var(--spacing-large) * var(--golden-ratio));
@@ -1505,10 +1505,27 @@ body.tours-page-body {
     border: 2px solid var(--primary-color);
     border-radius: var(--spacing-large);
     max-width: 1200px;
+    
+}
+
+
+.object_page-des {
+    text-align: left !important;
+    margin: calc(var(--spacing-large) * var(--golden-ratio)) auto;
+    padding: calc(var(--spacing-large) * var(--golden-ratio));
+    background-color: var(--background-colorr);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
 }
 
 #tours-introduction h2,
-#tours-presentation h2 {
+#tours-presentation h2,
+.object_page-des h2 {
     text-align: center;
     font-size: calc(var(--font-size-large) * var(--golden-ratio));
     color: var(--primary-color);
@@ -1516,7 +1533,8 @@ body.tours-page-body {
 }
 
 #tours-introduction p,
-#tours-presentation  p {
+#tours-presentation  p,
+.object_page-des p {
     text-align: justify;
     font-size: calc(var(--base-font-size) * 1.1);
     line-height: 2.0;
@@ -1565,6 +1583,15 @@ body.tours-page-body {
     margin-top: var(--spacing-large); /* Additional margin if needed */
     margin-bottom: var(--spacing-large);
     
+}
+
+
+#metadata-des h3 {
+    font-size: calc(var(--font-size-large));
+    color: var(--primary-color);
+    margin: 0;
+    flex: 1; 
+    margin-bottom: var(--spacing-small);
 }
 
 
