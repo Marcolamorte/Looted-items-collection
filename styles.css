@@ -1883,9 +1883,7 @@ button.scroll-right{
     flex-direction: column;
 }
 
-#about-section, .team-section {
-    min-width: 300px;
-}
+
 .team-photo {
     display: flex;
     /* border: 2px solid var(--primary-color); */
@@ -1897,8 +1895,6 @@ button.scroll-right{
     /* flex-wrap: wrap; */
 }
 #photo-1, #photo-2, #photo-3 {
-    /* width: 100%;
-    height: 70%; */
     margin: calc(var(--spacing-large)*2);
     flex: 1 1 calc(33% - var(--spacing-small)); 
     max-width: calc(33% - var(--spacing-small)); 
@@ -1914,14 +1910,14 @@ button.scroll-right{
     
 }
 
-#photo-2 img {
+#photo-1 img, #photo-2 img, #photo-3 img {
     width: 100%;
     height: 100%;
     object-fit: cover; 
     
 }
 
-#photo-2 p {
+#photo-1 p, #photo-2 p, #photo-3 p {
     position: absolute;
     bottom: -3px; 
     width: 100%; 
@@ -1931,30 +1927,16 @@ button.scroll-right{
     background-color: var(--background-color); 
     padding: 5px; 
     
-}
-/* ABOUT PAGE Media query */
-
-@media screen and (max-width: 768px) {
-
-    #about-section {
-        width:auto;
-    }
-
-    #about-section h2 {
-        font-size: var(--font-size-large);
-    }
-
-    #about-section p {
-        font-size: var(--base-font-size);
-        line-height: var(--base-line-height);
-    }
-
     
 }
+
+/* ABOUT PAGE Media query */
+
 
 @media screen and (max-width: 1270px) {
     #photo-1, #photo-2, #photo-3 {
         margin: var(--spacing-large);
+        
         
 
     }  
@@ -1977,6 +1959,7 @@ button.scroll-right{
     .about_main {
         padding:var(--spacing-small);
         margin-left: var(--spacing-large);
+        min-width: 300px;
 
     }
 
@@ -1987,15 +1970,52 @@ button.scroll-right{
 }
 
     
-    @media screen and (max-width: 876px) {
-        .team-section {
-            margin: var(--spacing-small);
-            margin-top: calc(var(--spacing-large)*var(--golden-ratio));
-        }
+@media screen and (max-width: 876px) {
+    .team-section {
+        margin: var(--spacing-small);
+        margin-top: calc(var(--spacing-large)*var(--golden-ratio));
+    }
 
-       
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #about-section {
+        width:auto;
+        margin: var(--spacing-large) var(--spacing-small) var(--spacing-large) 0;
+    }
+
+    #about-section h2 {
+        font-size: var(--font-size-large);
+    }
+
+    #about-section p {
+        font-size: var(--base-font-size);
+        line-height: var(--base-line-height);
     }
     
+    .team-section {
+        height: 120vh;
+    }
+
+    .team-photo {
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    #photo-1, #photo-2, #photo-3 {
+        max-width: 300px;
+    }
+
+    .about_main {
+        margin-left: var(--spacing-small);
+    }
+    
+}
+
 
 
 
