@@ -1313,13 +1313,20 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 /* The close button (X) */
 .close {
     position: absolute;
-    top: 20px;
-    right: 40px;
-    color: #fff;
-    font-size: 40px;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
     font-weight: bold;
+    color: white; /* White text for visibility */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    width: 40px; /* Set explicit width */
+    height: 40px; /* Set explicit height to match width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; /* Slightly rounded edges (optional) */
     cursor: pointer;
-    z-index: 10000; 
+    z-index: 2000; /* Ensure it stays on top */
 }
 
 /* The container that holds the enlarged image */
@@ -1486,7 +1493,7 @@ td {
 /* FINE OBJECT-PAGE*/
 
 
-
+/* DOCUMENTATION PAGE */
 
 /* Documentation Page Styles */
 body.tours-page-body {
@@ -1611,6 +1618,7 @@ metadata_rdf_graph-1,
     margin-top: var(--spacing-large);
     margin-bottom: var(--spacing-small);
     width: 100%;
+    cursor: pointer;
 
 }
 
@@ -1621,6 +1629,7 @@ metadata_rdf_graph-1,
     margin-right: auto;
     width: 50%;
     display: block;
+    cursor: pointer;
 
 }
 
@@ -1628,6 +1637,7 @@ metadata_rdf_graph-1,
     margin-top: var(--spacing-large);
     margin-bottom: var(--spacing-small);
     width: 100%;
+    cursor: pointer;
 
 }
 
@@ -1635,7 +1645,15 @@ metadata_rdf_graph-1,
     margin-top: var(--spacing-large);
     margin-bottom: var(--spacing-small);
     width: 100%;
+    cursor: pointer;
 
+}
+
+#rdf-image {
+    margin-top: var(--spacing-large);
+    margin-bottom: var(--spacing-small);
+    width: 100%;
+    cursor: pointer;
 }
 
 

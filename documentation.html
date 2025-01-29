@@ -349,21 +349,28 @@
                 First of all, it was developed for each object a rdf file in Javascript, using <strong> CIDOC CRM conceptual model</strong> as reference, in combination with other models/vocabularies such as <strong> DBpedia, Wikidata, Geonames, XML Schema</strong> etc… On some occasion it was necessary to adopt a personalized ontology (items-ontology) created ad hoc for describing specific aspects of the item.
             </p id="metadata_rdf_graph-2">
             <p>
-                After that it was used the <strong>RDF grapher</strong> web service for parsing RDF data and visualizing it as a graph. What we got are high resolution images of the rdf graph to be put within the <i>metadata-container</i>. The image can be clicked and opened to its full width, it is possible also to zoom in/out and pan around to explore the full graph.
+                After that it was used the <strong>RDF grapher</strong> web service for parsing RDF data and visualizing it as a graph. What we got are high resolution images of the rdf graph to be put within the <i>metadata-container</i>. The image can be clicked and opened to its full width, it is possible also to zoom in/out and pan around to explore the full graph. Here an example of the image obtained:
+                <img src= ".\rdf_files_graphs\1_Africa_Benin_Bronzes.png" id="rdf-image" alt="rdf graph image" />
             </p>
             <p id="metadata_rdf_graph-3">
                 Below the image there is a section that helps the user to interact better with the graph using an external tool. In particular, it is possible to use the link of the rdf file hosted in the github repository and pasting it in the <i>Visualize Web page</i> section of <strong>isSemantic.net</strong>, a rdf visualizer tool, accessible through the “View on -isSemantic.net” button
             </p>
         </div>
-        
+
+        <!-- This html snippet is for the modal container of the img -->
+        <div id="imageModal" class="modal">
+            <!-- “X” close button -->
+            <span class="close" onclick="closeModal()">&times;</span>
+            
+            <!-- Container for the image we want to show enlarged -->
+            <div class="modal-content">
+              <img id="expandedImg" src="" alt="Full size image" />
+            </div>
+        </div>
+          <!-- End of the modal container -->
 
     </section>
-    </main>
-</body>
-</html>
-
-
-    </main>
+</main>
 
     <!-- copy paste footer into every page -->
     <footer>
@@ -376,5 +383,7 @@
 
     <script src="toggle-navbar.js"></script>
     <script src="start-tour-button.js"></script>
+    <script src="images-vis.js"></script>
+    
 </body>
 </html>
