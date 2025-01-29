@@ -23,8 +23,9 @@ function getItemsFromLocalStorage() {
 
 window.getItemsFromLocalStorage = getItemsFromLocalStorage;
 
-async function loadTourContent() {
+function loadTourContent() {
     // Section to get the values from the form
+    
     const tourData = localStorage.getItem('tourData');
     if (!tourData) {
         return null;
@@ -37,6 +38,8 @@ async function loadTourContent() {
         document.getElementById('item-text').textContent = 'Please return to the personalization page and make a selection.';
         return;
     }
+
+    
 
     // all the data of the tours goes here!!
     
