@@ -1420,7 +1420,7 @@ color: #ffffff;
 .rdf-bottom {
     display: flex;
     flex-direction: column;
-    margin-top: calc(var(--spacing-large)*2);
+    margin-top: var(--spacing-large);
 }
 
 .Table-Metadata {
