@@ -306,7 +306,41 @@
         <section class="object_page-des">
             <div id="object-visualization-des">
                 <h2> Object page Visualization</h2>
+                <h3>Object page description and working logic</h3>
+                <p id="object-des-p-1">
+                    The object page is where the choices done previously by the user in the personalization tour unfold. Here there are the tree tours:<strong> Timeline Tour</strong>, <strong>Colonial Conquest Tour</strong>, and <strong>Geo Tour</strong>. In the timeline tour the objects are presented according to a chronological order (from the oldest to the newest); in the colonial conquest tour they are disposed in an alphabetical order depending on their colonial conquest period; while in the Geo Tour they follow an alphabetical order as well according to their country of origin, which also follows an alphabetical order.
+                </p>
+                <p id="object-des-p-2">
+                    Each tour starts with an image showing the object and with a <strong>text description</strong> immediately below. Depending on the previous choices, the initial text can be of different <strong>lengths</strong> and <strong>difficulties</strong> (ex: it can be short but complex or long but easy), and with the <strong>more/less</strong> buttons it is possible to adjust these two parameters according to one’s information needs. Above the image there are the buttons of the three tours so clicking on one of them is always possible to change tour and start from the beginning. It is also possible to start directly from the timeline tour by clicking on the “Start Tour” on the top right in the navbar and this in particular can be done in every page.
+                </p>
+                <p id="object-des-p-3">
+                    The object’s images, the text and their length and complexity are all managed thanks to a JavaScript code compose by different functions that deal with the fetch and display of the item’s images and texts according to a predefined order. All the functions are saved in the <i>object-page.js</i> file. 
+                    <br>
+                    In this file there is first a <strong>getQueryParams()</strong> function that takes the query parameters from the current object page URL (e.g., <strong>?tour=Timeline%20Tour&length=short&complexity=fun</strong>) and it extracts the selected <strong>tour name</strong> (<i>timeline</i>, <i>colonial conquest tour </i> and <i>geo tour</i>), the preferred <strong>text length</strong> (<i>short</i>, <i>medium</i>, <i>long</i>), and <strong>text complexity</strong> (<i>fun</i>, <i>basic</i>, <i>expert</i>). This function actually exists for a potential use case. It is designed to extract parameters from the URL, which could be used to dynamically load content based on URL-based selections instead of relying solely on <i>localStorage</i>, so if the <i>localStorage</i> gets cleared, but the URL contains parameters, <strong>getQueryParams()</strong> could still provide content.
+                </p>
+                <p id="object-des-p-4">
+                    The real logic of the JavaScript file starts from the <strong>loadTourContent()</strong> function that retrieves the data stored in the browser’s <i>localStorage</i> under the key <i>tourData</i>. If no data is found, it returns <i>null</i>. The data in <i>tourData</i> key it has been saved previously in the <i>localStorage</i> and it contains all the choices made by the user in the personalize tour page. This means that there is another Javascript code (in our case the <i>personalization.js</i> file) who stores these choices in a <i>const tourData</i> and then save them using something like this: <strong>localStorage.setItem('tourData', JSON.stringify(tourData))</strong>. This function saves the data in the key <i>tourData</i> in a Json string format.
+                </p>
+                <p id="object-des-p-5">
+                    More specifically, in the <i>personalization.js</i> file there is the <strong>startTour()</strong> function that creates the <i>const tourData</i> with the user’s choices and save them in the <i>localStorage</i>. This function has been declared as global with the <strong>window.startTour = startTour</strong>, because it can be triggered outside the <i>personalization.js</i> file, for example just clicking the start button defined in the personalization_tour.html file  and then it can redirects to the object-page.html with the user’s choices stored in the browser <i>localStorage</i>.
+                </p>
+                <p id="object-des-p-6">
+                    After being redirected to the object-page the <strong>loadTourContent</strong> function, as already mentioned, retrieves in the <i>tourData</i> key the choices saved in the <i>localStorage</i> in this way: <strong>const tourData = localStorage.getItem('tourData')</strong>. This retrieves the info contained in the <i>tourData</i> key saved as a string in the <i>localStorage</i>, then with the <strong>const { tourName, length, complexity } = JSON.parse(tourData)</strong>; the string is parsed and converted into an object so it is possible to extract values and assign them to the variables <i>tourName</i>, <i>length</i>, <i>complexity</i> to be used later. 
+                </p>
+                <p id="object-des-p-7">
+                    Then the <strong>loadTourContent</strong> function retrieves the content related to the variables  <i>tourName</i>, <i>length</i>, <i>complexity</i> checking in a predefined dataset saved already inside the <i>object-page.js</i> file and accessible with the <i>const data</i> variable. This datased contains all the information to be shown on the object page. The title, the object images, the text with their complexity and length, the metadata information (Rdf graph) and the maps for the location of the object in the museum and in the world (with the original position and the actual position).
+                </p>
+                <p id="object-des-p-8">
+                    To show properly the objects a display function has been implemented which takes as parameters the length, the complexity and the index of the object to be displayed. Using something like this <strong>const itemId = items[index]</strong> and <strong>const itemData = texts[itemId]</strong> it is possible to retrieve the position of the item and its content in the dataset and then update dynamically with a <strong>document.getElementById()</strong> function each element of the object-page (title object, images, metadata, maps).
+                    For the object page navigation menu there is a dedicated code section where <strong>document.getElementById('prev').addEventListener</strong> and <strong>document.getElementById('next').addEventListener</strong> deals with the scrolling from the previous to the next object and viceversa, while <strong>document.getElementById('length-less/length-more').addEventListener</strong> in combination with <strong>changeLength('less')/changeLength('more')</strong> and <strong>changeComplexity('less')/changeComplexity('more')</strong> functions manage the increase/decrease of text’s length/complexity of the current object.
+                </p>
+                <p id="object-des-p-9">
+                    In the <strong>Museum Localization</strong> and <strong>Geolocalization</strong> section there are maps for giving more information to the user about the locations of the object. The Museum Map shows the museum room where the object is placed, accompanied by a simple textual description of the room number; the second maps showing the original location and actual location in the world of the current displayed object. As well in this case there is a text simply explaining the previous and present location of the object.
+                    <br>
+                    Both Museum and Geolocalization Map have been inserted in the predefined dataset containing all the objects info and they are updated dynamically with a <strong>document.getElementById()</strong> function. The same goes for the textual references under the maps.
+                </p>
             </div>
+
             <div id="metadata-des">
             <h3>Metadata section</h3>
             <p id="metadata_intro_p-1">
@@ -353,7 +387,7 @@
                 <img src= ".\rdf_files_graphs\1_Africa_Benin_Bronzes.png" id="rdf-image" alt="rdf graph image" />
             </p>
             <p id="metadata_rdf_graph-3">
-                Below the image there is a section that helps the user to interact better with the graph using an external tool. In particular, it is possible to use the link of the rdf file hosted in the github repository and pasting it in the <i>Visualize Web page</i> section of <strong>isSemantic.net</strong>, a rdf visualizer tool, accessible through the “View on -isSemantic.net” button
+                Below the image there is a section that helps the user to interact better with the graph using an external tool. In particular, it is possible to use the link of the rdf file hosted in the github repository and pasting it in the <i>Visualize Web page</i> section of <strong>isSemantic.net</strong>, a rdf visualizer tool, accessible through the “View on -isSemantic.net” button at the end of the section.
             </p>
         </div>
 

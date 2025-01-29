@@ -1600,6 +1600,15 @@ body.tours-page-body {
     flex: 1; 
     margin-bottom: var(--spacing-small);
 }
+
+#object-visualization-des h3 {
+    font-size: calc(var(--font-size-large));
+    color: var(--primary-color);
+    margin: 0;
+    flex: 1; 
+    margin-bottom: var(--spacing-small);
+}
+
 #metadata_intro_p-1, 
 #metadata_intro_p-2,
 #metadata_table_p-1,
@@ -1610,7 +1619,16 @@ body.tours-page-body {
 #metadata_rdf_graph-intro, 
 metadata_rdf_graph-1,
 #metadata_rdf_graph-2,
-#metadata_rdf_graph-3{
+#metadata_rdf_graph-3,
+#object-des-p-1,
+#object-des-p-2,
+#object-des-p-3,
+#object-des-p-4,
+#object-des-p-5,
+#object-des-p-6,
+#object-des-p-7,
+#object-des-p-8,
+#object-des-p-9{
     margin-bottom: var(--spacing-large);
 }
 
