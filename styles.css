@@ -1317,16 +1317,16 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     right: 20px;
     font-size: 30px;
     font-weight: bold;
-    color: white; /* White text for visibility */
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
-    width: 40px; /* Set explicit width */
-    height: 40px; /* Set explicit height to match width */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); 
+    width: 40px; 
+    height: 40px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px; /* Slightly rounded edges (optional) */
+    border-radius: 5px; 
     cursor: pointer;
-    z-index: 2000; /* Ensure it stays on top */
+    z-index: 2000; 
 }
 
 /* The container that holds the enlarged image */
