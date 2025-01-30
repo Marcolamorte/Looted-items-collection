@@ -45,9 +45,13 @@ function startTour(tourName) {
 
     console.log(`length: ${length}, complexity: ${complexity}`);
 
+    // if (!length || !complexity) {
+    //     alert('Please select both length and complexity to start the tour.');
+    //     return false;
+    // }
     if (!length || !complexity) {
         alert('Please select both length and complexity to start the tour.');
-        return false;
+        return; // Ferma l'esecuzione senza reindirizzare
     }
     console.log(`length: ${length}, complexity: ${complexity}`);
 
@@ -61,6 +65,7 @@ function startTour(tourName) {
     console.log('Tour data saved:', tourData);
 
     console.log("Start tour from js");
+    window.location.href = "Object-page.html";
 }
 
 document.addEventListener('DOMContentLoaded', function () {

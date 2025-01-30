@@ -938,25 +938,25 @@ transition: background-color 0.3s ease, transform 0.3s ease;
         padding: var(--spacing-small);
     }
 
-    @media screen and (max-width: 350px) {
-        #tours-introduction p, #tours-presentation p {
-            font-size:  0.8rem;
-            line-height: 1.2;
-            
-            
-        }
-        #tours-introduction h2, #tours-presentation h2 {
-            font-size: 1rem;
-        }
-    
-        #tours-presentation h3 {
-            font-size: 0.9rem;
-        }
-        #tours-introduction, #tours-presentation {
-            padding: var(--spacing-small);
-        }
+@media screen and (max-width: 350px) {
+    #tours-introduction p, #tours-presentation p {
+        font-size:  0.8rem;
+        line-height: 1.2;
+        
         
     }
+    #tours-introduction h2, #tours-presentation h2 {
+        font-size: 1rem;
+    }
+
+    #tours-presentation h3 {
+        font-size: 0.9rem;
+    }
+    #tours-introduction, #tours-presentation {
+        padding: var(--spacing-small);
+    }
+    
+}
 
 }
 
@@ -1675,53 +1675,92 @@ metadata_rdf_graph-1,
 }
 
 
-    /* MEDIA Queries Documentation page */
+/* MEDIA Queries Documentation page */
 
 
-    @media screen and (max-width: 768px) {
-        #tours-introduction, #tours-presentation, .object_page-des {
-            padding: var(--spacing-large);
-        }
-        #tours-introduction h2, #tours-presentation h2, .object_page-des h2 {
-            font-size: var(--spacing-large);
-        }
-
-        #object-visualization-des h3 {
-            font-size: 1.2rem;
-        }
-
-        #tours-introduction p, #tours-presentation p {
-            font-weight: 200;
-            font-size: 18px;
-            line-height: 1.7;
-        }
-
-        #tours-presentation p {
-            padding: var(--spacing-small);
-        }
-
-        .object_page-des p{
-            font-weight: 200;
-            font-size: 18px;
-            line-height: 1.7;
-        }
-
-        #table-2 {
-            width: 70%;
-            
-        
-        }
-
-        
+@media screen and (max-width: 768px) {
+    #tours-introduction, #tours-presentation, .object_page-des {
+        padding: var(--spacing-large);
+    }
+    #tours-introduction h2, #tours-presentation h2, .object_page-des h2 {
+        font-size: var(--spacing-large);
     }
 
+    #object-visualization-des h3 {
+        font-size: 1.2rem;
+    }
 
-     @media screen and (max-width: 480px) {
-         #tours-presentation, .object_page-des {
-            padding: var(--spacing-small);
-        } 
+    #tours-introduction p, #tours-presentation p {
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 1.7;
+    }
 
-     } 
+    #tours-presentation p {
+        padding: var(--spacing-small);
+    }
+
+    .object_page-des p{
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    #table-2 {
+        width: 70%;
+        
+    
+    }
+
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    #tours-presentation, #tours-presentation, .object_page-des {
+    padding: var(--spacing-small);
+
+
+} 
+
+#tours-introduction p, #tours-presentation p, .object_page-des p {
+    font-size:  1rem;
+    line-height: 1.4;
+    
+    
+}
+#tours-introduction h2, #tours-presentation h2, .object_page-des h2 {
+    font-size: 1.2rem;
+}
+
+#tours-presentation h3, #object-visualization-des h3, #metadata-des h3 { 
+    font-size: 1rem;
+}
+
+    
+
+
+} 
+
+@media screen and (max-width: 350px) {
+    #tours-introduction p, #tours-presentation p, .object_page-des p {
+        font-size:  0.8rem;
+        line-height: 1.2;
+        
+        
+    }
+    #tours-introduction h2, #tours-presentation h2, .object_page-des h2 {
+        font-size: 1rem;
+    }
+
+    #tours-presentation h3, #metadata-des h3 {
+        font-size: 0.9rem;
+    }
+    #tours-introduction, #tours-presentation {
+        padding: var(--spacing-small);
+    }
+    
+}
 
 
 
@@ -1736,6 +1775,11 @@ metadata_rdf_graph-1,
 
 .left {
     text-align: left;
+}
+
+#collection_section {
+justify-content: center;
+
 }
 
 .grid-wrapper {
@@ -1756,16 +1800,43 @@ metadata_rdf_graph-1,
     border-radius: 8px;
     border: 2px solid var(--primary-color);
     transition: transform 0.3s ease;
+    filter: brightness(75%); 
 }
+
 
 .grid-item:hover {
     transform: scale(1.05);
+    filter: brightness(100%); 
 }
 
+
 /* Add background images to each grid item */
-.grid-item:nth-child(1) { background-image: url('images/cropped-buddha1.jpg'); }
-.grid-item:nth-child(2) { background-image: url('path/to/image2.jpg'); }
-.grid-item:nth-child(3) { background-image: url('path/to/image3.jpg'); }
+.grid-item:nth-child(1) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon1.jpg'); }
+.grid-item:nth-child(2) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nok1.jpg'); }
+.grid-item:nth-child(3) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/achaemenid.jpg'); }
+.grid-item:nth-child(4) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-nefertiti1.jpg'); }
+.grid-item:nth-child(5) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-pergamon1.jpg'); }
+.grid-item:nth-child(6) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-buddha1.jpg'); }
+.grid-item:nth-child(7) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-koh-diamond.jpg'); }
+.grid-item:nth-child(8) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/29477b3069e1990b2edaa682f2cb042be0de7af7/images/cropped-moaistatues1.jpg'); }
+.grid-item:nth-child(9) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-benin1.jpg'); }
+.grid-item:nth-child(10) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-summerpalace1.jpg'); }
+.grid-item:nth-child(11) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/158cae703e81c348853e750a2b07cabbe57beefe/images/cropped-gdansk1.jpeg'); }
+.grid-item:nth-child(12) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/b52944aa7ed653d50de657dbc19cfd4346d7080b/images/cropped-machu_picchu1.jpg'); }
+.grid-item:nth-child(13) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-maskqueen1.jpg'); }
+.grid-item:nth-child(14) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-tiputiger1.jpg'); }
+.grid-item:nth-child(15) { background-image: url('https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/96b84345ea7898f6aaa8d2d3c7733b9426fabb1e/images/cropped-throne1.jpg'); }
+
+
+
+
+
+
+
+
+
+
+
 /* ... continue for all grid items */
 
 
@@ -2716,10 +2787,17 @@ button.scroll-right{
     font-size: 1rem;
 }
 
+
 #tours-selection .expand-button {
     width: 45px;
     height: 45px; 
 }
+
+.start-tour-button {
+font-size: var(--font-size-large);
+}
+
+
 
 
 
@@ -2749,42 +2827,63 @@ button.scroll-right{
     #tours-selection .tours-container h3 {
         font-size: 1rem;
     }
+
+    .personalization-options h3{
+        margin-bottom: var(--spacing-small);
+    
+    }
     
     #tours-selection .expand-button {
         width: 40px;
         height: 40px; 
     }
-    
 
-    } 
-
-
-    @media screen and (max-width: 350px) {
-        #personalization-intro, #tours-selection {
-            padding: var(--spacing-small);
-           
+    .start-tour-button {
+        font-size: var(--base-font-size);
         }
+        
+    .personalization-options label {
+        font-size: 18px;
+    }
 
-        #personalization-intro p, #tours-selection .tours-container p {
-            font-size: 0.8rem;
-            line-height: 1.2;
-        }
 
-        #personalization-intro h2, #tours-selection h2 {
-            font-size: 1rem;
-        }
+} 
 
-        #tours-selection .tours-container h3 {
-            font-size: 0.9rem;
-        }
-       
-        #tours-selection .tour-section  {
-            padding: var(--spacing-small);
-           
-             
-        } 
+
+@media screen and (max-width: 350px) {
+    #personalization-intro, #tours-selection {
+        padding: var(--spacing-small);
         
     }
+
+    #personalization-intro p, #tours-selection .tours-container p {
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+
+    #personalization-intro h2, #tours-selection h2 {
+        font-size: 1rem;
+    }
+
+    #tours-selection .tours-container h3 {
+        font-size: 0.9rem;
+    }
+    
+    #tours-selection .tour-section  {
+        padding: var(--spacing-small);
+        
+            
+    } 
+    
+    .start-tour-button {
+        font-size: 15px;
+        }
+        
+        .personalization-options label {
+            font-size: var(--base-font-size);
+        }
+
+}
 
 }
 
