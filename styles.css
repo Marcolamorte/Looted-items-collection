@@ -902,7 +902,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     }
 
     #tours-presentation h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     #tours-introduction, #tours-presentation {
@@ -1675,6 +1675,53 @@ metadata_rdf_graph-1,
 }
 
 
+    /* MEDIA Queries Documentation page */
+
+
+    @media screen and (max-width: 768px) {
+        #tours-introduction, #tours-presentation, .object_page-des {
+            padding: var(--spacing-large);
+        }
+        #tours-introduction h2, #tours-presentation h2, .object_page-des h2 {
+            font-size: var(--spacing-large);
+        }
+
+        #object-visualization-des h3 {
+            font-size: 1.2rem;
+        }
+
+        #tours-introduction p, #tours-presentation p {
+            font-weight: 200;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        #tours-presentation p {
+            padding: var(--spacing-small);
+        }
+
+        .object_page-des p{
+            font-weight: 200;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        #table-2 {
+            width: 70%;
+            
+        
+        }
+
+        
+    }
+
+
+     @media screen and (max-width: 480px) {
+         #tours-presentation, .object_page-des {
+            padding: var(--spacing-small);
+        } 
+
+     } 
 
 
 
