@@ -75,7 +75,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Athens (Greece) - Now: London, UK",
             },
             "fun": {
               "short": "The Parthenon Marbles are sculptures that used to decorate an amazing temple in ancient Athens! Imagine walking around a giant building with statues of gods and heroes everywhere. Lord Elgin took these sculptures, and now they live in the British Museum instead of Greece. Fun fact: Greece has been asking for these marbles back for over 200 years!",
@@ -105,7 +105,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Nigeria - Now: Various European & US museums",
             },
             "fun": {
               "short": "The Nok people made these incredible clay statues more than 2,000 years ago! These figures are some of the earliest examples of African art. But today, many of these treasures are far away, in museums outside of Nigeria. Fun fact: Nok art is so old that it was created while some of the first cities in the world were being built!",
@@ -165,7 +165,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Egypt - Now: Berlin, Germany",
             },
             "fun": {
               "short": "Meet Queen Nefertiti! Her bust shows off her royal beauty, and it’s over 3,000 years old. German archaeologists took this sculpture to Berlin, and it’s been there for more than 100 years. Fun fact: Queen Nefertiti was famous for her beauty—and she’s still a star today!",
@@ -195,7 +195,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Pergamon (Turkey) - Now: Berlin, Germany",
             },
             "fun": {
               "short": "The Altar of Pergamon is like an ancient Greek temple! German archaeologists took it to Berlin, where it still stands today. It’s huge, and Turkey has been asking for it to come back. Fun fact: Imagine having to move an entire building—that’s how big this altar is!",
@@ -225,7 +225,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: India - Now: Birmingham, UK",
             },
             "fun": {
               "short": "This giant bronze Buddha statue, made about 1,500 years ago in India, weighs over 500 kilograms! It was found by British workers while they were building a railway. Today, you can visit it in Birmingham, UK. Fun fact: This statue is so big, it had to be transported in pieces!",
@@ -255,7 +255,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: India - Now: London, UK",
             },
             "fun": {
               "short": "The Koh-i-Noor diamond is one of the biggest diamonds in the world! Weighing a whopping 105 carats, it was taken by the British in 1849. Now it’s part of the Crown Jewels in London, where it sparkles for visitors. Fun fact: Legends say this diamond brings bad luck to men who wear it!",
@@ -285,7 +285,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Rapa Nui (Easter Island, Chile) - Now: London, UK",
             },
             "fun": {
               "short": "This giant stone statue, made by the Rapa Nui people of Easter Island, is one of the famous Moai statues! British sailors took it back to England in the 1800s, and now it’s in the British Museum. Fun fact: The Moai were carved to represent important ancestors, and some weigh more than 80 tons!",
@@ -315,7 +315,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & various European museums",
             },
             "fun": {
               "short": "These bronze sculptures, made by the Kingdom of Benin in Nigeria, are some of the most amazing works of African art! In 1897, British forces took them, and now they’re in museums in Europe. Fun fact: Some of these sculptures were used to decorate the royal palace in Benin!",
@@ -345,7 +345,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Beijing (China) - Now: London, UK & European museums",
             },
             "fun": {
               "short": "These treasures came from the Old Summer Palace in Beijing. British and French soldiers looted them during the Second Opium War in 1860. Fun fact: The Old Summer Palace was so huge, it had over 1,000 buildings filled with art and treasures!",
@@ -375,7 +375,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Gdańsk (Poland) - Now: Uppsala, Sweden",
             },
             "fun": {
               "short": "This medieval clock was made in Gdańsk, Poland. It was taken by German forces during World War II but later returned to Poland. Fun fact: The clock is so old, it has more than just hours—it shows the moon phases and zodiac signs, too!",
@@ -405,7 +405,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Cusco Region (Peru) - Now: New Haven, USA (Yale University, partial return)",
             },
             "fun": {
               "short": "The Machu Picchu artefacts include beautifully crafted pottery, tools, and ceremonial objects that showcase the incredible craftsmanship of the Inca civilization. These artefacts were taken from the ancient city of Machu Picchu by American archaeologist Hiram Bingham in the early 20th century. Many were returned to Peru in 2011. Fun fact: Bingham’s adventures inspired the character Indiana Jones! ",
@@ -435,7 +435,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & European collections",
             },
             "fun": {
               "short": "This stunning ivory mask depicts Queen Idia, a powerful figure in Nigerian history known for her role in the Kingdom of Benin. The mask was looted by British forces during their invasion of Benin in 1897. Fun fact: Queen Idia was the first woman in her kingdom to hold the title of Queen Mother! ",
@@ -465,7 +465,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Persepolis (Iran) - Now: London, UK",
             },
             "fun": {
               "short": "Tipu Sultan’s Tiger is a fascinating mechanical toy depicting a tiger attacking a British soldier, symbolizing the fierce resistance of Tipu Sultan against colonial rule. This unique artefact was taken by British soldiers after Tipu’s defeat in 1799. Fun fact: The tiger actually makes roaring sounds while the British soldier cries out! ",
@@ -495,7 +495,7 @@ function loadTourContent() {
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+                      "caption-2":  "Then: Dahomey (Benin Republic) - Now: Paris, France",
             },
             "fun": {
               "short": "The Throne of King Glele, adorned with intricate carvings of fierce animals like lions and panthers, showcases the artistry and power of the Benin Kingdom. This royal throne was taken by French soldiers during the late 19th century after the French-Dahomey wars, and it now resides in the Musée du Quai Branly in Paris. Fun fact: The throne's decorations were designed to symbolize the king’s strength and authority! ",
@@ -577,7 +577,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Pergamon (Turkey) - Now: Berlin, Germany",
             },
             "fun": {
               "short": "The Altar of Pergamon is like an ancient Greek temple! German archaeologists took it to Berlin, where it still stands today. It’s huge, and Turkey has been asking for it to come back. Fun fact: Imagine having to move an entire building—that’s how big this altar is!",
@@ -608,7 +608,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & various European museums",
             },
             "fun": {
               "short": "The Benin Bronzes are amazing works of art made by the Kingdom of Benin in Nigeria hundreds of years ago! These metal plaques and statues tell stories of the kingdom’s rich history. But British soldiers took them in the late 1800s, and now they’re far away in museums. Fun fact: The Bronzes were made by a very skilled group of artists who passed down their craft from generation to generation!",
@@ -639,7 +639,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Egypt - Now: Berlin, Germany",
             },
             "fun": {
               "short": "Queen Nefertiti was one of the most famous rulers of ancient Egypt! Her bust, showing her royal beauty, was taken by German archaeologists in the early 1900s and moved to Berlin, where it still is today.  Fun fact: Queen Nefertiti was known for her power and beauty—she was like a celebrity of ancient times!",
@@ -670,7 +670,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Gdańsk (Poland) - Now: Uppsala, Sweden",
             },
             "fun": {
               "short": "This clock was made in the 1400s to show the movement of the stars and planets! It was taken by German forces during World War II, and Poland has been trying to get it back ever since. Fun fact: The Gdańsk clock is not just a timekeeper—it’s a masterpiece of art and science from hundreds of years ago!",
@@ -701,7 +701,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: India - Now: London, UK",
             },
             "fun": {
               "short": "The Koh-i-Noor is one of the biggest and most famous diamonds in the world! It once belonged to Indian rulers, but the British took it after they conquered India. Fun fact: The Koh-i-Noor has had many owners—kings, queens, and even conquerors!",
@@ -732,7 +732,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Cusco Region (Peru) - Now: New Haven, USA (Yale University, partial return)",
             },
             "fun": {
               "short": "The artifacts from Machu Picchu were made by the Inca people, who built their city high up in the mountains of Peru! These treasures were taken by American explorers and are now far away in the US. Fun fact: Machu Picchu is one of the most famous ancient cities in the world, and people still visit it today!",
@@ -763,7 +763,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & European collections",
             },
             "fun": {
               "short": "The Mask of Queen Idia is a beautiful ivory mask from Nigeria, made to honour a powerful queen. But when the British attacked, they took the mask, and now it’s far from home.  Fun fact: Queen Idia was so important to her people that this mask was made to protect her spirit forever!",
@@ -794,7 +794,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Rapa Nui (Easter Island, Chile) - Now: London, UK",
             },
             "fun": {
               "short": "This Moai statue is one of the famous giant stone heads from Easter Island, made by the Rapa Nui people. But this one was taken by British sailors, and now it’s far from home in a museum.  Fun fact: The Rapa Nui made hundreds of these statues, which they believed held the spirits of their ancestors!",
@@ -825,7 +825,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Nigeria - Now: Various European & US museums",
             },
             "fun": {
               "short": "The Nok people made these incredible clay statues more than 2,000 years ago! These figures are some of the earliest examples of African art. But today, many of these treasures are far away, in museums outside of Nigeria. Fun fact: Nok art is so old that it was created while some of the first cities in the world were being built!",
@@ -856,7 +856,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Beijing (China) - Now: London, UK & European museums",
             },
             "fun": {
               "short": "The Old Summer Palace in China was once full of amazing treasures, but British and French soldiers destroyed it during a war and took many of its treasures away. These precious items are now in museums far from China. Fun fact: The palace was so big and full of art that it took days to loot and burn it down!",
@@ -887,7 +887,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Athens (Greece) - Now: London, UK",
             },
             "fun": {
               "short": "The Parthenon Marbles are beautiful sculptures that decorated an ancient temple in Athens! Lord Elgin took them to the UK, and now they’re in the British Museum. Greece has been asking for them back ever since. Fun fact: These marbles tell stories about Greek gods and heroes, and they’re more than 2,000 years old!",
@@ -918,7 +918,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: India - Now: Birmingham, UK",
             },
             "fun": {
               "short": "This giant statue of Buddha was found in India and taken by a British official. Now it’s in a museum in the UK! Fun fact: The Sultanganj Buddha is made of bronze and weighs more than a small car!",
@@ -949,7 +949,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Dahomey (Benin Republic) - Now: Paris, France",
             },
             "fun": {
               "short": "The throne of King Glele was a special seat for one of the kings of the Kingdom of Dahomey, which is now called Benin! The French took this royal throne after they defeated the kingdom in a battle. Fun fact: The throne was made with symbols of strength, like lions, to show how powerful the king was!",
@@ -980,7 +980,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Mysore (India) - Now: London, UK",
             },
             "fun": {
               "short": "Tipu Sultan’s Tiger is a mechanical toy that shows a tiger attacking a British soldier—it was made by Tipu Sultan, the ruler of Mysore in India! The British took it after defeating him in battle. Fun fact: The tiger could even make sounds and move like a real animal!",
@@ -1033,7 +1033,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & various European museums",
             },
             "fun": {
               "short": "These incredible bronze plaques once decorated the royal palace of the Benin Kingdom in Nigeria. British forces took them during the invasion of Benin in 1897. They now sit in museums around the world. Fun fact: The bronzes are so detailed that they show kings and warriors in action!",
@@ -1064,7 +1064,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Egypt - Now: Berlin, Germany",
             },
             "fun": {
               "short": "This beautiful bust of Queen Nefertiti was discovered by German archaeologists in 1912 and taken to Germany. It now sits in the Neues Museum in Berlin. Fun fact: Nefertiti’s name means “the beautiful one has come”!",
@@ -1095,7 +1095,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & European collections",
             },
             "fun": {
               "short": "This mask shows Queen Idia, a powerful woman in Nigerian history. British forces took it in 1897 during their invasion of Benin, and it now sits in a foreign museum. Fun fact: Queen Idia was the first woman to be given the title of Queen Mother in her kingdom!",
@@ -1126,7 +1126,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Nigeria - Now: Various European & US museums",
             },
             "fun": {
               "short": "These ancient clay statues are some of the oldest artworks from Africa, made by the Nok people. Sadly, many of them were looted by European collectors and now live in museums far from Nigeria. Fun fact: The Nok people created these statues more than 2,000 years ago!",
@@ -1157,7 +1157,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Dahomey (Benin Republic) - Now: Paris, France",
             },
             "fun": {
               "short": "This throne belonged to King Glele of Benin, and it was taken by French soldiers after a battle. Today, it’s in a French museum. Fun fact: The throne has cool carvings of lions and panthers to show off the king’s power!",
@@ -1188,7 +1188,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Cusco Region (Peru) - Now: New Haven, USA (Yale University, partial return)",
             },
             "fun": {
               "short": "The artifacts from Machu Picchu are amazing treasures from the Inca Empire! These beautiful objects were found in a lost city high in the Andes Mountains. During the early 20th century, explorers took many items back to Europe and North America. Fun fact: Machu Picchu is often called the Lost City of the Incas and was only rediscovered in 1911!",
@@ -1250,7 +1250,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: India - Now: London, UK",
             },
             "fun": {
               "short": "The Koh-i-Noor diamond is one of the most famous gems in the world! It was taken by the British from India and is now part of the British Crown Jewels. Many believe that the diamond was passed between rulers for centuries before it ended up in British hands. Fun fact: The Koh-i-Noor is thought to bring bad luck to men—only women can wear it safely!",
@@ -1281,7 +1281,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Beijing (China) - Now: London, UK & European museums",
             },
             "fun": {
               "short": "The Old Summer Palace was a grand royal residence in China filled with beautiful artwork and treasures. During the Second Opium War, British and French troops destroyed it and took many valuable items, which are now scattered in museums around the world. Fun fact: The Old Summer Palace was so big that it took over 3,000 soldiers to loot it!",
@@ -1312,7 +1312,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: India - Now: Birmingham, UK",
             },
             "fun": {
               "short": "This giant bronze Buddha statue was found in India and taken by British archaeologists to the UK in the 1800s. Now it lives in a museum far away from where it was created.  Fun fact: The statue is so big that it weighs over 500 kilograms—that’s as much as a grand piano!",
@@ -1343,7 +1343,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Mysore (India) - Now: London, UK",
             },
             "fun": {
               "short": "This mechanical tiger was made for Tipu Sultan, a ruler in India who fought against British colonization. It shows a tiger attacking a British soldier, and it was taken by the British after they defeated Tipu Sultan. Fun fact: Tipu Sultan’s Tiger can even growl like a real tiger thanks to its hidden machinery!",
@@ -1374,7 +1374,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Pergamon (Turkey) - Now: Berlin, Germany",
             },
             "fun": {
               "short": "The Altar of Pergamon is like an ancient Greek temple! German archaeologists took it to Berlin in the 19th century, and it’s massive. Turkey has been asking for it to come back for years! Fun fact: Moving the entire altar was a huge challenge—it’s like relocating a whole building!",
@@ -1405,7 +1405,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Gdańsk (Poland) - Now: Uppsala, Sweden",
             },
             "fun": {
               "short": "This amazing clock from Gdańsk is not just a timekeeper; it tells the story of Polish craftsmanship! It was taken by the Nazis during World War II and is now part of a collection in Germany. Fun fact: The clock can show not just the time but also the phases of the moon!",
@@ -1437,7 +1437,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Athens (Greece) - Now: London, UK",
             },
             "fun": {
               "short": "The Parthenon Marbles are stunning sculptures that used to decorate a grand temple in ancient Athens! They were taken by Lord Elgin in the early 1800s and are now displayed in the British Museum. Fun fact: Greece has been asking for these marbles back for over 200 years!",
@@ -1468,7 +1468,7 @@ function loadTourContent() {
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
+              "caption-2":  "Then: Rapa Nui (Easter Island, Chile) - Now: London, UK",
             },
             "fun": {
               "short": "The Moai statues of Easter Island are amazing stone figures made by the Rapa Nui people! One of these, Hoa Hakananai'a, was taken by British sailors in the 19th century and now stands in the British Museum. Fun fact: These giant statues were made to honor ancestors, and they can weigh over 80 tons!",
