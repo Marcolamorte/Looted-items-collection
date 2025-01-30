@@ -358,19 +358,19 @@
             </p>
             <p id="metadata_table_p-3">
                 The table is composed by two columns: the one in the left contains the Dublin core elements, while the other in the right contains the corresponding values. Here is an example of the code structure of the table:
-                <img src=".\images\table1.png" id="table-1" alt="Table image" />
+                <img src="https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/5118ffe0397b97d09b4c4b7f24d1951a8fe5d6aa/images/table1.png" id="table-1" alt="Table image" />
                 The following image is how the table appears in the web page:
                 <br>
-                <img src=".\images\table2.png" id="table-2" alt="Table image" />
+                <img src="https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/5118ffe0397b97d09b4c4b7f24d1951a8fe5d6aa/images/table2.png" id="table-2" alt="Table image" />
             </p>
             <p id="metadata_table_p-4">
                 Each table then was uploaded on a GitHub repository and then, to be visualized correctly, the <strong> raw link </strong> of the table on the GitHub repository was inserted into a JavaScript file (<i>object-page.js</i>) as part of a variable (<i>const data</i> in the JavaScript file) containing all the information of each item to be displayed in the object-page. Below an example of how is structered the information whithin the variable.
-                <img src=".\images\table3.png" id="table-3" alt="Table image" />
+                <img src="https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/5118ffe0397b97d09b4c4b7f24d1951a8fe5d6aa/images/table3.png" id="table-3" alt="Table image" />
                 As it can be seen in the image above, in the <i>const data</i> variable there is a metadata section containing a key-value pair for the RDF graph elements and the html table, where for example the key is <i>“Table”</i> and the value is the <i>"raw link"</i>. 
             </p>
             <p id="metadata_table_p-5">
                 To visualize the <strong>Table content</strong> content, it was used a JavaScript code to identify the exact point where to inject inside the div <i>metadata-content</i> of the Object page.html, and fetching it with the raw link provided in the <i>const data</i>variable. The code used for this operation was the following:
-                <img src=".\images\table4.png" id="table-4" alt="Table image" />
+                <img src="https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/5118ffe0397b97d09b4c4b7f24d1951a8fe5d6aa/images/table4.png" id="table-4" alt="Table image" />
                 The variable <strong> TableMetadata = document.getElementById('table-metadata')</strong> identifies the point whitin the div metadata-content where to load the table while the fetch(tableURL) uses the table url to get the table content with a http GET request and the TableMetadata.innerHTML = data, updates the TableMetadata element with the obtained content.
                 <br>
                 These steps are done for the tables of every item and in this way, using the javascript code it is possibile to update dinamically the content table corresponding to the right object to show.
@@ -384,7 +384,7 @@
             </p id="metadata_rdf_graph-2">
             <p>
                 After that it was used the <strong>RDF grapher</strong> web service for parsing RDF data and visualizing it as a graph. What we got are high resolution images of the rdf graph to be put within the <i>metadata-container</i>. The image can be clicked and opened to its full width, it is possible also to zoom in/out and pan around to explore the full graph. Here an example of the image obtained:
-                <img src= ".\rdf_files_graphs\1_Africa_Benin_Bronzes.png" id="rdf-image" alt="rdf graph image" />
+                <img src= "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/5118ffe0397b97d09b4c4b7f24d1951a8fe5d6aa/rdf_files_graphs/1_Africa_Benin_Bronzes.png" id="rdf-image" alt="rdf graph image" />
             </p>
             <p id="metadata_rdf_graph-3">
                 Below the image there is a section that helps the user to interact better with the graph using an external tool. In particular, it is possible to use the link of the rdf file hosted in the github repository and pasting it in the <i>Visualize Web page</i> section of <strong>isSemantic.net</strong>, a rdf visualizer tool, accessible through the “View on -isSemantic.net” button at the end of the section.
