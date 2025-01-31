@@ -2049,17 +2049,25 @@ section.map-object_aside-panel {
     padding-top: var(--spacing-large);
     width: 80%;
     height: auto;
+    /* border: 1px solid var(--accent1-color); */
 }
 
+#room-num {
+    text-align: center;
+    width: 80%;
+    margin-top: var(--spacing-small);
+    font-size: large;
+    font-weight: bold;
+}
 
 
 /* map-page section container */
 .aside-panel {
     border: 2px solid var(--primary-color);
     border-radius:10px;
-    margin-top: calc(var(--spacing-large)*5);
-    margin-right: calc(var(--spacing-large)*4);
-    margin-bottom: var(--spacing-small);
+    margin-top: calc(var(--spacing-large)*2);
+    margin-right: calc(var(--spacing-large)*3);
+    margin-bottom: var(--spacing-large);
     text-align: left;
     width: 30%;
     padding: var(--spacing-small) var(--spacing-small) var(--spacing-small) var(--spacing-small);
@@ -2195,7 +2203,7 @@ button.scroll-right{
     margin-right: calc(var(--spacing-large)*4);
     padding-left: var(--spacing-small);
     height: 75vh;
-    padding: calc(var(--spacing-small)*2) var(--spacing-large) calc(var(--spacing-large)*2) var(--spacing-large);
+    padding: var(--spacing-large);
     display: flex;
     flex-direction: column;
 }
@@ -2211,6 +2219,14 @@ button.scroll-right{
     border-radius:10px;
     margin-top: calc(var(--spacing-large)*2);
     flex: 1;
+}
+
+#geo-des {
+    text-align: center;
+    margin-top: var(--spacing-small);
+    font-size: large;
+    font-weight: bold;
+
 }
 /* !--map-page section end--! */
 

@@ -71,7 +71,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -101,7 +102,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -131,7 +133,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -162,6 +165,7 @@ function loadTourContent() {
                   "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
               },
               "maps": {
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -191,7 +195,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -221,7 +226,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -251,7 +257,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -281,7 +288,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -303,7 +311,7 @@ function loadTourContent() {
               "long": "The Moai statue known as Hoa Hakananai’a, carved between 1000 and 1500 CE, stands as one of the most significant examples of Rapa Nui artistry and spirituality, yet its current home in the British Museum exemplifies the lasting scars of colonialism. The Moai statues, carved from volcanic tuff, represent the “mana” (spiritual energy) of deified ancestors, who were believed to protect the island’s inhabitants. Hoa Hakananai’a, in particular, is unique for the intricate carvings on its back, which depict motifs associated with the “birdman” cult, a religious tradition that emerged later in Easter Island’s history. The statue’s spiritual importance is tied not only to its representation of a revered ancestor but also to its place within the broader religious practices of the Rapa Nui people. The removal of Hoa Hakananai’a from Easter Island in 1868, during a British naval expedition, was emblematic of a larger trend of cultural extraction that occurred during the colonial period. The British sailors who took the statue aboard the HMS “Topaze” saw it as an exotic artifact, a trophy of their exploration, without any consideration of its profound cultural and religious significance to the Rapa Nui people. In fact, the name Hoa Hakananai’a translates to “stolen or hidden friend,” reflecting the pain of its removal from the island and the rupture it created in the spiritual landscape of the Rapa Nui. The statue was subsequently gifted to Queen Victoria and eventually placed in the British Museum, where it has been displayed for over 150 years as a masterpiece of Pacific Island art. However, for the Rapa Nui, the statue’s displacement is not just a matter of artistic appreciation but of spiritual and cultural loss. The Moai were created as physical manifestations of the spirits of revered ancestors, believed to watch over the land and ensure the prosperity of the people. By removing Hoa Hakananai’a, the British not only took an object of immense artistic value but also severed a critical link between the Rapa Nui and their spiritual traditions. The statue’s absence from the island represents a rupture in the sacred connection between the living and the dead, a disruption to the island’s “mana” that continues to be felt by the Rapa Nui community to this day. The debate over the repatriation of Hoa Hakananai’a highlights broader questions about the ethics of cultural heritage and the legacy of colonialism. The British Museum, like many Western institutions, holds vast collections of artifacts acquired during the colonial era, often through methods that were exploitative or outright coercive. While these objects are displayed as part of the world’s shared cultural history, their presence in European museums often obscures the violent histories of their removal and the deep cultural significance they hold for the communities from which they were taken. In the case of Hoa Hakananai’a, the Rapa Nui have made repeated calls for its return, arguing that its cultural and spiritual importance far outweighs its value as an exhibit in a foreign museum. The British Museum’s reluctance to return the statue, citing concerns over its preservation and its role in educating the global public, reflects the tensions between the desire to maintain universal access to world heritage and the need for restitution to the communities who were historically wronged. For the Rapa Nui, the statue’s return is not simply about reclaiming a piece of their past but about restoring a vital part of their spiritual identity. Hoa Hakananai’a was not meant to be a static object in a glass case—it was meant to stand among its fellow Moai, guarding the island and its people as part of a living tradition that continues to shape the identity of the Rapa Nui today. This debate is part of a wider reckoning with the legacy of colonialism, as indigenous communities around the world call for the return of sacred objects, human remains, and cultural artifacts that were taken without consent. For many of these communities, the return of these items is essential for healing the wounds of colonialism and restoring the cultural equilibrium that was disrupted by their removal. The case of Hoa Hakananai’a is emblematic of this larger struggle, as the Rapa Nui continue to fight for the restitution of their heritage in the face of resistance from the very institutions that profited from its displacement. The return of Hoa Hakananai’a to Easter Island would be a powerful symbol of justice and reconciliation, not only for the Rapa Nui but for indigenous communities everywhere. It would signal a recognition of the deep cultural and spiritual significance of these objects beyond their aesthetic value and affirm the rights of indigenous peoples to reclaim their heritage. The Moai statues, including Hoa Hakananai’a, are not merely artifacts of a distant past—they are living embodiments of the Rapa Nui’s connection to their ancestors, their land, and their identity. The return of the statue would mark a crucial step in the ongoing efforts to right the wrongs of colonialism and restore the cultural legacies that were taken from indigenous peoples around the world."
             }
           },
-          "item9": {
+          "item9": { 
             "title": "Benin Bronzes - 13th-19th century",
             "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-benin1.jpg",
             "metadata":{
@@ -311,7 +319,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -341,7 +350,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -371,7 +381,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -393,7 +404,7 @@ function loadTourContent() {
               "long": "The Gdańsk Astronomical Clock, a masterpiece of medieval engineering and artistry, was constructed between 1464 and 1470 by Hans Düringer. This intricate clock not only serves the practical purpose of telling time but also embodies the intellectual and artistic aspirations of the Renaissance period. Positioned within St. Mary’s Church in Gdańsk, the clock is renowned for its elaborate mechanism that tracks various celestial phenomena, including the lunar phases and the movement of zodiac signs, reflecting the medieval worldview that intertwined daily life with cosmic cycles. The clock’s craftsmanship exemplifies the advanced technological understanding of the era. The intricate gears and pulleys showcase the remarkable skills of the artisans who designed it, and the animated figures that emerge at designated hours enhance its allure, making it a focal point for both locals and visitors. The symbolism embedded in the clock’s design resonates deeply within the cultural context of Gdańsk, a city that was a hub of trade and culture in the medieval period. The clock not only marks the passage of time but also serves as a reminder of the city's rich history and its connection to the broader currents of European thought. However, the clock's historical significance extends beyond its technical marvels. During World War II, the Gdańsk Astronomical Clock was seized by Nazi forces, an act that represents a broader pattern of cultural destruction and looting that characterized the war. The removal of the clock from its rightful place in St. Mary’s Church symbolized the erasure of local identity and heritage amidst the chaos of conflict. For the people of Gdańsk, the clock's loss was not merely a theft of a physical object; it was a severing of ties to their cultural and historical narrative. In 1958, the clock was returned to Poland as part of post-war restitution efforts, marking a significant moment in the ongoing discourse surrounding cultural heritage and its restitution. The return of the Gdańsk Astronomical Clock is a rare success story in the realm of cultural property repatriation, demonstrating that even in the wake of devastating loss, reconciliation and recovery are possible. This event underscored the importance of addressing historical injustices and restoring cultural artifacts to their rightful places, contributing to a collective healing process for nations grappling with the legacies of colonialism and war. Today, the Gdańsk Astronomical Clock serves not only as a functional timepiece but also as a potent symbol of resilience and cultural identity. It stands as a testament to the enduring nature of human creativity and the importance of preserving our cultural heritage. The clock's intricate design and rich history invite visitors to engage with the complex interplay of art, science, and history, prompting reflections on the broader implications of cultural restitution and the significance of safeguarding our shared heritage. As we marvel at the beauty and ingenuity of the Gdańsk Astronomical Clock, we are reminded of the broader narratives of cultural memory and identity that it represents. It serves as a focal point for discussions about the responsibilities we hold in preserving our cultural treasures and acknowledging the past’s impact on the present. The clock encapsulates the intricate relationship between human endeavor, technological advancement, and cultural continuity, inviting us to consider our role in honoring and safeguarding the legacy of those who came before us."
             }
           },
-          "item12": {
+          "item12": { 
             "title": "Machu Picchu Artefacts - 15th century",
             "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/b52944aa7ed653d50de657dbc19cfd4346d7080b/images/cropped-machu_picchu1.jpg",
             "metadata":{
@@ -401,7 +412,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -431,7 +443,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -461,7 +474,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -491,7 +505,8 @@ function loadTourContent() {
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
             },
-            "maps": {
+            "maps": { 
+                      "Title-map": "TIMELINE TOUR MAP",
                       "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -543,6 +558,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -574,6 +590,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -605,6 +622,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -636,6 +654,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -667,6 +686,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -698,6 +718,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -729,6 +750,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -760,6 +782,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -791,6 +814,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -822,6 +846,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -853,6 +878,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -884,6 +910,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -915,6 +942,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -946,6 +974,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -977,6 +1006,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
             },
             "maps": {
+              "Title-map": "COLONIAL CONQUEST TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1030,6 +1060,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1061,6 +1092,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1092,6 +1124,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1123,6 +1156,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1154,6 +1188,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1185,6 +1220,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1216,6 +1252,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1247,6 +1284,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1278,6 +1316,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1309,6 +1348,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1340,6 +1380,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1371,6 +1412,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1402,6 +1444,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1434,6 +1477,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
@@ -1465,6 +1509,7 @@ function loadTourContent() {
                 "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
             },
             "maps": {
+              "Title-map": "GEO TOUR MAP",
               "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
               "caption-1": "Room 3 - Colonization in Ancient History",
               "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
