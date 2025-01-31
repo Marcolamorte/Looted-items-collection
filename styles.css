@@ -1796,6 +1796,7 @@ flex-direction: column;
 /* height: 100%; */
 height: auto;
 width: auto;
+margin-top: calc(var(--spacing-large)*2);
 margin-bottom: calc(var(--spacing-large)*2);
 min-width: 300px;
 
