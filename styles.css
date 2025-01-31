@@ -2003,11 +2003,14 @@ nav.nav_map-page {
     margin-left: var(--spacing-large);
 }
 
+#map_page-tours-buttons {
+    gap: calc(var(--spacing-large)*2);
+}
 
 /* main map-page */
 main.main_map-page {
     margin: 0;
-    margin-top: calc(var(--spacing-large)*5);
+    margin-top: calc(var(--spacing-large)*3);
     margin-bottom: calc(var(--spacing-large)*10);
 }
 
@@ -2036,6 +2039,8 @@ section.map-object_aside-panel {
     display: flex;
     justify-content: flex-start;
     height: auto;
+    margin-top: calc(var(--spacing-large)*3);
+    position: relative;
 }
 
 /* map-page section container */
@@ -2134,15 +2139,17 @@ button.scroll-left{
     color:white;
     font-size: var(--font-size-large);
     cursor: pointer;
-    z-index: 2;
+    z-index: 10;
     position: absolute; 
-    top: 50%;  
-    transform: translateY(-50%);  
+    top: 50%; 
+    /* left: 30%; */
+    transform: translate(0%, -50%); 
     padding: 10px;
     display: flex;
     justify-content: center;
     line-height: 1;
-    left: 100px; 
+    /* left: 100px;  */
+   
 }
 
 /* scroll-right button gallery map-page  */
@@ -2153,17 +2160,61 @@ button.scroll-right{
     color:white;
     font-size: var(--font-size-large);
     cursor: pointer;
-    z-index: 2; 
+    z-index: 10; 
     position: absolute; 
     top: 50%;  
-    transform: translateY(-50%);  
+    transform: translate(0, -50%); /* Lo sposta avanti per centrarlo meglio */ 
     padding: 10px;
     display: flex;
     justify-content: center;
     line-height: 1;
-    right: 80px; 
-}
     
+}
+
+button.scroll-left, button.scroll-right {
+    opacity: 0; 
+    pointer-events: none; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+.geolocalization::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    right: -100px;
+    bottom: -20px;
+    background: transparent;
+    z-index: 1; 
+    pointer-events: auto;
+}
+
+
+.map-object_aside-panel:hover button.scroll-left,
+.map-object_aside-panel:hover button.scroll-right,
+.geolocalization:hover button.scroll-left,
+.geolocalization:hover button.scroll-right {
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+
+
+
+.map-object_aside-panel button.scroll-left {
+    left: 30px; 
+}
+.map-object_aside-panel button.scroll-right {
+    right: -30px; 
+}
+
+
+.geolocalization button.scroll-left {
+    left: -100px; 
+}
+.geolocalization button.scroll-right {
+    right: -100px; 
+}
     
 /* map-page metadata  */
 .metadata {
