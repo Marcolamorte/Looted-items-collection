@@ -2092,6 +2092,16 @@ section.map-object_aside-panel {
     flex: 1; 
 }
 
+.object-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+   
+}
+
 /* map-page gallery */
 .gallery {
     position: relative;
