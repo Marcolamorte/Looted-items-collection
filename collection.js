@@ -1521,84 +1521,131 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const selectedTour = localStorage.getItem("selectedTour");
-        const selectedItem = localStorage.getItem("selectedItem");
-    
-  
-        console.log("Dati recuperati su map_page:");
-        console.log("Tour selezionato:", selectedTour);
-        console.log("Oggetto selezionato:", selectedItem);
-    
-        if (!selectedTour || !selectedItem) {
-            console.error("Errore: Tour o oggetto non selezionati.");
-            return;
-        }
-    
-        if (!data[selectedTour] || !data[selectedTour]["texts"][selectedItem]) {
-            console.error("Errore: Tour o oggetto non trovati nei dati.");
-            return;
-        }
-    
-        const objectData = data[selectedTour]["texts"][selectedItem];
-    
-        console.log("Dati dell'oggetto selezionato:", objectData); // Debugging
-    
-
-        displayItemData(objectData);
-    });
-
-
-    
-
-
-    function displayItemData(objectData) {
-      document.querySelector(".aside-panel h2").textContent = objectData.title;
-      document.querySelector(".object-box").innerHTML = `<img src="${objectData.image}" alt="${objectData.title}">`;
-      document.querySelector(".map_rooms h2").textContent = objectData.maps["Title-map"];
-      document.querySelector(".map_rooms img").src = objectData.maps["museum-map"];
-      document.querySelector("#room-num").textContent = objectData.maps["caption-1"];
-      document.querySelector(".geolocalization-box").innerHTML = `<img src="${objectData.maps["geo-map"]}" alt="Geo Map">`;
-      document.querySelector("#geo-des").textContent = objectData.maps["caption-2"];
-  }
-      
-
-  function changeTourButton(tourName) {
-    if (!data[tourName]) {
-        console.error("Tour non trovato:", tourName);
-        return;
-    }
-
-    const firstItemKey = data[tourName].items[0];
-    const item = data[tourName].texts[firstItemKey];
-
-    if (!item) {
-        console.error("Oggetto non trovato per il tour:", tourName);
-        return;
-    }
-
-    
-    document.querySelector(".aside-panel h2").textContent = item.title;
-    document.querySelector(".object-box img").src = item.image;
-    document.querySelector(".map_rooms h2").textContent = item.maps["Title-map"];
-    document.querySelector(".map_rooms img").src = item.maps["museum-map"];
-    document.querySelector("#room-num").textContent = item.maps["caption-1"];
-    document.querySelector(".geolocalization-box img").src = item.maps["geo-map"];
-    document.querySelector("#geo-des").textContent = item.maps["caption-2"];
-}
 
 document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("timeline-button").addEventListener("click", () => changeTourButton("Timeline Tour"));
-  document.getElementById("colonial-button").addEventListener("click", () => changeTourButton("Colonial Conquests Tour"));
-  document.getElementById("geo-button").addEventListener("click", () => changeTourButton("Geo Tour"));
+  // Recupera tour e item selezionato dal localStorage
+  const selectedTour = localStorage.getItem("selectedTour");
+  const selectedItem = localStorage.getItem("selectedItem");
 
-  
-  
+  console.log("Dati recuperati su map_page:");
+  console.log("Tour selezionato:", selectedTour);
+  console.log("Oggetto selezionato:", selectedItem);
+
+  if (!selectedTour || !selectedItem) {
+    console.error("Errore: Tour o oggetto non selezionati.");
+    return;
+  }
+
+  if (!data[selectedTour] || !data[selectedTour]["texts"][selectedItem]) {
+    console.error("Errore: Tour o oggetto non trovati nei dati.");
+    return;
+  }
+
+  // Variabili per tenere traccia del tour corrente e dell'indice dell'item visualizzato
+  let currentTour = selectedTour;
+  let itemsArray = data[currentTour].items;
+  let currentIndex = itemsArray.indexOf(selectedItem);
+  if (currentIndex === -1) {
+    currentIndex = 0;
+  }
+
+  // Visualizza l'item corrente
+  displayItemData(data[currentTour].texts[itemsArray[currentIndex]]);
+
+  // Gestione del bottone "next" (avanti) senza wrap-around
+  document.getElementById("next-button").addEventListener("click", function () {
+    if (currentIndex < itemsArray.length - 1) {
+      currentIndex++;
+      const newItemKey = itemsArray[currentIndex];
+      const newItemData = data[currentTour].texts[newItemKey];
+      if (!newItemData) {
+        console.error("Dati non trovati per l'item:", newItemKey);
+        return;
+      }
+      displayItemData(newItemData);
+      localStorage.setItem("selectedItem", newItemKey);
+    } else {
+      console.log("Hai raggiunto l'ultimo oggetto del tour.");
+    }
+  });
+
+  // Gestione del bottone "prev" (indietro) senza wrap-around
+  document.getElementById("prev-button").addEventListener("click", function () {
+    if (currentIndex > 0) {
+      currentIndex--;
+      const newItemKey = itemsArray[currentIndex];
+      const newItemData = data[currentTour].texts[newItemKey];
+      if (!newItemData) {
+        console.error("Dati non trovati per l'item:", newItemKey);
+        return;
+      }
+      displayItemData(newItemData);
+      localStorage.setItem("selectedItem", newItemKey);
+    } else {
+      console.log("Sei già al primo oggetto del tour.");
+    }
+  });
+
+  // Event listeners per i bottoni che cambiano il tour
+  document.getElementById("timeline-button").addEventListener("click", function () {
+    changeTourButton("Timeline Tour");
+    currentTour = "Timeline Tour";
+    itemsArray = data[currentTour].items;
+    currentIndex = 0;
+    localStorage.setItem("selectedTour", currentTour);
+    localStorage.setItem("selectedItem", itemsArray[currentIndex]);
+  });
+
+  document.getElementById("colonial-button").addEventListener("click", function () {
+    changeTourButton("Colonial Conquests Tour");
+    currentTour = "Colonial Conquests Tour";
+    itemsArray = data[currentTour].items;
+    currentIndex = 0;
+    localStorage.setItem("selectedTour", currentTour);
+    localStorage.setItem("selectedItem", itemsArray[currentIndex]);
+  });
+
+  document.getElementById("geo-button").addEventListener("click", function () {
+    changeTourButton("Geo Tour");
+    currentTour = "Geo Tour";
+    itemsArray = data[currentTour].items;
+    currentIndex = 0;
+    localStorage.setItem("selectedTour", currentTour);
+    localStorage.setItem("selectedItem", itemsArray[currentIndex]);
+  });
 });
 
+function displayItemData(objectData) {
+  document.querySelector(".aside-panel h2").textContent = objectData.title;
+  document.querySelector(".object-box").innerHTML = `<img src="${objectData.image}" alt="${objectData.title}">`;
+  document.querySelector(".map_rooms h2").textContent = objectData.maps["Title-map"];
+  document.querySelector(".map_rooms img").src = objectData.maps["museum-map"];
+  document.querySelector("#room-num").textContent = objectData.maps["caption-1"];
+  document.querySelector(".geolocalization-box").innerHTML = `<img src="${objectData.maps["geo-map"]}" alt="Geo Map">`;
+  document.querySelector("#geo-des").textContent = objectData.maps["caption-2"];
+}
 
+function changeTourButton(tourName) {
+  if (!data[tourName]) {
+    console.error("Tour non trovato:", tourName);
+    return;
+  }
 
+  const firstItemKey = data[tourName].items[0];
+  const item = data[tourName].texts[firstItemKey];
 
+  if (!item) {
+    console.error("Oggetto non trovato per il tour:", tourName);
+    return;
+  }
 
-
+  // Aggiorna i contenuti con i dati del primo item del tour
+  document.querySelector(".aside-panel h2").textContent = item.title;
+  document.querySelector(".object-box").innerHTML = `<img src="${item.image}" alt="${item.title}">`;
+  document.querySelector(".map_rooms h2").textContent = item.maps["Title-map"];
+  document.querySelector(".map_rooms img").src = item.maps["museum-map"];
+  document.querySelector("#room-num").textContent = item.maps["caption-1"];
+  document.querySelector(".geolocalization-box").innerHTML = `<img src="${item.maps["geo-map"]}" alt="Geo Map">`;
+  document.querySelector("#geo-des").textContent = item.maps["caption-2"];
+}
 
