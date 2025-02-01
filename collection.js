@@ -1522,7 +1522,63 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
+    // document.addEventListener("DOMContentLoaded", function () {
+     
+    //   const iconLink = document.querySelector("a.icon-link");
+    //   if (iconLink) {
+    //     iconLink.addEventListener("click", function (e) {
+    //       const currentPath = window.location.pathname;
+        
+    //       if (currentPath.endsWith("map_page.html")) {
+    //         e.preventDefault(); 
+    //         window.location.reload();
+    //       } else {
+           
+    //         if (!sessionStorage.getItem("iconLinkClicked")) {
+             
+    //           localStorage.clear();
+    //           const defaultTour = "Timeline Tour";
+    //           const defaultItem = data[defaultTour].items[0];
+    //           localStorage.setItem("selectedTour", defaultTour);
+    //           localStorage.setItem("selectedItem", defaultItem);
+    //           sessionStorage.setItem("iconLinkClicked", "true");
+    //           console.log("Reset effettuato: dati di default impostati per il Timeline Tour.");
+    //         } else {
+    //           console.log("Il link è stato cliccato precedentemente in questa sessione, non si esegue il reset.");
+    //         }
+           
+    //       }
+    //     });
+    //   }
+    
+    document.addEventListener("DOMContentLoaded", function () {
+      // Gestione del click sul link con classe "icon-link"
+      const iconLink = document.querySelector("a.icon-link");
+      if (iconLink) {
+        iconLink.addEventListener("click", function (e) {
+          const currentPath = window.location.pathname;
+          // Se siamo già su map_page.html, esegui il reload della pagina
+          if (currentPath.endsWith("map_page.html")) {
+            e.preventDefault(); // Previeni la navigazione automatica
+            window.location.reload();
+          } else {
+            // Se siamo su una pagina diversa da map_page.html:
+            // Controlla se nel localStorage non sono presenti dati
+            if (!localStorage.getItem("selectedTour") || !localStorage.getItem("selectedItem")) {
+              // Imposta i valori di default
+              localStorage.clear();
+              const defaultTour = "Timeline Tour";
+              const defaultItem = data[defaultTour].items[0];
+              localStorage.setItem("selectedTour", defaultTour);
+              localStorage.setItem("selectedItem", defaultItem);
+              console.log("Dati di default impostati: Timeline Tour, primo oggetto.");
+            }
+            // Il link proseguirà verso map_page.html senza ulteriori modifiche
+          }
+        });
+      }
+    
+
   
   const selectedTour = localStorage.getItem("selectedTour");
   const selectedItem = localStorage.getItem("selectedItem");
