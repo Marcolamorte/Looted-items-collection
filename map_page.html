@@ -183,6 +183,21 @@
             <button class="scroll-left" id="prev-button">←</button>
             <button class="scroll-right"id="next-button">→</button>
 
+
+            <!-- This html snippet is for the modal container of the img -->
+            <div id="imageModal" class="modal">
+                <!-- “X” close button -->
+                <span class="close" onclick="closeModal()">&times;</span>
+                
+                <!-- Container for the image we want to show enlarged -->
+                <div class="modal-content">
+                <img id="expandedImg" src="" alt="Full size image" />
+                </div>
+            </div>
+            <!-- End of the modal container -->
+
+
+
         </main>
         <!-- Main map page end -->
 
@@ -193,6 +208,7 @@
         <script src="toggle-navbar.js"></script>
         <script src="start-tour-button.js"></script>
         <script src="collection.js"></script>
+        <script src="images-vis.js"></script>
 
         <!-- Footer Map page -->
         <footer>
