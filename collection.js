@@ -1522,56 +1522,79 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     document.addEventListener("DOMContentLoaded", function () {
-        // Recuperiamo i dati salvati nel localStorage
         const selectedTour = localStorage.getItem("selectedTour");
         const selectedItem = localStorage.getItem("selectedItem");
     
-        // Verifica se i dati sono stati effettivamente salvati
+  
         console.log("Dati recuperati su map_page:");
         console.log("Tour selezionato:", selectedTour);
         console.log("Oggetto selezionato:", selectedItem);
     
-        // Controllo se i dati esistono, altrimenti mostra un errore in console
         if (!selectedTour || !selectedItem) {
             console.error("Errore: Tour o oggetto non selezionati.");
             return;
         }
     
-        // Controlliamo se il dataset contiene il tour e l'oggetto selezionato
         if (!data[selectedTour] || !data[selectedTour]["texts"][selectedItem]) {
             console.error("Errore: Tour o oggetto non trovati nei dati.");
             return;
         }
     
-        // Recuperiamo i dati dell'oggetto selezionato
         const objectData = data[selectedTour]["texts"][selectedItem];
     
         console.log("Dati dell'oggetto selezionato:", objectData); // Debugging
     
-        // Ora mostriamo i dati nella pagina
+
         displayItemData(objectData);
     });
 
 
+    
+
+
     function displayItemData(objectData) {
-      // Aggiorna il titolo dell'oggetto
       document.querySelector(".aside-panel h2").textContent = objectData.title;
-  
-      // Aggiorna l'immagine principale dell'oggetto
       document.querySelector(".object-box").innerHTML = `<img src="${objectData.image}" alt="${objectData.title}">`;
-  
-      // Aggiorna le mappe
       document.querySelector(".map_rooms h2").textContent = objectData.maps["Title-map"];
       document.querySelector(".map_rooms img").src = objectData.maps["museum-map"];
       document.querySelector("#room-num").textContent = objectData.maps["caption-1"];
-  
-      document.querySelector(".geolocalization h2").textContent = "Geolocalization";
       document.querySelector(".geolocalization-box").innerHTML = `<img src="${objectData.maps["geo-map"]}" alt="Geo Map">`;
       document.querySelector("#geo-des").textContent = objectData.maps["caption-2"];
   }
       
 
+  function changeTourButton(tourName) {
+    if (!data[tourName]) {
+        console.error("Tour non trovato:", tourName);
+        return;
+    }
 
+    const firstItemKey = data[tourName].items[0];
+    const item = data[tourName].texts[firstItemKey];
+
+    if (!item) {
+        console.error("Oggetto non trovato per il tour:", tourName);
+        return;
+    }
+
+    
+    document.querySelector(".aside-panel h2").textContent = item.title;
+    document.querySelector(".object-box img").src = item.image;
+    document.querySelector(".map_rooms h2").textContent = item.maps["Title-map"];
+    document.querySelector(".map_rooms img").src = item.maps["museum-map"];
+    document.querySelector("#room-num").textContent = item.maps["caption-1"];
+    document.querySelector(".geolocalization-box img").src = item.maps["geo-map"];
+    document.querySelector("#geo-des").textContent = item.maps["caption-2"];
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("timeline-button").addEventListener("click", () => changeTourButton("Timeline Tour"));
+  document.getElementById("colonial-button").addEventListener("click", () => changeTourButton("Colonial Conquests Tour"));
+  document.getElementById("geo-button").addEventListener("click", () => changeTourButton("Geo Tour"));
+
+  
+  
+});
 
 
 
