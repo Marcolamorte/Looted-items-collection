@@ -1523,7 +1523,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Recupera tour e item selezionato dal localStorage
+  
   const selectedTour = localStorage.getItem("selectedTour");
   const selectedItem = localStorage.getItem("selectedItem");
 
@@ -1541,7 +1541,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  // Variabili per tenere traccia del tour corrente e dell'indice dell'item visualizzato
+  
   let currentTour = selectedTour;
   let itemsArray = data[currentTour].items;
   let currentIndex = itemsArray.indexOf(selectedItem);
@@ -1549,7 +1549,7 @@ document.addEventListener("DOMContentLoaded", function () {
     currentIndex = 0;
   }
 
-  // Visualizza l'item corrente
+  
   displayItemData(data[currentTour].texts[itemsArray[currentIndex]]);
 
   // Gestione del bottone "next" (avanti) senza wrap-around
@@ -1569,7 +1569,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Gestione del bottone "prev" (indietro) senza wrap-around
+ 
   document.getElementById("prev-button").addEventListener("click", function () {
     if (currentIndex > 0) {
       currentIndex--;
@@ -1586,7 +1586,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Event listeners per i bottoni che cambiano il tour
+  
   document.getElementById("timeline-button").addEventListener("click", function () {
     changeTourButton("Timeline Tour");
     currentTour = "Timeline Tour";
@@ -1639,7 +1639,7 @@ function changeTourButton(tourName) {
     return;
   }
 
-  // Aggiorna i contenuti con i dati del primo item del tour
+  
   document.querySelector(".aside-panel h2").textContent = item.title;
   document.querySelector(".object-box").innerHTML = `<img src="${item.image}" alt="${item.title}">`;
   document.querySelector(".map_rooms h2").textContent = item.maps["Title-map"];
