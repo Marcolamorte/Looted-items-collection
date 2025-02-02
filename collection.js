@@ -1397,9 +1397,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20pergamon%20altar.svg",
+              "caption-1": "Room 1 - Ancient Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20pergamon%20altar.svg",
               "caption-2":  "Then: Pergamon (Turkey) - Now: Berlin, Germany",
             },
             "fun": {
@@ -1429,9 +1429,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20gdansk%20clock.svg",
+              "caption-1": "Room 7 - Scientific and Technical Achievements",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20gdansk%20clock.svg",
               "caption-2":  "Then: Gdańsk (Poland) - Now: Uppsala, Sweden",
             },
             "fun": {
@@ -1462,9 +1462,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20parthenon%20marbles.svg",
+              "caption-1": "Room 1 - Ancient Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20parthenon%20marbles.svg",
               "caption-2":  "Then: Athens (Greece) - Now: London, UK",
             },
             "fun": {
@@ -1494,9 +1494,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20moai%20statue.svg",
+              "caption-1": "Room 6 - Monumental Sculptures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20moai%20statue.svg",
               "caption-2":  "Then: Rapa Nui (Easter Island, Chile) - Now: London, UK",
             },
             "fun": {
