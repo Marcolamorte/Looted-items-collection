@@ -760,10 +760,18 @@ section {
       align-items: flex-start;
     }
   
+    
+    .wrapper, 
     .text-container {
+      float: none;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* .text-container {
       width: 90vw; 
       margin: var(--spacing-small) auto;
-    }
+    } */
   
     #home {
       background-size: cover; 
@@ -777,15 +785,23 @@ section {
       background-position: center;
       min-height: auto;
       padding: var(--spacing-small);
+      display: block;
+      height: auto;
     }
+
+    #map-section {
+    height: auto;
+    display: block; 
+  }
   
     #map {
       height: 300px; 
+      margin: 1rem auto;
     }
   
-    .wrapper {
+    /* .wrapper {
       width: 95%;
-    }
+    } */
   
     #map-text,
     .p-map {
