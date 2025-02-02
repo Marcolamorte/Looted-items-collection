@@ -764,6 +764,7 @@ section {
       background-position: top;
       height: auto; 
       padding: 2rem 0; 
+      margin: 0;
     }
   
     #hero h1 {
@@ -815,6 +816,7 @@ section {
       padding: var(--spacing-small);
       display: block;
       height: auto;
+      margin-left:var(--spacing-small);
     }
 
     #map-section {
@@ -848,6 +850,11 @@ section {
   }
 
   @media screen and (max-width: 480px) {
+
+    #hero {
+        margin: 0;
+    }
+
     #hero h1 {
         font-size: calc(var(--font-size-large)*2); 
         padding-bottom: var(--spacing-large);
