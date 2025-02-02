@@ -690,7 +690,7 @@ section {
 /* Tablet e schermi medi (max-width ~ 1024px) */
 @media screen and (max-width: 1024px) {
   
-    section {
+    #main_section {
       height: auto; 
       flex-direction: column;
       align-items: flex-start; 
@@ -733,10 +733,10 @@ section {
   
 
     #hero {
-      background-size: 80%; /* per evitare sforamenti */
+      background-size: 80%; 
       background-position: top;
-      height: auto; /* evita la forzatura dell'intero viewport */
-      padding: 2rem 0; /* un po’ di spazio */
+      height: auto; 
+      padding: 2rem 0; 
     }
   
     #hero h1 {
@@ -754,7 +754,7 @@ section {
       font-size: medium;
     }
   
-    section {
+    #main_section {
       flex-direction: column;
       height: auto;
       align-items: flex-start;
@@ -780,7 +780,7 @@ section {
     }
   
     #map {
-      height: 300px; /* dimensione ridotta su mobile */
+      height: 300px; 
     }
   
     .wrapper {
@@ -789,7 +789,7 @@ section {
   
     #map-text,
     .p-map {
-      margin-right: 0; /* Rimuovi i margini a destra su schermi piccoli */
+      margin-right: 0; 
       font-size: medium;
     }
   
