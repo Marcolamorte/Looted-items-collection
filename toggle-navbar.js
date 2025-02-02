@@ -27,12 +27,12 @@ const nav = document.querySelector('nav');
   const menuToggle = document.getElementById('menu-toggle');
   let hideTimeout = null;
 
-  // Quando il mouse esce, avviamo un timer di 300ms (puoi variare il valore).
+  
   nav.addEventListener('mouseleave', () => {
   hideTimeout = setTimeout(() => {
       menuToggle.checked = false;
 
-    // Rimuovi la sfocatura quando il menu si chiude
+    
     const allElements = Array.from(body.children);
     allElements.forEach(element => {
         if (element !== header) {
@@ -44,7 +44,7 @@ const nav = document.querySelector('nav');
   }, 500);
   });
 
-  // Se rientra prima che scada il tempo, annulliamo il timer e il menu resta aperto.
+ 
   nav.addEventListener('mouseenter', () => {
   if (hideTimeout) {
       clearTimeout(hideTimeout);
@@ -52,19 +52,18 @@ const nav = document.querySelector('nav');
   }
   });
 
-  const hamburger = document.querySelector('.hamburger');
-      const body = document.body;
-      const header = document.querySelector('header'); 
+const hamburger = document.querySelector('.hamburger');
+ const body = document.body;
+const header = document.querySelector('header'); 
       
-
-      hamburger.addEventListener('click', () => {
-          const allElements = Array.from(body.children); 
-          allElements.forEach(element => {
-              if (element !== header) {
-                  element.classList.toggle('blurred'); 
-              }
-          });
-      });
+    hamburger.addEventListener('click', () => {
+        const allElements = Array.from(body.children); 
+        allElements.forEach(element => {
+            if (element !== header) {
+                element.classList.toggle('blurred'); 
+            }
+        });
+    });
 
       const scrollToTopButton = document.getElementById('scroll-to-top');
 

@@ -97,7 +97,7 @@ nav.hidden {
     top: 0;
 }
 
-/* Area sensibile all'hover */
+
 .hover-area {
     position: fixed;
     top: 0;
@@ -108,10 +108,10 @@ nav.hidden {
     background: transparent; 
 }
 
-/* Mostra la navbar quando il cursore è sopra l'area hover */
+
 .hover-area:hover + nav,
 nav:hover {
-    transform: translateY(0); /* Navbar visibile */
+    transform: translateY(0); 
 }
 
 
