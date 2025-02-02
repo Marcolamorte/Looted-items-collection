@@ -686,6 +686,115 @@ section {
     background-color: var(--background-color);
 }
 
+
+/* Tablet e schermi medi (max-width ~ 1024px) */
+@media screen and (max-width: 1024px) {
+  
+    section {
+      height: auto; 
+      flex-direction: column;
+      align-items: flex-start; 
+      margin-bottom: var(--spacing-large);
+    }
+  
+    .text-container {
+      width: 80vw; 
+      float: none; 
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #home, #about {
+      background-size: contain; 
+      background-position: top;
+      min-height: 100vh; 
+    }
+  
+    
+    #hero {
+      background-size: 50%;
+      background-position: top;
+    }
+    
+    
+    #map {
+      height: 400px;
+      margin: var(--spacing-small);
+    }
+  
+    .wrapper {
+      width: 90%; 
+      margin: 0 auto;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+  
+
+    #hero {
+      background-size: 80%; /* per evitare sforamenti */
+      background-position: top;
+      height: auto; /* evita la forzatura dell'intero viewport */
+      padding: 2rem 0; /* un po’ di spazio */
+    }
+  
+    #hero h1 {
+      font-size: 2rem; 
+      text-align: center;
+    }
+  
+    .minisection {
+      height: auto;
+      margin: var(--spacing-small);
+      padding: 0 var(--spacing-small);
+    }
+  
+    .minisection p {
+      font-size: medium;
+    }
+  
+    section {
+      flex-direction: column;
+      height: auto;
+      align-items: flex-start;
+    }
+  
+    .text-container {
+      width: 90vw; 
+      margin: var(--spacing-small) auto;
+    }
+  
+    #home {
+      background-size: cover; 
+      background-position: center;
+      min-height: auto;
+      padding: var(--spacing-small);
+    }
+  
+    #about {
+      background-size: cover;
+      background-position: center;
+      min-height: auto;
+      padding: var(--spacing-small);
+    }
+  
+    #map {
+      height: 300px; /* dimensione ridotta su mobile */
+    }
+  
+    .wrapper {
+      width: 95%;
+    }
+  
+    #map-text,
+    .p-map {
+      margin-right: 0; /* Rimuovi i margini a destra su schermi piccoli */
+      font-size: medium;
+    }
+  
+  }
+
 /* FOOTER */
 
 footer {
@@ -2739,13 +2848,15 @@ MEDIA QUERIES MAP PAGE */
     }
 
     #about-section p {
-        font-size: var(--base-font-size);
-        line-height: var(--base-line-height);
+        font-size: 18px;
+        line-height: 1.7;
     }
     
     .team-section {
         height: 120vh;
     }
+
+    
 
     .team-photo {
         display: flex;
@@ -2762,6 +2873,21 @@ MEDIA QUERIES MAP PAGE */
     }
     
 }
+
+@media screen and (max-width: 480px) {
+
+    #about-section p {
+        font-size: var(--base-font-size)
+        
+    }
+
+    .team-section h2 {
+        font-size: var(--font-size-large);
+    }
+    
+
+}
+
 
 
 
