@@ -57,8 +57,8 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map - parthenon marbles.svg",
+                      "caption-1": "Room 1 - Ancient Civilizations",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-2":  "Then: Athens (Greece) - Now: London, UK",
             },
@@ -88,9 +88,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20nok%20statues.svg",
+                      "caption-1": "Room 2 - Royal Treasures",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20nok%20statues.svg",
                       "caption-2":  "Then: Nigeria - Now: Various European & US museums",
             },
             "fun": {
@@ -119,9 +119,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20achaemenid%20reliefs.svg",
+                      "caption-1": "Room 6 - Monumental Sculptures",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20achaemenid%20reliefs.svg",
                       "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
             },
             "fun": {
@@ -150,9 +150,9 @@ document.addEventListener("DOMContentLoaded", function() {
               },
               "maps": {
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20bust%20of%20nefertiti.svg",
+                      "caption-1": "Room 1 - Ancient Civilizations",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20bust%20of%20nefertiti.svg",
                       "caption-2":  "Then: Egypt - Now: Berlin, Germany",
             },
             "fun": {
@@ -181,9 +181,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20pergamon%20altar.svg",
+                      "caption-1": "Room 1 - Ancient Civilizations",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20pergamon%20altar.svg",
                       "caption-2":  "Then: Pergamon (Turkey) - Now: Berlin, Germany",
             },
             "fun": {
@@ -212,9 +212,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20sultanganj%20buddha.svg",
+                      "caption-1": "Room 3 - Religious and Spiritual Artifacts",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20sultanganj%20buddha.svg",
                       "caption-2":  "Then: India - Now: Birmingham, UK",
             },
             "fun": {
@@ -243,9 +243,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20koh-i-noor.svg",
+                      "caption-1": "Room 2 - Royal Treasures",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-koh%20i%20noor.svg",
                       "caption-2":  "Then: India - Now: London, UK",
             },
             "fun": {
@@ -274,9 +274,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20moai%20statue.svg",
+                      "caption-1": "Room 6 - Monumental Sculptures",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20moai%20statue.svg",
                       "caption-2":  "Then: Rapa Nui (Easter Island, Chile) - Now: London, UK",
             },
             "fun": {
@@ -305,9 +305,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20benin%20bronzes.svg",
+                      "caption-1": "Room 5 - African Artifacts",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20benin%20bronzes.svg",
                       "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & various European museums",
             },
             "fun": {
@@ -336,9 +336,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20old%20summer%20palace.svg",
+                      "caption-1": "Room 4 - Lost Cities and Civilizations",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20old%20summer%20palace.svg",
                       "caption-2":  "Then: Beijing (China) - Now: London, UK & European museums",
             },
             "fun": {
@@ -367,9 +367,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20gdansk%20clock.svg",
+                      "caption-1": "Room 7 - Scientific and Technical Achievements",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20gdansk%20clock.svg",
                       "caption-2":  "Then: Gdańsk (Poland) - Now: Uppsala, Sweden",
             },
             "fun": {
@@ -398,9 +398,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20macchu%20picchu.svg",
+                      "caption-1": "Room 4 - Lost Cities and Civilizations",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20macchu%20picchu.svg",
                       "caption-2":  "Then: Cusco Region (Peru) - Now: New Haven, USA (Yale University, partial return)",
             },
             "fun": {
@@ -429,9 +429,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20mask%20of%20queen%20lidia.svg",
+                      "caption-1": "Room 3 - Religious and Spiritual Artifacts",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20mask%20of%20queen%20lidia.svg",
                       "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & European collections",
             },
             "fun": {
@@ -460,9 +460,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20tipus%20tiger.svg",
+                      "caption-1": "Room 2 - Royal Treasures",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20tipus%20tiger.svg",
                       "caption-2":  "Then: Persepolis (Iran) - Now: London, UK",
             },
             "fun": {
@@ -491,9 +491,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-                      "caption-1": "Room 3 - Colonization in Ancient History",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20throne%20of%20king%20glele.svg",
+                      "caption-1": "Room 2 - Royal Treasures",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20throne%20of%20king%20glele.svg",
                       "caption-2":  "Then: Dahomey (Benin Republic) - Now: Paris, France",
             },
             "fun": {
@@ -543,9 +543,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20achaemenid%20reliefs.svg",
+              "caption-1": "Room 6 - Monumental Sculptures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20achaemenid%20reliefs.svg",
               "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
             },
             "fun": {
@@ -575,9 +575,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20pergamon%20altar.svg",
+              "caption-1": "Room 1 - Ancient Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20pergamon%20altar.svg",
               "caption-2":  "Then: Pergamon (Turkey) - Now: Berlin, Germany",
             },
             "fun": {
@@ -607,9 +607,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20benin%20bronzes.svg",
+              "caption-1": "Room 5 - African Artifacts",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20benin%20bronzes.svg",
               "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & various European museums",
             },
             "fun": {
@@ -639,9 +639,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20bust%20of%20nefertiti.svg",
+              "caption-1": "Room 1 - Ancient Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20bust%20of%20nefertiti.svg",
               "caption-2":  "Then: Egypt - Now: Berlin, Germany",
             },
             "fun": {
@@ -671,9 +671,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20gdansk%20clock.svg",
+              "caption-1": "Room 7 - Scientific and Technical Achievements",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20gdansk%20clock.svg",
               "caption-2":  "Then: Gdańsk (Poland) - Now: Uppsala, Sweden",
             },
             "fun": {
@@ -703,9 +703,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20koh-i-noor.svg",
+              "caption-1": "Room 2 - Royal Treasures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20koh-i-noor.svg",
               "caption-2":  "Then: India - Now: London, UK",
             },
             "fun": {
@@ -735,9 +735,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20macchu%20picchu.svg",
+              "caption-1": "Room 4 - Lost Cities and Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20macchu%20picchu.svg",
               "caption-2":  "Then: Cusco Region (Peru) - Now: New Haven, USA (Yale University, partial return)",
             },
             "fun": {
@@ -767,9 +767,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20mask%20of%20queen%20lidia.svg",
+              "caption-1": "Room 3 - Religious and Spiritual Artifacts",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20mask%20of%20queen%20lidia.svg",
               "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & European collections",
             },
             "fun": {
@@ -799,9 +799,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20moai%20statue.svg",
+              "caption-1": "Room 6 - Monumental Sculptures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20moai%20statue.svg",
               "caption-2":  "Then: Rapa Nui (Easter Island, Chile) - Now: London, UK",
             },
             "fun": {
@@ -831,9 +831,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20nok%20statues.svg",
+              "caption-1": "Room 5 - African Artifacts",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20nok%20statues.svg",
               "caption-2":  "Then: Nigeria - Now: Various European & US museums",
             },
             "fun": {
@@ -863,9 +863,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20old%20summer%20palace.svg",
+              "caption-1": "Room 4 - Lost Cities and Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20old%20summer%20palace.svg",
               "caption-2":  "Then: Beijing (China) - Now: London, UK & European museums",
             },
             "fun": {
@@ -895,9 +895,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20parthenon%20marbles.svg",
+              "caption-1": "Room 1 - Ancient Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20parthenon%20marbles.svg",
               "caption-2":  "Then: Athens (Greece) - Now: London, UK",
             },
             "fun": {
@@ -927,9 +927,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20sultanganj%20buddha.svg",
+              "caption-1": "Room 3 - Religious and Spiritual Artifacts",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20sultanganj%20buddha.svg",
               "caption-2":  "Then: India - Now: Birmingham, UK",
             },
             "fun": {
@@ -959,9 +959,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20throne%20of%20king%20glele.svg",
+              "caption-1": "Room 2 - Royal Treasures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20throne%20of%20king%20glele.svg",
               "caption-2":  "Then: Dahomey (Benin Republic) - Now: Paris, France",
             },
             "fun": {
@@ -991,9 +991,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20tipu's%20tiger.svg",
+              "caption-1": "Room 2 - Royal Treasures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20tipu's%20tiger.svg",
               "caption-2":  "Then: Mysore (India) - Now: London, UK",
             },
             "fun": {
@@ -1045,9 +1045,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20benin%20bronzes.svg",
+              "caption-1": "Room 5 - African Artifacts",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20benin%20bronzes.svg",
               "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & various European museums",
             },
             "fun": {
@@ -1077,9 +1077,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20bust%20of%20nefertiti.svg",
+              "caption-1": "Room 1 - Ancient Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20bust%20of%20nefertiti.svg",
               "caption-2":  "Then: Egypt - Now: Berlin, Germany",
             },
             "fun": {
@@ -1109,9 +1109,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20mask%20of%20queen%20lidia.svg",
+              "caption-1": "Room 3 - Religious and Spiritual Artifacts",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20mask%20of%20queen%20lidia.svg",
               "caption-2":  "Then: Benin (Nigeria) - Now: London, UK & European collections",
             },
             "fun": {
@@ -1141,9 +1141,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20nok%20statues.svg",
+              "caption-1": "Room 5 - African Artifacts",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20nok%20statues.svg",
               "caption-2":  "Then: Nigeria - Now: Various European & US museums",
             },
             "fun": {
@@ -1173,9 +1173,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20throne%20of%20king%20glele.svg",
+              "caption-1": "Room 2 - Royal Treasures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20throne%20of%20king%20glele.svg",
               "caption-2":  "Then: Dahomey (Benin Republic) - Now: Paris, France",
             },
             "fun": {
@@ -1205,9 +1205,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20macchu%20picchu.svg",
+              "caption-1": "Room 4 - Lost Cities and Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20macchu%20picchu.svg",
               "caption-2":  "Then: Cusco Region (Peru) - Now: New Haven, USA (Yale University, partial return)",
             },
             "fun": {
@@ -1237,9 +1237,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20achaemenid%20reliefs.svg",
+              "caption-1": "Room 6 - Monumental Sculptures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20achaemenid%20reliefs.svg",
               "caption-2":  "Then: Persia (Iran) - Now: Montreal, Canada",
             },
             "fun": {
@@ -1269,9 +1269,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20koh-i-noor.svg",
+              "caption-1": "Room 2 - Royal Treasures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20koh-i-noor.svg",
               "caption-2":  "Then: India - Now: London, UK",
             },
             "fun": {
@@ -1301,9 +1301,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20old%20summer%20palace.svg",
+              "caption-1": "Room 4 - Lost Cities and Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20old%20summer%20palace.svg",
               "caption-2":  "Then: Beijing (China) - Now: London, UK & European museums",
             },
             "fun": {
@@ -1333,9 +1333,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20sultanganj%20buddha.svg",
+              "caption-1": "Room 3 - Religious and Spiritual Artifacts",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20sultanganj%20buddha.svg",
               "caption-2":  "Then: India - Now: Birmingham, UK",
             },
             "fun": {
@@ -1365,9 +1365,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20tipu's%20tiger.svg",
+              "caption-1": "Room 2 - Royal Treasures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20tipu's%20tiger.svg",
               "caption-2":  "Then: Mysore (India) - Now: London, UK",
             },
             "fun": {
@@ -1397,9 +1397,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20pergamon%20altar.svg",
+              "caption-1": "Room 1 - Ancient Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20pergamon%20altar.svg",
               "caption-2":  "Then: Pergamon (Turkey) - Now: Berlin, Germany",
             },
             "fun": {
@@ -1429,9 +1429,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20gdansk%20clock.svg",
+              "caption-1": "Room 7 - Scientific and Technical Achievements",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20gdansk%20clock.svg",
               "caption-2":  "Then: Gdańsk (Poland) - Now: Uppsala, Sweden",
             },
             "fun": {
@@ -1462,9 +1462,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20parthenon%20marbles.svg",
+              "caption-1": "Room 1 - Ancient Civilizations",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20parthenon%20marbles.svg",
               "caption-2":  "Then: Athens (Greece) - Now: London, UK",
             },
             "fun": {
@@ -1494,9 +1494,9 @@ document.addEventListener("DOMContentLoaded", function() {
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
-              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
-              "caption-1": "Room 3 - Colonization in Ancient History",
-              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
+              "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20moai%20statue.svg",
+              "caption-1": "Room 6 - Monumental Sculptures",
+              "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20moai%20statue.svg",
               "caption-2":  "Then: Rapa Nui (Easter Island, Chile) - Now: London, UK",
             },
             "fun": {

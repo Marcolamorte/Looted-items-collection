@@ -6,10 +6,10 @@ var map = L.map('map', {
     maxBounds: [[-90, -180], [90, 180]],
     maxBoundsViscosity: 1.0,
     worldCopyJump: false,
-    scrollWheelZoom: false,
-    touchZoom: false,
+    scrollWheelZoom: true,
+    touchZoom: true,
     attributionControl: false,
-    zoomControl: false
+    zoomControl: false,
 }).setView([0, 0], 2);
 
 // Function to update map styles
@@ -40,6 +40,8 @@ function updateMapStyles(isLightMode) {
         }
     });
 }
+
+
 
 // Load GeoJSON data
 fetch('https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json')
@@ -82,19 +84,35 @@ objects.forEach(function(object) {
     
     var popupContent = L.popup({
         closeButton: false,
-        className: 'custom-popup'
+        className: 'custom-popup',
+        offset: L.point(-7, -15)
     }).setContent(`<div><strong>${object.name}</strong><br>${object.location}</div>`);
     
     marker.bindPopup(popupContent);
     
+    
     marker.on('mouseover', function(e) {
+        console.log('mouseover su', object.name);
         this.openPopup();
     });
-    
     marker.on('mouseout', function(e) {
+        console.log('mouseout su', object.name);
         this.closePopup();
     });
+
+
+   
+    
+    // marker.on('mouseenter', function(e) {
+    //     this.openPopup();
+    // });
+    
+    // marker.on('mouseleave', function(e) {
+    //     this.closePopup();
+    // });
 });
+
+
 
 // Theme toggle event listener
 const themeSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
