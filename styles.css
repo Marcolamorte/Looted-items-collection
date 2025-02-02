@@ -482,6 +482,11 @@ input:checked + .toggle-track:before {
     margin-bottom: var(--spacing-large);
 }
 
+/* #hero, #minisection, #main_section, #home, #map #about {
+    min-width: 300px;
+} */
+
+
 #home, #about {
     justify-content: space-between;
     align-items: center;
@@ -780,7 +785,7 @@ section {
     .wrapper, 
     .text-container {
       float: none;
-      width: 100%;
+      /* width: 100%; */
       margin: 0 auto;
     }
 
