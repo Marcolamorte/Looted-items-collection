@@ -9,7 +9,7 @@ var map = L.map('map', {
     scrollWheelZoom: false,
     touchZoom: false,
     attributionControl: false,
-    zoomControl: false
+    zoomControl: false,
 }).setView([0, 0], 2);
 
 // Function to update map styles
