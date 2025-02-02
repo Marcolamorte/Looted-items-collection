@@ -618,6 +618,8 @@ section {
     width: 100px;
     margin-right: var(--spacing-small);
     transition: opacity 0.3s ease-in-out;
+    max-height: 250px; 
+    height: auto;
 }
 
 #imageDisplayContainer .button {
