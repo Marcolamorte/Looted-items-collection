@@ -646,7 +646,7 @@ section {
 #map {
     height: 600px;
     width: 100%;
-    z-index: -1;
+    z-index: 0;
     border: 2px solid var(--accent2-color);
     border-radius: var(--spacing-large);
     margin: var(--spacing-large);
@@ -678,6 +678,7 @@ section {
     border-radius: 50%;
     border: 2px solid var(--background-color);
     cursor: pointer;
+    
 }
 
 .custom-popup .leaflet-popup-content-wrapper {
@@ -689,6 +690,10 @@ section {
 
 .custom-popup .leaflet-popup-tip {
     background-color: var(--background-color);
+}
+
+.leaflet-popup {
+    pointer-events: none;
 }
 
 
