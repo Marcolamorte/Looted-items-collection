@@ -73,7 +73,7 @@ function loadTourContent() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection//Looted-items-collection/refs/heads/main/map - parthenon marbles.svg",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map - parthenon marbles.svg",
                       "caption-1": "Room 3 - Colonization in Ancient History",
                       "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e9483711457068bbbb07949b796f8daaf32ccad7/images/map_museum_placeholder.png",
                       "caption-2":  "Then: Athens (Greece) - Now: London, UK",
