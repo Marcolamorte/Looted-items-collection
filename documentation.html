@@ -122,10 +122,41 @@
                 The <strong>LOOTED ITEMS COLLECTION</strong> was born with the aim of bringing together, for the first time, some of the world’s most iconic artefacts, linked by a dark history of colonialism and looting. As we move through time and space, this virtual experience shows the users how these treasures were created, what they meant to their original cultures, and the stories behind their removal during periods of conflict and colonial expansion. Each item on this tour offers a glimpse into the artistic, spiritual, and political life of civilizations long past, while also raising important questions about cultural heritage and restitution today. Whether the visitor is looking for a quick overview, more detailed context, or an in-depth analysis, this tour adapts to his preferences. 
                 The main purpose of the project is the creation of a platform which could work as an added value for a visit in the physical context as much as a complete virtual museum experience. The focus is all around the user which can decide to move inside the collection choosing the characteristics more compliant to make his needs. A personalized tour can be created by selecting and combining different sets of variables. The final result is a tour entirely created around the visitor objectives and needs.
             </p>
-            <h2>Web Design Reference and Prototype</h2>
-            <h3>Visual Identity</h3>
-            <img src="">
-            <p></p>
+            <h2 id="personalization-title">Web Design Reference and Prototype</h2>
+            <h2 id="personalization-title">Visual Identity</h3>
+            <img src="https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/visual%20identity.svg">
+            <p>
+                <br>We designed the visual identity for this project with a focus on creating a harmonious and aesthetically pleasing interface based on the golden ratio. The process involved the following steps:<br><br>
+
+    Concept Development: We drew inspiration from classical Greek architecture, as reflected in the Parthenon-themed background images (e.g., partenone1.svg). This concept guided the overall design direction.<br><br>
+    Color Palette: We defined a cohesive color scheme using CSS variables:<br>
+        Primary Color: #B7B5E4<br>
+        Secondary Color: #847979<br>
+        Background Color: #0C0C0F<br>
+        Accent Colors: #BBC2E2 and #CFCCD6<br><br>
+    These colors ensure consistency and flexibility across the design.<br><br>
+    Typography: We implemented a custom font, Karrik, using the @font-face rule. This font gives our design a unique character and complements the theme.<br><br>
+    Layout Structure: Sections were strategically planned with heights like 100vh or 120vh to maintain a balanced layout. This approach ensures that content is well-organized and visually appealing.<br><br>
+    Responsive Design: Media queries were utilized to adapt the design for various screen sizes, ensuring usability across devices, from desktops to mobile phones.<br><br>
+            </p>
+            <h2 id="personalization-title">Design System Using CSS Variables</h2>
+<p>We built a scalable design system leveraging CSS variables, with proportions derived from the golden ratio (1.6181.618). This system ensures visual harmony and simplifies adjustments across typography, spacing, and layout.<br>
+    <h2 id="personalization-title">Key Variables</h2>
+    <pre>--golden-ratio: 1.618;
+        --base-font-size: 16px;
+        --base-line-height: 1.5;
+        --base-spacing: 1rem;
+        </pre>
+
+        <h2 id="personalization-title">Typography Scaling</h2>
+        <pre>--spacing-small: calc(var(--base-spacing) / var(--golden-ratio));
+            --spacing-large: calc(var(--base-spacing) * var(--golden-ratio));
+            </pre>
+
+            <p>By defining relationships between base values (e.g., font size, spacing), we ensured that all components scale proportionally. Adjusting any base variable automatically updates related elements throughout the design.</p>
+
+            
+
         </section>
 
         <section id="tours-presentation" class="object-main-container">
