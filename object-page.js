@@ -100,7 +100,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e82c0273bb31ae751cdf0e8c8bc62c4611d5bbb9/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/bb76c15f77ff000f9ebc419cbc0592681b270e9b/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
