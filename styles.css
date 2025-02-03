@@ -1307,6 +1307,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     width: 80%;
     height: auto;
     border-radius: var(--spacing-small);
+    cursor: pointer;
 }
 
 .text-area {
@@ -1425,6 +1426,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 .map-section img {
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
 
 /* Geolocalization Section */
@@ -1440,6 +1442,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 .geolocalization-section img {
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
 
 /* Divider */
