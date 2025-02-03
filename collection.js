@@ -1551,34 +1551,34 @@ document.addEventListener("DOMContentLoaded", function() {
     //     });
     //   }
     
-    document.addEventListener("DOMContentLoaded", function () {
+    // document.addEventListener("DOMContentLoaded", function () {
      
-      const iconLink = document.querySelector("a.icon-link");
-      if (iconLink) {
-        iconLink.addEventListener("click", function (e) {
-          const currentPath = window.location.pathname;
+    //   // const iconLink = document.querySelector("a.icon-link");
+    //   // if (iconLink) {
+    //   //   iconLink.addEventListener("click", function (e) {
+    //   //     const currentPath = window.location.pathname;
         
-          if (currentPath.endsWith("map_page.html")) {
-            e.preventDefault(); 
-            window.location.reload();
-          } else {
+    //   //     if (currentPath.endsWith("map_page.html")) {
+    //   //       e.preventDefault(); 
+    //   //       window.location.reload();
+    //   //     } else {
            
-            if (!localStorage.getItem("selectedTour") || !localStorage.getItem("selectedItem")) {
+    //   //       if (!localStorage.getItem("selectedTour") || !localStorage.getItem("selectedItem")) {
               
-              localStorage.clear();
-              const defaultTour = "Timeline Tour";
-              const defaultItem = data[defaultTour].items[0];
-              localStorage.setItem("selectedTour", defaultTour);
-              localStorage.setItem("selectedItem", defaultItem);
-              console.log("Dati di default impostati: Timeline Tour, primo oggetto.");
-            }
+    //   //         localStorage.clear();
+    //   //         const defaultTour = "Timeline Tour";
+    //   //         const defaultItem = data[defaultTour].items[0];
+    //   //         localStorage.setItem("selectedTour", defaultTour);
+    //   //         localStorage.setItem("selectedItem", defaultItem);
+    //   //         console.log("Dati di default impostati: Timeline Tour, primo oggetto.");
+    //   //       }
             
-          }
-        });
-      }
+    //   //     }
+    //   //   });
+    //   }
     
 
-  
+  document.addEventListener("DOMContentLoaded", function () {
   const selectedTour = localStorage.getItem("selectedTour");
   const selectedItem = localStorage.getItem("selectedItem");
 
