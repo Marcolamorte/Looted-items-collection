@@ -1552,20 +1552,19 @@ document.addEventListener("DOMContentLoaded", function() {
     //   }
     
     document.addEventListener("DOMContentLoaded", function () {
-      // Gestione del click sul link con classe "icon-link"
+     
       const iconLink = document.querySelector("a.icon-link");
       if (iconLink) {
         iconLink.addEventListener("click", function (e) {
           const currentPath = window.location.pathname;
-          // Se siamo già su map_page.html, esegui il reload della pagina
+        
           if (currentPath.endsWith("map_page.html")) {
-            e.preventDefault(); // Previeni la navigazione automatica
+            e.preventDefault(); 
             window.location.reload();
           } else {
-            // Se siamo su una pagina diversa da map_page.html:
-            // Controlla se nel localStorage non sono presenti dati
+           
             if (!localStorage.getItem("selectedTour") || !localStorage.getItem("selectedItem")) {
-              // Imposta i valori di default
+              
               localStorage.clear();
               const defaultTour = "Timeline Tour";
               const defaultItem = data[defaultTour].items[0];
@@ -1573,7 +1572,7 @@ document.addEventListener("DOMContentLoaded", function() {
               localStorage.setItem("selectedItem", defaultItem);
               console.log("Dati di default impostati: Timeline Tour, primo oggetto.");
             }
-            // Il link proseguirà verso map_page.html senza ulteriori modifiche
+            
           }
         });
       }
@@ -1608,7 +1607,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   displayItemData(data[currentTour].texts[itemsArray[currentIndex]]);
 
-  // Gestione del bottone "next" (avanti) senza wrap-around
+  
   document.getElementById("next-button").addEventListener("click", function () {
     if (currentIndex < itemsArray.length - 1) {
       currentIndex++;
