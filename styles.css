@@ -1802,10 +1802,10 @@ body.tours-page-body {
     font-size: calc(var(--font-size-small) * var(--golden-ratio));
     color: var(--secondary-color);
     padding-right: var(--spacing-large);
-    flex: 3; /* Take more space for the text */
-    padding-top: var(--spacing-small); /* Add breathing space at the top */
-    padding-bottom: var(--spacing-small); /* Add breathing space at the bottom */
-    margin-top: var(--spacing-large); /* Additional margin if needed */
+    flex: 3; 
+    padding-top: var(--spacing-small); 
+    padding-bottom: var(--spacing-small); 
+    margin-top: var(--spacing-large); 
     margin-bottom: var(--spacing-large);
     
 }
@@ -1892,6 +1892,19 @@ metadata_rdf_graph-1,
     cursor: pointer;
 }
 
+#introduction_par {
+    font-size: large;
+    line-height: 2.0;
+    text-align: justify;
+}
+
+#Timeline_Tour_par {
+    font-size: large;
+    line-height: 2.0;
+    text-align: justify;
+    color: var(--primary-color);
+}
+
 
 /* MEDIA Queries Documentation page */
 
@@ -1929,7 +1942,7 @@ metadata_rdf_graph-1,
         
     
     }
-
+   
     
 }
 
@@ -1955,13 +1968,17 @@ metadata_rdf_graph-1,
     font-size: 1rem;
 }
 
+#Timeline_Tour_par, #introduction_par {
+    font-size: 1rem;
+    line-height: 1.4;
+}
     
 
 
 } 
 
 @media screen and (max-width: 350px) {
-    #tours-introduction p, #tours-presentation p, .object_page-des p {
+    #tours-introduction p, #tours-presentation p, .object_page-des p, #Timeline_Tour_par, #introduction_par {
         font-size:  0.8rem;
         line-height: 1.2;
         
