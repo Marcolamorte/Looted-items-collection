@@ -1705,18 +1705,18 @@ function loadTourContent() {
 
       document.getElementById('timeline-button').addEventListener('click', () => {
           changeTour('Timeline Tour', 'short', 'fun');
-          location.reload(); // Ricarica la pagina
+          location.reload();
          
           
       });
       document.getElementById('colonial-button').addEventListener('click', () => {
           changeTour('Colonial Conquests Tour', 'short', 'fun');
-          location.reload(); // Ricarica la pagina
+          location.reload(); 
          
       });
       document.getElementById('geo-button').addEventListener('click', () => {
           changeTour('Geo Tour', 'short', 'fun');
-          location.reload(); // Ricarica la pagina
+          location.reload(); 
       });
     
     } catch (error) {
@@ -1730,6 +1730,22 @@ function changeTour(tourName, length, complexity) {
     localStorage.setItem('tourData', JSON.stringify({tourName: tourName, length: length, complexity: complexity}));
     loadTourContent();
 }
+
+// function changeTour(tourName, length, complexity) {
+  
+//   localStorage.setItem('tourData', JSON.stringify({
+//       tourName: tourName,
+//       length: length,
+//       complexity: complexity
+//   }));
+
+  
+//   localStorage.removeItem('currentIndex');
+
+ 
+//   location.reload();
+  
+// }
 
 function changeLength(direction) {
   const tourdataJson = localStorage.getItem('tourData');
