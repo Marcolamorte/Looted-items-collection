@@ -234,7 +234,7 @@ document.getElementById("map-link").addEventListener("click", function (e) {
                     "Title-map": "TIMELINE TOUR MAP",
                     "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20koh-i-noor.svg",
                     "caption-1": "Room 2 - Royal Treasures",
-                    "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20koh-i-noor.svg",
+                    "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/b8cb4f8583d6df8aceba312497bcdc61a03ba516/geomap%20-koh%20i%20noor.svg",
                     "caption-2":  "Then: India - Now: London, UK",
           },
           "fun": {
@@ -451,7 +451,7 @@ document.getElementById("map-link").addEventListener("click", function (e) {
                     "Title-map": "TIMELINE TOUR MAP",
                     "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20tipu's%20tiger.svg",
                     "caption-1": "Room 2 - Royal Treasures",
-                    "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20tipu's%20tiger.svg",
+                    "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/b8cb4f8583d6df8aceba312497bcdc61a03ba516/geomap%20-%20tipus%20tiger.svg",
                     "caption-2":  "Then: Persepolis (Iran) - Now: London, UK",
           },
           "fun": {
@@ -692,7 +692,7 @@ document.getElementById("map-link").addEventListener("click", function (e) {
           },
           "maps": {
             "Title-map": "COLONIAL CONQUEST TOUR MAP",
-            "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-koh%20i%20noor.svg",
+            "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20koh-i-noor.svg",
             "caption-1": "Room 2 - Royal Treasures",
             "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-koh%20i%20noor.svg",
             "caption-2":  "Then: India - Now: London, UK",
@@ -980,7 +980,7 @@ document.getElementById("map-link").addEventListener("click", function (e) {
           },
           "maps": {
             "Title-map": "COLONIAL CONQUEST TOUR MAP",
-            "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20tipus%20tiger.svg",
+            "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20tipu's%20tiger.svg",
             "caption-1": "Room 3 - Colonization in Ancient History",
             "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20tipus%20tiger.svg",
             "caption-2":  "Then: Mysore (India) - Now: London, UK",
@@ -1258,7 +1258,7 @@ document.getElementById("map-link").addEventListener("click", function (e) {
           },
           "maps": {
             "Title-map": "GEO TOUR MAP",
-            "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-koh%20i%20noor.svg",
+            "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20koh-i-noor.svg",
             "caption-1": "Room 2 - Royal Treasures",
             "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-koh%20i%20noor.svg",
             "caption-2":  "Then: India - Now: London, UK",
@@ -1354,7 +1354,7 @@ document.getElementById("map-link").addEventListener("click", function (e) {
           },
           "maps": {
             "Title-map": "GEO TOUR MAP",
-            "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20tipus%20tiger.svg",
+            "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map%20-%20tipu's%20tiger.svg",
             "caption-1": "Room 2 - Royal Treasures",
             "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap%20-%20tipus%20tiger.svg",
             "caption-2":  "Then: Mysore (India) - Now: London, UK",

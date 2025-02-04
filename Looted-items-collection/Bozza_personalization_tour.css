@@ -1,0 +1,202 @@
+
+#personalization-intro, #tours-selection {
+    margin: calc(var(--spacing-large) * var(--golden-ratio)) auto;
+    padding: calc(var(--spacing-large) * var(--golden-ratio));
+    background-color: var(--background-colorr);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    max-width: 1200px;
+}
+
+#personalization-intro h2,
+#tours-selection h2 {
+    text-align: center;
+    font-size: calc(var(--font-size-large) * var(--golden-ratio));
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-large);
+}
+
+#personalization-intro p,
+#tours-selection .tour-section p {
+    text-align: justify;
+    font-size: calc(var(--base-font-size) * 1.1);
+    line-height: 2.0;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-small);
+    font-weight: lighter;
+    font-size: large;
+    
+}
+
+
+.tours-container {
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Stack tour sections vertically */
+    gap: var(--spacing-large); /* Add spacing between sections */
+}
+
+.tour-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Vertically align all elements */
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-large);
+    padding: var(--spacing-large);
+    text-align: left; /* Align text to the left for better readability */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Make each section span the full width */
+    position:relative
+}
+
+
+
+.tour-section h3 {
+    font-size: calc(var(--font-size-large));
+    color: var(--primary-color);
+    margin: 0;
+    flex: 1; /* Allow flexible width */
+}
+#Colonial_Conquests-h3 {
+    padding-right: var(--spacing-large);
+}
+
+.tour-section p {
+    font-size: calc(var(--font-size-small) * var(--golden-ratio));
+    color: var(--secondary-color);
+    padding-right: var(--spacing-large);
+    flex: 3; /* Take more space for the text */
+    padding-top: var(--spacing-small); /* Add breathing space at the top */
+    padding-bottom: var(--spacing-small); /* Add breathing space at the bottom */
+    margin-top: var(--spacing-large); /* Additional margin if needed */
+    margin-bottom: var(--spacing-large);
+}
+
+
+
+
+
+.expand-button {
+    width: 50px; /* Larghezza del bottone */
+    height: 50px; /* Altezza del bottone */
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 50%; /* Forma circolare */
+    font-size: calc(var(--font-size-small) * var(--golden-ratio)); /* Dimensione del simbolo */
+    display: flex; /* Utilizza Flexbox per l'allineamento */
+    justify-content: center; /* Centra il simbolo orizzontalmente */
+    align-items: center; /* Centra il simbolo verticalmente */
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    line-height: 1; /* Rimuove eventuali distorsioni di altezza */
+}
+  
+    .expand-button:hover {
+        background-color: var(--accent1-color);
+        transform: scale(1.1);
+    }
+  
+    .expand-button:active {
+        transform: scale(0.95);
+        background-color: var(--accent2-color);
+    }
+
+    .expand-button[aria-expanded="true"] {
+        transform: rotate(180deg); /* Rotate arrow when expanded */
+        transition: transform 0.3s ease;
+    }
+
+.expandable-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    width: 100%;
+}
+
+.expandable-content.expanded {
+    max-height: 600px; /* Adjust based on your content */
+    height: auto;
+}
+
+/* Adjust tour section for expandable content */
+.tour-section {
+    flex-wrap: wrap;
+}
+
+.expandable-content {
+    flex-basis: 100%;
+}
+
+
+.personalization-options {
+    margin: var(--spacing-large) auto;
+    padding: var(--spacing-large);
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--spacing-small);
+    width: 100%;
+    text-align: center;
+}
+
+.personalization-options h3 {
+    font-size: calc(var(--font-size-large) * var(--golden-ratio));
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-large);
+}
+
+.personalization-options label {
+    display: block;
+    margin: var(--spacing-small) 0 var(--spacing-small) 0;
+    font-size: var(--font-size-large);
+    color: var(--primary-color);
+    text-align:left;
+}
+
+.personalization-options select {
+    width: 100%;
+    padding: var(--spacing-small);
+    margin-bottom: var(--spacing-large);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--spacing-small);
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    font-size: var(calc(var(--font-size-small) * var(--golden-ratio)));
+}
+
+.start-tour-button {
+    display: block; /* Ensures the button behaves like a block-level element */
+    margin: var(--spacing-large) auto; /* Center horizontally with auto margins */
+    padding: var(--spacing-small) var(--spacing-large);
+    background-color: var(--primary-color); /* Button background */
+    color: var(--background-color); /* Button text color */
+    border: none;
+    border-radius: var(--spacing-small);
+    font-size: calc(var(--font-size-large) * var(--golden-ratio));
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.start-tour-button a {
+    color:var(--background-color);; 
+    background-color: var(--primary-color); 
+}
+
+
+.start-tour-button:hover a{
+    color: #ffff; 
+    background-color: var(--accent1-color);
+}
+
+.start-tour-button:hover {
+    background-color: var(--accent1-color); /* Background changes to match text */
+    color: #ffff; 
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+
+.start-tour-button:active {
+    background-color: var(--accent2-color); /* Active background color */
+    transform: scale(0.95);
+}
