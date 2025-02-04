@@ -73,9 +73,9 @@ function loadTourContent() {
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
-                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/map - parthenon marbles.svg",
+                      "museum-map":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/map%20-%20parthenon%20marbles.svg",
                       "caption-1": "Room 1 - Ancient Civilizations",
-                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/geomap - parthenon marbles.svg",
+                      "geo-map": "https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/geomap%20-%20parthenon%20marbles.svg",
                       "caption-2":  "Then: Athens (Greece) - Now: London, UK",
             },
             "fun": {
@@ -100,7 +100,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e82c0273bb31ae751cdf0e8c8bc62c4611d5bbb9/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/9bc678f97d1bc6ce43c5a324b542fb8355cd2b6d/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -131,7 +131,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -162,7 +162,7 @@ function loadTourContent() {
               "metadata":{
                   "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
                   "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
-                  "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
+                  "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
               },
               "maps": {
                       "Title-map": "TIMELINE TOUR MAP",
@@ -193,7 +193,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -224,7 +224,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -255,7 +255,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -281,12 +281,12 @@ function loadTourContent() {
             }
           },
           "item8": {
-            "title": "Moai Statue - 1000-1500 CE",
+            "title": "Moai Statue (Hoa_Hakananai’a) - 1000-1500 CE",
             "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/29477b3069e1990b2edaa682f2cb042be0de7af7/images/cropped-moaistatues1.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/5e3eba29332968e3d2e215bd27cfb6b636fd8b00/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -317,7 +317,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -348,7 +348,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -379,7 +379,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -410,7 +410,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/685d4f5fb18035b7b3f88d7e9100bac60f0ea3d9/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -441,7 +441,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -472,7 +472,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -503,7 +503,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
             },
             "maps": { 
                       "Title-map": "TIMELINE TOUR MAP",
@@ -555,7 +555,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -587,7 +587,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -619,7 +619,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -651,7 +651,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -683,7 +683,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -715,7 +715,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -747,7 +747,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/685d4f5fb18035b7b3f88d7e9100bac60f0ea3d9/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -779,7 +779,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -806,12 +806,12 @@ function loadTourContent() {
           },
 
           "item9": {
-            "title": "The Moai statue",
+            "title": "The Moai statue (Hoa_Hakananai’a)",
            "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/29477b3069e1990b2edaa682f2cb042be0de7af7/images/cropped-moaistatues2.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/5e3eba29332968e3d2e215bd27cfb6b636fd8b00/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -843,7 +843,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e82c0273bb31ae751cdf0e8c8bc62c4611d5bbb9/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -875,7 +875,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -939,7 +939,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -971,7 +971,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -1003,7 +1003,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -1057,7 +1057,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/1_Africa_Benin_Bronzes.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/1_Africa_Benin_Bronzes.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1089,7 +1089,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/12_Africa_The%20Bust_of_Nefertiti.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/12_Africa_The%20Bust_of_Nefertiti.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1121,7 +1121,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/15_Africa_Masks_of_Queen_Idia.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/15_Africa_Masks_of_Queen_Idia.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1153,7 +1153,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/e82c0273bb31ae751cdf0e8c8bc62c4611d5bbb9/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/10_Africa_Nok_Terracotta_Statues.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/10_Africa_Nok_Terracotta_Statues.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1185,7 +1185,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/8_Africa_The_Throne_of_King_Glele.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/8_Africa_The_Throne_of_King_Glele.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1217,7 +1217,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/685d4f5fb18035b7b3f88d7e9100bac60f0ea3d9/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/9_South_America_Mach_Picchu_Artifacts.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/9_South_America_Mach_Picchu_Artifacts.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1249,7 +1249,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Achaemenid_Reliefs.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/11_Asia_The_Achaemenid_Reliefs.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/11_Asia_The_Achaemenid_Reliefs.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1281,7 +1281,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/2_Asia_Koh-i-Noor_Diamond.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/2_Asia_Koh-i-Noor_Diamond.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1313,7 +1313,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/3_Asia_Old_Summer_Palace_Artifacts.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/3_Asia_Old_Summer_Palace_Artifacts.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1345,7 +1345,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/4_Asia_The_Sultanganj_Buddha.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/4_Asia_The_Sultangan_Buddha.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1377,7 +1377,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/14_Africa_Tipu_Sultan_Tiger.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/14_Africa_Tipu_Sultan_Tiger.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1409,7 +1409,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/13_Europe_The_Altar_of_Pergamon.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/13_Europe_The_Altar_of_Pergamon.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1441,7 +1441,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/57cd1c4ed88be01069fd8bd08eaabf3f08e29779/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/rdf_files_graphs/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/refs/heads/main/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/6_Poland_Gda%C5%84sk%20Astronomical%20Clock.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
@@ -1501,12 +1501,12 @@ function loadTourContent() {
           },
 
           "item15": {
-            "title": "Moai Statue (Oceania) ",
+            "title": "Moai Statue - Hoa_Hakananai’a - (Oceania) ",
             "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/c4a1ec93fcf58392e1387b257c3f6f440b2027c1/images/cropped-moaistatues3.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/5e3eba29332968e3d2e215bd27cfb6b636fd8b00/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/d437350bac7d7b3fe6576a17ecdd07a31a48fd35/Items_JS_HTML/7_Oceania_Hoa_Hakananai%E2%80%99a_(Moai_Statue).html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
