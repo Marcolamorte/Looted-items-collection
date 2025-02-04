@@ -907,7 +907,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/bb76c15f77ff000f9ebc419cbc0592681b270e9b/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
             },
             "maps": {
               "Title-map": "COLONIAL CONQUEST TOUR MAP",
@@ -1474,7 +1474,7 @@ function loadTourContent() {
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",
                 "Rdf-file_link":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.rdf",
-                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
+                "Table":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/bb76c15f77ff000f9ebc419cbc0592681b270e9b/Items_JS_HTML/5_Europe_%20The_Parthenon_Elgin_Marbles.html"
             },
             "maps": {
               "Title-map": "GEO TOUR MAP",
