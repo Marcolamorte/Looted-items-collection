@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
         ],
         "texts": {
           "item1": {
-            "title": "Parthenon Marbles – 447-438 BCE",
+            "title": "Parthenon Marbles – 447-438 BCE", 
             "image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/images/cropped-parthenon1.jpg",
             "metadata":{
                 "Rdf-Graph_image":"https://raw.githubusercontent.com/Marcolamorte/Looted-items-collection/10a22bcba4b85a96b071727963f78db38706f3b7/rdf_files_graphs/5_Europe_The_Parthenon_Elgin_Marbles.png",

@@ -3,7 +3,7 @@ function startTour(tourName) {
     // Valori di default per length e complexity
     let length = "short";
     let complexity = "fun";
-
+    localStorage.removeItem('currentIndex');
     // Log dei valori selezionati
     console.log(`Starting tour: ${tourName} with length: ${length} and complexity: ${complexity}`);
 
