@@ -175,7 +175,7 @@ a {
     background-color: transparent;
 }
 
-#button-2 {
+#button-2, #button-3 {
     margin-top: var(--spacing-small);
 }
 
