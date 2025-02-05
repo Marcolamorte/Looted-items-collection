@@ -1901,6 +1901,7 @@ metadata_rdf_graph-1,
     font-size: calc(var(--base-font-size) * 1.1);
     line-height: 2.0;
     text-align: justify;
+    font-weight: 500;
 }
 
 #Timeline_Tour_par {
