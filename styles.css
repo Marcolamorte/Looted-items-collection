@@ -473,6 +473,7 @@ input:checked + .toggle-track:before {
 .minisection p{
     text-align: justify;
     font-size: var(--base-font-size);
+    font-weight: 500;
 }
 
 #home, #about, #timeline-section, #about-section {
@@ -529,6 +530,7 @@ main {
     text-align: justify;
     /* line-height: 2.0; */
     font-size: var(--base-font-size);
+    font-weight: 500;
 }
 section {
     height: 80vh;
@@ -612,6 +614,10 @@ section {
     font-size: var(--base-font-size);
 }
 
+#eraInfo p {
+    font-weight: 500;
+}
+
 #imageDisplayContainer {
     display: flex;
     overflow-x: visible;
@@ -669,6 +675,7 @@ section {
     font-size: var(--base-font-size);
     text-align: justify;
     /* line-height: 2.0; */
+    font-weight: 500;
 }
 
 .custom-pin .pin {
