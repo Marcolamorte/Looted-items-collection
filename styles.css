@@ -3564,8 +3564,8 @@ MEDIA QUERIES MAP PAGE */
     line-height: 2.0;
     color: var(--primary-color);
     margin-bottom: var(--spacing-small);
-    font-weight: lighter;
-    font-size: large;
+    font-weight: 500;
+   
     
 }
 
