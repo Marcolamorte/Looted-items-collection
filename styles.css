@@ -1500,7 +1500,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     height: auto;
     /* border: 2px solid var(--primary-color); */
     font-size: var(--base-font-size);
-    font-weight: 500;
+    
     
 
 }
@@ -1584,13 +1584,15 @@ transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 #par_2 {
-    font-size: large;
+    font-size: calc(var(--base-font-size)*1.1);
+    font-weight: 500;
     
 }
 #ul_1 {
-    padding: revert;  /* default browser value */
+    padding: revert;  
     margin-bottom: var(--base-spacing); 
-    font-size: large;
+    font-size: calc(var(--base-font-size)*1.1);
+    font-weight: 500;
 }  
 
 #ul_1 a{
