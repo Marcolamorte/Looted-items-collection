@@ -1323,7 +1323,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     width: 90%;
     font-weight: 500;
     line-height: 2.0;
-    font-size: large;
+    font-size: calc(var(--base-font-size)*1.1);
     
 }
 
@@ -1427,6 +1427,10 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     text-align: center;
 }
 
+.map-section #text-museum-map {
+    text-align: center;
+}
+
 .map-section img {
     width: 100%;
     height: auto;
@@ -1443,6 +1447,10 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     text-align: center;
 }
 
+.geolocalization-section #text-geo-map{
+    text-align: center;
+}
+
 .geolocalization-section img {
     width: 100%;
     height: auto;
@@ -1456,7 +1464,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     margin: 0 auto;
     height: 100%; /* Estende la divider per tutta l'altezza del contenitore */
 }
-
+ 
 
 /* Object Page Metadata section */
 
@@ -1492,6 +1500,7 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     height: auto;
     /* border: 2px solid var(--primary-color); */
     font-size: var(--base-font-size);
+    font-weight: 500;
     
 
 }
