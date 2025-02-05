@@ -3202,6 +3202,11 @@ MEDIA QUERIES MAP PAGE */
     .about_main {
         margin-left: var(--spacing-small);
     }
+
+    #bottom_par {
+        margin-top: var(--spacing-large);
+        padding-top: var(--spacing-large);
+    }
     
 }
 
