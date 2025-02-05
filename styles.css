@@ -2536,8 +2536,8 @@ section.map-object_aside-panel {
     text-align: center;
     width: 80%;
     margin-top: var(--spacing-small);
-    font-size: large;
-    font-weight: bold;
+    font-size: calc(var(--base-font-size)*1.1);
+    font-weight: 500;
 }
 
 
@@ -2753,8 +2753,8 @@ button.scroll-right {
 #geo-des {
     text-align: center;
     margin-top: var(--spacing-small);
-    font-size: large;
-    font-weight: bold;
+    font-size: calc(var(--base-font-size)*1.1);
+    font-weight: 500;
    
 
 }
@@ -2854,7 +2854,7 @@ MEDIA QUERIES MAP PAGE */
     }
 
     #room-num {
-        font-weight: 200;
+        
         font-size: var(--base-font-size);
     }
 
@@ -2863,8 +2863,8 @@ MEDIA QUERIES MAP PAGE */
     }
 
     #geo-des {
-        font-weight: 200;
-        font-size: var(--base-font-size);
+       
+        font-size: calc(var(--base-font-size)*1.1);
     }
     
     button.scroll-left {
@@ -2947,7 +2947,7 @@ MEDIA QUERIES MAP PAGE */
     }
 
     #room-num {
-        font-size: 18px;
+        font-size: calc(var(--base-font-size)*1.1);
     }
 
     #h2-aside-panel {
@@ -3015,7 +3015,7 @@ MEDIA QUERIES MAP PAGE */
     }
 
     #geo-des {
-        font-size: 12px;
+        font-size: var(--base-font-size);
         margin-top: 0;
     }
 
