@@ -3054,6 +3054,7 @@ MEDIA QUERIES MAP PAGE */
     text-align: justify;
     font-size: large;
     line-height: 2.0;
+    font-weight: 500;
 }
 
 #about-section {
@@ -3107,8 +3108,13 @@ MEDIA QUERIES MAP PAGE */
     margin: 0; 
     background-color: var(--background-color); 
     padding: 5px; 
+    font-weight: 500;
     
     
+}
+
+#bottom_par {
+    font-weight: 500;
 }
 
 /* ABOUT PAGE Media query */
