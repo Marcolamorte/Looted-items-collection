@@ -3298,10 +3298,12 @@ MEDIA QUERIES MAP PAGE */
     .rdf-bottom #par_2  {
         font-size: 14px;
         margin-bottom: 0;
+        line-height: 1.5;
     }
 
     .rdf-bottom #ul_1 {
         font-size: 14px;
+       
         
     }
 
@@ -3311,7 +3313,21 @@ MEDIA QUERIES MAP PAGE */
 
 
 }
+    
 }
+
+@media screen and (max-width: 900px) {
+    #view-isSemantic_button {
+        font-size: 12px;
+    }
+
+    .metadata-container{
+        padding-bottom: calc(var(--spacing-large)*5);
+        
+    }
+
+}
+
 
 /* Medium screens (tablets, 768px and below) */
 @media screen and (max-width: 768px) {
@@ -3357,7 +3373,7 @@ MEDIA QUERIES MAP PAGE */
         font-size: var(--base-font-size);
     }
 
-    /* Keep the more-buttons horizontal */
+    
     .more-info {
         gap: var(--spacing-small);
     }
@@ -3413,6 +3429,11 @@ MEDIA QUERIES MAP PAGE */
 
     .metadata-content {
         flex-direction: column;
+    }
+
+    .metadata-container{
+        padding-bottom: calc(var(--spacing-large)*3);
+        
     }
 
     .Rdf-Graph,
