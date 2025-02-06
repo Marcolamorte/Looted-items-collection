@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const slider = document.getElementById('timelineSlider');
+    // const slider = document.getElementById('timelineSlider');
     const markersContainer = document.querySelector('.timeline-markers');
     const eraInfo = document.getElementById('eraInfo');
     const imageDisplayContainer = document.getElementById('imageDisplayContainer');
@@ -66,48 +66,126 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         }
     ];
+    
 
-    eras.forEach(era => {
+    // eras.forEach(era => {
+    //     const marker = document.createElement('div');
+    //     marker.className = 'marker';
+    //     marker.style.left = `${era.position}%`;
+    //     markersContainer.appendChild(marker);
+    // });
+
+    // slider.addEventListener('input', () => {
+    //     const currentPosition = slider.value;
+    //     const currentEra = eras.reduce((prev, curr) => 
+    //         (Math.abs(curr.position - currentPosition) < Math.abs(prev.position - currentPosition) ? curr : prev)
+    //     );
+
+    //     eraInfo.innerHTML = `<h2>${currentEra.title}</h2><p>${currentEra.description}</p>`;
+
+    //     imageDisplayContainer.innerHTML = '';
+    //     currentEra.images.forEach(imageSrc => {
+    //         const img = document.createElement('img');
+    //         img.src = imageSrc;
+    //         img.alt = currentEra.title;
+    //         img.style.width = '400px';
+    //         img.style.marginRight = '10px';
+    //         img.style.transition = 'opacity 0.3s';
+    //         img.style.opacity = '0';
+    //         setTimeout(() => {
+    //             img.style.opacity = '1';
+    //         }, 50);
+    //         imageDisplayContainer.appendChild(img);
+    //     });
+    // });
+
+    // eraInfo.innerHTML = `<h2>${eras[0].title}</h2><p>${eras[0].description}</p>`;
+
+    // eras[0].images.forEach(imageSrc => {
+    //     const img = document.createElement('img');
+    //     img.src = imageSrc;
+    //     img.alt = eras[0].title;
+    //     img.style.width = '400px';
+    //     img.style.marginRight = '10px';
+    //     img.style.transition = 'opacity 0.3s';
+    //     img.style.opacity = '1';
+    //     imageDisplayContainer.appendChild(img);
+    // });
+
+    eras.forEach((era, index) => {
         const marker = document.createElement('div');
         marker.className = 'marker';
+       
         marker.style.left = `${era.position}%`;
-        markersContainer.appendChild(marker);
-    });
-
-    slider.addEventListener('input', () => {
-        const currentPosition = slider.value;
-        const currentEra = eras.reduce((prev, curr) => 
-            (Math.abs(curr.position - currentPosition) < Math.abs(prev.position - currentPosition) ? curr : prev)
-        );
-
-        eraInfo.innerHTML = `<h2>${currentEra.title}</h2><p>${currentEra.description}</p>`;
-
-        imageDisplayContainer.innerHTML = '';
-        currentEra.images.forEach(imageSrc => {
+        
+        
+        marker.addEventListener('click', () => {
+          
+          document.querySelectorAll('.marker').forEach(m => m.classList.remove('selected'));
+         
+          marker.classList.add('selected');
+  
+         
+          eraInfo.innerHTML = `
+            <h2>${era.title}</h2>
+            <p>${era.description}</p>
+          `;
+  
+        
+          imageDisplayContainer.innerHTML = '';
+          era.images.forEach(imageSrc => {
             const img = document.createElement('img');
             img.src = imageSrc;
-            img.alt = currentEra.title;
+            img.alt = era.title;
             img.style.width = '400px';
+            img.style.height = '300px'; 
             img.style.marginRight = '10px';
             img.style.transition = 'opacity 0.3s';
             img.style.opacity = '0';
+  
+         
             setTimeout(() => {
-                img.style.opacity = '1';
+              img.style.opacity = '1';
             }, 50);
+  
             imageDisplayContainer.appendChild(img);
+          });
         });
+  
+        
+        markersContainer.appendChild(marker);
+      });
+  
+      
+      if (eras.length > 0) {
+        const defaultEra = eras[0];
+        
+      
+        eraInfo.innerHTML = `
+          <h2>${defaultEra.title}</h2>
+          <p>${defaultEra.description}</p>
+        `;
+        
+     
+        defaultEra.images.forEach(imageSrc => {
+          const img = document.createElement('img');
+          img.src = imageSrc;
+          img.alt = defaultEra.title;
+          img.style.width = '400px';
+          img.style.marginRight = '10px';
+          img.style.transition = 'opacity 0.3s';
+          img.style.opacity = '1';
+          imageDisplayContainer.appendChild(img);
+        });
+  
+        
+        const firstMarker = markersContainer.querySelector('.marker');
+        if (firstMarker) {
+          firstMarker.classList.add('selected');
+        }
+      }
     });
 
-    eraInfo.innerHTML = `<h2>${eras[0].title}</h2><p>${eras[0].description}</p>`;
 
-    eras[0].images.forEach(imageSrc => {
-        const img = document.createElement('img');
-        img.src = imageSrc;
-        img.alt = eras[0].title;
-        img.style.width = '400px';
-        img.style.marginRight = '10px';
-        img.style.transition = 'opacity 0.3s';
-        img.style.opacity = '1';
-        imageDisplayContainer.appendChild(img);
-    });
-});
+
+

@@ -554,9 +554,23 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
-.slider {
+/* LINEA orizzontale */
+.timeline-line {
+    position: absolute;
+    top: 50%;       
+    left: var(--spacing-small);
+    right: var(--spacing-small);
+    height: 7px; 
+    background-color: var(--secondary-color);
+    z-index: 0; 
+    border-radius: 50px;
+  }
+  
+
+/* .slider {
     -webkit-appearance: none;
     width: 95%;
     height: var(--spacing-small);
@@ -585,13 +599,17 @@ section {
     background: var(--accent1-color);
     cursor: pointer;
     z-index: 1;
-}
+} */
 
 .timeline-markers {
     position: absolute;
-    left: var(--spacing-small);
-    right: var(--spacing-large);
+    /* left: var(--spacing-small);
+    right: var(--spacing-large); */
     height: 0;
+    top: 55%; 
+    left: 0;
+    right: 0;
+    
 }
 
 .marker {
@@ -601,7 +619,22 @@ section {
     border-radius: 50%;
     background-color: var(--secondary-color);
     transform: translate(-50%, -50%);
+    transition: background-color 0.2s;
+    cursor: pointer;
 }
+
+
+.marker:hover {
+    background-color: #fff;
+  }
+  
+ 
+  .marker:focus,
+  .marker.selected {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+  }
+
 
 #eraInfo {
     text-align: left;
