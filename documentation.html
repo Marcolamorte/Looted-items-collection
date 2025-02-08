@@ -41,14 +41,14 @@
                   </svg>
                 <div class="toggle">
                     <label class="theme-switch">
-                        <input type="checkbox" id="light-mode-checkbox">
+                        <input type="checkbox" id="light-mode-checkbox" aria-label="lightmode button">
                         <span class="toggle-track"></span>
                     </label>
                 </div>
             </div>
 
             <!-- 1) Hidden Checkbox  -->
-            <input type="checkbox" id="menu-toggle" />
+            <input type="checkbox" id="menu-toggle" aria-label="Open navigation menu" />
 
             <!-- 2) Hamburgher label  -->
             <label for="menu-toggle" class="hamburger">
@@ -407,7 +407,8 @@ This room is dedicated to objects that represent scientific and technological ad
                         &complexity=fun</strong>) and it extracts the selected <strong>tour name</strong> (<i>timeline</i>, <i>colonial conquest tour </i> and <i>geo tour</i>), the preferred <strong>text length</strong> (<i>short</i>, <i>medium</i>, <i>long</i>), and <strong>text complexity</strong> (<i>fun</i>, <i>basic</i>, <i>expert</i>). This function actually exists for a potential use case. It is designed to extract parameters from the URL, which could be used to dynamically load content based on URL-based selections instead of relying solely on <i>localStorage</i>, so if the <i>localStorage</i> gets cleared, but the URL contains parameters, <strong>getQueryParams()</strong> could still provide content.
                 </p>
                 <p id="object-des-p-4">
-                    The real logic of the JavaScript file starts from the <strong>loadTourContent()</strong> function that retrieves the data stored in the browser’s <i>localStorage</i> under the key <i>tourData</i>. If no data is found, it returns <i>null</i>. The data in <i>tourData</i> key it has been saved previously in the <i>localStorage</i> and it contains all the choices made by the user in the personalize tour page. This means that there is another Javascript code (in our case the <i>personalization.js</i> file) who stores these choices in a <i>const tourData</i> and then save them using something like this: <strong>localStorage.setItem('tourData', JSON.stringify(tourData))</strong>. This function saves the data in the key <i>tourData</i> in a Json string format.
+                    The next step is managed by the <strong>getItemsFromLocalStorage()</strong> function that access to the items data stored in the the <i>localStorage</i>. This is useful for checking if the items data exist: if it is not the case then the function returns <i>null</i>, otherwise it converts the Json string items data into a <strong>Javascript object</strong> and return it. This function is set as a global function by this line of code: <strong>window.getItemsFromLocalStorage = getItemsFromLocalStorage</strong>; this means that it can be used anywhere within the code. <br>
+                    But the real logic of the entire JavaScript file starts from the subsequent <strong>loadTourContent()</strong> function that retrieves the data stored in the browser’s <i>localStorage</i> under the key <i>tourData</i>. If no data is found, it returns <i>null</i>. The data in <i>tourData</i> key it has been saved previously in the <i>localStorage</i> and it contains all the choices made by the user in the personalize tour page. This means that there is another Javascript code (in our case the <i>personalization.js</i> file) who stores these choices in a <i>const tourData</i> and then save them using something like this: <strong>localStorage.setItem('tourData', JSON.stringify(tourData))</strong>. This function saves the data in the key <i>tourData</i> in a Json string format.
                 </p>
                 <p id="object-des-p-5">
                     More specifically, in the <i>personalization.js</i> file there is the <strong>startTour()</strong> function that creates the <i>const tourData</i> with the user’s choices and save them in the <i>localStorage</i>. This function has been declared as global with the <strong>window.startTour = startTour</strong>, because it can be triggered outside the <i>personalization.js</i> file, for example just clicking the start button defined in the personalization_tour.html file  and then it can redirects to the object-page.html with the user’s choices stored in the browser <i>localStorage</i>.
