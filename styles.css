@@ -193,8 +193,6 @@ a {
     font-weight: 200;
     font-size: var(--base-font-size);
     line-height: var(--base-line-height);
-    
-   
 
 }
 
@@ -218,6 +216,17 @@ transition: background-color 0.3s ease, transform 0.3s ease;
     white-space: nowrap;
 
  
+}
+
+#tour-button-1 {
+    background-color: #000000;
+    font-size: inherit;
+    font-weight: 600;
+    border: none;
+}
+
+.light-mode #tour-button-1 {
+    background-color: #F0F0F5;
 }
 
 
