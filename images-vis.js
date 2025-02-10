@@ -121,12 +121,10 @@ expandedImg.addEventListener('touchend', () => {
 });
 
 
-document.addEventListener("DOMContentLoaded", () => {
-  
-    document.querySelectorAll("img:not(#expandedImg)").forEach(img => {
-        img.addEventListener("click", function() {
-            openModal(this.src);
-        });
-    });
-});
+
+document.addEventListener('click', (event) => {
+    if (event.target.matches('img:not(#expandedImg)')) {
+      openModal(event.target.src);
+    }
+  });
 
