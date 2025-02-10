@@ -749,11 +749,27 @@ section {
     pointer-events: none;
 }
 
+@media screen and (max-width: 1260px) {
 
-@media screen and (max-width: 1200px) {
+    #about {
+    height: 125vh;
+    }
+
+    /* section {
+        height: 120vh;
+    } */
+
+}
+
+
+@media screen and (max-width: 1250px) {
   
    #map-section {
-    height: 120vh;
+    height: auto;
+   }
+
+   #about {
+    height:120vh;
    }
 }
 
@@ -777,7 +793,7 @@ section {
     #home, #about {
       background-size: contain; 
       background-position: top;
-      min-height: 100vh; 
+      
       
     }
   
@@ -852,7 +868,7 @@ section {
     #home {
       background-size: cover; 
       background-position: center;
-      min-height: auto;
+      /* min-height: auto; */
       padding: var(--spacing-small);
     }
   
@@ -956,6 +972,7 @@ section {
         font-size: 0.8rem;
     }
     
+  
 
   }
 
