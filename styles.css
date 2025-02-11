@@ -666,7 +666,7 @@ section {
     display: flex;
     overflow-x: visible;
     overscroll-behavior: contain;
-    scrollbar-width: none;
+    scrollbar-width: thin;
 }
 
 #imageDisplayContainer img {
