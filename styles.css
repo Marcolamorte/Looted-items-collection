@@ -1872,12 +1872,14 @@ body.tours-page-body {
 .object_page-des p {
     text-align: justify;
     font-size: calc(var(--base-font-size) * 1.1);
-    line-height: 2.0;
+    line-height: 1.5;
     color: var(--primary-color);
     margin-bottom: var(--spacing-small);
     font-weight: 500;
     
 }
+
+
 
 .tours-des-container {
     display: flex; 
@@ -1945,7 +1947,7 @@ body.tours-page-body {
 #metadata_table_p-4,
 #metadata_table_p-5,
 #metadata_rdf_graph-intro, 
-metadata_rdf_graph-1,
+#metadata_rdf_graph-1,
 #metadata_rdf_graph-2,
 #metadata_rdf_graph-3,
 #object-des-p-1,
@@ -2005,14 +2007,14 @@ metadata_rdf_graph-1,
 
 .object-main-container p {
     font-size: calc(var(--base-font-size) * 1.1);
-    line-height: 2.0;
+    line-height: 1.5;
     text-align: justify;
     font-weight: 500;
 }
 
 #Timeline_Tour_par {
-    font-size: large;
-    line-height: 2.0;
+    font-size: calc(var(--base-font-size) * 1.1);
+    line-height: 1.5;
     text-align: justify;
     color: var(--primary-color);
 }
