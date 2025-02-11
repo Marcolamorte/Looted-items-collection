@@ -5,11 +5,7 @@ let lastScrollPosition = 0;
 window.addEventListener('scroll', () => {
   const currentScrollPosition = window.scrollY;
 
-  // if (window.innerWidth <= 875) {
-    
-  //   navbar.classList.remove('hidden');
-  //   return;
-  // }
+
 
 
   if (currentScrollPosition === 0) {
